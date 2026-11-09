@@ -2,7 +2,7 @@ name: Credit Risk Dashboard
 on:
   push:
     branches: [main]
-    paths: ['scanner.py', 'runner.py', 'quality.py', 'free_scan.py', 'free_adapters.py', 'tests/**', 'requirements.txt', 'site/index.html', '.github/workflows/dashboard.yml', '.github/workflows/scan-batch.yml']
+    paths: ['scanner.py', 'runner.py', 'quality.py', 'free_scan.py', 'free_adapters.py', 'freshness.py', 'tests/**', 'requirements.txt', 'site/index.html', '.github/workflows/dashboard.yml', '.github/workflows/scan-batch.yml']
   schedule:
     - cron: '17 */6 * * *'
   workflow_dispatch:
@@ -14,7 +14,39 @@ concurrency:
   group: credit-risk-dashboard
   cancel-in-progress: true
 jobs:
+  publish_freshness_fix:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - run: python3 -m unittest discover -s tests -p 'test_freshness.py' -v
+      - name: Remove stale listings before any long scan
+        run: python3 freshness.py
+      - name: Preserve history and save strict snapshot
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add site/jobs.json site/freshness_report.json site/digest.md data/jobs_archive.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Enforce strict 0-48-hour snapshot'
+            git push origin HEAD:main
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          name: freshness-first
+          path: site
+      - uses: actions/deploy-pages@v4
+        id: deploy
+        with:
+          artifact_name: freshness-first
   quick_scan:
+    needs: publish_freshness_fix
     uses: ./.github/workflows/scan-batch.yml
     with:
       count: 4
