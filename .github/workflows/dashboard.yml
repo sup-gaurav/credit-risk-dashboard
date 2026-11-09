@@ -2,65 +2,30 @@ name: Credit Risk Dashboard
 on:
   push:
     branches: [main]
-    paths: ['scanner.py', 'requirements.txt', 'site/index.html', '.github/workflows/dashboard.yml']
+    paths: ['scanner.py', 'runner.py', 'quality.py', 'tests/**', 'requirements.txt', 'site/index.html', '.github/workflows/dashboard.yml', '.github/workflows/scan-batch.yml']
   schedule:
     - cron: '17 */6 * * *'
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 concurrency:
   group: credit-risk-dashboard
-  cancel-in-progress: false
+  cancel-in-progress: true
 jobs:
-  publish:
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
-      - uses: actions/deploy-pages@v4
-        id: deploy
-  scan:
-    needs: publish
-    runs-on: ubuntu-latest
-    timeout-minutes: 90
-    permissions:
-      contents: write
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-          cache: pip
-      - run: pip install -r requirements.txt
-      - name: Scan and retain results
-        run: python scanner.py
-      - name: Save public job data
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add site/jobs.json
-          if ! git diff --cached --quiet; then
-            git commit -m 'Update public job scan data'
-            git push origin HEAD:main
-          fi
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          name: scanned-pages
-          path: site
-      - uses: actions/deploy-pages@v4
-        id: deploy
-        with:
-          artifact_name: scanned-pages
+  quick_scan:
+    uses: ./.github/workflows/scan-batch.yml
+    with:
+      count: 4
+      budget: 240
+      ancillary: true
+      artifact: quick-pages
+  followup_scan:
+    needs: quick_scan
+    uses: ./.github/workflows/scan-batch.yml
+    with:
+      count: ${{ github.event_name == 'schedule' && 20 || 8 }}
+      budget: 480
+      ancillary: false
+      artifact: followup-pages
