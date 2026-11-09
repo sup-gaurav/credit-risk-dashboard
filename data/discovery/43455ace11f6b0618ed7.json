@@ -5,7 +5,7 @@
     "location": "",
     "job_url": "https://www.linkedin.com/jobs/view/4478512747",
     "date_posted": "",
-    "discovered_at": "2026-11-09T17:25:33.244795+00:00",
+    "discovered_at": "2026-11-09T17:49:05.433587+00:00",
     "detail_state": "pending"
   },
   {
@@ -14,7 +14,7 @@
     "location": "",
     "job_url": "https://www.linkedin.com/jobs/view/4434632108",
     "date_posted": "2026-11-07",
-    "discovered_at": "2026-11-09T17:25:33.244795+00:00",
+    "discovered_at": "2026-11-09T17:49:05.433587+00:00",
     "detail_state": "pending"
   },
   {
@@ -50,7 +50,7 @@
     "location": "",
     "job_url": "https://www.linkedin.com/jobs/view/4477669909",
     "date_posted": "2026-11-04",
-    "discovered_at": "2026-11-09T17:25:33.244795+00:00",
+    "discovered_at": "2026-11-09T17:49:05.433587+00:00",
     "detail_state": "pending"
   },
   {
@@ -68,7 +68,7 @@
     "location": "",
     "job_url": "https://www.linkedin.com/jobs/view/4486027659",
     "date_posted": "2026-11-03",
-    "discovered_at": "2026-11-09T17:25:33.244795+00:00",
+    "discovered_at": "2026-11-09T17:49:05.433587+00:00",
     "detail_state": "pending"
   },
   {
@@ -86,7 +86,7 @@
     "location": "",
     "job_url": "https://www.linkedin.com/jobs/view/4488770687",
     "date_posted": "2026-11-08",
-    "discovered_at": "2026-11-09T17:25:33.244795+00:00",
+    "discovered_at": "2026-11-09T17:49:05.433587+00:00",
     "detail_state": "pending"
   },
   {
@@ -105,6 +105,51 @@
     "job_url": "https://www.linkedin.com/jobs/view/4487695620",
     "date_posted": "",
     "discovered_at": "2026-11-09T17:25:33.244795+00:00",
+    "detail_state": "pending"
+  },
+  {
+    "title": "Senior Manager - Legal, Risk & Compliance",
+    "company": "Jobgether",
+    "location": "",
+    "job_url": "https://www.linkedin.com/jobs/view/4486947271",
+    "date_posted": "2026-11-06",
+    "discovered_at": "2026-11-09T17:49:05.433587+00:00",
+    "detail_state": "pending"
+  },
+  {
+    "title": "Heavy Duty New Unit Controls - Quality Leader",
+    "company": "GE Vernova",
+    "location": "",
+    "job_url": "https://www.linkedin.com/jobs/view/4487524285",
+    "date_posted": "2026-11-04",
+    "discovered_at": "2026-11-09T17:49:05.433587+00:00",
+    "detail_state": "pending"
+  },
+  {
+    "title": "Deputy General Manager - Design - Mechanical",
+    "company": "Larsen & Toubro",
+    "location": "Ponneri, Tamil Nadu, India",
+    "job_url": "https://www.linkedin.com/jobs/view/4486891440",
+    "date_posted": "2026-11-03",
+    "discovered_at": "2026-11-09T17:49:05.433587+00:00",
+    "detail_state": "pending"
+  },
+  {
+    "title": "Senior Engineering Manager",
+    "company": "Jobgether",
+    "location": "",
+    "job_url": "https://www.linkedin.com/jobs/view/4486023884",
+    "date_posted": "2026-11-03",
+    "discovered_at": "2026-11-09T17:49:05.433587+00:00",
+    "detail_state": "pending"
+  },
+  {
+    "title": "Capability Leader - Advisory",
+    "company": "Jobgether",
+    "location": "",
+    "job_url": "https://www.linkedin.com/jobs/view/4487668677",
+    "date_posted": "",
+    "discovered_at": "2026-11-09T17:49:05.433587+00:00",
     "detail_state": "pending"
   }
 ]
