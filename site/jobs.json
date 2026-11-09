@@ -1,24 +1,24 @@
 {
-  "last_scan": "2026-11-09T06:41:30.170243+00:00",
-  "checkpoint_at": "2026-11-09T06:41:30.170243+00:00",
+  "last_scan": "2026-11-09T06:42:09.003540+00:00",
+  "checkpoint_at": "2026-11-09T06:42:09.003540+00:00",
   "status": "batch_completed_with_source_errors",
   "run_id": "42574323828",
-  "total_scanned": 142,
-  "descriptions_screened_observations": 142,
-  "actionable": 2,
+  "total_scanned": 148,
+  "descriptions_screened_observations": 148,
+  "actionable": 4,
   "query_count": 120,
-  "selected_queries": 4,
-  "completed_query_source_tasks": 8,
-  "query_cursor": 4,
+  "selected_queries": 8,
+  "completed_query_source_tasks": 16,
+  "query_cursor": 12,
   "sources": {
     "glassdoor": {
       "disabled": true,
       "reason": "Disabled after repeated 403 responses"
     },
     "indeed": {
-      "requests_ok": 4,
+      "requests_ok": 12,
       "requests_failed": 0,
-      "raw_results": 7,
+      "raw_results": 13,
       "errors": []
     },
     "linkedin": {
@@ -57,10 +57,10 @@
     "naukri": "406 Client Error: Not Acceptable for url: https://www.naukri.com/jobapi/v3/search?noOfResults=50&urlType=search_by_keyword&searchType=adv&keyword=portfolio+risk+senior+manager&pageNo=1&k=portfolio+risk+senior+manager&seoKey=jobs&src=jobsear"
   },
   "funnel": {
-    "raw_observations_this_run": 142,
-    "unique_retained": 2,
+    "raw_observations_this_run": 148,
+    "unique_retained": 4,
     "eligible": 0,
-    "needs_review": 2,
+    "needs_review": 4,
     "availability_verified": 0
   },
   "jobs": [
@@ -112,8 +112,8 @@
         "rss"
       ],
       "first_seen": "2026-11-09T06:41:30.169004+00:00",
-      "description_available": true,
-      "description_excerpt": "Wholesale Credit Risk - In-Business Quality Assurance – Vice President    LinkedIn India",
+      "description_available": false,
+      "description_excerpt": "",
       "possible_duplicate": false
     },
     {
@@ -144,7 +144,7 @@
         "India work location/eligibility needs verification",
         "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
       ],
-      "evidence_confidence": "description_available",
+      "evidence_confidence": "limited",
       "posted_at": "2026-11-02T00:00:00+00:00",
       "posted_evidence": "2026-11-02",
       "availability": "unverified",
@@ -163,8 +163,120 @@
         "indeed"
       ],
       "first_seen": "2026-11-09T06:41:30.169004+00:00",
+      "description_available": false,
+      "description_excerpt": "",
+      "possible_duplicate": false
+    },
+    {
+      "title": "RSK-Market Risk",
+      "company": "Nomura",
+      "location": "MH, IN",
+      "job_url": "https://in.indeed.com/viewjob?jk=2cf0b13e3ec887f8",
+      "date_posted": "2026-11-03",
+      "site": "indeed",
+      "indirect": false,
+      "last_seen": "2026-11-09T06:42:06.536349+00:00",
+      "match_score": 62,
+      "tier": "good",
+      "matched_tags": [
+        "Credit risk",
+        "Models",
+        "Governance",
+        "PYTHON",
+        "POWER BI",
+        "TABLEAU"
+      ],
+      "work_mode": "",
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": true,
+        "seniority": false,
+        "india": false
+      },
+      "reasons": [
+        "python",
+        "model validation"
+      ],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "India work location/eligibility needs verification",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "description_available",
+      "posted_at": "2026-11-03T00:00:00+00:00",
+      "posted_evidence": "2026-11-03",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "40d854f19ffc4509784c520b",
+      "legacy_ids": [
+        "40d854f19ffc4509784c520b"
+      ],
+      "canonical_url": "https://in.indeed.com/viewjob?jk=2cf0b13e3ec887f8",
+      "source_urls": [
+        "https://in.indeed.com/viewjob?jk=2cf0b13e3ec887f8"
+      ],
+      "sources": [
+        "indeed"
+      ],
+      "first_seen": "2026-11-09T06:42:09.000582+00:00",
       "description_available": true,
-      "description_excerpt": "**Discover your future at Citi**\n--------------------------------\n\n\nWorking at Citi is far more than just a job. A career with us means joining a team of approximately 219,000 dedicated people from around the globe. At Citi, you’ll have the opportunity to grow your career, give back to your community and make a real impact.\n\n\n**Job Overview**\n----------------\n\n\nAs a Vice President, Credit Risk Review, you will independently assess how well Citi manages credit risk across its India banking busine",
+      "description_excerpt": "Job Code: 15364\nCountry: IN\nCity: Mumbai\nSkill Category: Risk\nDescription:\nNomura Overview:\n  \n\nNomura is an Asia\\-headquartered financial services group with an integrated global network spanning\n  \n\nover 30 countries. By connecting markets East \\& West, Nomura services the needs of individuals,\n  \n\ninstitutions, corporates and governments through its three business divisions: Retail, Asset\n  \n\nManagement, and Wholesale (Global Markets and Investment Banking). Founded in 1925, the firm is\n  \n\nb",
+      "possible_duplicate": false
+    },
+    {
+      "title": "Collateral Specialist - US Shift",
+      "company": "UBS",
+      "location": "TS, IN",
+      "job_url": "https://in.indeed.com/viewjob?jk=38d08f834f923f78",
+      "date_posted": "2026-11-02",
+      "site": "indeed",
+      "indirect": false,
+      "last_seen": "2026-11-09T06:42:06.754693+00:00",
+      "match_score": 40,
+      "tier": "monitor",
+      "matched_tags": [
+        "Credit risk",
+        "Regulatory",
+        "Governance"
+      ],
+      "work_mode": "",
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": true,
+        "seniority": false,
+        "india": false
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "India work location/eligibility needs verification",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "description_available",
+      "posted_at": "2026-11-02T00:00:00+00:00",
+      "posted_evidence": "2026-11-02",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "0c2b4e3f79f4e7bc8dded8ea",
+      "legacy_ids": [
+        "0c2b4e3f79f4e7bc8dded8ea"
+      ],
+      "canonical_url": "https://in.indeed.com/viewjob?jk=38d08f834f923f78",
+      "source_urls": [
+        "https://in.indeed.com/viewjob?jk=38d08f834f923f78"
+      ],
+      "sources": [
+        "indeed"
+      ],
+      "first_seen": "2026-11-09T06:42:09.000582+00:00",
+      "description_available": true,
+      "description_excerpt": "**Collateral Specialist \\- US Shift**\n=====================================\n\n\nIndia\n\n\nOperations\n\n\nGroup Functions\n\n\nJob Reference \\#\n\n\n344580BR\n\n\nCity\n\n\nHyderabad\n\n\nJob Type\n\n\nFull Time\n\n\nKey responsibilities\n\n\nWould you like to help us enhance our client experience, now and for the future? Are you client orientated with high risk awareness?\n  \n\n  \n\nIn Group Operations supporting IB, we are the experts in how the firm operates. Our vision is to always enhance the client experience now and for t",
       "possible_duplicate": false
     }
   ],
