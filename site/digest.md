@@ -1,24 +1,8 @@
-# Newly discovered eligible leads — not an availability-verified shortlist
+# Strict 0–48-hour leads
 
+Not a verified-active or personalized shortlist.
+
+- Model and Credit Risk Senior Consultant | Crowe Capability Center - India | https://in.indeed.com/viewjob?jk=8676b54cb0417a21
+- Credit Risk Modeler | Ford Motor Company | https://in.indeed.com/viewjob?jk=91d721e30d536aa8
 - Asset Quality, AVP | Deutsche Bank | https://in.indeed.com/viewjob?jk=8e64126c3ae6339a
-- Senior Wholesale Credit Risk Researcher, SVP (Hybrid) | Citi | https://www.linkedin.com/jobs/view/4486922402
-- Regulatory Control Associate, AVP | NatWest Group | https://in.indeed.com/viewjob?jk=f59d01c6dfe47b56
-- AVP- Python Credit Risk Engineer - Risk Tech | Jefferies | https://www.linkedin.com/jobs/view/4487722254
-- VP- Python Credit Risk Lead Engineer - Risk Tech | Jefferies | https://www.linkedin.com/jobs/view/4487718444
-- Risk & Quantitative Strats, Private Financing Solutions (PFS), Associate/Vice President | BlackRock | https://in.indeed.com/viewjob?jk=895759f0651822b5
-- Assistant Vice President, Credit Risk Manager, Risk Management Group | DBS Bank | https://www.linkedin.com/jobs/view/4443376178
-- Capital Markets Credit Risk Manager, SVP (Hybrid) | Citi | https://www.linkedin.com/jobs/view/4486907862
-- Credit Risk Researcher, Vice President | Citi | https://www.linkedin.com/jobs/view/4486905803
-- Credit Risk Review, Vice President | Citi | https://www.linkedin.com/jobs/view/4486904789
-- Director, Credit Risk Review CIB (Malaysia/India/Poland) | Standard Chartered Bank | https://in.indeed.com/viewjob?jk=cc154a20f6f2d16e
-- Manager/Senior Manager-Credit Risk | Evalueserve | https://www.linkedin.com/jobs/view/4484685247
-- Senior Credit Risk Analyst, Wholesale Portfolio Management, AVP (Hybrid) | Citi | https://www.linkedin.com/jobs/view/4486911627
-- Senior Manager, Credit Management | Ciena | https://in.indeed.com/viewjob?jk=51fcc36ac60613c9
-- VP - Traded Risk | HSBC | https://in.indeed.com/viewjob?jk=2bff360b77b2797b
-- Director - Credit Risk | SiriusAI | https://www.linkedin.com/jobs/view/4487645301
-- Manager-Senior Manager Credit Risk - Policy | DMI Finance Private Limited | https://www.linkedin.com/jobs/view/4480962206
-- Credit Risk Review, Vice President | Citi | https://in.indeed.com/viewjob?jk=2c1737a86b6cfc8a
-- Credit Risk Strategy & Analytics  - Vice President | Citi | https://www.linkedin.com/jobs/view/4486925358
-- Mortgage Portfolio Risk Analytics - Assistant Vice President | Citi | https://www.linkedin.com/jobs/view/4486914604
-- AVP Branch Asset Specialist | HSBC | https://in.indeed.com/viewjob?jk=3a3be09479ac7cae
-- Senior Manager Sales - North | Equifax | https://in.indeed.com/viewjob?jk=4f6bcf0915199503
+- Credit Risk Data Unit, AS | Deutsche Bank | https://in.indeed.com/viewjob?jk=d627a2cf00b51aad
