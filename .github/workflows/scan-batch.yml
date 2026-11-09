@@ -1,4 +1,4 @@
-name: Scan and publish checkpoint
+name: Scan and publish free-first discovery
 on:
   workflow_call:
     inputs:
@@ -20,8 +20,8 @@ permissions:
   id-token: write
 jobs:
   scan:
-    runs-on: ubuntu-latest
-    timeout-minutes: 20
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
@@ -34,26 +34,33 @@ jobs:
           python-version: '3.11'
           cache: pip
       - run: pip install -r requirements.txt
-      - run: python -m py_compile scanner.py runner.py quality.py
-      - name: Bounded scan and quality assessment
+      - run: python -m unittest discover -s tests -p 'test_free_first.py' -v
+      - name: Discover and preserve leads without paid subscriptions
         env:
           COUNT: ${{ inputs.count }}
           BUDGET: ${{ inputs.budget }}
           ANCILLARY: ${{ inputs.ancillary }}
           CANDIDATE_PROFILE_JSON: ${{ secrets.CANDIDATE_PROFILE_JSON }}
+          FREE_API_ENABLED: ${{ vars.FREE_API_ENABLED }}
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
           PYTHONUNBUFFERED: '1'
         run: |
           args=(--count "$COUNT" --budget "$BUDGET")
           if [ "$ANCILLARY" = 'true' ]; then args+=(--ancillary); fi
-          python runner.py "${args[@]}"
-      - name: Build publication metadata and save checkpoint
+          python free_scan.py "${args[@]}"
+      - name: Save discovery ledger and publish metadata
         run: |
           python -c 'import json,datetime; from pathlib import Path; Path("site/publication.json").write_text(json.dumps({"build_at":datetime.datetime.now(datetime.timezone.utc).isoformat()}))'
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add site/jobs.json site/digest.md site/publication.json
+          for path in data/discovery data/supplemental_leads.json data/free_api_usage.json; do
+            if [ -e "$path" ]; then git add "$path"; fi
+          done
           if ! git diff --cached --quiet; then
-            git commit -m 'Save quality-assessed scan checkpoint'
+            git commit -m 'Save free-first discovery checkpoint'
             git push origin HEAD:main
           fi
       - uses: actions/configure-pages@v5
@@ -69,5 +76,9 @@ jobs:
         if: failure()
         with:
           name: failed-checkpoint-${{ inputs.artifact }}
-          path: site/jobs.json
+          path: |
+            site/jobs.json
+            data/discovery/
+            data/supplemental_leads.json
+            data/free_api_usage.json
           retention-days: 7

@@ -2,7 +2,7 @@ name: Credit Risk Dashboard
 on:
   push:
     branches: [main]
-    paths: ['scanner.py', 'runner.py', 'quality.py', 'tests/**', 'requirements.txt', 'site/index.html', '.github/workflows/dashboard.yml', '.github/workflows/scan-batch.yml']
+    paths: ['scanner.py', 'runner.py', 'quality.py', 'free_scan.py', 'free_adapters.py', 'tests/**', 'requirements.txt', 'site/index.html', '.github/workflows/dashboard.yml', '.github/workflows/scan-batch.yml']
   schedule:
     - cron: '17 */6 * * *'
   workflow_dispatch:
@@ -25,7 +25,7 @@ jobs:
     needs: quick_scan
     uses: ./.github/workflows/scan-batch.yml
     with:
-      count: ${{ github.event_name == 'schedule' && 20 || 8 }}
-      budget: 480
+      count: 116
+      budget: 900
       ancillary: false
       artifact: followup-pages

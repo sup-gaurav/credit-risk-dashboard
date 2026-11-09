@@ -1,0 +1,11 @@
+# Free-first rollout
+
+Entry point: free_scan.py, using the existing scanner.py, runner.py and quality.py. LinkedIn requests 10 listings without descriptions, as in the successful diagnostic. All returned LinkedIn listing metadata is saved under data/discovery, including unscored leads. This is a description backlog, NOT a working description-retrieval service; no full-JD screening claim is made.
+
+Company/domain queries are interleaved and the cursor resets once for the changed plan. A four-query batch publishes first, followed by up to 116 queries under a 900-second budget. One page per query only; source failures and time limits can leave incomplete coverage. Existing runner circuit breakers remain. Checkpoints persist only when committed; cancellations can lose an unfinished batch.
+
+PayU and OakNorth Lever board identifiers were found publicly. Feed response schemas are checked at runtime, not assumed valid. Up to 100 postings per board are requested; relevant India roles are not guaranteed. No Greenhouse board has been validated. The CAPTCHA-protected Naukri endpoint and Google News RSS are not called by this entry point.
+
+Optional APIs are OFF unless variable FREE_API_ENABLED is exactly 1 and secrets are configured: SERPAPI_API_KEY, or ADZUNA_APP_ID plus ADZUNA_APP_KEY. No accounts/subscriptions are created. Before enabling, verify free account allowances, provider-side hard limits and Adzuna licensing/attribution requirements. Local six-request/provider/day counters are best-effort and can be lost before commit; they are not billing guarantees. Each supplemental batch makes one query/first-page request per enabled provider. Adzuna results are snippets. Do not paste or commit keys.
+
+Gmail OAuth, automated delivery, private database sync, the new tracker UI and live availability verification remain unconfigured. Country-code normalization does not establish candidate work authorization. The wrapper preserves existing description/score evidence; it does not resolve every scoring or cross-source deduplication issue. Only canonical URLs are merged. Discovery metadata and short evidence already present in job records are public. Feed/setup/publication time is additional to the scanner budgets.
