@@ -1,12 +1,12 @@
 {
   "policy": "0_to_48_hours_only",
-  "evaluated_at": "2026-11-09T17:24:18.261077+00:00",
-  "cutoff": "2026-11-07T17:24:18.261077+00:00",
+  "evaluated_at": "2026-11-09T17:28:12.695783+00:00",
+  "cutoff": "2026-11-07T17:28:12.695783+00:00",
   "counts": {
     "within_48h": 4,
     "older_than_48h": 42,
     "boundary_unverified": 2,
-    "date_unverified": 1
+    "date_unverified": 2
   },
   "date_only_policy": "Unknown timezone is conservatively bounded from UTC+14 to UTC-12; boundary cases are held, never guessed fresh",
   "reposting_policy": "Requires source_reposted_at and a repost_evidence_url; rediscovery alone is not a repost"
