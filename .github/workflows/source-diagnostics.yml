@@ -1,0 +1,50 @@
+name: LinkedIn and Naukri diagnostics
+on:
+  push:
+    branches: [main]
+    paths: ['source_diagnostics.py', '.github/workflows/source-diagnostics.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: source-diagnostics
+  cancel-in-progress: false
+jobs:
+  diagnose:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python -m py_compile source_diagnostics.py
+      - name: Test small discovery requests and capture source errors
+        run: python -u source_diagnostics.py
+      - name: Summarize diagnostic outcomes
+        if: always()
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          p=Path('diagnostics/source_report.json')
+          lines=['## Source diagnostics']
+          if p.exists():
+              data=json.loads(p.read_text())
+              for source,attempts in data.get('sources',{}).items():
+                  for a in attempts:
+                      lines.append(f"- {source}: attempt {a['attempt']}, {a['status']}, results: {a.get('result_count','unknown')}")
+          else:
+              lines.append('No report produced; inspect the first failed setup/script step.')
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a') as f:
+              f.write('\n'.join(lines)+'\n')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: source-diagnostic-report
+          path: diagnostics/source_report.json
+          if-no-files-found: warn
+          retention-days: 7
