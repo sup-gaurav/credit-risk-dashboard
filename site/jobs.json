@@ -1,1 +1,172 @@
-{"last_scan":null,"status":"awaiting_first_scan","total_scanned":0,"query_count":120,"sources":{},"jobs":[],"note":"No scan has completed yet. Check the GitHub Actions workflow for progress."}
+{
+  "last_scan": "2026-11-09T06:41:30.170243+00:00",
+  "checkpoint_at": "2026-11-09T06:41:30.170243+00:00",
+  "status": "batch_completed_with_source_errors",
+  "run_id": "42574323828",
+  "total_scanned": 142,
+  "descriptions_screened_observations": 142,
+  "actionable": 2,
+  "query_count": 120,
+  "selected_queries": 4,
+  "completed_query_source_tasks": 8,
+  "query_cursor": 4,
+  "sources": {
+    "glassdoor": {
+      "disabled": true,
+      "reason": "Disabled after repeated 403 responses"
+    },
+    "indeed": {
+      "requests_ok": 4,
+      "requests_failed": 0,
+      "raw_results": 7,
+      "errors": []
+    },
+    "linkedin": {
+      "requests_ok": 0,
+      "requests_failed": 3,
+      "raw_results": 0,
+      "errors": [
+        "Worker failed or exceeded 60s"
+      ],
+      "disabled": true,
+      "reason": "Worker failed or exceeded 60s"
+    },
+    "rss": {
+      "requests_ok": 6,
+      "requests_failed": 0,
+      "raw_results": 135,
+      "errors": []
+    },
+    "naukri": {
+      "requests_ok": 0,
+      "requests_failed": 6,
+      "raw_results": 0,
+      "errors": [
+        "406 Client Error: Not Acceptable for url: https://www.naukri.com/jobapi/v3/search?noOfResults=50&urlType=search_by_keyword&searchType=adv&keyword=credit+risk+senior+manager&pageNo=1&k=credit+risk+senior+manager&seoKey=jobs&src=jobsearchDesk",
+        "406 Client Error: Not Acceptable for url: https://www.naukri.com/jobapi/v3/search?noOfResults=50&urlType=search_by_keyword&searchType=adv&keyword=credit+risk+associate+director&pageNo=1&k=credit+risk+associate+director&seoKey=jobs&src=jobse",
+        "406 Client Error: Not Acceptable for url: https://www.naukri.com/jobapi/v3/search?noOfResults=50&urlType=search_by_keyword&searchType=adv&keyword=credit+risk+vice+president&pageNo=1&k=credit+risk+vice+president&seoKey=jobs&src=jobsearchDesk",
+        "406 Client Error: Not Acceptable for url: https://www.naukri.com/jobapi/v3/search?noOfResults=50&urlType=search_by_keyword&searchType=adv&keyword=IFRS+9+credit+risk&pageNo=1&k=IFRS+9+credit+risk&seoKey=jobs&src=jobsearchDesk"
+      ],
+      "disabled": true,
+      "reason": "406 Client Error: Not Acceptable for url: https://www.naukri.com/jobapi/v3/search?noOfResults=50&urlType=search_by_keyword&searchType=adv&keyword=portfolio+risk+senior+manager&pageNo=1&k=portfolio+risk+senior+manager&seoKey=jobs&src=jobsear"
+    }
+  },
+  "disabled_sources": {
+    "glassdoor": "Disabled after repeated 403 responses",
+    "linkedin": "Worker failed or exceeded 60s",
+    "naukri": "406 Client Error: Not Acceptable for url: https://www.naukri.com/jobapi/v3/search?noOfResults=50&urlType=search_by_keyword&searchType=adv&keyword=portfolio+risk+senior+manager&pageNo=1&k=portfolio+risk+senior+manager&seoKey=jobs&src=jobsear"
+  },
+  "funnel": {
+    "raw_observations_this_run": 142,
+    "unique_retained": 2,
+    "eligible": 0,
+    "needs_review": 2,
+    "availability_verified": 0
+  },
+  "jobs": [
+    {
+      "title": "Wholesale Credit Risk - In-Business Quality Assurance – Vice President - LinkedIn India",
+      "company": "LinkedIn India",
+      "location": "India",
+      "job_url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxNRGEzbndpZE9uejRBcHN3MXRNbHBKZktEaldITkItZWxSVVRCTFVhRE1STUNjQXY1VzEzNDc4ejM0c3ZCUlJwRW1TRXdBNzJYdHNwRXpGY19ENFFSQWRHM05qdnJCYTNUNjZab1FwMF94cGNRZzZITTdZSDBzdXk5ekEwSXpvS3BzaHVnaXVwVm1ncklFR041QzZKa2Q1aEhPMmxGOGtkRVJ5ZENIOHVVQWRoamxMTnlwaFk3Nnh1S1NXbFd2aFk4VE5naGdpR01LaXVWeFI3R0NManVRTXFveTFDekhuWHIyOTBTOGE3NVh3S3llN0sxOG56YWV0QWFqMmNhWTdxUGdzUnROa1VmTzlzeE9QTDBaTkphSG1MLWRjV1dXLVFFTWgtTS1BR3FreDQwdmsxY3AwbU1iQ0tfNWl6WnZ2c2JZaGdKbw?oc=5",
+      "date_posted": "Sat, 07 Nov 2026 08:29:37 GMT",
+      "site": "rss",
+      "indirect": true,
+      "last_seen": "2026-11-09T06:40:34.289678+00:00",
+      "match_score": 79,
+      "tier": "good",
+      "matched_tags": [
+        "Seniority",
+        "Credit risk",
+        "Lending"
+      ],
+      "work_mode": "",
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": true,
+        "seniority": true,
+        "india": false
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "India work location/eligibility needs verification",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-07T08:29:37+00:00",
+      "posted_evidence": "Sat, 07 Nov 2026 08:29:37 GMT",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "7e289ca9e3ffdd627a0fb1b2",
+      "legacy_ids": [
+        "7e289ca9e3ffdd627a0fb1b2"
+      ],
+      "canonical_url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxNRGEzbndpZE9uejRBcHN3MXRNbHBKZktEaldITkItZWxSVVRCTFVhRE1STUNjQXY1VzEzNDc4ejM0c3ZCUlJwRW1TRXdBNzJYdHNwRXpGY19ENFFSQWRHM05qdnJCYTNUNjZab1FwMF94cGNRZzZITTdZSDBzdXk5ekEwSXpvS3BzaHVnaXVwVm1ncklFR041QzZKa2Q1aEhPMmxGOGtkRVJ5ZENIOHVVQWRoamxMTnlwaFk3Nnh1S1NXbFd2aFk4VE5naGdpR01LaXVWeFI3R0NManVRTXFveTFDekhuWHIyOTBTOGE3NVh3S3llN0sxOG56YWV0QWFqMmNhWTdxUGdzUnROa1VmTzlzeE9QTDBaTkphSG1MLWRjV1dXLVFFTWgtTS1BR3FreDQwdmsxY3AwbU1iQ0tfNWl6WnZ2c2JZaGdKbw?oc=5",
+      "source_urls": [
+        "https://news.google.com/rss/articles/CBMizAJBVV95cUxNRGEzbndpZE9uejRBcHN3MXRNbHBKZktEaldITkItZWxSVVRCTFVhRE1STUNjQXY1VzEzNDc4ejM0c3ZCUlJwRW1TRXdBNzJYdHNwRXpGY19ENFFSQWRHM05qdnJCYTNUNjZab1FwMF94cGNRZzZITTdZSDBzdXk5ekEwSXpvS3BzaHVnaXVwVm1ncklFR041QzZKa2Q1aEhPMmxGOGtkRVJ5ZENIOHVVQWRoamxMTnlwaFk3Nnh1S1NXbFd2aFk4VE5naGdpR01LaXVWeFI3R0NManVRTXFveTFDekhuWHIyOTBTOGE3NVh3S3llN0sxOG56YWV0QWFqMmNhWTdxUGdzUnROa1VmTzlzeE9QTDBaTkphSG1MLWRjV1dXLVFFTWgtTS1BR3FreDQwdmsxY3AwbU1iQ0tfNWl6WnZ2c2JZaGdKbw?oc=5"
+      ],
+      "sources": [
+        "rss"
+      ],
+      "first_seen": "2026-11-09T06:41:30.169004+00:00",
+      "description_available": true,
+      "description_excerpt": "Wholesale Credit Risk - In-Business Quality Assurance – Vice President    LinkedIn India",
+      "possible_duplicate": false
+    },
+    {
+      "title": "Credit Risk Review, Vice President",
+      "company": "Citi",
+      "location": "MH, IN",
+      "job_url": "https://in.indeed.com/viewjob?jk=2c1737a86b6cfc8a",
+      "date_posted": "2026-11-02",
+      "site": "indeed",
+      "indirect": false,
+      "last_seen": "2026-11-09T06:39:29.770666+00:00",
+      "match_score": 77,
+      "tier": "good",
+      "matched_tags": [
+        "Seniority",
+        "Credit risk"
+      ],
+      "work_mode": "Hybrid",
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": true,
+        "seniority": true,
+        "india": false
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "India work location/eligibility needs verification",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "description_available",
+      "posted_at": "2026-11-02T00:00:00+00:00",
+      "posted_evidence": "2026-11-02",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "df3b150fe8b65c82ce3af6f2",
+      "legacy_ids": [
+        "df3b150fe8b65c82ce3af6f2"
+      ],
+      "canonical_url": "https://in.indeed.com/viewjob?jk=2c1737a86b6cfc8a",
+      "source_urls": [
+        "https://in.indeed.com/viewjob?jk=2c1737a86b6cfc8a"
+      ],
+      "sources": [
+        "indeed"
+      ],
+      "first_seen": "2026-11-09T06:41:30.169004+00:00",
+      "description_available": true,
+      "description_excerpt": "**Discover your future at Citi**\n--------------------------------\n\n\nWorking at Citi is far more than just a job. A career with us means joining a team of approximately 219,000 dedicated people from around the globe. At Citi, you’ll have the opportunity to grow your career, give back to your community and make a real impact.\n\n\n**Job Overview**\n----------------\n\n\nAs a Vice President, Credit Risk Review, you will independently assess how well Citi manages credit risk across its India banking busine",
+      "possible_duplicate": false
+    }
+  ],
+  "note": "Checkpoint time is not publication time. Descriptions-screened counts observations, not unique verified screenings. No live listing verifier is enabled. Posting dates are source-reported. Coverage is partial and best-effort."
+}
