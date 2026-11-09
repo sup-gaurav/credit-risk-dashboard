@@ -1,0 +1,14 @@
+name: Request a background job scan
+description: Owner-only GitHub Actions scan request; no external backend.
+title: '[SCAN] replace-with-request-id'
+body:
+  - type: markdown
+    attributes:
+      value: 'Submit while signed in as sup-gaurav. Submission requests a scan; it does not prove the scan has started. The strict 0–48-hour rule remains in force. Never enter tokens, resumes or private notes here.'
+  - type: input
+    id: request_id
+    attributes:
+      label: Request ID
+      description: Prefilled by the dashboard. Keep the matching request ID in the issue title.
+    validations:
+      required: true

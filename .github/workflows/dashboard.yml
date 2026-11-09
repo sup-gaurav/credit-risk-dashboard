@@ -1,11 +1,23 @@
 name: Credit Risk Dashboard
+run-name: Credit Risk Scan ${{ inputs.request_id || github.run_number }}
 on:
   push:
     branches: [main]
-    paths: ['scanner.py', 'runner.py', 'quality.py', 'free_scan.py', 'free_adapters.py', 'freshness.py', 'tests/**', 'requirements.txt', 'site/index.html', '.github/workflows/dashboard.yml', '.github/workflows/scan-batch.yml']
+    paths: ['scanner.py', 'runner.py', 'quality.py', 'free_scan.py', 'free_adapters.py', 'freshness.py', 'github_scan_request.py', 'tests/**', 'requirements.txt', 'site/index.html', 'site/github-scan.js', '.github/workflows/**', '.github/ISSUE_TEMPLATE/**']
   schedule:
     - cron: '17 */6 * * *'
   workflow_dispatch:
+    inputs:
+      requested_by:
+        description: Request origin
+        type: string
+        required: false
+        default: manual
+      request_id:
+        description: Dashboard request correlation ID
+        type: string
+        required: false
+        default: ''
 permissions:
   contents: write
   pages: write
@@ -24,6 +36,17 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
+      - name: Install GitHub-only dashboard controls
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          p=Path('site/index.html')
+          html=p.read_text(encoding='utf-8').replace('<button id="refresh">Refresh</button>','<button id="refresh">Reload published results</button>')
+          tag='<script src="github-scan.js"></script>'
+          if tag not in html:
+              html=html.replace('</html>',tag+'\n</html>')
+          p.write_text(html,encoding='utf-8')
+          PY
       - run: python3 -m unittest discover -s tests -p 'test_freshness.py' -v
       - name: Remove stale listings before any long scan
         run: python3 freshness.py
@@ -31,7 +54,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add site/jobs.json site/freshness_report.json site/digest.md data/jobs_archive.json
+          git add site/index.html site/jobs.json site/freshness_report.json site/digest.md data/jobs_archive.json
           if ! git diff --cached --quiet; then
             git commit -m 'Enforce strict 0-48-hour snapshot'
             git push origin HEAD:main

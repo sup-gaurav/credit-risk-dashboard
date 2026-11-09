@@ -1,0 +1,25 @@
+name: Owner scan request
+on:
+  issues:
+    types: [opened]
+permissions:
+  contents: read
+  actions: write
+  issues: write
+concurrency:
+  group: owner-scan-request
+  cancel-in-progress: false
+jobs:
+  dispatch:
+    if: github.event.issue.user.login == github.repository_owner && startsWith(github.event.issue.title, '[SCAN] ')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - run: python3 -m unittest discover -s tests -p 'test_github_request.py' -v
+      - name: Dispatch only an authenticated owner request
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 github_scan_request.py
