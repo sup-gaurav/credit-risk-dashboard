@@ -1,69 +1,799 @@
 {
-  "last_scan": "2026-11-09T06:42:09.003540+00:00",
-  "checkpoint_at": "2026-11-09T06:42:09.003540+00:00",
-  "status": "batch_completed_with_source_errors",
-  "run_id": "42574323828",
-  "total_scanned": 148,
-  "descriptions_screened_observations": 148,
-  "actionable": 4,
+  "last_scan": "2026-11-09T08:31:09.812155+00:00",
+  "checkpoint_at": "2026-11-09T08:31:09.812155+00:00",
+  "status": "batch_completed",
+  "run_id": "42586437415",
+  "total_scanned": 83,
+  "descriptions_screened_observations": 43,
+  "actionable": 22,
   "query_count": 120,
-  "selected_queries": 8,
-  "completed_query_source_tasks": 16,
-  "query_cursor": 12,
+  "selected_queries": 4,
+  "completed_query_source_tasks": 8,
+  "query_cursor": 4,
   "sources": {
     "glassdoor": {
       "disabled": true,
       "reason": "Disabled after repeated 403 responses"
     },
     "indeed": {
-      "requests_ok": 12,
+      "requests_ok": 4,
       "requests_failed": 0,
-      "raw_results": 13,
+      "raw_results": 43,
       "errors": []
     },
     "linkedin": {
-      "requests_ok": 0,
-      "requests_failed": 3,
-      "raw_results": 0,
-      "errors": [
-        "Worker failed or exceeded 60s"
-      ],
-      "disabled": true,
-      "reason": "Worker failed or exceeded 60s"
-    },
-    "rss": {
-      "requests_ok": 6,
+      "requests_ok": 4,
       "requests_failed": 0,
-      "raw_results": 135,
+      "raw_results": 40,
       "errors": []
     },
-    "naukri": {
-      "requests_ok": 0,
-      "requests_failed": 6,
-      "raw_results": 0,
-      "errors": [
-        "406 Client Error: Not Acceptable for url: https://www.naukri.com/jobapi/v3/search?noOfResults=50&urlType=search_by_keyword&searchType=adv&keyword=credit+risk+senior+manager&pageNo=1&k=credit+risk+senior+manager&seoKey=jobs&src=jobsearchDesk",
-        "406 Client Error: Not Acceptable for url: https://www.naukri.com/jobapi/v3/search?noOfResults=50&urlType=search_by_keyword&searchType=adv&keyword=credit+risk+associate+director&pageNo=1&k=credit+risk+associate+director&seoKey=jobs&src=jobse",
-        "406 Client Error: Not Acceptable for url: https://www.naukri.com/jobapi/v3/search?noOfResults=50&urlType=search_by_keyword&searchType=adv&keyword=credit+risk+vice+president&pageNo=1&k=credit+risk+vice+president&seoKey=jobs&src=jobsearchDesk",
-        "406 Client Error: Not Acceptable for url: https://www.naukri.com/jobapi/v3/search?noOfResults=50&urlType=search_by_keyword&searchType=adv&keyword=IFRS+9+credit+risk&pageNo=1&k=IFRS+9+credit+risk&seoKey=jobs&src=jobsearchDesk"
-      ],
-      "disabled": true,
-      "reason": "406 Client Error: Not Acceptable for url: https://www.naukri.com/jobapi/v3/search?noOfResults=50&urlType=search_by_keyword&searchType=adv&keyword=portfolio+risk+senior+manager&pageNo=1&k=portfolio+risk+senior+manager&seoKey=jobs&src=jobsear"
+    "lever:PayU": {
+      "status": "unavailable_or_unvalidated",
+      "error_type": "HTTPError"
+    },
+    "lever:OakNorth": {
+      "status": "unavailable_or_unvalidated",
+      "error_type": "HTTPError"
+    },
+    "greenhouse": {
+      "status": "not_configured",
+      "reason": "No employer board identifier has been validated yet"
+    },
+    "email_alerts": {
+      "status": "not_configured",
+      "reason": "GitHub workflow has not been granted Gmail OAuth access"
+    },
+    "naukri_direct": {
+      "status": "interaction_required",
+      "reason": "Existing diagnostic returned recaptcha required; no bypass attempted"
+    },
+    "serpapi": {
+      "status": "not_enabled_or_configured"
+    },
+    "adzuna": {
+      "status": "not_enabled_or_configured"
     }
   },
   "disabled_sources": {
-    "glassdoor": "Disabled after repeated 403 responses",
-    "linkedin": "Worker failed or exceeded 60s",
-    "naukri": "406 Client Error: Not Acceptable for url: https://www.naukri.com/jobapi/v3/search?noOfResults=50&urlType=search_by_keyword&searchType=adv&keyword=portfolio+risk+senior+manager&pageNo=1&k=portfolio+risk+senior+manager&seoKey=jobs&src=jobsear"
+    "glassdoor": "Disabled after repeated 403 responses"
   },
   "funnel": {
-    "raw_observations_this_run": 148,
-    "unique_retained": 4,
-    "eligible": 0,
-    "needs_review": 4,
+    "raw_observations_this_run": 83,
+    "unique_retained": 22,
+    "eligible": 13,
+    "needs_review": 9,
     "availability_verified": 0
   },
   "jobs": [
+    {
+      "title": "Senior Wholesale Credit Risk Researcher, SVP (Hybrid)",
+      "company": "Citi",
+      "location": "Mumbai, Maharashtra, India",
+      "job_url": "https://www.linkedin.com/jobs/view/4486922402",
+      "date_posted": "2026-11-05",
+      "site": "linkedin",
+      "indirect": false,
+      "last_seen": "2026-11-09T08:30:55.272353+00:00",
+      "match_score": 101,
+      "tier": "hot",
+      "matched_tags": [
+        "Seniority",
+        "Credit risk",
+        "Lending"
+      ],
+      "work_mode": "Hybrid",
+      "eligibility": "eligible",
+      "gates": {
+        "domain": true,
+        "seniority": true,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-05T00:00:00+00:00",
+      "posted_evidence": "2026-11-05",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "157d7afe15e1616477b62bf6",
+      "legacy_ids": [
+        "157d7afe15e1616477b62bf6"
+      ],
+      "canonical_url": "https://www.linkedin.com/jobs/view/4486922402",
+      "source_urls": [
+        "https://www.linkedin.com/jobs/view/4486922402"
+      ],
+      "sources": [
+        "linkedin"
+      ],
+      "first_seen": "2026-11-09T08:31:09.810402+00:00",
+      "description_available": false,
+      "description_excerpt": "",
+      "possible_duplicate": false
+    },
+    {
+      "title": "Risk & Quantitative Strats, Private Financing Solutions (PFS), Associate/Vice President",
+      "company": "BlackRock",
+      "location": "MH, IN (India)",
+      "job_url": "https://in.indeed.com/viewjob?jk=895759f0651822b5",
+      "date_posted": "2026-11-04",
+      "site": "indeed",
+      "indirect": false,
+      "last_seen": "2026-11-09T08:30:53.707146+00:00",
+      "match_score": 91,
+      "tier": "hot",
+      "matched_tags": [
+        "Seniority",
+        "Credit risk",
+        "Portfolio",
+        "PYTHON",
+        "SQL"
+      ],
+      "work_mode": "Hybrid",
+      "eligibility": "eligible",
+      "gates": {
+        "domain": true,
+        "seniority": true,
+        "india": true
+      },
+      "reasons": [
+        "sql",
+        "python",
+        "portfolio monitoring"
+      ],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "description_available",
+      "posted_at": "2026-11-04T00:00:00+00:00",
+      "posted_evidence": "2026-11-04",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "ecb73f0292e0d172490b760a",
+      "legacy_ids": [
+        "ecb73f0292e0d172490b760a"
+      ],
+      "canonical_url": "https://in.indeed.com/viewjob?jk=895759f0651822b5",
+      "source_urls": [
+        "https://in.indeed.com/viewjob?jk=895759f0651822b5"
+      ],
+      "sources": [
+        "indeed"
+      ],
+      "first_seen": "2026-11-09T08:31:09.802068+00:00",
+      "description_available": true,
+      "description_excerpt": "Location: Mumbai, Maharashtra Team: Accounting Job Requisition \\#: R267078 Date posted: Nov. 04, 2026\n  \n**Job description**\n-------------------\n\n\n**About this role**\n\n\nHPS Investment Partners is a credit\\-focused alternative investment manager that seeks to provide creative capital solutions and generate attractive risk\\-adjusted returns for our clients. We manage various strategies across the capital structure, including privately negotiated senior debt; privately negotiated junior capital sol",
+      "possible_duplicate": false
+    },
+    {
+      "title": "Capital Markets Credit Risk Manager, SVP (Hybrid)",
+      "company": "Citi",
+      "location": "Mumbai, Maharashtra, India",
+      "job_url": "https://www.linkedin.com/jobs/view/4486907862",
+      "date_posted": "2026-11-05",
+      "site": "linkedin",
+      "indirect": false,
+      "last_seen": "2026-11-09T08:30:57.316089+00:00",
+      "match_score": 87,
+      "tier": "hot",
+      "matched_tags": [
+        "Seniority",
+        "Credit risk"
+      ],
+      "work_mode": "Hybrid",
+      "eligibility": "eligible",
+      "gates": {
+        "domain": true,
+        "seniority": true,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-05T00:00:00+00:00",
+      "posted_evidence": "2026-11-05",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "0c97774bc78603751ad3f246",
+      "legacy_ids": [
+        "0c97774bc78603751ad3f246"
+      ],
+      "canonical_url": "https://www.linkedin.com/jobs/view/4486907862",
+      "source_urls": [
+        "https://www.linkedin.com/jobs/view/4486907862"
+      ],
+      "sources": [
+        "linkedin"
+      ],
+      "first_seen": "2026-11-09T08:31:09.810711+00:00",
+      "description_available": false,
+      "description_excerpt": "",
+      "possible_duplicate": false
+    },
+    {
+      "title": "Credit Risk Researcher, Vice President",
+      "company": "Citi",
+      "location": "Mumbai, Maharashtra, India",
+      "job_url": "https://www.linkedin.com/jobs/view/4486905803",
+      "date_posted": "2026-11-05",
+      "site": "linkedin",
+      "indirect": false,
+      "last_seen": "2026-11-09T08:30:55.272353+00:00",
+      "match_score": 87,
+      "tier": "hot",
+      "matched_tags": [
+        "Seniority",
+        "Credit risk"
+      ],
+      "work_mode": "",
+      "eligibility": "eligible",
+      "gates": {
+        "domain": true,
+        "seniority": true,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-05T00:00:00+00:00",
+      "posted_evidence": "2026-11-05",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "d3fc39940255140d4275a97c",
+      "legacy_ids": [
+        "d3fc39940255140d4275a97c"
+      ],
+      "canonical_url": "https://www.linkedin.com/jobs/view/4486905803",
+      "source_urls": [
+        "https://www.linkedin.com/jobs/view/4486905803"
+      ],
+      "sources": [
+        "linkedin"
+      ],
+      "first_seen": "2026-11-09T08:31:09.810477+00:00",
+      "description_available": false,
+      "description_excerpt": "",
+      "possible_duplicate": false
+    },
+    {
+      "title": "Manager/Senior Manager-Credit Risk",
+      "company": "Evalueserve",
+      "location": "Mumbai, Maharashtra, India",
+      "job_url": "https://www.linkedin.com/jobs/view/4484685247",
+      "date_posted": "2026-11-03",
+      "site": "linkedin",
+      "indirect": false,
+      "last_seen": "2026-11-09T08:30:57.316089+00:00",
+      "match_score": 87,
+      "tier": "hot",
+      "matched_tags": [
+        "Seniority",
+        "Credit risk"
+      ],
+      "work_mode": "",
+      "eligibility": "eligible",
+      "gates": {
+        "domain": true,
+        "seniority": true,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-03T00:00:00+00:00",
+      "posted_evidence": "2026-11-03",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "448d9621143cce6ebdac8d7f",
+      "legacy_ids": [
+        "448d9621143cce6ebdac8d7f"
+      ],
+      "canonical_url": "https://www.linkedin.com/jobs/view/4484685247",
+      "source_urls": [
+        "https://www.linkedin.com/jobs/view/4484685247"
+      ],
+      "sources": [
+        "linkedin"
+      ],
+      "first_seen": "2026-11-09T08:31:09.811867+00:00",
+      "description_available": false,
+      "description_excerpt": "",
+      "possible_duplicate": false
+    },
+    {
+      "title": "Senior Manager, Credit Management",
+      "company": "Ciena",
+      "location": "HR, IN (India)",
+      "job_url": "https://in.indeed.com/viewjob?jk=51fcc36ac60613c9",
+      "date_posted": "2026-11-03",
+      "site": "indeed",
+      "indirect": false,
+      "last_seen": "2026-11-09T08:30:53.707146+00:00",
+      "match_score": 87,
+      "tier": "hot",
+      "matched_tags": [
+        "Seniority",
+        "Credit risk",
+        "Portfolio",
+        "Policy",
+        "Lending"
+      ],
+      "work_mode": "",
+      "eligibility": "eligible",
+      "gates": {
+        "domain": true,
+        "seniority": true,
+        "india": true
+      },
+      "reasons": [
+        "portfolio monitoring",
+        "credit policy"
+      ],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "description_available",
+      "posted_at": "2026-11-03T00:00:00+00:00",
+      "posted_evidence": "2026-11-03",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "6711386e8bfc0a5494c99f18",
+      "legacy_ids": [
+        "6711386e8bfc0a5494c99f18"
+      ],
+      "canonical_url": "https://in.indeed.com/viewjob?jk=51fcc36ac60613c9",
+      "source_urls": [
+        "https://in.indeed.com/viewjob?jk=51fcc36ac60613c9"
+      ],
+      "sources": [
+        "indeed"
+      ],
+      "first_seen": "2026-11-09T08:31:09.808180+00:00",
+      "description_available": true,
+      "description_excerpt": "As the global leader in high\\-speed connectivity, Ciena is committed to a people\\-first approach. Our teams enjoy a culture focused on prioritizing a flexible work environment that empowers individual growth, well\\-being, and belonging. We’re a technology company that leads with our humanity—driving our business priorities alongside meaningful social, community, and societal impact.\n\n\nWe are seeking a hands\\-on Global Senior Credit Manager to establish and lead a risk\\-focused credit management ",
+      "possible_duplicate": false
+    },
+    {
+      "title": "VP - Traded Risk",
+      "company": "HSBC",
+      "location": "KA, IN (India)",
+      "job_url": "https://in.indeed.com/viewjob?jk=2bff360b77b2797b",
+      "date_posted": "2026-11-03",
+      "site": "indeed",
+      "indirect": false,
+      "last_seen": "2026-11-09T08:30:53.707146+00:00",
+      "match_score": 85,
+      "tier": "hot",
+      "matched_tags": [
+        "Seniority",
+        "Credit risk",
+        "Regulatory",
+        "PYTHON"
+      ],
+      "work_mode": "",
+      "eligibility": "eligible",
+      "gates": {
+        "domain": true,
+        "seniority": true,
+        "india": true
+      },
+      "reasons": [
+        "python"
+      ],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "description_available",
+      "posted_at": "2026-11-03T00:00:00+00:00",
+      "posted_evidence": "2026-11-03",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "a9e3c9b60003083eba74e746",
+      "legacy_ids": [
+        "a9e3c9b60003083eba74e746"
+      ],
+      "canonical_url": "https://in.indeed.com/viewjob?jk=2bff360b77b2797b",
+      "source_urls": [
+        "https://in.indeed.com/viewjob?jk=2bff360b77b2797b"
+      ],
+      "sources": [
+        "indeed"
+      ],
+      "first_seen": "2026-11-09T08:31:09.807463+00:00",
+      "description_available": true,
+      "description_excerpt": "**Job Title: VP \\-** **Traded Risk**\n\n\nTraded Risk Measurement, Monitoring \\& Control team sits within Risk \\& Compliance.TRMMC Teams composition: Aggregation, Stress Testing, Market Data Management (MDM), Traded risk Analysis, Counterparty credit Risk and Control Management.These teams form part of the TRMMC, that ensure functional consistency and delivery across all work streams for the measurement, monitoring and control of traded risk. We support and lead aspects of Traded Risk Functions/act",
+      "possible_duplicate": false
+    },
+    {
+      "title": "Director - Credit Risk",
+      "company": "SiriusAI",
+      "location": "Gurugram, Haryana, India",
+      "job_url": "https://www.linkedin.com/jobs/view/4487645301",
+      "date_posted": "2026-11-08",
+      "site": "linkedin",
+      "indirect": false,
+      "last_seen": "2026-11-09T08:30:58.132377+00:00",
+      "match_score": 83,
+      "tier": "good",
+      "matched_tags": [
+        "Seniority",
+        "Credit risk"
+      ],
+      "work_mode": "",
+      "eligibility": "eligible",
+      "gates": {
+        "domain": true,
+        "seniority": true,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-08T00:00:00+00:00",
+      "posted_evidence": "2026-11-08",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "22ea184a4672ca4d11cf4463",
+      "legacy_ids": [
+        "22ea184a4672ca4d11cf4463"
+      ],
+      "canonical_url": "https://www.linkedin.com/jobs/view/4487645301",
+      "source_urls": [
+        "https://www.linkedin.com/jobs/view/4487645301"
+      ],
+      "sources": [
+        "linkedin"
+      ],
+      "first_seen": "2026-11-09T08:31:09.811931+00:00",
+      "description_available": false,
+      "description_excerpt": "",
+      "possible_duplicate": false
+    },
+    {
+      "title": "Manager-Senior Manager Credit Risk - Policy",
+      "company": "DMI Finance Private Limited",
+      "location": "Delhi, India",
+      "job_url": "https://www.linkedin.com/jobs/view/4480962206",
+      "date_posted": "2026-11-05",
+      "site": "linkedin",
+      "indirect": false,
+      "last_seen": "2026-11-09T08:30:57.316089+00:00",
+      "match_score": 80,
+      "tier": "good",
+      "matched_tags": [
+        "Seniority",
+        "Credit risk"
+      ],
+      "work_mode": "",
+      "eligibility": "eligible",
+      "gates": {
+        "domain": true,
+        "seniority": true,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-05T00:00:00+00:00",
+      "posted_evidence": "2026-11-05",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "3f58e03eb396555bf971e2cb",
+      "legacy_ids": [
+        "3f58e03eb396555bf971e2cb"
+      ],
+      "canonical_url": "https://www.linkedin.com/jobs/view/4480962206",
+      "source_urls": [
+        "https://www.linkedin.com/jobs/view/4480962206"
+      ],
+      "sources": [
+        "linkedin"
+      ],
+      "first_seen": "2026-11-09T08:31:09.811797+00:00",
+      "description_available": false,
+      "description_excerpt": "",
+      "possible_duplicate": false
+    },
+    {
+      "title": "Credit Risk Review, Vice President",
+      "company": "Citi",
+      "location": "MH, IN (India)",
+      "job_url": "https://in.indeed.com/viewjob?jk=2c1737a86b6cfc8a",
+      "date_posted": "2026-11-02",
+      "site": "indeed",
+      "indirect": false,
+      "last_seen": "2026-11-09T08:30:56.688012+00:00",
+      "match_score": 77,
+      "tier": "good",
+      "matched_tags": [
+        "Seniority",
+        "Credit risk"
+      ],
+      "work_mode": "Hybrid",
+      "eligibility": "eligible",
+      "gates": {
+        "domain": true,
+        "seniority": true,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "description_available",
+      "posted_at": "2026-11-02T00:00:00+00:00",
+      "posted_evidence": "2026-11-02",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "df3b150fe8b65c82ce3af6f2",
+      "legacy_ids": [
+        "df3b150fe8b65c82ce3af6f2"
+      ],
+      "canonical_url": "https://in.indeed.com/viewjob?jk=2c1737a86b6cfc8a",
+      "source_urls": [
+        "https://in.indeed.com/viewjob?jk=2c1737a86b6cfc8a"
+      ],
+      "sources": [
+        "indeed"
+      ],
+      "first_seen": "2026-11-09T06:41:30.169004+00:00",
+      "description_available": true,
+      "description_excerpt": "**Discover your future at Citi**\n--------------------------------\n\n\nWorking at Citi is far more than just a job. A career with us means joining a team of approximately 219,000 dedicated people from around the globe. At Citi, you’ll have the opportunity to grow your career, give back to your community and make a real impact.\n\n\n**Job Overview**\n----------------\n\n\nAs a Vice President, Credit Risk Review, you will independently assess how well Citi manages credit risk across its India banking busine",
+      "possible_duplicate": false
+    },
+    {
+      "title": "Credit Risk Strategy & Analytics  - Vice President",
+      "company": "Citi",
+      "location": "Haryana, India",
+      "job_url": "https://www.linkedin.com/jobs/view/4486925358",
+      "date_posted": "2026-11-05",
+      "site": "linkedin",
+      "indirect": false,
+      "last_seen": "2026-11-09T08:30:58.132377+00:00",
+      "match_score": 77,
+      "tier": "good",
+      "matched_tags": [
+        "Seniority",
+        "Credit risk"
+      ],
+      "work_mode": "",
+      "eligibility": "eligible",
+      "gates": {
+        "domain": true,
+        "seniority": true,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-05T00:00:00+00:00",
+      "posted_evidence": "2026-11-05",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "ad3fb1298c234d8d0c69cbac",
+      "legacy_ids": [
+        "ad3fb1298c234d8d0c69cbac"
+      ],
+      "canonical_url": "https://www.linkedin.com/jobs/view/4486925358",
+      "source_urls": [
+        "https://www.linkedin.com/jobs/view/4486925358"
+      ],
+      "sources": [
+        "linkedin"
+      ],
+      "first_seen": "2026-11-09T08:31:09.810550+00:00",
+      "description_available": false,
+      "description_excerpt": "",
+      "possible_duplicate": false
+    },
+    {
+      "title": "Mortgage Portfolio Risk Analytics - Assistant Vice President",
+      "company": "Citi",
+      "location": "Haryana, India",
+      "job_url": "https://www.linkedin.com/jobs/view/4486914604",
+      "date_posted": "2026-11-05",
+      "site": "linkedin",
+      "indirect": false,
+      "last_seen": "2026-11-09T08:30:55.272353+00:00",
+      "match_score": 77,
+      "tier": "good",
+      "matched_tags": [
+        "Seniority",
+        "Credit risk"
+      ],
+      "work_mode": "",
+      "eligibility": "eligible",
+      "gates": {
+        "domain": true,
+        "seniority": true,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-05T00:00:00+00:00",
+      "posted_evidence": "2026-11-05",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "3fad2bfd8fbbf0e55a0dba41",
+      "legacy_ids": [
+        "3fad2bfd8fbbf0e55a0dba41"
+      ],
+      "canonical_url": "https://www.linkedin.com/jobs/view/4486914604",
+      "source_urls": [
+        "https://www.linkedin.com/jobs/view/4486914604"
+      ],
+      "sources": [
+        "linkedin"
+      ],
+      "first_seen": "2026-11-09T08:31:09.810618+00:00",
+      "description_available": false,
+      "description_excerpt": "",
+      "possible_duplicate": false
+    },
+    {
+      "title": "Senior Manager Sales - North",
+      "company": "Equifax",
+      "location": "DL, IN (India)",
+      "job_url": "https://in.indeed.com/viewjob?jk=4f6bcf0915199503",
+      "date_posted": "2026-11-04",
+      "site": "indeed",
+      "indirect": false,
+      "last_seen": "2026-11-09T08:30:53.707146+00:00",
+      "match_score": 71,
+      "tier": "good",
+      "matched_tags": [
+        "Seniority",
+        "Credit risk",
+        "Portfolio"
+      ],
+      "work_mode": "Hybrid",
+      "eligibility": "eligible",
+      "gates": {
+        "domain": true,
+        "seniority": true,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "description_available",
+      "posted_at": "2026-11-04T00:00:00+00:00",
+      "posted_evidence": "2026-11-04",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "7829dc6d450c990524102ff3",
+      "legacy_ids": [
+        "7829dc6d450c990524102ff3"
+      ],
+      "canonical_url": "https://in.indeed.com/viewjob?jk=4f6bcf0915199503",
+      "source_urls": [
+        "https://in.indeed.com/viewjob?jk=4f6bcf0915199503"
+      ],
+      "sources": [
+        "indeed"
+      ],
+      "first_seen": "2026-11-09T08:31:09.803545+00:00",
+      "description_available": true,
+      "description_excerpt": "* New Delhi\n* India\n* Sales \\& Support\n* Full time\n* 11/4/2026\n* J00179959\n\n\n  \nTo play this video, please accept Functional \\& Personalisation cookies in your cookie preferences.\n\n\nManage Preferences\n\n\nEquifax is where you can power your possible. If you want to achieve your true potential, chart new paths, develop new skills, collaborate with bright minds, and make a meaningful impact, we want to hear from you.\n\n\nSynopsis of the role:\n\n\nDrive revenue growth, acquire new client logos, and expan",
+      "possible_duplicate": false
+    },
+    {
+      "title": "Associate Manager",
+      "company": "Standard Chartered Bank",
+      "location": "KA, IN (India)",
+      "job_url": "https://in.indeed.com/viewjob?jk=c685629b8890e7ca",
+      "date_posted": "2026-11-06",
+      "site": "indeed",
+      "indirect": false,
+      "last_seen": "2026-11-09T08:30:53.707146+00:00",
+      "match_score": 80,
+      "tier": "good",
+      "matched_tags": [
+        "Credit risk",
+        "Regulatory",
+        "Portfolio",
+        "SAS",
+        "PYTHON",
+        "SQL"
+      ],
+      "work_mode": "Hybrid",
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": true,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [
+        "sas",
+        "sql",
+        "python",
+        "portfolio monitoring"
+      ],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "description_available",
+      "posted_at": "2026-11-06T00:00:00+00:00",
+      "posted_evidence": "2026-11-06",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "d21e4c734983019f2ad99396",
+      "legacy_ids": [
+        "d21e4c734983019f2ad99396"
+      ],
+      "canonical_url": "https://in.indeed.com/viewjob?jk=c685629b8890e7ca",
+      "source_urls": [
+        "https://in.indeed.com/viewjob?jk=c685629b8890e7ca"
+      ],
+      "sources": [
+        "indeed"
+      ],
+      "first_seen": "2026-11-09T08:31:09.800295+00:00",
+      "description_available": true,
+      "description_excerpt": "Requisition Number: 62910\nJob Location: Bangalore, IND\nGlobal Grade: Band 8\nWork Type: Hybrid Working\nEmployment Type: Permanent\nPosting Start Date: 06/11/2026\nPosting End Date: 13/11/2026\n:\n**Key Responsibilities**\n------------------------\n\n* RRS is an integral part of Risk Ops \\-Collections in GBS which supports the Consumer, Private \\& Business Banking (CPBB) Risk Function by,\n\n• Production and distribution of CPBB risk reports including Regulatory and Priority reports as per the agreed timel",
+      "possible_duplicate": false
+    },
     {
       "title": "Wholesale Credit Risk - In-Business Quality Assurance – Vice President - LinkedIn India",
       "company": "LinkedIn India",
@@ -117,21 +847,21 @@
       "possible_duplicate": false
     },
     {
-      "title": "Credit Risk Review, Vice President",
-      "company": "Citi",
-      "location": "MH, IN",
-      "job_url": "https://in.indeed.com/viewjob?jk=2c1737a86b6cfc8a",
-      "date_posted": "2026-11-02",
-      "site": "indeed",
+      "title": "Practice Director - Credit Risk & BFSI Solutions",
+      "company": "PayU",
+      "location": "",
+      "job_url": "https://www.linkedin.com/jobs/view/4485090004",
+      "date_posted": "2026-11-04",
+      "site": "linkedin",
       "indirect": false,
-      "last_seen": "2026-11-09T06:39:29.770666+00:00",
+      "last_seen": "2026-11-09T08:30:58.132377+00:00",
       "match_score": 77,
       "tier": "good",
       "matched_tags": [
         "Seniority",
         "Credit risk"
       ],
-      "work_mode": "Hybrid",
+      "work_mode": "",
       "eligibility": "needs_review",
       "gates": {
         "domain": true,
@@ -145,32 +875,90 @@
         "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
       ],
       "evidence_confidence": "limited",
-      "posted_at": "2026-11-02T00:00:00+00:00",
-      "posted_evidence": "2026-11-02",
+      "posted_at": "2026-11-04T00:00:00+00:00",
+      "posted_evidence": "2026-11-04",
       "availability": "unverified",
       "last_checked": null,
       "check_note": "No live availability verification performed",
       "fit_assessment": "candidate_profile_missing",
-      "id": "df3b150fe8b65c82ce3af6f2",
+      "id": "ebc093c7e62cb0f5bba1061e",
       "legacy_ids": [
-        "df3b150fe8b65c82ce3af6f2"
+        "ebc093c7e62cb0f5bba1061e"
       ],
-      "canonical_url": "https://in.indeed.com/viewjob?jk=2c1737a86b6cfc8a",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4485090004",
       "source_urls": [
-        "https://in.indeed.com/viewjob?jk=2c1737a86b6cfc8a"
+        "https://www.linkedin.com/jobs/view/4485090004"
       ],
       "sources": [
-        "indeed"
+        "linkedin"
       ],
-      "first_seen": "2026-11-09T06:41:30.169004+00:00",
+      "first_seen": "2026-11-09T08:31:09.812062+00:00",
       "description_available": false,
       "description_excerpt": "",
       "possible_duplicate": false
     },
     {
+      "title": "Sr. Analyst Quantitative & Risk Analytics 4B",
+      "company": "Genpact",
+      "location": "HR, IN (India)",
+      "job_url": "https://in.indeed.com/viewjob?jk=80845074ae91dc3f",
+      "date_posted": "2026-11-04",
+      "site": "indeed",
+      "indirect": false,
+      "last_seen": "2026-11-09T08:30:53.707146+00:00",
+      "match_score": 68,
+      "tier": "good",
+      "matched_tags": [
+        "Credit risk",
+        "Models",
+        "Policy",
+        "Governance",
+        "SAS",
+        "PYTHON"
+      ],
+      "work_mode": "Remote",
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": true,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [
+        "sas",
+        "python"
+      ],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "description_available",
+      "posted_at": "2026-11-04T00:00:00+00:00",
+      "posted_evidence": "2026-11-04",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "a925870f90a6fc2483c62938",
+      "legacy_ids": [
+        "a925870f90a6fc2483c62938"
+      ],
+      "canonical_url": "https://in.indeed.com/viewjob?jk=80845074ae91dc3f",
+      "source_urls": [
+        "https://in.indeed.com/viewjob?jk=80845074ae91dc3f"
+      ],
+      "sources": [
+        "indeed"
+      ],
+      "first_seen": "2026-11-09T08:31:09.804638+00:00",
+      "description_available": true,
+      "description_excerpt": "Sr. Analyst, Quantitative Risk Analytics**Ready to turn bold ideas into real\\-world impact?**  \n\n At Genpact, we don’t just adapt to change, we lead it. AI and digital innovation are transforming the way businesses work, and we’re at the forefront of it. Genpact’s AI Gigafactory, our industry\\-first accelerator, exemplifies how we scale advanced technology solutions to help global enterprises work smarter, grow faster, and transform at scale. Whether tackling complex challenges through large\\-sc",
+      "possible_duplicate": false
+    },
+    {
       "title": "RSK-Market Risk",
       "company": "Nomura",
-      "location": "MH, IN",
+      "location": "MH, IN (India)",
       "job_url": "https://in.indeed.com/viewjob?jk=2cf0b13e3ec887f8",
       "date_posted": "2026-11-03",
       "site": "indeed",
@@ -191,7 +979,7 @@
       "gates": {
         "domain": true,
         "seniority": false,
-        "india": false
+        "india": true
       },
       "reasons": [
         "python",
@@ -200,7 +988,6 @@
       "supported_skill_matches": [],
       "gaps": [
         "Seniority or equivalent scope needs review",
-        "India work location/eligibility needs verification",
         "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
       ],
       "evidence_confidence": "description_available",
@@ -227,9 +1014,66 @@
       "possible_duplicate": false
     },
     {
+      "title": "Manager, Acquisition Fraud Strategy (L09)",
+      "company": "Synchrony",
+      "location": "TS, IN (India)",
+      "job_url": "https://in.indeed.com/viewjob?jk=373e73e62c115696",
+      "date_posted": "2026-11-03",
+      "site": "indeed",
+      "indirect": false,
+      "last_seen": "2026-11-09T08:30:53.707146+00:00",
+      "match_score": 58,
+      "tier": "monitor",
+      "matched_tags": [
+        "Credit risk",
+        "Models",
+        "Portfolio",
+        "SAS",
+        "SQL"
+      ],
+      "work_mode": "Remote",
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": true,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [
+        "sas",
+        "sql"
+      ],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "description_available",
+      "posted_at": "2026-11-03T00:00:00+00:00",
+      "posted_evidence": "2026-11-03",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "d91694db79414db26665ba81",
+      "legacy_ids": [
+        "d91694db79414db26665ba81"
+      ],
+      "canonical_url": "https://in.indeed.com/viewjob?jk=373e73e62c115696",
+      "source_urls": [
+        "https://in.indeed.com/viewjob?jk=373e73e62c115696"
+      ],
+      "sources": [
+        "indeed"
+      ],
+      "first_seen": "2026-11-09T08:31:09.806113+00:00",
+      "description_available": true,
+      "description_excerpt": "**Overview**\n------------\n\n\n* Location: India; Hyderabad, India; Delhi, India; Bengaluru, India; Mumbai, India; Kolkata, India\n* Salary: N/A\n**About Us**\n------------\n\n\nSynchrony is more than a financial services company, we’re a team of passionate innovators committed to delivering best\\-in\\-class solutions that support millions of customers across the U.S. With a bold focus on technology, data, and digital innovation, we create meaningful experiences that simplify lives and enable financial we",
+      "possible_duplicate": false
+    },
+    {
       "title": "Collateral Specialist - US Shift",
       "company": "UBS",
-      "location": "TS, IN",
+      "location": "TS, IN (India)",
       "job_url": "https://in.indeed.com/viewjob?jk=38d08f834f923f78",
       "date_posted": "2026-11-02",
       "site": "indeed",
@@ -247,13 +1091,12 @@
       "gates": {
         "domain": true,
         "seniority": false,
-        "india": false
+        "india": true
       },
       "reasons": [],
       "supported_skill_matches": [],
       "gaps": [
         "Seniority or equivalent scope needs review",
-        "India work location/eligibility needs verification",
         "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
       ],
       "evidence_confidence": "description_available",
@@ -278,7 +1121,142 @@
       "description_available": true,
       "description_excerpt": "**Collateral Specialist \\- US Shift**\n=====================================\n\n\nIndia\n\n\nOperations\n\n\nGroup Functions\n\n\nJob Reference \\#\n\n\n344580BR\n\n\nCity\n\n\nHyderabad\n\n\nJob Type\n\n\nFull Time\n\n\nKey responsibilities\n\n\nWould you like to help us enhance our client experience, now and for the future? Are you client orientated with high risk awareness?\n  \n\n  \n\nIn Group Operations supporting IB, we are the experts in how the firm operates. Our vision is to always enhance the client experience now and for t",
       "possible_duplicate": false
+    },
+    {
+      "title": "Mortgage Portfolio Risk Management Analyst",
+      "company": "Citi",
+      "location": "Haryana, India",
+      "job_url": "https://www.linkedin.com/jobs/view/4486923409",
+      "date_posted": "2026-11-05",
+      "site": "linkedin",
+      "indirect": false,
+      "last_seen": "2026-11-09T08:30:55.272353+00:00",
+      "match_score": 32,
+      "tier": "stretch",
+      "matched_tags": [
+        "Credit risk"
+      ],
+      "work_mode": "",
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": true,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-05T00:00:00+00:00",
+      "posted_evidence": "2026-11-05",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "8e718b7c3feea2eb08c7e350",
+      "legacy_ids": [
+        "8e718b7c3feea2eb08c7e350"
+      ],
+      "canonical_url": "https://www.linkedin.com/jobs/view/4486923409",
+      "source_urls": [
+        "https://www.linkedin.com/jobs/view/4486923409"
+      ],
+      "sources": [
+        "linkedin"
+      ],
+      "first_seen": "2026-11-09T08:31:09.810327+00:00",
+      "description_available": false,
+      "description_excerpt": "",
+      "possible_duplicate": false
+    },
+    {
+      "title": "Analyst BCO",
+      "company": "HSBC",
+      "location": "MH, IN (India)",
+      "job_url": "https://in.indeed.com/viewjob?jk=cc0ee78fef58b53c",
+      "date_posted": "2026-11-01",
+      "site": "indeed",
+      "indirect": false,
+      "last_seen": "2026-11-09T08:30:53.707146+00:00",
+      "match_score": 26,
+      "tier": "stretch",
+      "matched_tags": [
+        "Credit risk",
+        "Policy"
+      ],
+      "work_mode": "",
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": true,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "description_available",
+      "posted_at": "2026-11-01T00:00:00+00:00",
+      "posted_evidence": "2026-11-01",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "3612652eb2f25033b83ceac7",
+      "legacy_ids": [
+        "3612652eb2f25033b83ceac7"
+      ],
+      "canonical_url": "https://in.indeed.com/viewjob?jk=cc0ee78fef58b53c",
+      "source_urls": [
+        "https://in.indeed.com/viewjob?jk=cc0ee78fef58b53c"
+      ],
+      "sources": [
+        "indeed"
+      ],
+      "first_seen": "2026-11-09T08:31:09.809133+00:00",
+      "description_available": true,
+      "description_excerpt": "**Some careers open more doors than others.**\n\n  \n\nIf you’re looking for a career that will unlock new opportunities, join HSBC and experience the possibilities. Whether you want a career that could take you to the top, or simply take you in an exciting new direction, HSBC offers opportunities, support and rewards that will take you further.\n\n **Role Purpose**\n\n  \n\nCredit \\& Capital Management (C\\&CM) under CIB are in the process of implementing a new, modern, and consistent E2E operating model.",
+      "possible_duplicate": false
     }
   ],
-  "note": "Checkpoint time is not publication time. Descriptions-screened counts observations, not unique verified screenings. No live listing verifier is enabled. Posting dates are source-reported. Coverage is partial and best-effort."
+  "note": "Checkpoint time is not publication time. Descriptions-screened counts observations, not unique verified screenings. No live listing verifier is enabled. Posting dates are source-reported. Coverage is partial and best-effort.",
+  "query_plan_version": "free-first-1",
+  "supplemental_sources": {
+    "lever:PayU": {
+      "status": "unavailable_or_unvalidated",
+      "error_type": "HTTPError"
+    },
+    "lever:OakNorth": {
+      "status": "unavailable_or_unvalidated",
+      "error_type": "HTTPError"
+    },
+    "greenhouse": {
+      "status": "not_configured",
+      "reason": "No employer board identifier has been validated yet"
+    },
+    "email_alerts": {
+      "status": "not_configured",
+      "reason": "GitHub workflow has not been granted Gmail OAuth access"
+    },
+    "naukri_direct": {
+      "status": "interaction_required",
+      "reason": "Existing diagnostic returned recaptcha required; no bypass attempted"
+    },
+    "serpapi": {
+      "status": "not_enabled_or_configured"
+    },
+    "adzuna": {
+      "status": "not_enabled_or_configured"
+    }
+  },
+  "description_queue": {
+    "pending_unique_urls": 33,
+    "state": "saved_discovery_metadata_only; separate description retrieval is not enabled yet"
+  },
+  "coverage_scope": "One discovery page per selected query; not full pagination or exhaustive coverage. Naukri CAPTCHA endpoint and Google News RSS are not requested by this entry point."
 }
