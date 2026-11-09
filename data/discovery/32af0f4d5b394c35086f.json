@@ -5,7 +5,7 @@
     "location": "Bengaluru, Karnataka, India",
     "job_url": "https://www.linkedin.com/jobs/view/4471102381",
     "date_posted": "2026-11-05",
-    "discovered_at": "2026-11-09T08:32:35.039288+00:00",
+    "discovered_at": "2026-11-09T16:31:43.881783+00:00",
     "detail_state": "pending"
   },
   {
@@ -14,7 +14,7 @@
     "location": "Goregaon, Maharashtra, India",
     "job_url": "https://www.linkedin.com/jobs/view/4462469802",
     "date_posted": "2026-11-05",
-    "discovered_at": "2026-11-09T08:32:35.039288+00:00",
+    "discovered_at": "2026-11-09T16:31:43.881783+00:00",
     "detail_state": "pending"
   },
   {
@@ -23,7 +23,7 @@
     "location": "Mumbai, Maharashtra, India",
     "job_url": "https://www.linkedin.com/jobs/view/4486589776",
     "date_posted": "2026-11-05",
-    "discovered_at": "2026-11-09T08:32:35.039288+00:00",
+    "discovered_at": "2026-11-09T16:31:43.881783+00:00",
     "detail_state": "pending"
   },
   {
@@ -41,7 +41,7 @@
     "location": "Pune District, Maharashtra, India",
     "job_url": "https://www.linkedin.com/jobs/view/4486326780",
     "date_posted": "2026-11-04",
-    "discovered_at": "2026-11-09T08:32:35.039288+00:00",
+    "discovered_at": "2026-11-09T16:31:43.881783+00:00",
     "detail_state": "pending"
   },
   {
@@ -50,7 +50,7 @@
     "location": "Chennai, Tamil Nadu, India",
     "job_url": "https://www.linkedin.com/jobs/view/4486501492",
     "date_posted": "2026-11-04",
-    "discovered_at": "2026-11-09T08:32:35.039288+00:00",
+    "discovered_at": "2026-11-09T16:31:43.881783+00:00",
     "detail_state": "pending"
   },
   {
@@ -59,7 +59,7 @@
     "location": "Mumbai, Maharashtra, India",
     "job_url": "https://www.linkedin.com/jobs/view/4485066265",
     "date_posted": "2026-11-04",
-    "discovered_at": "2026-11-09T08:32:35.039288+00:00",
+    "discovered_at": "2026-11-09T16:31:43.881783+00:00",
     "detail_state": "pending"
   },
   {
@@ -68,7 +68,7 @@
     "location": "Hyderabad, Telangana, India",
     "job_url": "https://www.linkedin.com/jobs/view/4486029388",
     "date_posted": "2026-11-03",
-    "discovered_at": "2026-11-09T08:32:35.039288+00:00",
+    "discovered_at": "2026-11-09T16:31:43.881783+00:00",
     "detail_state": "pending"
   },
   {
@@ -86,7 +86,25 @@
     "location": "",
     "job_url": "https://www.linkedin.com/jobs/view/4487668677",
     "date_posted": "",
-    "discovered_at": "2026-11-09T08:32:35.039288+00:00",
+    "discovered_at": "2026-11-09T16:31:43.881783+00:00",
+    "detail_state": "pending"
+  },
+  {
+    "title": "Head of Compliance APAC",
+    "company": "Ericsson",
+    "location": "Delhi Cantonment, Delhi, India",
+    "job_url": "https://www.linkedin.com/jobs/view/4487322517",
+    "date_posted": "2026-11-06",
+    "discovered_at": "2026-11-09T16:31:43.881783+00:00",
+    "detail_state": "pending"
+  },
+  {
+    "title": "Deputy Director - Teamcenter Development",
+    "company": "PepsiCo",
+    "location": "Hyderabad, Telangana, India",
+    "job_url": "https://www.linkedin.com/jobs/view/4477070884",
+    "date_posted": "2026-11-05",
+    "discovered_at": "2026-11-09T16:31:43.881783+00:00",
     "detail_state": "pending"
   }
 ]

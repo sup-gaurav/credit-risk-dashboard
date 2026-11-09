@@ -5,7 +5,7 @@
     "location": "Madhya Pradesh, India",
     "job_url": "https://www.linkedin.com/jobs/view/4463358570",
     "date_posted": "2026-11-07",
-    "discovered_at": "2026-11-09T08:31:43.791413+00:00",
+    "discovered_at": "2026-11-09T16:30:52.399059+00:00",
     "detail_state": "pending"
   },
   {
@@ -14,7 +14,7 @@
     "location": "Ahmedabad, Gujarat, India",
     "job_url": "https://www.linkedin.com/jobs/view/4488153523",
     "date_posted": "2026-11-06",
-    "discovered_at": "2026-11-09T08:31:43.791413+00:00",
+    "discovered_at": "2026-11-09T16:30:52.399059+00:00",
     "detail_state": "pending"
   },
   {
@@ -23,7 +23,7 @@
     "location": "Mumbai, Maharashtra, India",
     "job_url": "https://www.linkedin.com/jobs/view/4443376178",
     "date_posted": "2026-11-06",
-    "discovered_at": "2026-11-09T08:31:43.791413+00:00",
+    "discovered_at": "2026-11-09T16:30:52.399059+00:00",
     "detail_state": "pending"
   },
   {
@@ -32,7 +32,7 @@
     "location": "Mumbai, Maharashtra, India",
     "job_url": "https://www.linkedin.com/jobs/view/4443363661",
     "date_posted": "2026-11-06",
-    "discovered_at": "2026-11-09T08:31:43.791413+00:00",
+    "discovered_at": "2026-11-09T16:30:52.399059+00:00",
     "detail_state": "pending"
   },
   {
@@ -41,7 +41,7 @@
     "location": "Mumbai, Maharashtra, India",
     "job_url": "https://www.linkedin.com/jobs/view/4486907862",
     "date_posted": "2026-11-05",
-    "discovered_at": "2026-11-09T08:31:43.791413+00:00",
+    "discovered_at": "2026-11-09T16:30:52.399059+00:00",
     "detail_state": "pending"
   },
   {
@@ -50,7 +50,7 @@
     "location": "Mumbai, Maharashtra, India",
     "job_url": "https://www.linkedin.com/jobs/view/4443371322",
     "date_posted": "2026-11-05",
-    "discovered_at": "2026-11-09T08:31:43.791413+00:00",
+    "discovered_at": "2026-11-09T16:30:52.399059+00:00",
     "detail_state": "pending"
   },
   {
@@ -59,7 +59,7 @@
     "location": "Delhi, India",
     "job_url": "https://www.linkedin.com/jobs/view/4480962206",
     "date_posted": "2026-11-05",
-    "discovered_at": "2026-11-09T08:31:43.791413+00:00",
+    "discovered_at": "2026-11-09T16:30:52.399059+00:00",
     "detail_state": "pending"
   },
   {
@@ -68,7 +68,7 @@
     "location": "Mumbai, Maharashtra, India",
     "job_url": "https://www.linkedin.com/jobs/view/4486922402",
     "date_posted": "2026-11-05",
-    "discovered_at": "2026-11-09T08:31:43.791413+00:00",
+    "discovered_at": "2026-11-09T16:30:52.399059+00:00",
     "detail_state": "pending"
   },
   {
@@ -77,7 +77,7 @@
     "location": "Mumbai, Maharashtra, India",
     "job_url": "https://www.linkedin.com/jobs/view/4487728983",
     "date_posted": "2026-11-05",
-    "discovered_at": "2026-11-09T08:31:43.791413+00:00",
+    "discovered_at": "2026-11-09T16:30:52.399059+00:00",
     "detail_state": "pending"
   },
   {
@@ -87,6 +87,15 @@
     "job_url": "https://www.linkedin.com/jobs/view/4448575275",
     "date_posted": "2026-11-02",
     "discovered_at": "2026-11-09T08:31:43.791413+00:00",
+    "detail_state": "pending"
+  },
+  {
+    "title": "VP - Credit Officer (Structured Credit and Real Estate Underwriting)",
+    "company": "Citi",
+    "location": "Mumbai, Maharashtra, India",
+    "job_url": "https://www.linkedin.com/jobs/view/4486910751",
+    "date_posted": "2026-11-05",
+    "discovered_at": "2026-11-09T16:30:52.399059+00:00",
     "detail_state": "pending"
   }
 ]

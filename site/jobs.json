@@ -1,30 +1,30 @@
 {
-  "last_scan": "2026-11-09T16:29:45.926836+00:00",
-  "checkpoint_at": "2026-11-09T16:29:45.926836+00:00",
+  "last_scan": "2026-11-09T16:34:43.882639+00:00",
+  "checkpoint_at": "2026-11-09T16:34:43.882639+00:00",
   "status": "batch_completed",
   "run_id": "42655227845",
-  "total_scanned": 81,
-  "descriptions_screened_observations": 41,
-  "actionable": 42,
+  "total_scanned": 1718,
+  "descriptions_screened_observations": 518,
+  "actionable": 49,
   "query_count": 120,
-  "selected_queries": 4,
-  "completed_query_source_tasks": 8,
-  "query_cursor": 4,
+  "selected_queries": 116,
+  "completed_query_source_tasks": 232,
+  "query_cursor": 0,
   "sources": {
     "glassdoor": {
       "disabled": true,
       "reason": "Disabled after repeated 403 responses"
     },
     "indeed": {
-      "requests_ok": 4,
+      "requests_ok": 120,
       "requests_failed": 0,
-      "raw_results": 41,
+      "raw_results": 518,
       "errors": []
     },
     "linkedin": {
-      "requests_ok": 4,
+      "requests_ok": 120,
       "requests_failed": 0,
-      "raw_results": 40,
+      "raw_results": 1200,
       "errors": []
     },
     "lever:PayU": {
@@ -58,13 +58,71 @@
     "glassdoor": "Disabled after repeated 403 responses"
   },
   "funnel": {
-    "raw_observations_this_run": 81,
-    "unique_retained": 42,
-    "eligible": 21,
-    "needs_review": 21,
+    "raw_observations_this_run": 1718,
+    "unique_retained": 49,
+    "eligible": 22,
+    "needs_review": 27,
     "availability_verified": 0
   },
   "jobs": [
+    {
+      "title": "Asset Quality, AVP",
+      "company": "Deutsche Bank",
+      "location": "MH, IN (India)",
+      "job_url": "https://in.indeed.com/viewjob?jk=8e64126c3ae6339a",
+      "date_posted": "2026-11-09",
+      "site": "indeed",
+      "indirect": false,
+      "last_seen": "2026-11-09T16:32:27.821530+00:00",
+      "match_score": 103,
+      "tier": "hot",
+      "matched_tags": [
+        "Seniority",
+        "Credit risk",
+        "Models",
+        "Regulatory",
+        "SQL"
+      ],
+      "work_mode": "",
+      "eligibility": "eligible",
+      "gates": {
+        "domain": true,
+        "seniority": true,
+        "india": true
+      },
+      "reasons": [
+        "sql",
+        "pd",
+        "lgd",
+        "ead"
+      ],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "description_available",
+      "posted_at": "2026-11-09T00:00:00+00:00",
+      "posted_evidence": "2026-11-09",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "c47659588913736c4f38a5ed",
+      "legacy_ids": [
+        "c47659588913736c4f38a5ed"
+      ],
+      "canonical_url": "https://in.indeed.com/viewjob?jk=8e64126c3ae6339a",
+      "source_urls": [
+        "https://in.indeed.com/viewjob?jk=8e64126c3ae6339a"
+      ],
+      "sources": [
+        "indeed"
+      ],
+      "first_seen": "2026-11-09T16:34:43.781228+00:00",
+      "description_available": true,
+      "description_excerpt": "**Job Description:**\n--------------------\n\n**Job Title: Asset Quality, AVP**\n\n**Location: Pune, India**\n\n**Corporate Title:** **Assistant Vice President**\n\n**Role Description**\n\n* The CRDU Associate is primarily responsible for supervising day to day operations, workload balancing and prioritization, quality assurance checks, issue monitoring and escalation, performance management and development of direct reports, and relationship building with stakeholders.\n* The role of Asset Quality is to pr",
+      "possible_duplicate": false
+    },
     {
       "title": "Senior Wholesale Credit Risk Researcher, SVP (Hybrid)",
       "company": "Citi",
@@ -73,7 +131,7 @@
       "date_posted": "2026-11-05",
       "site": "linkedin",
       "indirect": false,
-      "last_seen": "2026-11-09T16:29:40.610358+00:00",
+      "last_seen": "2026-11-09T16:34:31.063998+00:00",
       "match_score": 101,
       "tier": "hot",
       "matched_tags": [
@@ -124,7 +182,7 @@
       "date_posted": "2026-11-05",
       "site": "indeed",
       "indirect": false,
-      "last_seen": "2026-11-09T08:33:10.916227+00:00",
+      "last_seen": "2026-11-09T16:32:27.821530+00:00",
       "match_score": 96,
       "tier": "hot",
       "matched_tags": [
@@ -179,7 +237,7 @@
       "date_posted": "2026-11-05",
       "site": "linkedin",
       "indirect": false,
-      "last_seen": "2026-11-09T08:34:51.962204+00:00",
+      "last_seen": "2026-11-09T16:34:31.063998+00:00",
       "match_score": 95,
       "tier": "hot",
       "matched_tags": [
@@ -232,7 +290,7 @@
       "date_posted": "2026-11-05",
       "site": "linkedin",
       "indirect": false,
-      "last_seen": "2026-11-09T08:34:51.962204+00:00",
+      "last_seen": "2026-11-09T16:34:31.063998+00:00",
       "match_score": 95,
       "tier": "hot",
       "matched_tags": [
@@ -285,7 +343,7 @@
       "date_posted": "2026-11-04",
       "site": "indeed",
       "indirect": false,
-      "last_seen": "2026-11-09T16:29:39.092361+00:00",
+      "last_seen": "2026-11-09T16:34:40.543609+00:00",
       "match_score": 91,
       "tier": "hot",
       "matched_tags": [
@@ -342,7 +400,7 @@
       "date_posted": "2026-11-06",
       "site": "linkedin",
       "indirect": false,
-      "last_seen": "2026-11-09T08:34:58.404746+00:00",
+      "last_seen": "2026-11-09T16:34:38.225683+00:00",
       "match_score": 87,
       "tier": "hot",
       "matched_tags": [
@@ -392,7 +450,7 @@
       "date_posted": "2026-11-05",
       "site": "linkedin",
       "indirect": false,
-      "last_seen": "2026-11-09T16:29:44.672677+00:00",
+      "last_seen": "2026-11-09T16:34:40.033524+00:00",
       "match_score": 87,
       "tier": "hot",
       "matched_tags": [
@@ -442,7 +500,7 @@
       "date_posted": "2026-11-05",
       "site": "linkedin",
       "indirect": false,
-      "last_seen": "2026-11-09T16:29:40.610358+00:00",
+      "last_seen": "2026-11-09T16:34:24.927229+00:00",
       "match_score": 87,
       "tier": "hot",
       "matched_tags": [
@@ -492,7 +550,7 @@
       "date_posted": "2026-11-05",
       "site": "linkedin",
       "indirect": false,
-      "last_seen": "2026-11-09T08:32:15.735950+00:00",
+      "last_seen": "2026-11-09T16:31:27.399387+00:00",
       "match_score": 87,
       "tier": "hot",
       "matched_tags": [
@@ -542,7 +600,7 @@
       "date_posted": "2026-11-06",
       "site": "indeed",
       "indirect": false,
-      "last_seen": "2026-11-09T08:33:10.916227+00:00",
+      "last_seen": "2026-11-09T16:32:27.821530+00:00",
       "match_score": 87,
       "tier": "hot",
       "matched_tags": [
@@ -593,7 +651,7 @@
       "date_posted": "2026-11-03",
       "site": "linkedin",
       "indirect": false,
-      "last_seen": "2026-11-09T16:29:44.672677+00:00",
+      "last_seen": "2026-11-09T16:34:40.033524+00:00",
       "match_score": 87,
       "tier": "hot",
       "matched_tags": [
@@ -643,7 +701,7 @@
       "date_posted": "2026-11-05",
       "site": "linkedin",
       "indirect": false,
-      "last_seen": "2026-11-09T08:34:51.962204+00:00",
+      "last_seen": "2026-11-09T16:34:31.063998+00:00",
       "match_score": 87,
       "tier": "hot",
       "matched_tags": [
@@ -693,7 +751,7 @@
       "date_posted": "2026-11-03",
       "site": "indeed",
       "indirect": false,
-      "last_seen": "2026-11-09T16:29:39.092361+00:00",
+      "last_seen": "2026-11-09T16:33:32.283358+00:00",
       "match_score": 87,
       "tier": "hot",
       "matched_tags": [
@@ -749,7 +807,7 @@
       "date_posted": "2026-11-03",
       "site": "indeed",
       "indirect": false,
-      "last_seen": "2026-11-09T16:29:39.092361+00:00",
+      "last_seen": "2026-11-09T16:33:36.812503+00:00",
       "match_score": 85,
       "tier": "hot",
       "matched_tags": [
@@ -803,7 +861,7 @@
       "date_posted": "2026-11-08",
       "site": "linkedin",
       "indirect": false,
-      "last_seen": "2026-11-09T16:29:43.045494+00:00",
+      "last_seen": "2026-11-09T16:34:36.920136+00:00",
       "match_score": 83,
       "tier": "good",
       "matched_tags": [
@@ -853,7 +911,7 @@
       "date_posted": "2026-11-05",
       "site": "linkedin",
       "indirect": false,
-      "last_seen": "2026-11-09T16:29:44.672677+00:00",
+      "last_seen": "2026-11-09T16:34:38.225683+00:00",
       "match_score": 80,
       "tier": "good",
       "matched_tags": [
@@ -903,7 +961,7 @@
       "date_posted": "2026-11-02",
       "site": "indeed",
       "indirect": false,
-      "last_seen": "2026-11-09T16:29:41.824452+00:00",
+      "last_seen": "2026-11-09T16:32:42.233813+00:00",
       "match_score": 77,
       "tier": "good",
       "matched_tags": [
@@ -953,7 +1011,7 @@
       "date_posted": "2026-11-05",
       "site": "linkedin",
       "indirect": false,
-      "last_seen": "2026-11-09T16:29:43.045494+00:00",
+      "last_seen": "2026-11-09T16:34:41.660842+00:00",
       "match_score": 77,
       "tier": "good",
       "matched_tags": [
@@ -1003,7 +1061,7 @@
       "date_posted": "2026-11-05",
       "site": "linkedin",
       "indirect": false,
-      "last_seen": "2026-11-09T16:29:40.610358+00:00",
+      "last_seen": "2026-11-09T16:34:27.940911+00:00",
       "match_score": 77,
       "tier": "good",
       "matched_tags": [
@@ -1053,7 +1111,7 @@
       "date_posted": "2026-11-04",
       "site": "indeed",
       "indirect": false,
-      "last_seen": "2026-11-09T08:35:00.128526+00:00",
+      "last_seen": "2026-11-09T16:34:40.543609+00:00",
       "match_score": 71,
       "tier": "good",
       "matched_tags": [
@@ -1104,7 +1162,7 @@
       "date_posted": "2026-11-04",
       "site": "indeed",
       "indirect": false,
-      "last_seen": "2026-11-09T16:29:39.092361+00:00",
+      "last_seen": "2026-11-09T16:33:54.860273+00:00",
       "match_score": 71,
       "tier": "good",
       "matched_tags": [
@@ -1148,6 +1206,136 @@
       "possible_duplicate": false
     },
     {
+      "title": "Model and Credit Risk Senior Consultant",
+      "company": "Crowe Capability Center - India",
+      "location": "TS, IN (India)",
+      "job_url": "https://in.indeed.com/viewjob?jk=8676b54cb0417a21",
+      "date_posted": "2026-11-09",
+      "site": "indeed",
+      "indirect": false,
+      "last_seen": "2026-11-09T16:34:40.543609+00:00",
+      "match_score": 118,
+      "tier": "hot",
+      "matched_tags": [
+        "Credit risk",
+        "Models",
+        "Regulatory",
+        "Portfolio",
+        "SAS",
+        "PYTHON",
+        "SQL",
+        "POWER BI",
+        "TABLEAU"
+      ],
+      "work_mode": "",
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": true,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [
+        "sas",
+        "sql",
+        "python",
+        "pd",
+        "lgd",
+        "model validation"
+      ],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "description_available",
+      "posted_at": "2026-11-09T00:00:00+00:00",
+      "posted_evidence": "2026-11-09",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "2fbf269d9e2dfe79e409a7cb",
+      "legacy_ids": [
+        "2fbf269d9e2dfe79e409a7cb"
+      ],
+      "canonical_url": "https://in.indeed.com/viewjob?jk=8676b54cb0417a21",
+      "source_urls": [
+        "https://in.indeed.com/viewjob?jk=8676b54cb0417a21"
+      ],
+      "sources": [
+        "indeed"
+      ],
+      "first_seen": "2026-11-09T16:34:43.870421+00:00",
+      "description_available": true,
+      "description_excerpt": "**Your Journey at Crowe Starts Here:**\n\n\nAt Crowe, you can build a meaningful and rewarding career. With real flexibility to balance work with life moments, you’re trusted to deliver results and make an impact. We embrace you for who you are, care for your well\\-being, and nurture your career. Everyone has equitable access to opportunities for career growth and leadership. Over our 80\\-year history, delivering excellent service through innovation has been a core part of our DNA across our audit,",
+      "possible_duplicate": false
+    },
+    {
+      "title": "Credit Risk Modeler",
+      "company": "Ford Motor Company",
+      "location": "TN, IN (India)",
+      "job_url": "https://in.indeed.com/viewjob?jk=91d721e30d536aa8",
+      "date_posted": "2026-11-09",
+      "site": "indeed",
+      "indirect": false,
+      "last_seen": "2026-11-09T16:34:40.543609+00:00",
+      "match_score": 106,
+      "tier": "hot",
+      "matched_tags": [
+        "Credit risk",
+        "Models",
+        "Regulatory",
+        "Portfolio",
+        "SAS",
+        "PYTHON",
+        "SQL"
+      ],
+      "work_mode": "",
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": true,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [
+        "sas",
+        "sql",
+        "python",
+        "ifrs 9",
+        "pd",
+        "lgd",
+        "ead",
+        "model validation"
+      ],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "description_available",
+      "posted_at": "2026-11-09T00:00:00+00:00",
+      "posted_evidence": "2026-11-09",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "1b26f24a76980de52b6e7fe4",
+      "legacy_ids": [
+        "1b26f24a76980de52b6e7fe4"
+      ],
+      "canonical_url": "https://in.indeed.com/viewjob?jk=91d721e30d536aa8",
+      "source_urls": [
+        "https://in.indeed.com/viewjob?jk=91d721e30d536aa8"
+      ],
+      "sources": [
+        "indeed"
+      ],
+      "first_seen": "2026-11-09T16:34:43.869990+00:00",
+      "description_available": true,
+      "description_excerpt": "Job ID\n73565\nCategory\nGlobal Data Insight \\& Analytics\nLocation\nChennai, India\nWork Type\nOn\\-site  \n\nPotential candidates should have knowledge in general math modeling, Machine Learning (ML) and related Operations Research (OR) and simulation techniques. Candidates should have hands\\-on experience in developing quantitative models. They should possess the ability to translate a business problem into an analytical problem, recommend, implement and validate quantitative models, and generate/deliv",
+      "possible_duplicate": false
+    },
+    {
       "title": "Associate Manager",
       "company": "Standard Chartered Bank",
       "location": "KA, IN (India)",
@@ -1155,7 +1343,7 @@
       "date_posted": "2026-11-06",
       "site": "indeed",
       "indirect": false,
-      "last_seen": "2026-11-09T16:29:39.092361+00:00",
+      "last_seen": "2026-11-09T16:33:45.749619+00:00",
       "match_score": 80,
       "tier": "good",
       "matched_tags": [
@@ -1267,7 +1455,7 @@
       "date_posted": "2026-11-04",
       "site": "linkedin",
       "indirect": false,
-      "last_seen": "2026-11-09T16:29:43.045494+00:00",
+      "last_seen": "2026-11-09T16:34:23.308619+00:00",
       "match_score": 77,
       "tier": "good",
       "matched_tags": [
@@ -1311,6 +1499,62 @@
       "possible_duplicate": false
     },
     {
+      "title": "Credit Risk Data Unit, AS",
+      "company": "Deutsche Bank",
+      "location": "MH, IN (India)",
+      "job_url": "https://in.indeed.com/viewjob?jk=d627a2cf00b51aad",
+      "date_posted": "2026-11-09",
+      "site": "indeed",
+      "indirect": false,
+      "last_seen": "2026-11-09T16:32:27.821530+00:00",
+      "match_score": 70,
+      "tier": "good",
+      "matched_tags": [
+        "Credit risk",
+        "Regulatory",
+        "Governance",
+        "SQL"
+      ],
+      "work_mode": "",
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": true,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [
+        "sql",
+        "ifrs 9"
+      ],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "description_available",
+      "posted_at": "2026-11-09T00:00:00+00:00",
+      "posted_evidence": "2026-11-09",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "1c9787122171e4911437271b",
+      "legacy_ids": [
+        "1c9787122171e4911437271b"
+      ],
+      "canonical_url": "https://in.indeed.com/viewjob?jk=d627a2cf00b51aad",
+      "source_urls": [
+        "https://in.indeed.com/viewjob?jk=d627a2cf00b51aad"
+      ],
+      "sources": [
+        "indeed"
+      ],
+      "first_seen": "2026-11-09T16:34:43.779780+00:00",
+      "description_available": true,
+      "description_excerpt": "**Job Description:**\n--------------------\n\n**Job Title: Credit Risk Data Unit, AS**\n\n**Location: Pune, India**\n\n**Corporate Title: Associate**\n\n**Role Description**\n\n* The Credit Risk Data Unit delivers quality\\-assured, timely and transparent finance\\-relevant risk data and analysis to key stakeholders. The team manages end\\-to\\-end processes for critical risk metrics, maintaining strong controls, regulatory compliance and operational efficiency while using data, automation and AI\\-enabled capa",
+      "possible_duplicate": false
+    },
+    {
       "title": "Sr. Analyst Quantitative & Risk Analytics 4B",
       "company": "Genpact",
       "location": "HR, IN (India)",
@@ -1318,7 +1562,7 @@
       "date_posted": "2026-11-04",
       "site": "indeed",
       "indirect": false,
-      "last_seen": "2026-11-09T16:29:39.092361+00:00",
+      "last_seen": "2026-11-09T16:33:45.749619+00:00",
       "match_score": 68,
       "tier": "good",
       "matched_tags": [
@@ -1376,7 +1620,7 @@
       "date_posted": "2026-11-07",
       "site": "linkedin",
       "indirect": false,
-      "last_seen": "2026-11-09T08:34:59.663810+00:00",
+      "last_seen": "2026-11-09T16:34:40.033524+00:00",
       "match_score": 62,
       "tier": "good",
       "matched_tags": [
@@ -1428,7 +1672,7 @@
       "date_posted": "2026-11-03",
       "site": "indeed",
       "indirect": false,
-      "last_seen": "2026-11-09T08:32:04.106814+00:00",
+      "last_seen": "2026-11-09T16:31:11.509729+00:00",
       "match_score": 62,
       "tier": "good",
       "matched_tags": [
@@ -1486,7 +1730,7 @@
       "date_posted": "2026-11-05",
       "site": "linkedin",
       "indirect": false,
-      "last_seen": "2026-11-09T08:33:14.980095+00:00",
+      "last_seen": "2026-11-09T16:32:48.363718+00:00",
       "match_score": 60,
       "tier": "good",
       "matched_tags": [
@@ -1539,7 +1783,7 @@
       "date_posted": "2026-11-03",
       "site": "indeed",
       "indirect": false,
-      "last_seen": "2026-11-09T16:29:39.092361+00:00",
+      "last_seen": "2026-11-09T16:34:40.543609+00:00",
       "match_score": 58,
       "tier": "monitor",
       "matched_tags": [
@@ -1596,7 +1840,7 @@
       "date_posted": "2026-11-05",
       "site": "indeed",
       "indirect": false,
-      "last_seen": "2026-11-09T08:35:00.128526+00:00",
+      "last_seen": "2026-11-09T16:34:40.543609+00:00",
       "match_score": 52,
       "tier": "monitor",
       "matched_tags": [
@@ -1652,7 +1896,7 @@
       "date_posted": "2026-11-06",
       "site": "linkedin",
       "indirect": false,
-      "last_seen": "2026-11-09T08:34:59.663810+00:00",
+      "last_seen": "2026-11-09T16:34:40.033524+00:00",
       "match_score": 42,
       "tier": "monitor",
       "matched_tags": [
@@ -1754,7 +1998,7 @@
       "date_posted": "2026-11-06",
       "site": "linkedin",
       "indirect": false,
-      "last_seen": "2026-11-09T08:34:38.942822+00:00",
+      "last_seen": "2026-11-09T16:34:21.703275+00:00",
       "match_score": 40,
       "tier": "monitor",
       "matched_tags": [
@@ -1804,7 +2048,7 @@
       "date_posted": "2026-11-02",
       "site": "indeed",
       "indirect": false,
-      "last_seen": "2026-11-09T08:34:00.076532+00:00",
+      "last_seen": "2026-11-09T16:33:21.662655+00:00",
       "match_score": 38,
       "tier": "stretch",
       "matched_tags": [
@@ -1860,7 +2104,7 @@
       "date_posted": "2026-11-03",
       "site": "indeed",
       "indirect": false,
-      "last_seen": "2026-11-09T08:34:00.076532+00:00",
+      "last_seen": "2026-11-09T16:33:21.662655+00:00",
       "match_score": 38,
       "tier": "stretch",
       "matched_tags": [
@@ -1915,7 +2159,7 @@
       "date_posted": "2026-11-06",
       "site": "indeed",
       "indirect": false,
-      "last_seen": "2026-11-09T08:35:01.339323+00:00",
+      "last_seen": "2026-11-09T16:34:42.177284+00:00",
       "match_score": 32,
       "tier": "stretch",
       "matched_tags": [
@@ -1969,7 +2213,7 @@
       "date_posted": "2026-11-05",
       "site": "linkedin",
       "indirect": false,
-      "last_seen": "2026-11-09T16:29:40.610358+00:00",
+      "last_seen": "2026-11-09T16:34:40.033524+00:00",
       "match_score": 32,
       "tier": "stretch",
       "matched_tags": [
@@ -2019,7 +2263,7 @@
       "date_posted": "2026-11-05",
       "site": "linkedin",
       "indirect": false,
-      "last_seen": "2026-11-09T08:33:05.365438+00:00",
+      "last_seen": "2026-11-09T16:34:05.193492+00:00",
       "match_score": 30,
       "tier": "stretch",
       "matched_tags": [
@@ -2069,7 +2313,7 @@
       "date_posted": "2026-11-04",
       "site": "linkedin",
       "indirect": false,
-      "last_seen": "2026-11-09T08:34:44.457154+00:00",
+      "last_seen": "2026-11-09T16:34:21.402053+00:00",
       "match_score": 30,
       "tier": "stretch",
       "matched_tags": [
@@ -2112,6 +2356,56 @@
       "possible_duplicate": false
     },
     {
+      "title": "Assistant Manager, Regional Credit Risk, Consumer Lending",
+      "company": "Grab",
+      "location": "Bengaluru East, Karnataka, India",
+      "job_url": "https://www.linkedin.com/jobs/view/4486035716",
+      "date_posted": "2026-11-05",
+      "site": "linkedin",
+      "indirect": false,
+      "last_seen": "2026-11-09T16:33:17.554395+00:00",
+      "match_score": 30,
+      "tier": "stretch",
+      "matched_tags": [
+        "Credit risk"
+      ],
+      "work_mode": "",
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": true,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-05T00:00:00+00:00",
+      "posted_evidence": "2026-11-05",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "9dd68d4b1de684b2b0047191",
+      "legacy_ids": [
+        "9dd68d4b1de684b2b0047191"
+      ],
+      "canonical_url": "https://www.linkedin.com/jobs/view/4486035716",
+      "source_urls": [
+        "https://www.linkedin.com/jobs/view/4486035716"
+      ],
+      "sources": [
+        "linkedin"
+      ],
+      "first_seen": "2026-11-09T16:34:43.842705+00:00",
+      "description_available": false,
+      "description_excerpt": "",
+      "possible_duplicate": false
+    },
+    {
       "title": "Credit Risk Manager- US",
       "company": "Wipfli India",
       "location": "Bengaluru, Karnataka, India",
@@ -2119,7 +2413,7 @@
       "date_posted": "2026-11-05",
       "site": "linkedin",
       "indirect": false,
-      "last_seen": "2026-11-09T08:34:59.663810+00:00",
+      "last_seen": "2026-11-09T16:34:40.033524+00:00",
       "match_score": 30,
       "tier": "stretch",
       "matched_tags": [
@@ -2169,7 +2463,7 @@
       "date_posted": "2026-11-01",
       "site": "indeed",
       "indirect": false,
-      "last_seen": "2026-11-09T16:29:39.092361+00:00",
+      "last_seen": "2026-11-09T16:34:00.678755+00:00",
       "match_score": 26,
       "tier": "stretch",
       "matched_tags": [
@@ -2213,6 +2507,57 @@
       "possible_duplicate": false
     },
     {
+      "title": "Consultant - Toxicology",
+      "company": "Evalueserve",
+      "location": "KA, IN (India)",
+      "job_url": "https://in.indeed.com/viewjob?jk=2be6265582221f57",
+      "date_posted": "2026-05-18",
+      "site": "indeed",
+      "indirect": false,
+      "last_seen": "2026-11-09T16:34:40.543609+00:00",
+      "match_score": 26,
+      "tier": "stretch",
+      "matched_tags": [
+        "Credit risk",
+        "Policy"
+      ],
+      "work_mode": "Hybrid",
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": true,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "description_available",
+      "posted_at": "2026-05-18T00:00:00+00:00",
+      "posted_evidence": "2026-05-18",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "76c397583624f3f855362025",
+      "legacy_ids": [
+        "76c397583624f3f855362025"
+      ],
+      "canonical_url": "https://in.indeed.com/viewjob?jk=2be6265582221f57",
+      "source_urls": [
+        "https://in.indeed.com/viewjob?jk=2be6265582221f57"
+      ],
+      "sources": [
+        "indeed"
+      ],
+      "first_seen": "2026-11-09T16:34:43.864756+00:00",
+      "description_available": true,
+      "description_excerpt": "Job Description\n**Job Summary:**\nWe are seeking an experienced Toxicologist with expertise in OECD guidelines and risk assessment. The ideal candidate will ensure full compliance with GLP, OECD, ICH, IAEC, and institutional standards, actively participate in study plan reviews, protocol amendments, and pathology audits, and support regulatory documentation. Strong attention to detail and knowledge of regulatory frameworks are essential.  \n\n  \n\n**Key Responsibilities:**\n* Prepare comprehensive Co",
+      "possible_duplicate": false
+    },
+    {
       "title": "Principal Consultant - Pharma | Life Sciences",
       "company": "Evalueserve",
       "location": "KA, IN (India)",
@@ -2220,7 +2565,7 @@
       "date_posted": "2026-11-06",
       "site": "indeed",
       "indirect": false,
-      "last_seen": "2026-11-09T08:35:00.128526+00:00",
+      "last_seen": "2026-11-09T16:34:40.543609+00:00",
       "match_score": 26,
       "tier": "stretch",
       "matched_tags": [
@@ -2262,6 +2607,57 @@
       "description_available": true,
       "description_excerpt": "Job Description\n**Job Summary:**\nWe are seeking a Principal Consultant with 6\\-11 years of experience in intellectual property, innovation, and business research within the pharmaceutical, healthcare, or biotechnology sectors. The ideal candidate will have a postgraduate qualification in Pharmaceutical Sciences, Chemistry, Medicinal Chemistry, Organic Chemistry, Life Sciences, or a relevant PhD, along with strong expertise in chemical structure searching, Markush analysis, and STN\\-based patent ",
       "possible_duplicate": false
+    },
+    {
+      "title": "Senior Analyst - Toxicology - Bangalore",
+      "company": "Evalueserve",
+      "location": "KA, IN (India)",
+      "job_url": "https://in.indeed.com/viewjob?jk=86152fa5ac4d300a",
+      "date_posted": "2026-06-18",
+      "site": "indeed",
+      "indirect": false,
+      "last_seen": "2026-11-09T16:34:40.543609+00:00",
+      "match_score": 26,
+      "tier": "stretch",
+      "matched_tags": [
+        "Credit risk",
+        "Policy"
+      ],
+      "work_mode": "Hybrid",
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": true,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "description_available",
+      "posted_at": "2026-06-18T00:00:00+00:00",
+      "posted_evidence": "2026-06-18",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "e38a4d308226a9b76bff2c89",
+      "legacy_ids": [
+        "e38a4d308226a9b76bff2c89"
+      ],
+      "canonical_url": "https://in.indeed.com/viewjob?jk=86152fa5ac4d300a",
+      "source_urls": [
+        "https://in.indeed.com/viewjob?jk=86152fa5ac4d300a"
+      ],
+      "sources": [
+        "indeed"
+      ],
+      "first_seen": "2026-11-09T16:34:43.863513+00:00",
+      "description_available": true,
+      "description_excerpt": "Job Description\n**Job Summary:**\nWe are seeking an experienced Toxicologist with expertise in OECD guidelines and risk assessment. The ideal candidate will ensure full compliance with GLP, OECD, ICH, IAEC, and institutional standards, actively participate in study plan reviews, protocol amendments, and pathology audits, and support regulatory documentation. Strong attention to detail and knowledge of regulatory frameworks are essential.  \n\n  \n\n**Key Responsibilities:**\n* Prepare comprehensive Co",
+      "possible_duplicate": false
     }
   ],
   "note": "Checkpoint time is not publication time. Descriptions-screened counts observations, not unique verified screenings. No live listing verifier is enabled. Posting dates are source-reported. Coverage is partial and best-effort.",
@@ -2295,7 +2691,7 @@
     }
   },
   "description_queue": {
-    "pending_unique_urls": 330,
+    "pending_unique_urls": 360,
     "state": "saved_discovery_metadata_only; separate description retrieval is not enabled yet"
   },
   "coverage_scope": "One discovery page per selected query; not full pagination or exhaustive coverage. Naukri CAPTCHA endpoint and Google News RSS are not requested by this entry point."

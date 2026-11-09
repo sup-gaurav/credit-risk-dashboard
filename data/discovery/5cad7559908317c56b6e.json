@@ -5,7 +5,7 @@
     "location": "Delhi, India",
     "job_url": "https://www.linkedin.com/jobs/view/4451205354",
     "date_posted": "2026-11-07",
-    "discovered_at": "2026-11-09T08:32:39.696150+00:00",
+    "discovered_at": "2026-11-09T16:31:46.680109+00:00",
     "detail_state": "pending"
   },
   {
@@ -14,7 +14,7 @@
     "location": "Hyderabad, Telangana, India",
     "job_url": "https://www.linkedin.com/jobs/view/4486949508",
     "date_posted": "2026-11-06",
-    "discovered_at": "2026-11-09T08:32:39.696150+00:00",
+    "discovered_at": "2026-11-09T16:31:46.680109+00:00",
     "detail_state": "pending"
   },
   {
@@ -32,7 +32,7 @@
     "location": "Gurugram, Haryana, India",
     "job_url": "https://www.linkedin.com/jobs/view/4488183556",
     "date_posted": "2026-11-06",
-    "discovered_at": "2026-11-09T08:32:39.696150+00:00",
+    "discovered_at": "2026-11-09T16:31:46.680109+00:00",
     "detail_state": "pending"
   },
   {
@@ -41,7 +41,7 @@
     "location": "Bengaluru, Karnataka, India",
     "job_url": "https://www.linkedin.com/jobs/view/4488139041",
     "date_posted": "2026-11-06",
-    "discovered_at": "2026-11-09T08:32:39.696150+00:00",
+    "discovered_at": "2026-11-09T16:31:46.680109+00:00",
     "detail_state": "pending"
   },
   {
@@ -50,7 +50,7 @@
     "location": "",
     "job_url": "https://www.linkedin.com/jobs/view/4488121895",
     "date_posted": "2026-11-06",
-    "discovered_at": "2026-11-09T08:32:39.696150+00:00",
+    "discovered_at": "2026-11-09T16:31:46.680109+00:00",
     "detail_state": "pending"
   },
   {
@@ -59,7 +59,7 @@
     "location": "Gurugram, Haryana, India",
     "job_url": "https://www.linkedin.com/jobs/view/4486564129",
     "date_posted": "2026-11-05",
-    "discovered_at": "2026-11-09T08:32:39.696150+00:00",
+    "discovered_at": "2026-11-09T16:31:46.680109+00:00",
     "detail_state": "pending"
   },
   {
@@ -68,7 +68,7 @@
     "location": "Gurugram, Haryana, India",
     "job_url": "https://www.linkedin.com/jobs/view/4485547132",
     "date_posted": "2026-11-04",
-    "discovered_at": "2026-11-09T08:32:39.696150+00:00",
+    "discovered_at": "2026-11-09T16:31:46.680109+00:00",
     "detail_state": "pending"
   },
   {
@@ -77,7 +77,7 @@
     "location": "",
     "job_url": "https://www.linkedin.com/jobs/view/4484492014",
     "date_posted": "2026-11-04",
-    "discovered_at": "2026-11-09T08:32:39.696150+00:00",
+    "discovered_at": "2026-11-09T16:31:46.680109+00:00",
     "detail_state": "pending"
   },
   {
@@ -86,7 +86,16 @@
     "location": "Bengaluru, Karnataka, India",
     "job_url": "https://www.linkedin.com/jobs/view/4484371781",
     "date_posted": "2026-11-02",
-    "discovered_at": "2026-11-09T08:32:39.696150+00:00",
+    "discovered_at": "2026-11-09T16:31:46.680109+00:00",
+    "detail_state": "pending"
+  },
+  {
+    "title": "Senior Manager, Risk Advisory & Assurance Services (JAPAC)",
+    "company": "Adobe",
+    "location": "",
+    "job_url": "https://www.linkedin.com/jobs/view/4487695623",
+    "date_posted": "",
+    "discovered_at": "2026-11-09T16:31:46.680109+00:00",
     "detail_state": "pending"
   }
 ]

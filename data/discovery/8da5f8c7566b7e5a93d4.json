@@ -5,7 +5,7 @@
     "location": "Madhya Pradesh, India",
     "job_url": "https://www.linkedin.com/jobs/view/4463358570",
     "date_posted": "2026-11-07",
-    "discovered_at": "2026-11-09T08:33:30.565224+00:00",
+    "discovered_at": "2026-11-09T16:32:47.245266+00:00",
     "detail_state": "pending"
   },
   {
@@ -14,7 +14,7 @@
     "location": "Maharashtra, India",
     "job_url": "https://www.linkedin.com/jobs/view/4463367375",
     "date_posted": "2026-11-07",
-    "discovered_at": "2026-11-09T08:33:30.565224+00:00",
+    "discovered_at": "2026-11-09T16:32:47.245266+00:00",
     "detail_state": "pending"
   },
   {
@@ -23,7 +23,7 @@
     "location": "Noida, Uttar Pradesh, India",
     "job_url": "https://www.linkedin.com/jobs/view/4472086822",
     "date_posted": "2026-11-07",
-    "discovered_at": "2026-11-09T08:33:30.565224+00:00",
+    "discovered_at": "2026-11-09T16:32:47.245266+00:00",
     "detail_state": "pending"
   },
   {
@@ -32,7 +32,7 @@
     "location": "Madhya Pradesh, India",
     "job_url": "https://www.linkedin.com/jobs/view/4463361538",
     "date_posted": "2026-11-07",
-    "discovered_at": "2026-11-09T08:33:30.565224+00:00",
+    "discovered_at": "2026-11-09T16:32:47.245266+00:00",
     "detail_state": "pending"
   },
   {
@@ -41,7 +41,7 @@
     "location": "",
     "job_url": "https://www.linkedin.com/jobs/view/4480138943",
     "date_posted": "2026-11-06",
-    "discovered_at": "2026-11-09T08:33:30.565224+00:00",
+    "discovered_at": "2026-11-09T16:32:47.245266+00:00",
     "detail_state": "pending"
   },
   {
@@ -50,7 +50,7 @@
     "location": "Uttarakhand, India",
     "job_url": "https://www.linkedin.com/jobs/view/4463362426",
     "date_posted": "2026-11-06",
-    "discovered_at": "2026-11-09T08:33:30.565224+00:00",
+    "discovered_at": "2026-11-09T16:32:47.245266+00:00",
     "detail_state": "pending"
   },
   {
@@ -59,7 +59,7 @@
     "location": "Maharashtra, India",
     "job_url": "https://www.linkedin.com/jobs/view/4463362491",
     "date_posted": "2026-11-06",
-    "discovered_at": "2026-11-09T08:33:30.565224+00:00",
+    "discovered_at": "2026-11-09T16:32:47.245266+00:00",
     "detail_state": "pending"
   },
   {
@@ -68,7 +68,7 @@
     "location": "Mumbai, Maharashtra, India",
     "job_url": "https://www.linkedin.com/jobs/view/4443376178",
     "date_posted": "2026-11-06",
-    "discovered_at": "2026-11-09T08:33:30.565224+00:00",
+    "discovered_at": "2026-11-09T16:32:47.245266+00:00",
     "detail_state": "pending"
   },
   {
@@ -86,7 +86,16 @@
     "location": "Delhi, Delhi, India",
     "job_url": "https://www.linkedin.com/jobs/view/4463369449",
     "date_posted": "",
-    "discovered_at": "2026-11-09T08:33:30.565224+00:00",
+    "discovered_at": "2026-11-09T16:32:47.245266+00:00",
+    "detail_state": "pending"
+  },
+  {
+    "title": "ABHFL - Credit Manager - Retail - Barwani",
+    "company": "ABC - Aditya Birla Housing Finance Limited",
+    "location": "Madhya Pradesh, India",
+    "job_url": "https://www.linkedin.com/jobs/view/4463360542",
+    "date_posted": "2026-11-08",
+    "discovered_at": "2026-11-09T16:32:47.245266+00:00",
     "detail_state": "pending"
   }
 ]

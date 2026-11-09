@@ -1,5 +1,6 @@
 # Newly discovered eligible leads — not an availability-verified shortlist
 
+- Asset Quality, AVP | Deutsche Bank | https://in.indeed.com/viewjob?jk=8e64126c3ae6339a
 - Senior Wholesale Credit Risk Researcher, SVP (Hybrid) | Citi | https://www.linkedin.com/jobs/view/4486922402
 - Regulatory Control Associate, AVP | NatWest Group | https://in.indeed.com/viewjob?jk=f59d01c6dfe47b56
 - AVP- Python Credit Risk Engineer - Risk Tech | Jefferies | https://www.linkedin.com/jobs/view/4487722254

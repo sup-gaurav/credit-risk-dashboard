@@ -4,8 +4,8 @@
     "company": "Larsen & Toubro",
     "location": "",
     "job_url": "https://www.linkedin.com/jobs/view/4478512747",
-    "date_posted": "2026-11-07",
-    "discovered_at": "2026-11-09T08:32:30.518549+00:00",
+    "date_posted": "",
+    "discovered_at": "2026-11-09T16:31:41.023302+00:00",
     "detail_state": "pending"
   },
   {
@@ -14,7 +14,7 @@
     "location": "",
     "job_url": "https://www.linkedin.com/jobs/view/4434632108",
     "date_posted": "2026-11-07",
-    "discovered_at": "2026-11-09T08:32:30.518549+00:00",
+    "discovered_at": "2026-11-09T16:31:41.023302+00:00",
     "detail_state": "pending"
   },
   {
@@ -23,7 +23,7 @@
     "location": "Gurugram, Haryana, India",
     "job_url": "https://www.linkedin.com/jobs/view/4460948858",
     "date_posted": "2026-11-06",
-    "discovered_at": "2026-11-09T08:32:30.518549+00:00",
+    "discovered_at": "2026-11-09T16:31:41.023302+00:00",
     "detail_state": "pending"
   },
   {
@@ -32,7 +32,7 @@
     "location": "Hyderabad, Telangana, India",
     "job_url": "https://www.linkedin.com/jobs/view/4487757278",
     "date_posted": "2026-11-05",
-    "discovered_at": "2026-11-09T08:32:30.518549+00:00",
+    "discovered_at": "2026-11-09T16:31:41.023302+00:00",
     "detail_state": "pending"
   },
   {
@@ -41,7 +41,7 @@
     "location": "Bengaluru, Karnataka, India",
     "job_url": "https://www.linkedin.com/jobs/view/4460032581",
     "date_posted": "2026-11-05",
-    "discovered_at": "2026-11-09T08:32:30.518549+00:00",
+    "discovered_at": "2026-11-09T16:31:41.023302+00:00",
     "detail_state": "pending"
   },
   {
@@ -50,7 +50,7 @@
     "location": "",
     "job_url": "https://www.linkedin.com/jobs/view/4477669909",
     "date_posted": "2026-11-04",
-    "discovered_at": "2026-11-09T08:32:30.518549+00:00",
+    "discovered_at": "2026-11-09T16:31:41.023302+00:00",
     "detail_state": "pending"
   },
   {
@@ -68,7 +68,7 @@
     "location": "",
     "job_url": "https://www.linkedin.com/jobs/view/4486027659",
     "date_posted": "2026-11-03",
-    "discovered_at": "2026-11-09T08:32:30.518549+00:00",
+    "discovered_at": "2026-11-09T16:31:41.023302+00:00",
     "detail_state": "pending"
   },
   {
@@ -85,8 +85,26 @@
     "company": "Linde",
     "location": "",
     "job_url": "https://www.linkedin.com/jobs/view/4488770687",
+    "date_posted": "2026-11-08",
+    "discovered_at": "2026-11-09T16:31:41.023302+00:00",
+    "detail_state": "pending"
+  },
+  {
+    "title": "Firm Enterprise Solutions Senior Manager - Office of General Counsel - Hyderabad/Gurgaon",
+    "company": "Deloitte",
+    "location": "Hyderabad, Telangana, India",
+    "job_url": "https://www.linkedin.com/jobs/view/4460956766",
+    "date_posted": "2026-11-07",
+    "discovered_at": "2026-11-09T16:31:41.023302+00:00",
+    "detail_state": "pending"
+  },
+  {
+    "title": "Sr. Manager, Data Engineering",
+    "company": "Adobe",
+    "location": "",
+    "job_url": "https://www.linkedin.com/jobs/view/4487695620",
     "date_posted": "",
-    "discovered_at": "2026-11-09T08:32:30.518549+00:00",
+    "discovered_at": "2026-11-09T16:31:41.023302+00:00",
     "detail_state": "pending"
   }
 ]

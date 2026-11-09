@@ -5,7 +5,7 @@
     "location": "Gurugram, Haryana, India",
     "job_url": "https://www.linkedin.com/jobs/view/4486736500",
     "date_posted": "2026-11-05",
-    "discovered_at": "2026-11-09T08:33:36.773884+00:00",
+    "discovered_at": "2026-11-09T16:32:55.009477+00:00",
     "detail_state": "pending"
   },
   {
@@ -14,7 +14,7 @@
     "location": "Gurugram, Haryana, India",
     "job_url": "https://www.linkedin.com/jobs/view/4486576667",
     "date_posted": "2026-11-05",
-    "discovered_at": "2026-11-09T08:33:36.773884+00:00",
+    "discovered_at": "2026-11-09T16:32:55.009477+00:00",
     "detail_state": "pending"
   },
   {
@@ -23,7 +23,7 @@
     "location": "Haryana, India",
     "job_url": "https://www.linkedin.com/jobs/view/4486923409",
     "date_posted": "2026-11-05",
-    "discovered_at": "2026-11-09T08:33:36.773884+00:00",
+    "discovered_at": "2026-11-09T16:32:55.009477+00:00",
     "detail_state": "pending"
   },
   {
@@ -32,7 +32,7 @@
     "location": "Haryana, India",
     "job_url": "https://www.linkedin.com/jobs/view/4486925358",
     "date_posted": "2026-11-05",
-    "discovered_at": "2026-11-09T08:33:36.773884+00:00",
+    "discovered_at": "2026-11-09T16:32:55.009477+00:00",
     "detail_state": "pending"
   },
   {
@@ -41,7 +41,7 @@
     "location": "Delhi, India",
     "job_url": "https://www.linkedin.com/jobs/view/4480962206",
     "date_posted": "2026-11-05",
-    "discovered_at": "2026-11-09T08:33:36.773884+00:00",
+    "discovered_at": "2026-11-09T16:32:55.009477+00:00",
     "detail_state": "pending"
   },
   {
@@ -50,7 +50,7 @@
     "location": "Mumbai, Maharashtra, India",
     "job_url": "https://www.linkedin.com/jobs/view/4486922402",
     "date_posted": "2026-11-05",
-    "discovered_at": "2026-11-09T08:33:36.773884+00:00",
+    "discovered_at": "2026-11-09T16:32:55.009477+00:00",
     "detail_state": "pending"
   },
   {
@@ -59,7 +59,7 @@
     "location": "Bengaluru, Karnataka, India",
     "job_url": "https://www.linkedin.com/jobs/view/4487750307",
     "date_posted": "2026-11-04",
-    "discovered_at": "2026-11-09T08:33:36.773884+00:00",
+    "discovered_at": "2026-11-09T16:32:55.009477+00:00",
     "detail_state": "pending"
   },
   {
@@ -68,7 +68,7 @@
     "location": "Bengaluru, Karnataka, India",
     "job_url": "https://www.linkedin.com/jobs/view/4487009084",
     "date_posted": "2026-11-03",
-    "discovered_at": "2026-11-09T08:33:36.773884+00:00",
+    "discovered_at": "2026-11-09T16:32:55.009477+00:00",
     "detail_state": "pending"
   },
   {
@@ -86,7 +86,16 @@
     "location": "Gurugram, Haryana, India",
     "job_url": "https://www.linkedin.com/jobs/view/4485707379",
     "date_posted": "2026-11-02",
-    "discovered_at": "2026-11-09T08:33:36.773884+00:00",
+    "discovered_at": "2026-11-09T16:32:55.009477+00:00",
+    "detail_state": "pending"
+  },
+  {
+    "title": "Risk Analyst",
+    "company": "INDmoney",
+    "location": "Gurugram, Haryana, India",
+    "job_url": "https://www.linkedin.com/jobs/view/4486866289",
+    "date_posted": "2026-11-03",
+    "discovered_at": "2026-11-09T16:32:55.009477+00:00",
     "detail_state": "pending"
   }
 ]

@@ -5,7 +5,7 @@
     "location": "Maharashtra, India",
     "job_url": "https://www.linkedin.com/jobs/view/4463366363",
     "date_posted": "2026-11-07",
-    "discovered_at": "2026-11-09T08:34:21.808070+00:00",
+    "discovered_at": "2026-11-09T16:33:51.955758+00:00",
     "detail_state": "pending"
   },
   {
@@ -23,7 +23,7 @@
     "location": "Mumbai, Maharashtra, India",
     "job_url": "https://www.linkedin.com/jobs/view/4486907862",
     "date_posted": "2026-11-05",
-    "discovered_at": "2026-11-09T08:34:21.808070+00:00",
+    "discovered_at": "2026-11-09T16:33:51.955758+00:00",
     "detail_state": "pending"
   },
   {
@@ -32,7 +32,7 @@
     "location": "Mumbai, Maharashtra, India",
     "job_url": "https://www.linkedin.com/jobs/view/4486913567",
     "date_posted": "2026-11-05",
-    "discovered_at": "2026-11-09T08:34:21.808070+00:00",
+    "discovered_at": "2026-11-09T16:33:51.955758+00:00",
     "detail_state": "pending"
   },
   {
@@ -41,7 +41,7 @@
     "location": "Haryana, India",
     "job_url": "https://www.linkedin.com/jobs/view/4486925358",
     "date_posted": "2026-11-05",
-    "discovered_at": "2026-11-09T08:34:21.808070+00:00",
+    "discovered_at": "2026-11-09T16:33:51.955758+00:00",
     "detail_state": "pending"
   },
   {
@@ -50,7 +50,7 @@
     "location": "",
     "job_url": "https://www.linkedin.com/jobs/view/4485050976",
     "date_posted": "2026-11-04",
-    "discovered_at": "2026-11-09T08:34:21.808070+00:00",
+    "discovered_at": "2026-11-09T16:33:51.955758+00:00",
     "detail_state": "pending"
   },
   {
@@ -59,7 +59,7 @@
     "location": "Bengaluru East, Karnataka, India",
     "job_url": "https://www.linkedin.com/jobs/view/4486519363",
     "date_posted": "2026-11-04",
-    "discovered_at": "2026-11-09T08:34:21.808070+00:00",
+    "discovered_at": "2026-11-09T16:33:51.955758+00:00",
     "detail_state": "pending"
   },
   {
@@ -68,7 +68,7 @@
     "location": "Bengaluru East, Karnataka, India",
     "job_url": "https://www.linkedin.com/jobs/view/4486514423",
     "date_posted": "2026-11-04",
-    "discovered_at": "2026-11-09T08:34:21.808070+00:00",
+    "discovered_at": "2026-11-09T16:33:51.955758+00:00",
     "detail_state": "pending"
   },
   {
@@ -77,7 +77,7 @@
     "location": "Mumbai, Maharashtra, India",
     "job_url": "https://www.linkedin.com/jobs/view/4484685247",
     "date_posted": "2026-11-03",
-    "discovered_at": "2026-11-09T08:34:21.808070+00:00",
+    "discovered_at": "2026-11-09T16:33:51.955758+00:00",
     "detail_state": "pending"
   },
   {
@@ -86,7 +86,16 @@
     "location": "Gurugram, Haryana, India",
     "job_url": "https://www.linkedin.com/jobs/view/4484670681",
     "date_posted": "2026-11-03",
-    "discovered_at": "2026-11-09T08:34:21.808070+00:00",
+    "discovered_at": "2026-11-09T16:33:51.955758+00:00",
+    "detail_state": "pending"
+  },
+  {
+    "title": "Manager-Senior Manager Credit Risk - Policy",
+    "company": "DMI Finance Private Limited",
+    "location": "Delhi, India",
+    "job_url": "https://www.linkedin.com/jobs/view/4480962206",
+    "date_posted": "2026-11-05",
+    "discovered_at": "2026-11-09T16:33:51.955758+00:00",
     "detail_state": "pending"
   }
 ]

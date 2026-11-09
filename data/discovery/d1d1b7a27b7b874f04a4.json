@@ -5,7 +5,7 @@
     "location": "Gurugram, Haryana, India",
     "job_url": "https://www.linkedin.com/jobs/view/4487613465",
     "date_posted": "2026-11-07",
-    "discovered_at": "2026-11-09T08:33:27.831056+00:00",
+    "discovered_at": "2026-11-09T16:32:43.640845+00:00",
     "detail_state": "pending"
   },
   {
@@ -14,7 +14,7 @@
     "location": "Hyderabad, Telangana, India",
     "job_url": "https://www.linkedin.com/jobs/view/4469600661",
     "date_posted": "2026-11-06",
-    "discovered_at": "2026-11-09T08:33:27.831056+00:00",
+    "discovered_at": "2026-11-09T16:32:43.640845+00:00",
     "detail_state": "pending"
   },
   {
@@ -23,7 +23,7 @@
     "location": "Gurugram, Haryana, India",
     "job_url": "https://www.linkedin.com/jobs/view/4487512105",
     "date_posted": "2026-11-04",
-    "discovered_at": "2026-11-09T08:33:27.831056+00:00",
+    "discovered_at": "2026-11-09T16:32:43.640845+00:00",
     "detail_state": "pending"
   },
   {
@@ -32,7 +32,7 @@
     "location": "Mohali district, India",
     "job_url": "https://www.linkedin.com/jobs/view/4485096240",
     "date_posted": "2026-11-04",
-    "discovered_at": "2026-11-09T08:33:27.831056+00:00",
+    "discovered_at": "2026-11-09T16:32:43.640845+00:00",
     "detail_state": "pending"
   },
   {
@@ -41,7 +41,7 @@
     "location": "Mohali district, India",
     "job_url": "https://www.linkedin.com/jobs/view/4485502030",
     "date_posted": "2026-11-04",
-    "discovered_at": "2026-11-09T08:33:27.831056+00:00",
+    "discovered_at": "2026-11-09T16:32:43.640845+00:00",
     "detail_state": "pending"
   },
   {
@@ -50,7 +50,7 @@
     "location": "",
     "job_url": "https://www.linkedin.com/jobs/view/4486849413",
     "date_posted": "2026-11-03",
-    "discovered_at": "2026-11-09T08:33:27.831056+00:00",
+    "discovered_at": "2026-11-09T16:32:43.640845+00:00",
     "detail_state": "pending"
   },
   {
@@ -59,7 +59,7 @@
     "location": "Gurugram, Haryana, India",
     "job_url": "https://www.linkedin.com/jobs/view/4485004715",
     "date_posted": "2026-11-03",
-    "discovered_at": "2026-11-09T08:33:27.831056+00:00",
+    "discovered_at": "2026-11-09T16:32:43.640845+00:00",
     "detail_state": "pending"
   },
   {
@@ -77,7 +77,7 @@
     "location": "Chandrapur, Maharashtra, India",
     "job_url": "https://www.linkedin.com/jobs/view/4488811796",
     "date_posted": "",
-    "discovered_at": "2026-11-09T08:33:27.831056+00:00",
+    "discovered_at": "2026-11-09T16:32:43.640845+00:00",
     "detail_state": "pending"
   },
   {
@@ -87,6 +87,24 @@
     "job_url": "https://www.linkedin.com/jobs/view/4488812807",
     "date_posted": "",
     "discovered_at": "2026-11-09T08:33:27.831056+00:00",
+    "detail_state": "pending"
+  },
+  {
+    "title": "Regional Collection Head",
+    "company": "BharatPe",
+    "location": "Hyderabad, Telangana, India",
+    "job_url": "https://www.linkedin.com/jobs/view/4486349504",
+    "date_posted": "2026-11-04",
+    "discovered_at": "2026-11-09T16:32:43.640845+00:00",
+    "detail_state": "pending"
+  },
+  {
+    "title": "Senior Centre Manager - MFI North",
+    "company": "Bajaj Finserv",
+    "location": "Mohol, Maharashtra, India",
+    "job_url": "https://www.linkedin.com/jobs/view/4488807854",
+    "date_posted": "",
+    "discovered_at": "2026-11-09T16:32:43.640845+00:00",
     "detail_state": "pending"
   }
 ]
