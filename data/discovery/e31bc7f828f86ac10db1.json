@@ -5,7 +5,7 @@
     "location": "Gandhinagar, Gujarat, India",
     "job_url": "https://www.linkedin.com/jobs/view/4435899891",
     "date_posted": "2026-11-07",
-    "discovered_at": "2026-11-09T08:31:09.503683+00:00",
+    "discovered_at": "2026-11-09T16:29:45.222076+00:00",
     "detail_state": "pending"
   },
   {
@@ -14,7 +14,7 @@
     "location": "Mumbai, Maharashtra, India",
     "job_url": "https://www.linkedin.com/jobs/view/4452005709",
     "date_posted": "2026-11-07",
-    "discovered_at": "2026-11-09T08:31:09.503683+00:00",
+    "discovered_at": "2026-11-09T16:29:45.222076+00:00",
     "detail_state": "pending"
   },
   {
@@ -23,7 +23,7 @@
     "location": "",
     "job_url": "https://www.linkedin.com/jobs/view/4480138943",
     "date_posted": "2026-11-06",
-    "discovered_at": "2026-11-09T08:31:09.503683+00:00",
+    "discovered_at": "2026-11-09T16:29:45.222076+00:00",
     "detail_state": "pending"
   },
   {
@@ -32,7 +32,7 @@
     "location": "Mumbai, Maharashtra, India",
     "job_url": "https://www.linkedin.com/jobs/view/4488127164",
     "date_posted": "2026-11-06",
-    "discovered_at": "2026-11-09T08:31:09.503683+00:00",
+    "discovered_at": "2026-11-09T16:29:45.222076+00:00",
     "detail_state": "pending"
   },
   {
@@ -41,7 +41,7 @@
     "location": "Bengaluru, Karnataka, India",
     "job_url": "https://www.linkedin.com/jobs/view/4436521153",
     "date_posted": "2026-11-05",
-    "discovered_at": "2026-11-09T08:31:09.503683+00:00",
+    "discovered_at": "2026-11-09T16:29:45.222076+00:00",
     "detail_state": "pending"
   },
   {
@@ -59,7 +59,7 @@
     "location": "",
     "job_url": "https://www.linkedin.com/jobs/view/4367214529",
     "date_posted": "2026-11-04",
-    "discovered_at": "2026-11-09T08:31:09.503683+00:00",
+    "discovered_at": "2026-11-09T16:29:45.222076+00:00",
     "detail_state": "pending"
   },
   {
@@ -68,7 +68,7 @@
     "location": "Bengaluru, Karnataka, India",
     "job_url": "https://www.linkedin.com/jobs/view/4486045522",
     "date_posted": "2026-11-03",
-    "discovered_at": "2026-11-09T08:31:09.503683+00:00",
+    "discovered_at": "2026-11-09T16:29:45.222076+00:00",
     "detail_state": "pending"
   },
   {
@@ -87,6 +87,33 @@
     "job_url": "https://www.linkedin.com/jobs/view/4477521661",
     "date_posted": "2026-11-02",
     "discovered_at": "2026-11-09T08:31:09.503683+00:00",
+    "detail_state": "pending"
+  },
+  {
+    "title": "Commercial & Investment Bank Risk Associate - GHHN",
+    "company": "JPMorganChase",
+    "location": "Bengaluru, Karnataka, India",
+    "job_url": "https://www.linkedin.com/jobs/view/4416681700",
+    "date_posted": "2026-11-08",
+    "discovered_at": "2026-11-09T16:29:45.222076+00:00",
+    "detail_state": "pending"
+  },
+  {
+    "title": "Lead Expert",
+    "company": "Societe Generale Global Solution Centre",
+    "location": "Bangalore Urban, Karnataka, India",
+    "job_url": "https://www.linkedin.com/jobs/view/4487314671",
+    "date_posted": "2026-11-06",
+    "discovered_at": "2026-11-09T16:29:45.222076+00:00",
+    "detail_state": "pending"
+  },
+  {
+    "title": "Senior Risk Analytics Consultant",
+    "company": "Wells Fargo",
+    "location": "",
+    "job_url": "https://www.linkedin.com/jobs/view/4487501922",
+    "date_posted": "2026-11-04",
+    "discovered_at": "2026-11-09T16:29:45.222076+00:00",
     "detail_state": "pending"
   }
 ]
