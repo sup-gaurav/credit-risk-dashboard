@@ -1,30 +1,30 @@
 {
-  "last_scan": "2026-11-09T17:28:12.609520+00:00",
-  "checkpoint_at": "2026-11-09T17:28:12.609520+00:00",
+  "last_scan": "2026-11-09T17:47:50.794933+00:00",
+  "checkpoint_at": "2026-11-09T17:47:50.794933+00:00",
   "status": "batch_completed",
-  "run_id": "42664136963",
-  "total_scanned": 1720,
-  "descriptions_screened_observations": 520,
+  "run_id": "42667842821",
+  "total_scanned": 79,
+  "descriptions_screened_observations": 39,
   "actionable": 4,
   "query_count": 120,
-  "selected_queries": 116,
-  "completed_query_source_tasks": 232,
-  "query_cursor": 0,
+  "selected_queries": 4,
+  "completed_query_source_tasks": 8,
+  "query_cursor": 4,
   "sources": {
     "glassdoor": {
       "disabled": true,
       "reason": "Disabled after repeated 403 responses"
     },
     "indeed": {
-      "requests_ok": 120,
+      "requests_ok": 4,
       "requests_failed": 0,
-      "raw_results": 520,
+      "raw_results": 39,
       "errors": []
     },
     "linkedin": {
-      "requests_ok": 120,
+      "requests_ok": 4,
       "requests_failed": 0,
-      "raw_results": 1200,
+      "raw_results": 40,
       "errors": []
     },
     "lever:PayU": {
@@ -58,7 +58,7 @@
     "glassdoor": "Disabled after repeated 403 responses"
   },
   "funnel": {
-    "raw_observations_this_run": 1720,
+    "raw_observations_this_run": 79,
     "unique_retained": 4,
     "eligible": 1,
     "needs_review": 3,
@@ -136,7 +136,7 @@
         "evidence_value": "2026-11-09",
         "evidence_url": "https://in.indeed.com/viewjob?jk=8676b54cb0417a21",
         "earliest_possible_at": "2026-11-08T10:00:00+00:00",
-        "latest_possible_at": "2026-11-09T17:46:26.402195+00:00",
+        "latest_possible_at": "2026-11-09T17:47:50.860334+00:00",
         "expires_at": "2026-11-10T10:00:00+00:00"
       }
     },
@@ -211,7 +211,7 @@
         "evidence_value": "2026-11-09",
         "evidence_url": "https://in.indeed.com/viewjob?jk=91d721e30d536aa8",
         "earliest_possible_at": "2026-11-08T10:00:00+00:00",
-        "latest_possible_at": "2026-11-09T17:46:26.402195+00:00",
+        "latest_possible_at": "2026-11-09T17:47:50.860334+00:00",
         "expires_at": "2026-11-10T10:00:00+00:00"
       }
     },
@@ -279,7 +279,7 @@
         "evidence_value": "2026-11-09",
         "evidence_url": "https://in.indeed.com/viewjob?jk=8e64126c3ae6339a",
         "earliest_possible_at": "2026-11-08T10:00:00+00:00",
-        "latest_possible_at": "2026-11-09T17:46:26.402195+00:00",
+        "latest_possible_at": "2026-11-09T17:47:50.860334+00:00",
         "expires_at": "2026-11-10T10:00:00+00:00"
       }
     },
@@ -345,7 +345,7 @@
         "evidence_value": "2026-11-09",
         "evidence_url": "https://in.indeed.com/viewjob?jk=d627a2cf00b51aad",
         "earliest_possible_at": "2026-11-08T10:00:00+00:00",
-        "latest_possible_at": "2026-11-09T17:46:26.402195+00:00",
+        "latest_possible_at": "2026-11-09T17:47:50.860334+00:00",
         "expires_at": "2026-11-10T10:00:00+00:00"
       }
     }
@@ -381,19 +381,19 @@
     }
   },
   "description_queue": {
-    "pending_unique_urls": 363,
+    "pending_unique_urls": 364,
     "state": "saved_discovery_metadata_only; separate description retrieval is not enabled yet"
   },
   "coverage_scope": "One discovery page per selected query; not full pagination or exhaustive coverage. Naukri CAPTCHA endpoint and Google News RSS are not requested by this entry point.",
   "freshness_policy": {
     "policy": "0_to_48_hours_only",
-    "evaluated_at": "2026-11-09T17:46:26.402195+00:00",
-    "cutoff": "2026-11-07T17:46:26.402195+00:00",
+    "evaluated_at": "2026-11-09T17:47:50.860334+00:00",
+    "cutoff": "2026-11-07T17:47:50.860334+00:00",
     "counts": {
       "within_48h": 4,
       "older_than_48h": 42,
       "boundary_unverified": 2,
-      "date_unverified": 2
+      "date_unverified": 3
     },
     "date_only_policy": "Unknown timezone is conservatively bounded from UTC+14 to UTC-12; boundary cases are held, never guessed fresh",
     "reposting_policy": "Requires source_reposted_at and a repost_evidence_url; rediscovery alone is not a repost"
