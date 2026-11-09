@@ -136,7 +136,7 @@
         "evidence_value": "2026-11-09",
         "evidence_url": "https://in.indeed.com/viewjob?jk=8676b54cb0417a21",
         "earliest_possible_at": "2026-11-08T10:00:00+00:00",
-        "latest_possible_at": "2026-11-09T17:28:12.695783+00:00",
+        "latest_possible_at": "2026-11-09T17:46:26.402195+00:00",
         "expires_at": "2026-11-10T10:00:00+00:00"
       }
     },
@@ -211,7 +211,7 @@
         "evidence_value": "2026-11-09",
         "evidence_url": "https://in.indeed.com/viewjob?jk=91d721e30d536aa8",
         "earliest_possible_at": "2026-11-08T10:00:00+00:00",
-        "latest_possible_at": "2026-11-09T17:28:12.695783+00:00",
+        "latest_possible_at": "2026-11-09T17:46:26.402195+00:00",
         "expires_at": "2026-11-10T10:00:00+00:00"
       }
     },
@@ -279,7 +279,7 @@
         "evidence_value": "2026-11-09",
         "evidence_url": "https://in.indeed.com/viewjob?jk=8e64126c3ae6339a",
         "earliest_possible_at": "2026-11-08T10:00:00+00:00",
-        "latest_possible_at": "2026-11-09T17:28:12.695783+00:00",
+        "latest_possible_at": "2026-11-09T17:46:26.402195+00:00",
         "expires_at": "2026-11-10T10:00:00+00:00"
       }
     },
@@ -345,7 +345,7 @@
         "evidence_value": "2026-11-09",
         "evidence_url": "https://in.indeed.com/viewjob?jk=d627a2cf00b51aad",
         "earliest_possible_at": "2026-11-08T10:00:00+00:00",
-        "latest_possible_at": "2026-11-09T17:28:12.695783+00:00",
+        "latest_possible_at": "2026-11-09T17:46:26.402195+00:00",
         "expires_at": "2026-11-10T10:00:00+00:00"
       }
     }
@@ -387,8 +387,8 @@
   "coverage_scope": "One discovery page per selected query; not full pagination or exhaustive coverage. Naukri CAPTCHA endpoint and Google News RSS are not requested by this entry point.",
   "freshness_policy": {
     "policy": "0_to_48_hours_only",
-    "evaluated_at": "2026-11-09T17:28:12.695783+00:00",
-    "cutoff": "2026-11-07T17:28:12.695783+00:00",
+    "evaluated_at": "2026-11-09T17:46:26.402195+00:00",
+    "cutoff": "2026-11-07T17:46:26.402195+00:00",
     "counts": {
       "within_48h": 4,
       "older_than_48h": 42,
