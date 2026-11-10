@@ -4248,8 +4248,8 @@
   },
   "freshness_policy": {
     "policy": "0_to_48_hours_only",
-    "evaluated_at": "2026-11-10T15:03:30.093466+00:00",
-    "cutoff": "2026-11-08T15:03:30.093466+00:00"
+    "evaluated_at": "2026-11-10T15:03:47.105310+00:00",
+    "cutoff": "2026-11-08T15:03:47.105310+00:00"
   },
   "coverage_scope": "All configured phases were attempted in order; see explicit source gaps. No new shortlist was published before the attempt pass finished.",
   "note": "Keyword and title rules are not personalized resume matching. Availability remains unverified unless independently established.",
