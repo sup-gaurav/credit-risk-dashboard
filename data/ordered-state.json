@@ -1,5 +1,5 @@
 {
-  "fingerprint": "7bc4243f5c071ba28d3df7493515bae44f60515c6aba75b1f2a692d36eefd358",
+  "fingerprint": "629d4961d620008dfdc6a46079283c8610a58ca87459f0de3b31263d6028fd13",
   "started_at": "2026-11-10T02:56:45.419192+00:00",
   "phase": 0,
   "query_index": 0,
@@ -16139,5 +16139,15 @@
   "employer_coverage": {},
   "observations": 350,
   "pass_finished": false,
-  "paused_at": "2026-11-10T03:00:20.920748+00:00"
+  "paused_at": "2026-11-10T03:00:20.920748+00:00",
+  "deferred_boards": {
+    "linkedin": {
+      "phase": 0,
+      "query_index": 0,
+      "offset": 350,
+      "retry_not_before": "2026-11-10T04:00:20.920748+00:00",
+      "reason": "Recovered existing throttled checkpoint"
+    }
+  },
+  "recovery_migration": "v1"
 }

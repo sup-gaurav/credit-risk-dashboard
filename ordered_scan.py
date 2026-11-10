@@ -1,3 +1,5 @@
+# source-recovery-v1
+from scan_recovery import defer_source, mark_deferred, ready as recovery_ready, advance as advance_source, finish as finish_recovery
 import csv, hashlib, io, json, logging, multiprocessing as mp, os, re, sys, tempfile, time
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
@@ -33,7 +35,7 @@ def main():
     employers=list(csv.DictReader(io.StringIO(Path('config/employers.csv').read_text(encoding='utf-8'))))
     if len(employers)!=100 or len({e['name'] for e in employers})!=100:raise ValueError('Expected exactly 100 distinct configured targets')
     queries=list(dict.fromkeys(engine.DOMAINS+[e['name']+' credit risk' for e in employers]))
-    fingerprint=hashlib.sha256((Path('config/employers.csv').read_text()+Path(__file__).read_text()+Path('employer_sources.py').read_text()+Path('quality.py').read_text()+Path('freshness.py').read_text()).encode()).hexdigest()
+    fingerprint=hashlib.sha256((Path('config/employers.csv').read_text()+Path(__file__).read_text()+Path('employer_sources.py').read_text()+Path('quality.py').read_text()+Path('freshness.py').read_text()+Path('scan_recovery.py').read_text()).encode()).hexdigest()
     prior=json.loads(STATE.read_text()) if STATE.exists() else {}
     now=datetime.now(timezone.utc)
     if prior.get('fingerprint')==fingerprint and not prior.get('pass_finished'):
@@ -70,6 +72,10 @@ def main():
     try:
         for phase,source in enumerate(['linkedin','indeed']):
             if state['phase']>phase:continue
+            if not recovery_ready(state,source):
+                mark_deferred(state,source,queries)
+                advance_source(state,phase);checkpoint();continue
+            source_deferred=False
             print('PHASE '+source,flush=True)
             while state['query_index']<len(queries):
                 client.guard();q=queries[state['query_index']];key=source+':'+str(state['query_index']);coverage=state['board_coverage'].setdefault(key,{'query':q,'source':source,'state':'pending','windows':0,'observations':0,'seen':[]})
@@ -84,7 +90,8 @@ def main():
                 if page.get('errors'):
                     coverage.update(state='source_error',errors=page['errors'])
                     message=json.dumps(page['errors'])
-                    if re.search(r'429|rate.limit',message,re.I):raise Paused('Rate limited; saved page cursor will be retried in a later run')
+                    if re.search(r'429|rate.limit',message,re.I):
+                        defer_source(state,source,phase,queries);source_deferred=True;checkpoint();continue
                     if re.search(r'403|401|captcha|access denied',message,re.I):
                         coverage['state']='access_required'
                         for index in range(state['query_index']+1,len(queries)):state['board_coverage'][source+':'+str(index)]={'query':queries[index],'source':source,'state':'not_attempted_source_access_refused','windows':0,'observations':0,'seen':[]}
@@ -100,7 +107,10 @@ def main():
                 else:state['offset']+=PAGE;coverage['state']='paging'
                 if page.get('native_cap') and state['offset']>=int(page['native_cap']):coverage['state']='platform_cap';state['query_index']+=1;state['offset']=0
                 checkpoint();print(f"{source} query={state['query_index']}/{len(queries)} offset={state['offset']} unique={len(state['items'])}",flush=True);time.sleep(2)
-            state.update(phase=phase+1,query_index=0,offset=0);checkpoint()
+            if not source_deferred:
+                state.setdefault('deferred_boards',{}).pop(source,None)
+                if source not in state.setdefault('completed_boards',[]):state['completed_boards'].append(source)
+            advance_source(state,phase);checkpoint()
         print('PHASE employers: sequential traversal',flush=True)
         while state['employer_index']<len(employers):
             client.guard();entry=employers[state['employer_index']]
@@ -141,9 +151,12 @@ def main():
     employer_gaps=sum(c['state']!='exhausted_accessible_listing' for c in state['employer_coverage'].values())
     coverage={'ordered_phases':['linkedin','indeed','employers','description_evidence','publication'],'employers_configured':100,'employer_entries_attempted':state['employer_index'],'employer_listing_scans_with_gaps':employer_gaps,'board_queries_with_gaps':board_gaps,'board_searches':state['board_coverage'],'employers':state['employer_coverage'],'coverage_complete':False,'note':'Overall coverage remains unverified even when every attempt finishes. A terminal empty response is an observation, not proof of full market coverage. Failed, unsupported and capped sources are not treated as zero vacancies.'}
     report={'last_scan':now.isoformat(),'status':'completed_with_coverage_gaps' if board_gaps or employer_gaps else 'completed_attempt_pass','run_id':os.getenv('GITHUB_RUN_ID','local'),'query_count':len(queries),'total_scanned':state['observations'],'actionable':len(fresh),'jobs':fresh,'sources':{'ordered_employer_scan':coverage},'funnel':{'unique_discovered':len(state['items']),'unique_with_adequate_descriptions':sum(j.get('description_available',False) for j in state['items'].values()),'freshness_qualified':fresh_count,'fresh_rule_eligible':len(fresh),'fresh_needs_review':review,'availability_verified':0},'freshness_policy':{'policy':'0_to_48_hours_only','evaluated_at':now.isoformat(),'cutoff':(now-timedelta(hours=48)).isoformat()},'coverage_scope':'All configured phases were attempted in order; see explicit source gaps. No new shortlist was published before the attempt pass finished.','note':'Keyword and title rules are not personalized resume matching. Availability remains unverified unless independently established.'}
+    report['campaign_started_at']=state.get('started_at')
+    report['deferred_sources']=state.get('deferred_boards',{})
+    if report['deferred_sources']:report['status']='completed_with_deferred_sources'
     save(Path('site/jobs.json'),report);save(Path('site/coverage.json'),coverage);save(Path('site/scan-status.json'),{'status':report['status'],'run_id':report['run_id'],'updated_at':now.isoformat(),'jobs_found':len(fresh),'coverage_complete':coverage['coverage_complete']})
     Path('site/digest.md').write_text('# Final strict 0–48-hour rule-qualified candidates\n\n'+'\n'.join('- '+j['title']+' | '+j.get('company','')+' | '+j['job_url'] for j in fresh[:30]),encoding='utf-8')
-    state['pass_finished']=True;checkpoint()
+    finish_recovery(state);checkpoint()
     print(f'FINAL attempt pass finished: {len(fresh)} fresh rule-qualified candidates; coverage gaps={board_gaps+employer_gaps}',flush=True)
     return 0
 if __name__=='__main__':sys.exit(main())

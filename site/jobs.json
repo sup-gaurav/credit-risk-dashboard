@@ -5,7 +5,7 @@
   "run_id": "42736971755",
   "total_scanned": 1710,
   "descriptions_screened_observations": 510,
-  "actionable": 4,
+  "actionable": 1,
   "query_count": 120,
   "selected_queries": 116,
   "completed_query_source_tasks": 232,
@@ -65,156 +65,6 @@
     "availability_verified": 0
   },
   "jobs": [
-    {
-      "title": "Model and Credit Risk Senior Consultant",
-      "company": "Crowe Capability Center - India",
-      "location": "TS, IN (India)",
-      "job_url": "https://in.indeed.com/viewjob?jk=8676b54cb0417a21",
-      "date_posted": "2026-11-09",
-      "site": "indeed",
-      "indirect": false,
-      "last_seen": "2026-11-10T01:42:13.462320+00:00",
-      "match_score": 118,
-      "tier": "hot",
-      "matched_tags": [
-        "Credit risk",
-        "Models",
-        "Regulatory",
-        "Portfolio",
-        "SAS",
-        "PYTHON",
-        "SQL",
-        "POWER BI",
-        "TABLEAU"
-      ],
-      "work_mode": "",
-      "eligibility": "needs_review",
-      "gates": {
-        "domain": true,
-        "seniority": false,
-        "india": true
-      },
-      "reasons": [
-        "sas",
-        "sql",
-        "python",
-        "pd",
-        "lgd",
-        "model validation"
-      ],
-      "supported_skill_matches": [],
-      "gaps": [
-        "Seniority or equivalent scope needs review",
-        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
-      ],
-      "evidence_confidence": "description_available",
-      "posted_at": "2026-11-09T00:00:00+00:00",
-      "posted_evidence": "2026-11-09",
-      "availability": "unverified",
-      "last_checked": null,
-      "check_note": "No live availability verification performed",
-      "fit_assessment": "candidate_profile_missing",
-      "id": "2fbf269d9e2dfe79e409a7cb",
-      "legacy_ids": [
-        "2fbf269d9e2dfe79e409a7cb"
-      ],
-      "canonical_url": "https://in.indeed.com/viewjob?jk=8676b54cb0417a21",
-      "source_urls": [
-        "https://in.indeed.com/viewjob?jk=8676b54cb0417a21"
-      ],
-      "sources": [
-        "indeed"
-      ],
-      "first_seen": "2026-11-09T16:34:43.870421+00:00",
-      "description_available": true,
-      "description_excerpt": "**Your Journey at Crowe Starts Here:**\n\n\nAt Crowe, you can build a meaningful and rewarding career. With real flexibility to balance work with life moments, you’re trusted to deliver results and make an impact. We embrace you for who you are, care for your well\\-being, and nurture your career. Everyone has equitable access to opportunities for career growth and leadership. Over our 80\\-year history, delivering excellent service through innovation has been a core part of our DNA across our audit,",
-      "possible_duplicate": false,
-      "freshness": {
-        "status": "within_48h",
-        "event": "posted",
-        "basis": "conservative_date_only_interval",
-        "evidence_value": "2026-11-09",
-        "evidence_url": "https://in.indeed.com/viewjob?jk=8676b54cb0417a21",
-        "earliest_possible_at": "2026-11-08T10:00:00+00:00",
-        "latest_possible_at": "2026-11-10T01:42:16.196668+00:00",
-        "expires_at": "2026-11-10T10:00:00+00:00"
-      }
-    },
-    {
-      "title": "Credit Risk Modeler",
-      "company": "Ford Motor Company",
-      "location": "TN, IN (India)",
-      "job_url": "https://in.indeed.com/viewjob?jk=91d721e30d536aa8",
-      "date_posted": "2026-11-09",
-      "site": "indeed",
-      "indirect": false,
-      "last_seen": "2026-11-10T01:42:13.462320+00:00",
-      "match_score": 106,
-      "tier": "hot",
-      "matched_tags": [
-        "Credit risk",
-        "Models",
-        "Regulatory",
-        "Portfolio",
-        "SAS",
-        "PYTHON",
-        "SQL"
-      ],
-      "work_mode": "",
-      "eligibility": "needs_review",
-      "gates": {
-        "domain": true,
-        "seniority": false,
-        "india": true
-      },
-      "reasons": [
-        "sas",
-        "sql",
-        "python",
-        "ifrs 9",
-        "pd",
-        "lgd",
-        "ead",
-        "model validation"
-      ],
-      "supported_skill_matches": [],
-      "gaps": [
-        "Seniority or equivalent scope needs review",
-        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
-      ],
-      "evidence_confidence": "description_available",
-      "posted_at": "2026-11-09T00:00:00+00:00",
-      "posted_evidence": "2026-11-09",
-      "availability": "unverified",
-      "last_checked": null,
-      "check_note": "No live availability verification performed",
-      "fit_assessment": "candidate_profile_missing",
-      "id": "1b26f24a76980de52b6e7fe4",
-      "legacy_ids": [
-        "1b26f24a76980de52b6e7fe4"
-      ],
-      "canonical_url": "https://in.indeed.com/viewjob?jk=91d721e30d536aa8",
-      "source_urls": [
-        "https://in.indeed.com/viewjob?jk=91d721e30d536aa8"
-      ],
-      "sources": [
-        "indeed"
-      ],
-      "first_seen": "2026-11-09T16:34:43.869990+00:00",
-      "description_available": true,
-      "description_excerpt": "Job ID\n73565\nCategory\nGlobal Data Insight \\& Analytics\nLocation\nChennai, India\nWork Type\nOn\\-site  \n\nPotential candidates should have knowledge in general math modeling, Machine Learning (ML) and related Operations Research (OR) and simulation techniques. Candidates should have hands\\-on experience in developing quantitative models. They should possess the ability to translate a business problem into an analytical problem, recommend, implement and validate quantitative models, and generate/deliv",
-      "possible_duplicate": false,
-      "freshness": {
-        "status": "within_48h",
-        "event": "posted",
-        "basis": "conservative_date_only_interval",
-        "evidence_value": "2026-11-09",
-        "evidence_url": "https://in.indeed.com/viewjob?jk=91d721e30d536aa8",
-        "earliest_possible_at": "2026-11-08T10:00:00+00:00",
-        "latest_possible_at": "2026-11-10T01:42:16.196668+00:00",
-        "expires_at": "2026-11-10T10:00:00+00:00"
-      }
-    },
     {
       "title": "Asset Quality, AVP",
       "company": "Deutsche Bank",
@@ -279,73 +129,7 @@
         "evidence_value": "2026-11-09",
         "evidence_url": "https://in.indeed.com/viewjob?jk=8e64126c3ae6339a",
         "earliest_possible_at": "2026-11-08T10:00:00+00:00",
-        "latest_possible_at": "2026-11-10T01:42:16.196668+00:00",
-        "expires_at": "2026-11-10T10:00:00+00:00"
-      }
-    },
-    {
-      "title": "Credit Risk Data Unit, AS",
-      "company": "Deutsche Bank",
-      "location": "MH, IN (India)",
-      "job_url": "https://in.indeed.com/viewjob?jk=d627a2cf00b51aad",
-      "date_posted": "2026-11-09",
-      "site": "indeed",
-      "indirect": false,
-      "last_seen": "2026-11-10T01:39:58.091018+00:00",
-      "match_score": 70,
-      "tier": "good",
-      "matched_tags": [
-        "Credit risk",
-        "Regulatory",
-        "Governance",
-        "SQL"
-      ],
-      "work_mode": "",
-      "eligibility": "needs_review",
-      "gates": {
-        "domain": true,
-        "seniority": false,
-        "india": true
-      },
-      "reasons": [
-        "sql",
-        "ifrs 9"
-      ],
-      "supported_skill_matches": [],
-      "gaps": [
-        "Seniority or equivalent scope needs review",
-        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
-      ],
-      "evidence_confidence": "description_available",
-      "posted_at": "2026-11-09T00:00:00+00:00",
-      "posted_evidence": "2026-11-09",
-      "availability": "unverified",
-      "last_checked": null,
-      "check_note": "No live availability verification performed",
-      "fit_assessment": "candidate_profile_missing",
-      "id": "1c9787122171e4911437271b",
-      "legacy_ids": [
-        "1c9787122171e4911437271b"
-      ],
-      "canonical_url": "https://in.indeed.com/viewjob?jk=d627a2cf00b51aad",
-      "source_urls": [
-        "https://in.indeed.com/viewjob?jk=d627a2cf00b51aad"
-      ],
-      "sources": [
-        "indeed"
-      ],
-      "first_seen": "2026-11-09T16:34:43.779780+00:00",
-      "description_available": true,
-      "description_excerpt": "**Job Description:**\n--------------------\n\n**Job Title: Credit Risk Data Unit, AS**\n\n**Location: Pune, India**\n\n**Corporate Title: Associate**\n\n**Role Description**\n\n* The Credit Risk Data Unit delivers quality\\-assured, timely and transparent finance\\-relevant risk data and analysis to key stakeholders. The team manages end\\-to\\-end processes for critical risk metrics, maintaining strong controls, regulatory compliance and operational efficiency while using data, automation and AI\\-enabled capa",
-      "possible_duplicate": false,
-      "freshness": {
-        "status": "within_48h",
-        "event": "posted",
-        "basis": "conservative_date_only_interval",
-        "evidence_value": "2026-11-09",
-        "evidence_url": "https://in.indeed.com/viewjob?jk=d627a2cf00b51aad",
-        "earliest_possible_at": "2026-11-08T10:00:00+00:00",
-        "latest_possible_at": "2026-11-10T01:42:16.196668+00:00",
+        "latest_possible_at": "2026-11-10T04:04:53.747948+00:00",
         "expires_at": "2026-11-10T10:00:00+00:00"
       }
     }
@@ -387,8 +171,8 @@
   "coverage_scope": "One discovery page per selected query; not full pagination or exhaustive coverage. Naukri CAPTCHA endpoint and Google News RSS are not requested by this entry point.",
   "freshness_policy": {
     "policy": "0_to_48_hours_only",
-    "evaluated_at": "2026-11-10T01:42:16.196668+00:00",
-    "cutoff": "2026-11-08T01:42:16.196668+00:00",
+    "evaluated_at": "2026-11-10T04:04:53.747948+00:00",
+    "cutoff": "2026-11-08T04:04:53.747948+00:00",
     "counts": {
       "within_48h": 4,
       "older_than_48h": 42,

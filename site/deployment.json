@@ -1,0 +1,21 @@
+{
+  "build_id": "42753506749-1-app",
+  "phase": "app",
+  "scan_outcome": "pending",
+  "built_at": "2026-11-10T04:04:53.747948+00:00",
+  "workflow_commit": "5c124a52847c73bdb722e057fa9c4930e0686a33",
+  "execution_run_id": "42753506749",
+  "results_run_id": "42736971755",
+  "results_last_scan": "2026-11-10T01:42:16.129527+00:00",
+  "visible_candidates": 1,
+  "deferred_sources": {
+    "linkedin": {
+      "phase": 0,
+      "query_index": 0,
+      "offset": 350,
+      "retry_not_before": "2026-11-10T04:00:20.920748+00:00",
+      "reason": "Recovered existing throttled checkpoint"
+    }
+  },
+  "note": "App deployment and scan-result completion are separate. A refreshed build does not certify complete source coverage."
+}
