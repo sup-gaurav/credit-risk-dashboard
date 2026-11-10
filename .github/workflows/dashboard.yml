@@ -3,7 +3,7 @@ run-name: Credit Risk Scan ${{ inputs.request_id || github.run_number }}
 on:
   push:
     branches: [main]
-    paths: ['ordered_scan.py', 'employer_sources.py', 'config/employers.csv', 'scanner.py', 'quality.py', 'freshness.py', 'tests/**', 'requirements.txt', 'site/index.html', 'site/github-scan.js', '.github/workflows/**']
+    paths: ['ordered_scan.py', 'employer_sources.py', 'scan_recovery.py', 'prepare_deployment.py', 'config/employers.csv', 'scanner.py', 'quality.py', 'freshness.py', 'tests/**', 'requirements.txt', 'site/**', '.github/workflows/**']
   schedule:
     - cron: '17 */6 * * *'
   workflow_dispatch:
@@ -22,12 +22,43 @@ concurrency:
   group: credit-risk-dashboard
   cancel-in-progress: false
 jobs:
-  ordered_scan:
+  publish_app:
     runs-on: ubuntu-24.04
-    timeout-minutes: 180
+    timeout-minutes: 10
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - run: python3 scan_recovery.py
+      - run: python3 -m unittest discover -s tests -p 'test_recovery.py' -v
+      - run: python3 -m unittest discover -s tests -p 'test_freshness.py' -v
+      - run: python3 prepare_deployment.py --phase app
+      - name: Commit tested recovery and app metadata
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add ordered_scan.py site/index.html site/jobs.json site/deployment.json
+          if [ -f data/ordered-state.json ]; then git add data/ordered-state.json; fi
+          if ! git diff --cached --quiet; then
+            git commit -m 'Install tested source recovery and app build'
+            git push origin HEAD:main
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          name: app-release
+          path: site
+      - uses: actions/deploy-pages@v4
+        id: deploy
+        with:
+          artifact_name: app-release
+  scan:
+    needs: publish_app
+    runs-on: ubuntu-24.04
+    timeout-minutes: 180
     steps:
       - uses: actions/checkout@v4
         with:
@@ -38,42 +69,26 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - run: python -m unittest discover -s tests -v
-      - name: Run LinkedIn then Indeed then 100 employers then final screening
+      - name: Run independent source phases
         id: scan
         continue-on-error: true
         env:
           CANDIDATE_PROFILE_JSON: ${{ secrets.CANDIDATE_PROFILE_JSON }}
           PYTHONUNBUFFERED: '1'
         run: python ordered_scan.py
-      - name: Preserve resumable state
+      - name: Preserve state and only completed-pass snapshots
         if: always() && !cancelled()
+        env:
+          RESULT: ${{ steps.scan.outcome }}
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          if [ -f data/ordered-state.json ]; then
-            git add data/ordered-state.json
-            if ! git diff --cached --quiet; then
-              git commit -m 'Save ordered scan state'
-              git push origin HEAD:main
-            fi
-          fi
-      - name: Save final snapshot after the full attempt pass
-        if: steps.scan.outcome == 'success'
-        run: |
-          git add site/jobs.json site/coverage.json site/scan-status.json site/digest.md
+          if [ -f data/ordered-state.json ]; then git add data/ordered-state.json; fi
+          if [ "$RESULT" = 'success' ]; then git add site/jobs.json site/coverage.json site/scan-status.json site/digest.md; fi
           if ! git diff --cached --quiet; then
-            git commit -m 'Publish final ordered scan snapshot'
+            git commit -m 'Save recovery-aware scan checkpoint'
             git push origin HEAD:main
           fi
-      - uses: actions/configure-pages@v5
-        if: steps.scan.outcome == 'success'
-      - uses: actions/upload-pages-artifact@v3
-        if: steps.scan.outcome == 'success'
-        with:
-          path: site
-      - uses: actions/deploy-pages@v4
-        id: deploy
-        if: steps.scan.outcome == 'success'
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -81,6 +96,39 @@ jobs:
           path: data/ordered-state.json
           if-no-files-found: warn
           retention-days: 7
-      - name: Flag paused or failed work without publishing new results
-        if: steps.scan.outcome != 'success'
+      - if: steps.scan.outcome != 'success'
         run: exit 1
+  publish_outcome:
+    needs: [publish_app, scan]
+    if: always() && !cancelled() && needs.publish_app.result == 'success'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Refresh app with actual scan outcome
+        env:
+          SCAN_OUTCOME: ${{ needs.scan.result }}
+        run: python3 prepare_deployment.py --phase outcome --outcome "$SCAN_OUTCOME"
+      - name: Save deployment metadata
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add site/index.html site/jobs.json site/deployment.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publish app and scan outcome metadata'
+            git push origin HEAD:main
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          name: outcome-release
+          path: site
+      - uses: actions/deploy-pages@v4
+        id: deploy
+        with:
+          artifact_name: outcome-release
