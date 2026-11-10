@@ -5,7 +5,7 @@
     "location": "Hyderabad, Telangana, India",
     "job_url": "https://www.linkedin.com/jobs/view/4460956766",
     "date_posted": "2026-11-07",
-    "discovered_at": "2026-11-09T17:49:28.025733+00:00",
+    "discovered_at": "2026-11-10T01:39:45.700422+00:00",
     "detail_state": "pending"
   },
   {
@@ -14,7 +14,7 @@
     "location": "Gurugram, Haryana, India",
     "job_url": "https://www.linkedin.com/jobs/view/4460948858",
     "date_posted": "2026-11-06",
-    "discovered_at": "2026-11-09T17:49:28.025733+00:00",
+    "discovered_at": "2026-11-10T01:39:45.700422+00:00",
     "detail_state": "pending"
   },
   {
@@ -23,7 +23,7 @@
     "location": "Mumbai, Maharashtra, India",
     "job_url": "https://www.linkedin.com/jobs/view/4486023256",
     "date_posted": "2026-11-03",
-    "discovered_at": "2026-11-09T17:49:28.025733+00:00",
+    "discovered_at": "2026-11-10T01:39:45.700422+00:00",
     "detail_state": "pending"
   },
   {
@@ -32,7 +32,7 @@
     "location": "Hyderabad, Telangana, India",
     "job_url": "https://www.linkedin.com/jobs/view/4486048677",
     "date_posted": "2026-11-03",
-    "discovered_at": "2026-11-09T17:49:28.025733+00:00",
+    "discovered_at": "2026-11-10T01:39:45.700422+00:00",
     "detail_state": "pending"
   },
   {
@@ -41,7 +41,7 @@
     "location": "Bengaluru, Karnataka, India",
     "job_url": "https://www.linkedin.com/jobs/view/4486032881",
     "date_posted": "2026-11-03",
-    "discovered_at": "2026-11-09T17:49:28.025733+00:00",
+    "discovered_at": "2026-11-10T01:39:45.700422+00:00",
     "detail_state": "pending"
   },
   {
@@ -50,7 +50,7 @@
     "location": "Bengaluru, Karnataka, India",
     "job_url": "https://www.linkedin.com/jobs/view/4441750525",
     "date_posted": "2026-11-03",
-    "discovered_at": "2026-11-09T17:49:28.025733+00:00",
+    "discovered_at": "2026-11-10T01:39:45.700422+00:00",
     "detail_state": "pending"
   },
   {
@@ -95,7 +95,7 @@
     "location": "Mumbai, Maharashtra, India",
     "job_url": "https://www.linkedin.com/jobs/view/4485083356",
     "date_posted": "2026-11-04",
-    "discovered_at": "2026-11-09T17:49:28.025733+00:00",
+    "discovered_at": "2026-11-10T01:39:45.700422+00:00",
     "detail_state": "pending"
   },
   {
@@ -104,7 +104,25 @@
     "location": "Gurugram, Haryana, India",
     "job_url": "https://www.linkedin.com/jobs/view/4488853245",
     "date_posted": "",
-    "discovered_at": "2026-11-09T17:49:28.025733+00:00",
+    "discovered_at": "2026-11-10T01:39:45.700422+00:00",
+    "detail_state": "pending"
+  },
+  {
+    "title": "Manager/ Senior Manager/ General Manager/Assistant Vice President - Corporate Sales",
+    "company": "Unilight Insurance Brokers Private Limited",
+    "location": "Kolkata, West Bengal, India",
+    "job_url": "https://www.linkedin.com/jobs/view/4486009880",
+    "date_posted": "2026-11-03",
+    "discovered_at": "2026-11-10T01:39:45.700422+00:00",
+    "detail_state": "pending"
+  },
+  {
+    "title": "Senior Manager, Risk Advisory & Assurance Services (JAPAC)",
+    "company": "Adobe",
+    "location": "",
+    "job_url": "https://www.linkedin.com/jobs/view/4487695623",
+    "date_posted": "",
+    "discovered_at": "2026-11-10T01:39:45.700422+00:00",
     "detail_state": "pending"
   }
 ]

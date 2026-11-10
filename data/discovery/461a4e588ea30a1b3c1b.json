@@ -14,7 +14,7 @@
     "location": "Mumbai, Maharashtra, India",
     "job_url": "https://www.linkedin.com/jobs/view/4486907862",
     "date_posted": "2026-11-05",
-    "discovered_at": "2026-11-09T17:50:41.572997+00:00",
+    "discovered_at": "2026-11-10T01:41:20.212272+00:00",
     "detail_state": "pending"
   },
   {
@@ -23,7 +23,7 @@
     "location": "Delhi, India",
     "job_url": "https://www.linkedin.com/jobs/view/4480962206",
     "date_posted": "2026-11-05",
-    "discovered_at": "2026-11-09T17:50:41.572997+00:00",
+    "discovered_at": "2026-11-10T01:41:20.212272+00:00",
     "detail_state": "pending"
   },
   {
@@ -32,7 +32,7 @@
     "location": "Haryana, India",
     "job_url": "https://www.linkedin.com/jobs/view/4486923409",
     "date_posted": "2026-11-05",
-    "discovered_at": "2026-11-09T17:50:41.572997+00:00",
+    "discovered_at": "2026-11-10T01:41:20.212272+00:00",
     "detail_state": "pending"
   },
   {
@@ -41,7 +41,7 @@
     "location": "",
     "job_url": "https://www.linkedin.com/jobs/view/4485050976",
     "date_posted": "2026-11-04",
-    "discovered_at": "2026-11-09T17:50:41.572997+00:00",
+    "discovered_at": "2026-11-10T01:41:20.212272+00:00",
     "detail_state": "pending"
   },
   {
@@ -50,7 +50,7 @@
     "location": "",
     "job_url": "https://www.linkedin.com/jobs/view/4487501922",
     "date_posted": "2026-11-04",
-    "discovered_at": "2026-11-09T17:50:41.572997+00:00",
+    "discovered_at": "2026-11-10T01:41:20.212272+00:00",
     "detail_state": "pending"
   },
   {
@@ -59,7 +59,7 @@
     "location": "Mumbai, Maharashtra, India",
     "job_url": "https://www.linkedin.com/jobs/view/4484685247",
     "date_posted": "2026-11-03",
-    "discovered_at": "2026-11-09T17:50:41.572997+00:00",
+    "discovered_at": "2026-11-10T01:41:20.212272+00:00",
     "detail_state": "pending"
   },
   {
@@ -95,7 +95,7 @@
     "location": "Haryana, India",
     "job_url": "https://www.linkedin.com/jobs/view/4486925358",
     "date_posted": "2026-11-05",
-    "discovered_at": "2026-11-09T17:50:41.572997+00:00",
+    "discovered_at": "2026-11-10T01:41:20.212272+00:00",
     "detail_state": "pending"
   },
   {
@@ -122,7 +122,7 @@
     "location": "Chennai, Tamil Nadu, India",
     "job_url": "https://www.linkedin.com/jobs/view/4489105539",
     "date_posted": "",
-    "discovered_at": "2026-11-09T17:50:41.572997+00:00",
+    "discovered_at": "2026-11-10T01:41:20.212272+00:00",
     "detail_state": "pending"
   },
   {
@@ -131,7 +131,16 @@
     "location": "Chennai, Tamil Nadu, India",
     "job_url": "https://www.linkedin.com/jobs/view/4488893634",
     "date_posted": "",
-    "discovered_at": "2026-11-09T17:50:41.572997+00:00",
+    "discovered_at": "2026-11-10T01:41:20.212272+00:00",
+    "detail_state": "pending"
+  },
+  {
+    "title": "Head Of Credit Risk & Data Science",
+    "company": "FINN",
+    "location": "",
+    "job_url": "https://www.linkedin.com/jobs/view/4489199100",
+    "date_posted": "",
+    "discovered_at": "2026-11-10T01:41:20.212272+00:00",
     "detail_state": "pending"
   }
 ]

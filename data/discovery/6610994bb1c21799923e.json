@@ -5,7 +5,7 @@
     "location": "Madhya Pradesh, India",
     "job_url": "https://www.linkedin.com/jobs/view/4463358570",
     "date_posted": "2026-11-07",
-    "discovered_at": "2026-11-09T17:48:29.341788+00:00",
+    "discovered_at": "2026-11-10T01:38:37.166344+00:00",
     "detail_state": "pending"
   },
   {
@@ -14,7 +14,7 @@
     "location": "Ahmedabad, Gujarat, India",
     "job_url": "https://www.linkedin.com/jobs/view/4488153523",
     "date_posted": "2026-11-06",
-    "discovered_at": "2026-11-09T17:48:29.341788+00:00",
+    "discovered_at": "2026-11-10T01:38:37.166344+00:00",
     "detail_state": "pending"
   },
   {
@@ -23,7 +23,7 @@
     "location": "Mumbai, Maharashtra, India",
     "job_url": "https://www.linkedin.com/jobs/view/4443376178",
     "date_posted": "2026-11-06",
-    "discovered_at": "2026-11-09T17:48:29.341788+00:00",
+    "discovered_at": "2026-11-10T01:38:37.166344+00:00",
     "detail_state": "pending"
   },
   {
@@ -32,7 +32,7 @@
     "location": "Mumbai, Maharashtra, India",
     "job_url": "https://www.linkedin.com/jobs/view/4443363661",
     "date_posted": "2026-11-06",
-    "discovered_at": "2026-11-09T17:48:29.341788+00:00",
+    "discovered_at": "2026-11-10T01:38:37.166344+00:00",
     "detail_state": "pending"
   },
   {
@@ -41,7 +41,7 @@
     "location": "Mumbai, Maharashtra, India",
     "job_url": "https://www.linkedin.com/jobs/view/4486907862",
     "date_posted": "2026-11-05",
-    "discovered_at": "2026-11-09T17:48:29.341788+00:00",
+    "discovered_at": "2026-11-10T01:38:37.166344+00:00",
     "detail_state": "pending"
   },
   {
@@ -50,7 +50,7 @@
     "location": "Mumbai, Maharashtra, India",
     "job_url": "https://www.linkedin.com/jobs/view/4443371322",
     "date_posted": "2026-11-05",
-    "discovered_at": "2026-11-09T17:48:29.341788+00:00",
+    "discovered_at": "2026-11-10T01:38:37.166344+00:00",
     "detail_state": "pending"
   },
   {
@@ -59,7 +59,7 @@
     "location": "Delhi, India",
     "job_url": "https://www.linkedin.com/jobs/view/4480962206",
     "date_posted": "2026-11-05",
-    "discovered_at": "2026-11-09T17:48:29.341788+00:00",
+    "discovered_at": "2026-11-10T01:38:37.166344+00:00",
     "detail_state": "pending"
   },
   {
@@ -96,6 +96,33 @@
     "job_url": "https://www.linkedin.com/jobs/view/4486910751",
     "date_posted": "2026-11-05",
     "discovered_at": "2026-11-09T17:48:29.341788+00:00",
+    "detail_state": "pending"
+  },
+  {
+    "title": "Credit Risk Data Unit, AS",
+    "company": "Deutsche Bank",
+    "location": "Pune Division, Maharashtra, India",
+    "job_url": "https://www.linkedin.com/jobs/view/4489129021",
+    "date_posted": "",
+    "discovered_at": "2026-11-10T01:38:37.166344+00:00",
+    "detail_state": "pending"
+  },
+  {
+    "title": "Credit Risk Data Unit, AS",
+    "company": "Deutsche Bank",
+    "location": "Pune Division, Maharashtra, India",
+    "job_url": "https://www.linkedin.com/jobs/view/4489112892",
+    "date_posted": "",
+    "discovered_at": "2026-11-10T01:38:37.166344+00:00",
+    "detail_state": "pending"
+  },
+  {
+    "title": "Asset Quality, AVP",
+    "company": "Deutsche Bank",
+    "location": "Pune Division, Maharashtra, India",
+    "job_url": "https://www.linkedin.com/jobs/view/4489120558",
+    "date_posted": "",
+    "discovered_at": "2026-11-10T01:38:37.166344+00:00",
     "detail_state": "pending"
   }
 ]
