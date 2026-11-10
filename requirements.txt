@@ -1,2 +1,2 @@
-python-jobspy==1.1.77
+python-jobspy @ git+https://github.com/speedyapply/JobSpy.git@a606f9cf077c34f6ce6cbfcc76238f57b3c20671
 requests>=2.31.0,<3

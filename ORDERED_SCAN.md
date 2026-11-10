@@ -1,0 +1,11 @@
+# Ordered 100-target pipeline
+
+This activation uses the staged ordered_scan.py. Order: LinkedIn keyword/company queries, Indeed queries, 100 employer entries sequentially, description evidence, final screening/publication. No new shortlist is published before the attempt pass finishes. Existing published results remain and expire through the current UI.
+
+JobSpy is installed from immutable commit a606f9cf077c34f6ce6cbfcc76238f57b3c20671 (tag v1.4.1), not floating main. Discovery requests hours_old=48 and advancing 25-record windows. Source caps, repeated pages, empty responses, failures and access restrictions are reported; none establishes complete market coverage. The 150-minute work budget or rate limiting pauses with saved state; the workflow fails rather than presenting paused work as complete. The next invocation resumes. An interrupted employer restarts from its entry point with deduplicated collected records retained.
+
+The 100 career URLs are researched entry points, NOT 100 certified adapters. Greenhouse/Lever/Ashby feeds, runtime-schema-checked Workday search and structured JobPosting/observed-link HTML traversal are attempted. Unsupported dynamic/custom/Oracle/PeopleStrong pages remain explicit coverage gaps, not zero jobs. HTML traversal is best effort. Robots restrictions, host checks, private-address rejection and access refusals are respected. No proxy, login cookies, CAPTCHA bypass or applications are configured.
+
+Only records passing current domain/seniority/India rules, adequate-description checks and the existing conservative 0–48-hour gate enter the main snapshot. Source publication fields are preserved; updated_at, first discovery and last_seen do not make a job fresh. Missing dates and unavailable repost evidence remain unresolved. This is not personalized resume matching or independently verified-active hiring. coverage_complete remains false, even after every source attempt ends.
+
+No paid provider or external host is enabled. Public checkpoints contain vacancy metadata and short excerpts, not private resumes or credentials. The existing browser monitor stops after 90 minutes without cancelling a longer run; GitHub Actions remains authoritative. GitHub runner and repository policies apply. Older scanner files remain but the workflow now calls ordered_scan.py only.
