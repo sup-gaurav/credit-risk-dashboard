@@ -4,75 +4,8 @@
   "run_id": "42762372027",
   "query_count": 124,
   "total_scanned": 2157,
-  "actionable": 1,
-  "jobs": [
-    {
-      "title": "Asset Quality, AVP",
-      "company": "Deutsche Bank",
-      "job_url": "https://in.indeed.com/viewjob?jk=8e64126c3ae6339a",
-      "date_posted": "2026-11-09",
-      "requisition_id": "",
-      "valid_through": "",
-      "location": "MH, India",
-      "site": "indeed",
-      "match_score": 103,
-      "tier": "hot",
-      "matched_tags": [
-        "Seniority",
-        "Credit risk",
-        "Models",
-        "Regulatory",
-        "SQL"
-      ],
-      "work_mode": "",
-      "eligibility": "eligible",
-      "gates": {
-        "domain": true,
-        "seniority": true,
-        "india": true
-      },
-      "reasons": [
-        "sql",
-        "pd",
-        "lgd",
-        "ead"
-      ],
-      "supported_skill_matches": [],
-      "gaps": [
-        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
-      ],
-      "evidence_confidence": "description_available",
-      "posted_at": "2026-11-09T00:00:00+00:00",
-      "posted_evidence": "2026-11-09",
-      "availability": "unverified",
-      "last_checked": null,
-      "check_note": "No live availability verification performed",
-      "fit_assessment": "candidate_profile_missing",
-      "id": "c47659588913736c4f38a5ed",
-      "first_seen": "2026-11-09T16:34:43.781228+00:00",
-      "last_seen": "2026-11-10T04:09:05.171365+00:00",
-      "posting_events": [
-        {
-          "value": "2026-11-09",
-          "url": "https://in.indeed.com/viewjob?jk=8e64126c3ae6339a",
-          "source": "indeed"
-        }
-      ],
-      "description_available": true,
-      "description_excerpt": "**Job Description:**\n--------------------\n\n**Job Title: Asset Quality, AVP**\n\n**Location: Pune, India**\n\n**Corporate Title:** **Assistant Vice President**\n\n**Role Description**\n\n* The CRDU Associate is primarily responsible for supervising day to day operations, workload balancing and prioritization, quality assurance checks, issue monitoring and escalation, performance management and development of direct reports, and relationship building with stakeholders.\n* The role of Asset Quality is to pr",
-      "canonical_url": "https://in.indeed.com/viewjob?jk=8e64126c3ae6339a",
-      "freshness": {
-        "status": "within_48h",
-        "event": "posted",
-        "basis": "conservative_date_only_interval",
-        "evidence_value": "2026-11-09",
-        "evidence_url": "https://in.indeed.com/viewjob?jk=8e64126c3ae6339a",
-        "earliest_possible_at": "2026-11-08T10:00:00+00:00",
-        "latest_possible_at": "2026-11-10T05:29:36.620852+00:00",
-        "expires_at": "2026-11-10T10:00:00+00:00"
-      }
-    }
-  ],
+  "actionable": 0,
+  "jobs": [],
   "sources": {
     "ordered_employer_scan": {
       "ordered_phases": [
@@ -4236,8 +4169,8 @@
   },
   "freshness_policy": {
     "policy": "0_to_48_hours_only",
-    "evaluated_at": "2026-11-10T05:29:36.620852+00:00",
-    "cutoff": "2026-11-08T05:29:36.620852+00:00"
+    "evaluated_at": "2026-11-10T14:57:48.789814+00:00",
+    "cutoff": "2026-11-08T14:57:48.789814+00:00"
   },
   "coverage_scope": "All configured phases were attempted in order; see explicit source gaps. No new shortlist was published before the attempt pass finished.",
   "note": "Keyword and title rules are not personalized resume matching. Availability remains unverified unless independently established.",
