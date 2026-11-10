@@ -1,79 +1,20 @@
 {
-  "last_scan": "2026-11-10T01:42:16.129527+00:00",
-  "checkpoint_at": "2026-11-10T01:42:16.129527+00:00",
-  "status": "batch_completed",
-  "run_id": "42736971755",
-  "total_scanned": 1710,
-  "descriptions_screened_observations": 510,
+  "last_scan": "2026-11-10T04:28:02.216997+00:00",
+  "status": "completed_with_deferred_sources",
+  "run_id": "42753506749",
+  "query_count": 124,
+  "total_scanned": 2157,
   "actionable": 1,
-  "query_count": 120,
-  "selected_queries": 116,
-  "completed_query_source_tasks": 232,
-  "query_cursor": 0,
-  "sources": {
-    "glassdoor": {
-      "disabled": true,
-      "reason": "Disabled after repeated 403 responses"
-    },
-    "indeed": {
-      "requests_ok": 120,
-      "requests_failed": 0,
-      "raw_results": 510,
-      "errors": []
-    },
-    "linkedin": {
-      "requests_ok": 120,
-      "requests_failed": 0,
-      "raw_results": 1200,
-      "errors": []
-    },
-    "lever:PayU": {
-      "status": "unavailable_or_unvalidated",
-      "error_type": "HTTPError"
-    },
-    "lever:OakNorth": {
-      "status": "unavailable_or_unvalidated",
-      "error_type": "HTTPError"
-    },
-    "greenhouse": {
-      "status": "not_configured",
-      "reason": "No employer board identifier has been validated yet"
-    },
-    "email_alerts": {
-      "status": "not_configured",
-      "reason": "GitHub workflow has not been granted Gmail OAuth access"
-    },
-    "naukri_direct": {
-      "status": "interaction_required",
-      "reason": "Existing diagnostic returned recaptcha required; no bypass attempted"
-    },
-    "serpapi": {
-      "status": "not_enabled_or_configured"
-    },
-    "adzuna": {
-      "status": "not_enabled_or_configured"
-    }
-  },
-  "disabled_sources": {
-    "glassdoor": "Disabled after repeated 403 responses"
-  },
-  "funnel": {
-    "raw_observations_this_run": 1710,
-    "unique_retained": 4,
-    "eligible": 1,
-    "needs_review": 3,
-    "availability_verified": 0
-  },
   "jobs": [
     {
       "title": "Asset Quality, AVP",
       "company": "Deutsche Bank",
-      "location": "MH, IN (India)",
       "job_url": "https://in.indeed.com/viewjob?jk=8e64126c3ae6339a",
       "date_posted": "2026-11-09",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "MH, India",
       "site": "indeed",
-      "indirect": false,
-      "last_seen": "2026-11-10T01:39:58.091018+00:00",
       "match_score": 103,
       "tier": "hot",
       "matched_tags": [
@@ -108,20 +49,18 @@
       "check_note": "No live availability verification performed",
       "fit_assessment": "candidate_profile_missing",
       "id": "c47659588913736c4f38a5ed",
-      "legacy_ids": [
-        "c47659588913736c4f38a5ed"
-      ],
-      "canonical_url": "https://in.indeed.com/viewjob?jk=8e64126c3ae6339a",
-      "source_urls": [
-        "https://in.indeed.com/viewjob?jk=8e64126c3ae6339a"
-      ],
-      "sources": [
-        "indeed"
-      ],
       "first_seen": "2026-11-09T16:34:43.781228+00:00",
+      "last_seen": "2026-11-10T04:09:05.171365+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-09",
+          "url": "https://in.indeed.com/viewjob?jk=8e64126c3ae6339a",
+          "source": "indeed"
+        }
+      ],
       "description_available": true,
       "description_excerpt": "**Job Description:**\n--------------------\n\n**Job Title: Asset Quality, AVP**\n\n**Location: Pune, India**\n\n**Corporate Title:** **Assistant Vice President**\n\n**Role Description**\n\n* The CRDU Associate is primarily responsible for supervising day to day operations, workload balancing and prioritization, quality assurance checks, issue monitoring and escalation, performance management and development of direct reports, and relationship building with stakeholders.\n* The role of Asset Quality is to pr",
-      "possible_duplicate": false,
+      "canonical_url": "https://in.indeed.com/viewjob?jk=8e64126c3ae6339a",
       "freshness": {
         "status": "within_48h",
         "event": "posted",
@@ -129,57 +68,4187 @@
         "evidence_value": "2026-11-09",
         "evidence_url": "https://in.indeed.com/viewjob?jk=8e64126c3ae6339a",
         "earliest_possible_at": "2026-11-08T10:00:00+00:00",
-        "latest_possible_at": "2026-11-10T04:04:53.747948+00:00",
+        "latest_possible_at": "2026-11-10T04:28:02.216997+00:00",
         "expires_at": "2026-11-10T10:00:00+00:00"
       }
     }
   ],
-  "note": "Checkpoint time is not publication time. Descriptions-screened counts observations, not unique verified screenings. No live listing verifier is enabled. Posting dates are source-reported. Coverage is partial and best-effort.",
-  "query_plan_version": "free-first-1",
-  "supplemental_sources": {
-    "lever:PayU": {
-      "status": "unavailable_or_unvalidated",
-      "error_type": "HTTPError"
-    },
-    "lever:OakNorth": {
-      "status": "unavailable_or_unvalidated",
-      "error_type": "HTTPError"
-    },
-    "greenhouse": {
-      "status": "not_configured",
-      "reason": "No employer board identifier has been validated yet"
-    },
-    "email_alerts": {
-      "status": "not_configured",
-      "reason": "GitHub workflow has not been granted Gmail OAuth access"
-    },
-    "naukri_direct": {
-      "status": "interaction_required",
-      "reason": "Existing diagnostic returned recaptcha required; no bypass attempted"
-    },
-    "serpapi": {
-      "status": "not_enabled_or_configured"
-    },
-    "adzuna": {
-      "status": "not_enabled_or_configured"
+  "sources": {
+    "ordered_employer_scan": {
+      "ordered_phases": [
+        "linkedin",
+        "indeed",
+        "employers",
+        "description_evidence",
+        "publication"
+      ],
+      "employers_configured": 100,
+      "employer_entries_attempted": 100,
+      "employer_listing_scans_with_gaps": 88,
+      "board_queries_with_gaps": 125,
+      "board_searches": {
+        "linkedin:0": {
+          "query": "credit risk",
+          "source": "linkedin",
+          "state": "deferred_rate_limit",
+          "windows": 16,
+          "observations": 370,
+          "seen": [
+            "https://www.linkedin.com/jobs/view/4287497314",
+            "https://www.linkedin.com/jobs/view/4317011833",
+            "https://www.linkedin.com/jobs/view/4345921976",
+            "https://www.linkedin.com/jobs/view/4360616987",
+            "https://www.linkedin.com/jobs/view/4368349448",
+            "https://www.linkedin.com/jobs/view/4371008179",
+            "https://www.linkedin.com/jobs/view/4386524276",
+            "https://www.linkedin.com/jobs/view/4408044288",
+            "https://www.linkedin.com/jobs/view/4416163786",
+            "https://www.linkedin.com/jobs/view/4416681700",
+            "https://www.linkedin.com/jobs/view/4416776640",
+            "https://www.linkedin.com/jobs/view/4418126752",
+            "https://www.linkedin.com/jobs/view/4426600985",
+            "https://www.linkedin.com/jobs/view/4427108183",
+            "https://www.linkedin.com/jobs/view/4433747163",
+            "https://www.linkedin.com/jobs/view/4436100856",
+            "https://www.linkedin.com/jobs/view/4436108417",
+            "https://www.linkedin.com/jobs/view/4443365613",
+            "https://www.linkedin.com/jobs/view/4443878141",
+            "https://www.linkedin.com/jobs/view/4443900199",
+            "https://www.linkedin.com/jobs/view/4443972336",
+            "https://www.linkedin.com/jobs/view/4444095213",
+            "https://www.linkedin.com/jobs/view/4444996990",
+            "https://www.linkedin.com/jobs/view/4445221363",
+            "https://www.linkedin.com/jobs/view/4446034134",
+            "https://www.linkedin.com/jobs/view/4446040067",
+            "https://www.linkedin.com/jobs/view/4452496206",
+            "https://www.linkedin.com/jobs/view/4453529958",
+            "https://www.linkedin.com/jobs/view/4453548036",
+            "https://www.linkedin.com/jobs/view/4453583579",
+            "https://www.linkedin.com/jobs/view/4453709691",
+            "https://www.linkedin.com/jobs/view/4454332643",
+            "https://www.linkedin.com/jobs/view/4454535963",
+            "https://www.linkedin.com/jobs/view/4455141584",
+            "https://www.linkedin.com/jobs/view/4460777257",
+            "https://www.linkedin.com/jobs/view/4461485140",
+            "https://www.linkedin.com/jobs/view/4462925854",
+            "https://www.linkedin.com/jobs/view/4462928494",
+            "https://www.linkedin.com/jobs/view/4462931522",
+            "https://www.linkedin.com/jobs/view/4462931890",
+            "https://www.linkedin.com/jobs/view/4462942437",
+            "https://www.linkedin.com/jobs/view/4463128526",
+            "https://www.linkedin.com/jobs/view/4463351877",
+            "https://www.linkedin.com/jobs/view/4463351878",
+            "https://www.linkedin.com/jobs/view/4463351905",
+            "https://www.linkedin.com/jobs/view/4463351946",
+            "https://www.linkedin.com/jobs/view/4463352877",
+            "https://www.linkedin.com/jobs/view/4463353662",
+            "https://www.linkedin.com/jobs/view/4463353664",
+            "https://www.linkedin.com/jobs/view/4463353713",
+            "https://www.linkedin.com/jobs/view/4463353721",
+            "https://www.linkedin.com/jobs/view/4463354703",
+            "https://www.linkedin.com/jobs/view/4463355605",
+            "https://www.linkedin.com/jobs/view/4463356638",
+            "https://www.linkedin.com/jobs/view/4463356660",
+            "https://www.linkedin.com/jobs/view/4463358565",
+            "https://www.linkedin.com/jobs/view/4463358680",
+            "https://www.linkedin.com/jobs/view/4463359565",
+            "https://www.linkedin.com/jobs/view/4463360542",
+            "https://www.linkedin.com/jobs/view/4463360570",
+            "https://www.linkedin.com/jobs/view/4463361483",
+            "https://www.linkedin.com/jobs/view/4463361587",
+            "https://www.linkedin.com/jobs/view/4463362442",
+            "https://www.linkedin.com/jobs/view/4463362447",
+            "https://www.linkedin.com/jobs/view/4463362462",
+            "https://www.linkedin.com/jobs/view/4463363536",
+            "https://www.linkedin.com/jobs/view/4463364481",
+            "https://www.linkedin.com/jobs/view/4463364499",
+            "https://www.linkedin.com/jobs/view/4463365425",
+            "https://www.linkedin.com/jobs/view/4463365438",
+            "https://www.linkedin.com/jobs/view/4463366460",
+            "https://www.linkedin.com/jobs/view/4463367402",
+            "https://www.linkedin.com/jobs/view/4463368349",
+            "https://www.linkedin.com/jobs/view/4463368403",
+            "https://www.linkedin.com/jobs/view/4463368423",
+            "https://www.linkedin.com/jobs/view/4463369335",
+            "https://www.linkedin.com/jobs/view/4463369339",
+            "https://www.linkedin.com/jobs/view/4463369401",
+            "https://www.linkedin.com/jobs/view/4463369449",
+            "https://www.linkedin.com/jobs/view/4463371299",
+            "https://www.linkedin.com/jobs/view/4463371331",
+            "https://www.linkedin.com/jobs/view/4463372303",
+            "https://www.linkedin.com/jobs/view/4463372327",
+            "https://www.linkedin.com/jobs/view/4463373261",
+            "https://www.linkedin.com/jobs/view/4463373317",
+            "https://www.linkedin.com/jobs/view/4463374229",
+            "https://www.linkedin.com/jobs/view/4463374241",
+            "https://www.linkedin.com/jobs/view/4463374295",
+            "https://www.linkedin.com/jobs/view/4463386550",
+            "https://www.linkedin.com/jobs/view/4464063789",
+            "https://www.linkedin.com/jobs/view/4464065297",
+            "https://www.linkedin.com/jobs/view/4464085815",
+            "https://www.linkedin.com/jobs/view/4469454495",
+            "https://www.linkedin.com/jobs/view/4470154580",
+            "https://www.linkedin.com/jobs/view/4470314318",
+            "https://www.linkedin.com/jobs/view/4470318085",
+            "https://www.linkedin.com/jobs/view/4470839827",
+            "https://www.linkedin.com/jobs/view/4471326848",
+            "https://www.linkedin.com/jobs/view/4472087761",
+            "https://www.linkedin.com/jobs/view/4477793532",
+            "https://www.linkedin.com/jobs/view/4478209877",
+            "https://www.linkedin.com/jobs/view/4478213795",
+            "https://www.linkedin.com/jobs/view/4478213799",
+            "https://www.linkedin.com/jobs/view/4478214756",
+            "https://www.linkedin.com/jobs/view/4478218520",
+            "https://www.linkedin.com/jobs/view/4478219569",
+            "https://www.linkedin.com/jobs/view/4478219570",
+            "https://www.linkedin.com/jobs/view/4478221422",
+            "https://www.linkedin.com/jobs/view/4478222429",
+            "https://www.linkedin.com/jobs/view/4478250991",
+            "https://www.linkedin.com/jobs/view/4478263349",
+            "https://www.linkedin.com/jobs/view/4478294388",
+            "https://www.linkedin.com/jobs/view/4479684816",
+            "https://www.linkedin.com/jobs/view/4479689486",
+            "https://www.linkedin.com/jobs/view/4479694420",
+            "https://www.linkedin.com/jobs/view/4479966531",
+            "https://www.linkedin.com/jobs/view/4479982010",
+            "https://www.linkedin.com/jobs/view/4480217728",
+            "https://www.linkedin.com/jobs/view/4480232205",
+            "https://www.linkedin.com/jobs/view/4480840894",
+            "https://www.linkedin.com/jobs/view/4480950809",
+            "https://www.linkedin.com/jobs/view/4480963522",
+            "https://www.linkedin.com/jobs/view/4480970329",
+            "https://www.linkedin.com/jobs/view/4485883123",
+            "https://www.linkedin.com/jobs/view/4486685773",
+            "https://www.linkedin.com/jobs/view/4487105825",
+            "https://www.linkedin.com/jobs/view/4487117838",
+            "https://www.linkedin.com/jobs/view/4487118972",
+            "https://www.linkedin.com/jobs/view/4487131192",
+            "https://www.linkedin.com/jobs/view/4487131625",
+            "https://www.linkedin.com/jobs/view/4487134193",
+            "https://www.linkedin.com/jobs/view/4487160400",
+            "https://www.linkedin.com/jobs/view/4487161158",
+            "https://www.linkedin.com/jobs/view/4487185081",
+            "https://www.linkedin.com/jobs/view/4487306026",
+            "https://www.linkedin.com/jobs/view/4487409937",
+            "https://www.linkedin.com/jobs/view/4487418476",
+            "https://www.linkedin.com/jobs/view/4487429006",
+            "https://www.linkedin.com/jobs/view/4487626882",
+            "https://www.linkedin.com/jobs/view/4487634563",
+            "https://www.linkedin.com/jobs/view/4487645301",
+            "https://www.linkedin.com/jobs/view/4487645335",
+            "https://www.linkedin.com/jobs/view/4487653806",
+            "https://www.linkedin.com/jobs/view/4487653818",
+            "https://www.linkedin.com/jobs/view/4487672389",
+            "https://www.linkedin.com/jobs/view/4487681111",
+            "https://www.linkedin.com/jobs/view/4487682264",
+            "https://www.linkedin.com/jobs/view/4487684744",
+            "https://www.linkedin.com/jobs/view/4487688048",
+            "https://www.linkedin.com/jobs/view/4487688235",
+            "https://www.linkedin.com/jobs/view/4487691583",
+            "https://www.linkedin.com/jobs/view/4487695623",
+            "https://www.linkedin.com/jobs/view/4487696064",
+            "https://www.linkedin.com/jobs/view/4487900356",
+            "https://www.linkedin.com/jobs/view/4487911139",
+            "https://www.linkedin.com/jobs/view/4487913890",
+            "https://www.linkedin.com/jobs/view/4487919828",
+            "https://www.linkedin.com/jobs/view/4487921698",
+            "https://www.linkedin.com/jobs/view/4487921717",
+            "https://www.linkedin.com/jobs/view/4487932992",
+            "https://www.linkedin.com/jobs/view/4487941683",
+            "https://www.linkedin.com/jobs/view/4487951125",
+            "https://www.linkedin.com/jobs/view/4487973639",
+            "https://www.linkedin.com/jobs/view/4488301029",
+            "https://www.linkedin.com/jobs/view/4488756421",
+            "https://www.linkedin.com/jobs/view/4488756425",
+            "https://www.linkedin.com/jobs/view/4488759329",
+            "https://www.linkedin.com/jobs/view/4488760326",
+            "https://www.linkedin.com/jobs/view/4488762883",
+            "https://www.linkedin.com/jobs/view/4488763260",
+            "https://www.linkedin.com/jobs/view/4488763921",
+            "https://www.linkedin.com/jobs/view/4488765885",
+            "https://www.linkedin.com/jobs/view/4488767878",
+            "https://www.linkedin.com/jobs/view/4488768192",
+            "https://www.linkedin.com/jobs/view/4488769155",
+            "https://www.linkedin.com/jobs/view/4488770004",
+            "https://www.linkedin.com/jobs/view/4488772410",
+            "https://www.linkedin.com/jobs/view/4488774354",
+            "https://www.linkedin.com/jobs/view/4488777155",
+            "https://www.linkedin.com/jobs/view/4488780924",
+            "https://www.linkedin.com/jobs/view/4488781025",
+            "https://www.linkedin.com/jobs/view/4488781824",
+            "https://www.linkedin.com/jobs/view/4488783080",
+            "https://www.linkedin.com/jobs/view/4488784780",
+            "https://www.linkedin.com/jobs/view/4488785756",
+            "https://www.linkedin.com/jobs/view/4488785766",
+            "https://www.linkedin.com/jobs/view/4488785768",
+            "https://www.linkedin.com/jobs/view/4488788626",
+            "https://www.linkedin.com/jobs/view/4488789715",
+            "https://www.linkedin.com/jobs/view/4488789717",
+            "https://www.linkedin.com/jobs/view/4488791626",
+            "https://www.linkedin.com/jobs/view/4488792685",
+            "https://www.linkedin.com/jobs/view/4488793648",
+            "https://www.linkedin.com/jobs/view/4488796738",
+            "https://www.linkedin.com/jobs/view/4488797221",
+            "https://www.linkedin.com/jobs/view/4488797224",
+            "https://www.linkedin.com/jobs/view/4488798191",
+            "https://www.linkedin.com/jobs/view/4488800703",
+            "https://www.linkedin.com/jobs/view/4488804956",
+            "https://www.linkedin.com/jobs/view/4488804988",
+            "https://www.linkedin.com/jobs/view/4488805418",
+            "https://www.linkedin.com/jobs/view/4488805907",
+            "https://www.linkedin.com/jobs/view/4488806952",
+            "https://www.linkedin.com/jobs/view/4488807846",
+            "https://www.linkedin.com/jobs/view/4488807850",
+            "https://www.linkedin.com/jobs/view/4488808815",
+            "https://www.linkedin.com/jobs/view/4488808816",
+            "https://www.linkedin.com/jobs/view/4488808818",
+            "https://www.linkedin.com/jobs/view/4488808822",
+            "https://www.linkedin.com/jobs/view/4488808827",
+            "https://www.linkedin.com/jobs/view/4488808862",
+            "https://www.linkedin.com/jobs/view/4488808867",
+            "https://www.linkedin.com/jobs/view/4488808891",
+            "https://www.linkedin.com/jobs/view/4488809377",
+            "https://www.linkedin.com/jobs/view/4488809856",
+            "https://www.linkedin.com/jobs/view/4488809865",
+            "https://www.linkedin.com/jobs/view/4488809888",
+            "https://www.linkedin.com/jobs/view/4488810861",
+            "https://www.linkedin.com/jobs/view/4488810862",
+            "https://www.linkedin.com/jobs/view/4488810863",
+            "https://www.linkedin.com/jobs/view/4488810865",
+            "https://www.linkedin.com/jobs/view/4488811253",
+            "https://www.linkedin.com/jobs/view/4488811256",
+            "https://www.linkedin.com/jobs/view/4488811269",
+            "https://www.linkedin.com/jobs/view/4488811795",
+            "https://www.linkedin.com/jobs/view/4488812481",
+            "https://www.linkedin.com/jobs/view/4488812795",
+            "https://www.linkedin.com/jobs/view/4488812797",
+            "https://www.linkedin.com/jobs/view/4488813780",
+            "https://www.linkedin.com/jobs/view/4488813782",
+            "https://www.linkedin.com/jobs/view/4488813786",
+            "https://www.linkedin.com/jobs/view/4488813789",
+            "https://www.linkedin.com/jobs/view/4488813792",
+            "https://www.linkedin.com/jobs/view/4488813795",
+            "https://www.linkedin.com/jobs/view/4488813813",
+            "https://www.linkedin.com/jobs/view/4488814724",
+            "https://www.linkedin.com/jobs/view/4488814750",
+            "https://www.linkedin.com/jobs/view/4488815719",
+            "https://www.linkedin.com/jobs/view/4488815720",
+            "https://www.linkedin.com/jobs/view/4488815743",
+            "https://www.linkedin.com/jobs/view/4488816717",
+            "https://www.linkedin.com/jobs/view/4488816734",
+            "https://www.linkedin.com/jobs/view/4488817619",
+            "https://www.linkedin.com/jobs/view/4488817621",
+            "https://www.linkedin.com/jobs/view/4488818521",
+            "https://www.linkedin.com/jobs/view/4488819002",
+            "https://www.linkedin.com/jobs/view/4488819313",
+            "https://www.linkedin.com/jobs/view/4488820277",
+            "https://www.linkedin.com/jobs/view/4488820278",
+            "https://www.linkedin.com/jobs/view/4488820287",
+            "https://www.linkedin.com/jobs/view/4488820292",
+            "https://www.linkedin.com/jobs/view/4488820299",
+            "https://www.linkedin.com/jobs/view/4488821231",
+            "https://www.linkedin.com/jobs/view/4488821235",
+            "https://www.linkedin.com/jobs/view/4488821240",
+            "https://www.linkedin.com/jobs/view/4488821259",
+            "https://www.linkedin.com/jobs/view/4488821499",
+            "https://www.linkedin.com/jobs/view/4488822198",
+            "https://www.linkedin.com/jobs/view/4488822205",
+            "https://www.linkedin.com/jobs/view/4488822213",
+            "https://www.linkedin.com/jobs/view/4488822218",
+            "https://www.linkedin.com/jobs/view/4488823238",
+            "https://www.linkedin.com/jobs/view/4488823240",
+            "https://www.linkedin.com/jobs/view/4488823441",
+            "https://www.linkedin.com/jobs/view/4488824218",
+            "https://www.linkedin.com/jobs/view/4488824369",
+            "https://www.linkedin.com/jobs/view/4488824944",
+            "https://www.linkedin.com/jobs/view/4488825138",
+            "https://www.linkedin.com/jobs/view/4488825141",
+            "https://www.linkedin.com/jobs/view/4488825142",
+            "https://www.linkedin.com/jobs/view/4488825629",
+            "https://www.linkedin.com/jobs/view/4488826062",
+            "https://www.linkedin.com/jobs/view/4488826069",
+            "https://www.linkedin.com/jobs/view/4488826085",
+            "https://www.linkedin.com/jobs/view/4488827027",
+            "https://www.linkedin.com/jobs/view/4488827034",
+            "https://www.linkedin.com/jobs/view/4488827042",
+            "https://www.linkedin.com/jobs/view/4488827818",
+            "https://www.linkedin.com/jobs/view/4488831707",
+            "https://www.linkedin.com/jobs/view/4488834325",
+            "https://www.linkedin.com/jobs/view/4488834469",
+            "https://www.linkedin.com/jobs/view/4488834591",
+            "https://www.linkedin.com/jobs/view/4488835705",
+            "https://www.linkedin.com/jobs/view/4488835858",
+            "https://www.linkedin.com/jobs/view/4488838510",
+            "https://www.linkedin.com/jobs/view/4488846067",
+            "https://www.linkedin.com/jobs/view/4488853316",
+            "https://www.linkedin.com/jobs/view/4488853540",
+            "https://www.linkedin.com/jobs/view/4488869251",
+            "https://www.linkedin.com/jobs/view/4488870873",
+            "https://www.linkedin.com/jobs/view/4488875524",
+            "https://www.linkedin.com/jobs/view/4488879708",
+            "https://www.linkedin.com/jobs/view/4488880637",
+            "https://www.linkedin.com/jobs/view/4488890889",
+            "https://www.linkedin.com/jobs/view/4488893634",
+            "https://www.linkedin.com/jobs/view/4488899504",
+            "https://www.linkedin.com/jobs/view/4489105539",
+            "https://www.linkedin.com/jobs/view/4489110252",
+            "https://www.linkedin.com/jobs/view/4489111178",
+            "https://www.linkedin.com/jobs/view/4489112144",
+            "https://www.linkedin.com/jobs/view/4489112892",
+            "https://www.linkedin.com/jobs/view/4489120558",
+            "https://www.linkedin.com/jobs/view/4489127234",
+            "https://www.linkedin.com/jobs/view/4489129021",
+            "https://www.linkedin.com/jobs/view/4489134978",
+            "https://www.linkedin.com/jobs/view/4489135951",
+            "https://www.linkedin.com/jobs/view/4489136993",
+            "https://www.linkedin.com/jobs/view/4489137959",
+            "https://www.linkedin.com/jobs/view/4489138804",
+            "https://www.linkedin.com/jobs/view/4489138807",
+            "https://www.linkedin.com/jobs/view/4489139515",
+            "https://www.linkedin.com/jobs/view/4489141435",
+            "https://www.linkedin.com/jobs/view/4489142444",
+            "https://www.linkedin.com/jobs/view/4489142446",
+            "https://www.linkedin.com/jobs/view/4489142447",
+            "https://www.linkedin.com/jobs/view/4489143341",
+            "https://www.linkedin.com/jobs/view/4489143343",
+            "https://www.linkedin.com/jobs/view/4489143345",
+            "https://www.linkedin.com/jobs/view/4489144319",
+            "https://www.linkedin.com/jobs/view/4489144321",
+            "https://www.linkedin.com/jobs/view/4489146310",
+            "https://www.linkedin.com/jobs/view/4489146312",
+            "https://www.linkedin.com/jobs/view/4489147318",
+            "https://www.linkedin.com/jobs/view/4489147321",
+            "https://www.linkedin.com/jobs/view/4489149177",
+            "https://www.linkedin.com/jobs/view/4489150147",
+            "https://www.linkedin.com/jobs/view/4489153045",
+            "https://www.linkedin.com/jobs/view/4489153110",
+            "https://www.linkedin.com/jobs/view/4489154053",
+            "https://www.linkedin.com/jobs/view/4489155029",
+            "https://www.linkedin.com/jobs/view/4489155032",
+            "https://www.linkedin.com/jobs/view/4489155118",
+            "https://www.linkedin.com/jobs/view/4489157013",
+            "https://www.linkedin.com/jobs/view/4489161347",
+            "https://www.linkedin.com/jobs/view/4489162613",
+            "https://www.linkedin.com/jobs/view/4489163196",
+            "https://www.linkedin.com/jobs/view/4489168878",
+            "https://www.linkedin.com/jobs/view/4489169840",
+            "https://www.linkedin.com/jobs/view/4489170833",
+            "https://www.linkedin.com/jobs/view/4489171805",
+            "https://www.linkedin.com/jobs/view/4489172701",
+            "https://www.linkedin.com/jobs/view/4489173695",
+            "https://www.linkedin.com/jobs/view/4489175541",
+            "https://www.linkedin.com/jobs/view/4489177555",
+            "https://www.linkedin.com/jobs/view/4489180511",
+            "https://www.linkedin.com/jobs/view/4489181510",
+            "https://www.linkedin.com/jobs/view/4489185387",
+            "https://www.linkedin.com/jobs/view/4489185388",
+            "https://www.linkedin.com/jobs/view/4489185394",
+            "https://www.linkedin.com/jobs/view/4489199100"
+          ],
+          "errors": {
+            "linkedin": "response status code 429 (blocked: use a proxy)"
+          },
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:1": {
+          "query": "credit risk analytics",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:2": {
+          "query": "portfolio risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:3": {
+          "query": "model validation",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:4": {
+          "query": "model risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:5": {
+          "query": "credit scorecard",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:6": {
+          "query": "internal rating",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:7": {
+          "query": "PD LGD EAD",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:8": {
+          "query": "IFRS 9",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:9": {
+          "query": "expected credit loss",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:10": {
+          "query": "delinquency",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:11": {
+          "query": "vintage analysis",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:12": {
+          "query": "roll rate",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:13": {
+          "query": "early warning credit",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:14": {
+          "query": "collections strategy",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:15": {
+          "query": "credit policy",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:16": {
+          "query": "underwriting credit",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:17": {
+          "query": "credit strategy",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:18": {
+          "query": "Basel credit",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:19": {
+          "query": "regulatory capital",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:20": {
+          "query": "stress testing credit",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:21": {
+          "query": "SAS credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:22": {
+          "query": "commercial lending risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:23": {
+          "query": "wholesale credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:24": {
+          "query": "Citi credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:25": {
+          "query": "JPMorganChase credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:26": {
+          "query": "HSBC credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:27": {
+          "query": "Barclays credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:28": {
+          "query": "Wells Fargo credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:29": {
+          "query": "Deutsche Bank credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:30": {
+          "query": "Goldman Sachs credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:31": {
+          "query": "Morgan Stanley credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:32": {
+          "query": "Bank of America credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:33": {
+          "query": "Standard Chartered credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:34": {
+          "query": "UBS credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:35": {
+          "query": "BNP Paribas credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:36": {
+          "query": "Societe Generale credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:37": {
+          "query": "NatWest Group credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:38": {
+          "query": "DBS Bank credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:39": {
+          "query": "MUFG credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:40": {
+          "query": "Nomura credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:41": {
+          "query": "Macquarie Group credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:42": {
+          "query": "BNY credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:43": {
+          "query": "State Street credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:44": {
+          "query": "Northern Trust credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:45": {
+          "query": "American Express credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:46": {
+          "query": "Synchrony credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:47": {
+          "query": "Capital One credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:48": {
+          "query": "ANZ credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:49": {
+          "query": "BlackRock credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:50": {
+          "query": "HDFC Bank credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:51": {
+          "query": "ICICI Bank credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:52": {
+          "query": "Axis Bank credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:53": {
+          "query": "Kotak Mahindra Bank credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:54": {
+          "query": "State Bank of India credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:55": {
+          "query": "IDFC FIRST Bank credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:56": {
+          "query": "YES BANK credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:57": {
+          "query": "Federal Bank credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:58": {
+          "query": "IDBI Bank credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:59": {
+          "query": "RBL Bank credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:60": {
+          "query": "AU Small Finance Bank credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:61": {
+          "query": "Equitas Small Finance Bank credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:62": {
+          "query": "Ujjivan Small Finance Bank credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:63": {
+          "query": "Bandhan Bank credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:64": {
+          "query": "SBI Card credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:65": {
+          "query": "Bajaj Finance credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:66": {
+          "query": "Tata Capital credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:67": {
+          "query": "Aditya Birla Capital credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:68": {
+          "query": "Piramal Finance credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:69": {
+          "query": "Shriram Finance credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:70": {
+          "query": "Cholamandalam Investment and Finance credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:71": {
+          "query": "L&T Finance credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:72": {
+          "query": "PNB Housing Finance credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:73": {
+          "query": "Home Credit India credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:74": {
+          "query": "Credit Saison India credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:75": {
+          "query": "PayU credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:76": {
+          "query": "PayPal credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:77": {
+          "query": "OakNorth credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:78": {
+          "query": "Zeta credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:79": {
+          "query": "PhonePe credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:80": {
+          "query": "Paytm One97 credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:81": {
+          "query": "Moneyview credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:82": {
+          "query": "Navi credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:83": {
+          "query": "Fibe credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:84": {
+          "query": "SMFG India Credit credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:85": {
+          "query": "CRED credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:86": {
+          "query": "slice credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:87": {
+          "query": "Lendingkart credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:88": {
+          "query": "Perfios credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:89": {
+          "query": "Ford Motor Company credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:90": {
+          "query": "EXL credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:91": {
+          "query": "Evalueserve credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:92": {
+          "query": "Accenture credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:93": {
+          "query": "Deloitte credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:94": {
+          "query": "EY credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:95": {
+          "query": "KPMG credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:96": {
+          "query": "PwC credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:97": {
+          "query": "Capco credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:98": {
+          "query": "ZS credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:99": {
+          "query": "Fractal credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:100": {
+          "query": "Tiger Analytics credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:101": {
+          "query": "LatentView Analytics credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:102": {
+          "query": "Genpact credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:103": {
+          "query": "TCS credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:104": {
+          "query": "Cognizant credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:105": {
+          "query": "Infosys credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:106": {
+          "query": "Wipro credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:107": {
+          "query": "Capgemini credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:108": {
+          "query": "IBM credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:109": {
+          "query": "Crowe credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:110": {
+          "query": "Tredence credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:111": {
+          "query": "SG Analytics credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:112": {
+          "query": "Acuity Analytics credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:113": {
+          "query": "Acies credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:114": {
+          "query": "Moody's credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:115": {
+          "query": "Fitch Group credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:116": {
+          "query": "S&P Global credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:117": {
+          "query": "CRISIL credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:118": {
+          "query": "ICRA credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:119": {
+          "query": "CARE Ratings credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:120": {
+          "query": "Experian credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:121": {
+          "query": "Equifax credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:122": {
+          "query": "TransUnion credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "linkedin:123": {
+          "query": "FICO credit risk",
+          "source": "linkedin",
+          "windows": 0,
+          "observations": 0,
+          "seen": [],
+          "state": "deferred_rate_limit",
+          "retry_not_before": "2026-11-10T05:05:59.024394+00:00"
+        },
+        "indeed:0": {
+          "query": "credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 3,
+          "observations": 50,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=0599b4def568bd0f",
+            "https://in.indeed.com/viewjob?jk=0a7677fd87ec42ca",
+            "https://in.indeed.com/viewjob?jk=0ad6c7d06cbea256",
+            "https://in.indeed.com/viewjob?jk=0cf26f823df40e46",
+            "https://in.indeed.com/viewjob?jk=0e2a637eb175ecae",
+            "https://in.indeed.com/viewjob?jk=13f62daea6cf72ac",
+            "https://in.indeed.com/viewjob?jk=155843fcd184392c",
+            "https://in.indeed.com/viewjob?jk=17dcccd224e7e029",
+            "https://in.indeed.com/viewjob?jk=237d745b8bd4473e",
+            "https://in.indeed.com/viewjob?jk=2622b28bb6f821b4",
+            "https://in.indeed.com/viewjob?jk=2b678e54257be987",
+            "https://in.indeed.com/viewjob?jk=33f51050934c47dc",
+            "https://in.indeed.com/viewjob?jk=3ba7eae2b52db6dc",
+            "https://in.indeed.com/viewjob?jk=405aef99d9429cc9",
+            "https://in.indeed.com/viewjob?jk=4a5dd125176f4416",
+            "https://in.indeed.com/viewjob?jk=4ae66c907abbf644",
+            "https://in.indeed.com/viewjob?jk=4e8c768700de01f7",
+            "https://in.indeed.com/viewjob?jk=50f744dfb92c37e9",
+            "https://in.indeed.com/viewjob?jk=52ee039ba636730b",
+            "https://in.indeed.com/viewjob?jk=58b0b11691a8254a",
+            "https://in.indeed.com/viewjob?jk=6266b56ea29e4eee",
+            "https://in.indeed.com/viewjob?jk=68956e399735f4f4",
+            "https://in.indeed.com/viewjob?jk=739be7e333816b75",
+            "https://in.indeed.com/viewjob?jk=750ab7ba3623ac5f",
+            "https://in.indeed.com/viewjob?jk=794a7eba8450e7d4",
+            "https://in.indeed.com/viewjob?jk=7fce0e316f3dab29",
+            "https://in.indeed.com/viewjob?jk=80c46ea0f3ca96cc",
+            "https://in.indeed.com/viewjob?jk=8676b54cb0417a21",
+            "https://in.indeed.com/viewjob?jk=8e64126c3ae6339a",
+            "https://in.indeed.com/viewjob?jk=908239b448604121",
+            "https://in.indeed.com/viewjob?jk=918a638aab01bf32",
+            "https://in.indeed.com/viewjob?jk=91d721e30d536aa8",
+            "https://in.indeed.com/viewjob?jk=973f9888e03d0fb3",
+            "https://in.indeed.com/viewjob?jk=9e455fffdb2324a4",
+            "https://in.indeed.com/viewjob?jk=a2e7686990a71fc4",
+            "https://in.indeed.com/viewjob?jk=a6de68436dfecb12",
+            "https://in.indeed.com/viewjob?jk=a8a680688a8ce6fa",
+            "https://in.indeed.com/viewjob?jk=b6613088a5d239d7",
+            "https://in.indeed.com/viewjob?jk=bf387e0eb78d9f95",
+            "https://in.indeed.com/viewjob?jk=ca11a77de159f582",
+            "https://in.indeed.com/viewjob?jk=cf4bb064f57d80ba",
+            "https://in.indeed.com/viewjob?jk=d5c1ab232f0c699a",
+            "https://in.indeed.com/viewjob?jk=d627a2cf00b51aad",
+            "https://in.indeed.com/viewjob?jk=d9cf5223f2e263e1",
+            "https://in.indeed.com/viewjob?jk=e1195b3b0cd0d6e5",
+            "https://in.indeed.com/viewjob?jk=e193b69ec3df1bc8",
+            "https://in.indeed.com/viewjob?jk=e2a969d0d78d561a",
+            "https://in.indeed.com/viewjob?jk=ec1c62150f8698b4",
+            "https://in.indeed.com/viewjob?jk=f4afe31ad1c9e4a4",
+            "https://in.indeed.com/viewjob?jk=f6b887b65e8e9938"
+          ]
+        },
+        "indeed:1": {
+          "query": "credit risk analytics",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 2,
+          "observations": 9,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=2622b28bb6f821b4",
+            "https://in.indeed.com/viewjob?jk=4a5dd125176f4416",
+            "https://in.indeed.com/viewjob?jk=794a7eba8450e7d4",
+            "https://in.indeed.com/viewjob?jk=908239b448604121",
+            "https://in.indeed.com/viewjob?jk=91d721e30d536aa8",
+            "https://in.indeed.com/viewjob?jk=a8a680688a8ce6fa",
+            "https://in.indeed.com/viewjob?jk=d5c1ab232f0c699a",
+            "https://in.indeed.com/viewjob?jk=d627a2cf00b51aad",
+            "https://in.indeed.com/viewjob?jk=e2a969d0d78d561a"
+          ]
+        },
+        "indeed:2": {
+          "query": "portfolio risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 6,
+          "observations": 110,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=015e969de4fb9ead",
+            "https://in.indeed.com/viewjob?jk=0599b4def568bd0f",
+            "https://in.indeed.com/viewjob?jk=0a351a95fd8063fd",
+            "https://in.indeed.com/viewjob?jk=0a7677fd87ec42ca",
+            "https://in.indeed.com/viewjob?jk=0ad6c7d06cbea256",
+            "https://in.indeed.com/viewjob?jk=0b8116c47e307ab7",
+            "https://in.indeed.com/viewjob?jk=0e2a637eb175ecae",
+            "https://in.indeed.com/viewjob?jk=13f62daea6cf72ac",
+            "https://in.indeed.com/viewjob?jk=1aa1337847428591",
+            "https://in.indeed.com/viewjob?jk=1b016b3d336002fe",
+            "https://in.indeed.com/viewjob?jk=1cd66bd943fd2d3b",
+            "https://in.indeed.com/viewjob?jk=204646971e218075",
+            "https://in.indeed.com/viewjob?jk=2083c82b4eb09b5b",
+            "https://in.indeed.com/viewjob?jk=22fe37aee2f6c212",
+            "https://in.indeed.com/viewjob?jk=237d745b8bd4473e",
+            "https://in.indeed.com/viewjob?jk=2a8085683ac2e20d",
+            "https://in.indeed.com/viewjob?jk=2b678e54257be987",
+            "https://in.indeed.com/viewjob?jk=2c9dca12af6e6a76",
+            "https://in.indeed.com/viewjob?jk=315194abdf2c04fa",
+            "https://in.indeed.com/viewjob?jk=33f51050934c47dc",
+            "https://in.indeed.com/viewjob?jk=351b61dea3821ad1",
+            "https://in.indeed.com/viewjob?jk=3a154fcbbb6d6142",
+            "https://in.indeed.com/viewjob?jk=3a4f0bede3407dda",
+            "https://in.indeed.com/viewjob?jk=3f297083d195f75e",
+            "https://in.indeed.com/viewjob?jk=408211e7dbc3398c",
+            "https://in.indeed.com/viewjob?jk=40c742a824206fa4",
+            "https://in.indeed.com/viewjob?jk=40e51dd070bd5a27",
+            "https://in.indeed.com/viewjob?jk=41ee73262ad7e212",
+            "https://in.indeed.com/viewjob?jk=456835ec01f48525",
+            "https://in.indeed.com/viewjob?jk=4ae66c907abbf644",
+            "https://in.indeed.com/viewjob?jk=4c43a180e42dd82d",
+            "https://in.indeed.com/viewjob?jk=4de5ad3f3a550ff8",
+            "https://in.indeed.com/viewjob?jk=4e8c768700de01f7",
+            "https://in.indeed.com/viewjob?jk=5098803988910e2a",
+            "https://in.indeed.com/viewjob?jk=50f744dfb92c37e9",
+            "https://in.indeed.com/viewjob?jk=58f153771f9e7468",
+            "https://in.indeed.com/viewjob?jk=590e83d61e4e4fe3",
+            "https://in.indeed.com/viewjob?jk=5dd5d6837917032f",
+            "https://in.indeed.com/viewjob?jk=60406de538088426",
+            "https://in.indeed.com/viewjob?jk=604c9b0b8ad80a87",
+            "https://in.indeed.com/viewjob?jk=60f02006e759eaef",
+            "https://in.indeed.com/viewjob?jk=61ee0b7bc2c58b7d",
+            "https://in.indeed.com/viewjob?jk=63d431e79b32ed37",
+            "https://in.indeed.com/viewjob?jk=6997cc4aaaa1b5cd",
+            "https://in.indeed.com/viewjob?jk=6bad4f7ad20e5a4a",
+            "https://in.indeed.com/viewjob?jk=6bd60a832e61cd83",
+            "https://in.indeed.com/viewjob?jk=6dd8f285b498ac13",
+            "https://in.indeed.com/viewjob?jk=728e9fe7b78a927e",
+            "https://in.indeed.com/viewjob?jk=73d8e525089db3b5",
+            "https://in.indeed.com/viewjob?jk=794a7eba8450e7d4",
+            "https://in.indeed.com/viewjob?jk=7a7e98792a152b52",
+            "https://in.indeed.com/viewjob?jk=7b83e1f1aa448e46",
+            "https://in.indeed.com/viewjob?jk=7befb31c37783edd",
+            "https://in.indeed.com/viewjob?jk=7da5d5c1d0ec8cc3",
+            "https://in.indeed.com/viewjob?jk=7ee735b252ade28f",
+            "https://in.indeed.com/viewjob?jk=7fce0e316f3dab29",
+            "https://in.indeed.com/viewjob?jk=875a30cb563ffdab",
+            "https://in.indeed.com/viewjob?jk=87901393be77b5c6",
+            "https://in.indeed.com/viewjob?jk=899f67c37e212908",
+            "https://in.indeed.com/viewjob?jk=8b3c20dbfc7261e9",
+            "https://in.indeed.com/viewjob?jk=8b6ad85b7b287644",
+            "https://in.indeed.com/viewjob?jk=8f9fff91d58fcc02",
+            "https://in.indeed.com/viewjob?jk=908239b448604121",
+            "https://in.indeed.com/viewjob?jk=915e83e5b66a719a",
+            "https://in.indeed.com/viewjob?jk=91d721e30d536aa8",
+            "https://in.indeed.com/viewjob?jk=9551efa499bf678c",
+            "https://in.indeed.com/viewjob?jk=957ffd83eb9299a5",
+            "https://in.indeed.com/viewjob?jk=962b6ffee29b033d",
+            "https://in.indeed.com/viewjob?jk=9e9356ba9b81b50f",
+            "https://in.indeed.com/viewjob?jk=9e9d29e534cabb91",
+            "https://in.indeed.com/viewjob?jk=9f0bb2a0a50f27a5",
+            "https://in.indeed.com/viewjob?jk=9fe10817669f232f",
+            "https://in.indeed.com/viewjob?jk=a1c3d85c80de0f96",
+            "https://in.indeed.com/viewjob?jk=a25972cd76ae3cf0",
+            "https://in.indeed.com/viewjob?jk=a2bd46efe347fe7c",
+            "https://in.indeed.com/viewjob?jk=a5620bea006cd1e7",
+            "https://in.indeed.com/viewjob?jk=a6becfa83b4238e8",
+            "https://in.indeed.com/viewjob?jk=a8364a5f3180659d",
+            "https://in.indeed.com/viewjob?jk=a8a680688a8ce6fa",
+            "https://in.indeed.com/viewjob?jk=abdb6aa442d7dcfa",
+            "https://in.indeed.com/viewjob?jk=af6e7953a4055cd3",
+            "https://in.indeed.com/viewjob?jk=b1ed1c0eeb8fcb69",
+            "https://in.indeed.com/viewjob?jk=b1ef207917204c1e",
+            "https://in.indeed.com/viewjob?jk=b31471eb540afd31",
+            "https://in.indeed.com/viewjob?jk=b4d9740d25d68e30",
+            "https://in.indeed.com/viewjob?jk=b5568b59dc947700",
+            "https://in.indeed.com/viewjob?jk=ba772de81d5d6caf",
+            "https://in.indeed.com/viewjob?jk=c290acd313ac9294",
+            "https://in.indeed.com/viewjob?jk=c6868e8047d8a034",
+            "https://in.indeed.com/viewjob?jk=c81208070351b16a",
+            "https://in.indeed.com/viewjob?jk=cc1f26e082cd12a6",
+            "https://in.indeed.com/viewjob?jk=ce4e4da8394c0a41",
+            "https://in.indeed.com/viewjob?jk=cf4bb064f57d80ba",
+            "https://in.indeed.com/viewjob?jk=cf783ad449bdc672",
+            "https://in.indeed.com/viewjob?jk=d1e1593dc9a9ca6d",
+            "https://in.indeed.com/viewjob?jk=d5c1ab232f0c699a",
+            "https://in.indeed.com/viewjob?jk=d8d9a7a604248904",
+            "https://in.indeed.com/viewjob?jk=dd54866dee9f8083",
+            "https://in.indeed.com/viewjob?jk=e063ce41b2da807e",
+            "https://in.indeed.com/viewjob?jk=e1195b3b0cd0d6e5",
+            "https://in.indeed.com/viewjob?jk=e279acf9c8299054",
+            "https://in.indeed.com/viewjob?jk=e2a969d0d78d561a",
+            "https://in.indeed.com/viewjob?jk=e3815cbf3650e1a7",
+            "https://in.indeed.com/viewjob?jk=e5a0ae077de32bb2",
+            "https://in.indeed.com/viewjob?jk=edb929f6fd78dda3",
+            "https://in.indeed.com/viewjob?jk=f2848041a0d29624",
+            "https://in.indeed.com/viewjob?jk=f300b01337085914",
+            "https://in.indeed.com/viewjob?jk=fd8ce56ba40bb56f",
+            "https://in.indeed.com/viewjob?jk=fda3282dbd5ed67d",
+            "https://in.indeed.com/viewjob?jk=fe046b99ed43098a"
+          ]
+        },
+        "indeed:3": {
+          "query": "model validation",
+          "source": "indeed",
+          "state": "pagination_stalled",
+          "windows": 4,
+          "observations": 86,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=015e969de4fb9ead",
+            "https://in.indeed.com/viewjob?jk=023308437208c640",
+            "https://in.indeed.com/viewjob?jk=025bc967014bb16c",
+            "https://in.indeed.com/viewjob?jk=027034c49dbd11a1",
+            "https://in.indeed.com/viewjob?jk=0cba6b01fc77ee44",
+            "https://in.indeed.com/viewjob?jk=155843fcd184392c",
+            "https://in.indeed.com/viewjob?jk=16593944c15b5343",
+            "https://in.indeed.com/viewjob?jk=1ab3b46667b84fba",
+            "https://in.indeed.com/viewjob?jk=1d13bcb97f870956",
+            "https://in.indeed.com/viewjob?jk=20f4d517cd5a5263",
+            "https://in.indeed.com/viewjob?jk=237d745b8bd4473e",
+            "https://in.indeed.com/viewjob?jk=2622b28bb6f821b4",
+            "https://in.indeed.com/viewjob?jk=276d14a281e77937",
+            "https://in.indeed.com/viewjob?jk=29bfaada5f1bbc3e",
+            "https://in.indeed.com/viewjob?jk=2c07a7ccb1b19291",
+            "https://in.indeed.com/viewjob?jk=3ea1bc76f0300dc1",
+            "https://in.indeed.com/viewjob?jk=40f3f2fcd41f04a1",
+            "https://in.indeed.com/viewjob?jk=41b56e66e127e96d",
+            "https://in.indeed.com/viewjob?jk=42219f880c8b945f",
+            "https://in.indeed.com/viewjob?jk=438da2716007d435",
+            "https://in.indeed.com/viewjob?jk=4b2dd90808d6a82b",
+            "https://in.indeed.com/viewjob?jk=4e28560888b8220d",
+            "https://in.indeed.com/viewjob?jk=4f7e1060c767a54a",
+            "https://in.indeed.com/viewjob?jk=52ee039ba636730b",
+            "https://in.indeed.com/viewjob?jk=5588af3ecf55e751",
+            "https://in.indeed.com/viewjob?jk=55c2bfa1a3293f40",
+            "https://in.indeed.com/viewjob?jk=5dcbaadf8db8ff91",
+            "https://in.indeed.com/viewjob?jk=63927764cdd2479f",
+            "https://in.indeed.com/viewjob?jk=67d0c07e2b1a0045",
+            "https://in.indeed.com/viewjob?jk=6be765273c69e687",
+            "https://in.indeed.com/viewjob?jk=6e380d35149db653",
+            "https://in.indeed.com/viewjob?jk=6e465fb2c84b7f6f",
+            "https://in.indeed.com/viewjob?jk=70bbccf3885c4e4c",
+            "https://in.indeed.com/viewjob?jk=720b94b1361fb3ec",
+            "https://in.indeed.com/viewjob?jk=730db882a0463d9d",
+            "https://in.indeed.com/viewjob?jk=74fcb037be4f8a26",
+            "https://in.indeed.com/viewjob?jk=76cf4618a84cf193",
+            "https://in.indeed.com/viewjob?jk=784b02fe7c4cf896",
+            "https://in.indeed.com/viewjob?jk=7b83e1f1aa448e46",
+            "https://in.indeed.com/viewjob?jk=82b42610b57da677",
+            "https://in.indeed.com/viewjob?jk=846f57d1e3537770",
+            "https://in.indeed.com/viewjob?jk=8676b54cb0417a21",
+            "https://in.indeed.com/viewjob?jk=899f67c37e212908",
+            "https://in.indeed.com/viewjob?jk=8b6ad85b7b287644",
+            "https://in.indeed.com/viewjob?jk=908239b448604121",
+            "https://in.indeed.com/viewjob?jk=91d721e30d536aa8",
+            "https://in.indeed.com/viewjob?jk=9279fe5713839fb3",
+            "https://in.indeed.com/viewjob?jk=a00e4e04bf5cf6a9",
+            "https://in.indeed.com/viewjob?jk=a1c3d85c80de0f96",
+            "https://in.indeed.com/viewjob?jk=a2bbd908b7745664",
+            "https://in.indeed.com/viewjob?jk=b0aa858b34695462",
+            "https://in.indeed.com/viewjob?jk=b1ed1c0eeb8fcb69",
+            "https://in.indeed.com/viewjob?jk=b48598d814e74d63",
+            "https://in.indeed.com/viewjob?jk=ba772de81d5d6caf",
+            "https://in.indeed.com/viewjob?jk=bc575bc460d1d4d0",
+            "https://in.indeed.com/viewjob?jk=c1e92a388a780ca5",
+            "https://in.indeed.com/viewjob?jk=c290acd313ac9294",
+            "https://in.indeed.com/viewjob?jk=c935dc5696e9eb84",
+            "https://in.indeed.com/viewjob?jk=caf9a2c13594c59f",
+            "https://in.indeed.com/viewjob?jk=cf0432f2d2e28c1f",
+            "https://in.indeed.com/viewjob?jk=d3a22c6ef4265fdc",
+            "https://in.indeed.com/viewjob?jk=d41cd73b39ea5df8",
+            "https://in.indeed.com/viewjob?jk=d5c1ab232f0c699a",
+            "https://in.indeed.com/viewjob?jk=d627a2cf00b51aad",
+            "https://in.indeed.com/viewjob?jk=d8fa5913e01db4fa",
+            "https://in.indeed.com/viewjob?jk=e193b69ec3df1bc8",
+            "https://in.indeed.com/viewjob?jk=e1edd57eb9143a2e",
+            "https://in.indeed.com/viewjob?jk=e2158da82cff3f35",
+            "https://in.indeed.com/viewjob?jk=e72260b5c80e3488",
+            "https://in.indeed.com/viewjob?jk=e81c7ec48558a46a",
+            "https://in.indeed.com/viewjob?jk=ecac8f405b5f52ba",
+            "https://in.indeed.com/viewjob?jk=f29885bbc681d099",
+            "https://in.indeed.com/viewjob?jk=f3b289f4eb163844",
+            "https://in.indeed.com/viewjob?jk=f535bbd5545a9812",
+            "https://in.indeed.com/viewjob?jk=fda3282dbd5ed67d"
+          ]
+        },
+        "indeed:4": {
+          "query": "model risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 8,
+          "observations": 162,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=01499b68e2e5161a",
+            "https://in.indeed.com/viewjob?jk=015e969de4fb9ead",
+            "https://in.indeed.com/viewjob?jk=025bc967014bb16c",
+            "https://in.indeed.com/viewjob?jk=0a351a95fd8063fd",
+            "https://in.indeed.com/viewjob?jk=0a7677fd87ec42ca",
+            "https://in.indeed.com/viewjob?jk=0b8116c47e307ab7",
+            "https://in.indeed.com/viewjob?jk=0cba6b01fc77ee44",
+            "https://in.indeed.com/viewjob?jk=0d870ff259c36c6d",
+            "https://in.indeed.com/viewjob?jk=0e2a637eb175ecae",
+            "https://in.indeed.com/viewjob?jk=125014026e8f9dc8",
+            "https://in.indeed.com/viewjob?jk=133e9d7f781d0367",
+            "https://in.indeed.com/viewjob?jk=13f62daea6cf72ac",
+            "https://in.indeed.com/viewjob?jk=155843fcd184392c",
+            "https://in.indeed.com/viewjob?jk=18e96a3ba5181a7e",
+            "https://in.indeed.com/viewjob?jk=1b016b3d336002fe",
+            "https://in.indeed.com/viewjob?jk=1b3dbd8b2d91fcd1",
+            "https://in.indeed.com/viewjob?jk=1b53ecf1d983ceb3",
+            "https://in.indeed.com/viewjob?jk=1edcc47a642b8f94",
+            "https://in.indeed.com/viewjob?jk=204646971e218075",
+            "https://in.indeed.com/viewjob?jk=219024eba1101df5",
+            "https://in.indeed.com/viewjob?jk=22fe37aee2f6c212",
+            "https://in.indeed.com/viewjob?jk=237d745b8bd4473e",
+            "https://in.indeed.com/viewjob?jk=2622b28bb6f821b4",
+            "https://in.indeed.com/viewjob?jk=2887752b2fd439c1",
+            "https://in.indeed.com/viewjob?jk=29b48c04e84d4ab6",
+            "https://in.indeed.com/viewjob?jk=2c07a7ccb1b19291",
+            "https://in.indeed.com/viewjob?jk=2c9dca12af6e6a76",
+            "https://in.indeed.com/viewjob?jk=2ecd45283fea7f53",
+            "https://in.indeed.com/viewjob?jk=3126c95eaf551147",
+            "https://in.indeed.com/viewjob?jk=37700a8ebeb901ee",
+            "https://in.indeed.com/viewjob?jk=3c4c6b96f7a259d3",
+            "https://in.indeed.com/viewjob?jk=3c5dcb5bbbd9399e",
+            "https://in.indeed.com/viewjob?jk=40c742a824206fa4",
+            "https://in.indeed.com/viewjob?jk=40e51dd070bd5a27",
+            "https://in.indeed.com/viewjob?jk=41b56e66e127e96d",
+            "https://in.indeed.com/viewjob?jk=44be6e67dcbfbb25",
+            "https://in.indeed.com/viewjob?jk=478d21fc9050d310",
+            "https://in.indeed.com/viewjob?jk=48f5af2e2958b34e",
+            "https://in.indeed.com/viewjob?jk=492db84debbe5b0c",
+            "https://in.indeed.com/viewjob?jk=4b2dd90808d6a82b",
+            "https://in.indeed.com/viewjob?jk=4c683ab4fbd3232e",
+            "https://in.indeed.com/viewjob?jk=4e449b0629cf89c4",
+            "https://in.indeed.com/viewjob?jk=4f4caf18fa39f25b",
+            "https://in.indeed.com/viewjob?jk=52ee039ba636730b",
+            "https://in.indeed.com/viewjob?jk=531f024d8b903201",
+            "https://in.indeed.com/viewjob?jk=55c2bfa1a3293f40",
+            "https://in.indeed.com/viewjob?jk=5686ab533bef9057",
+            "https://in.indeed.com/viewjob?jk=58220deab6ae8486",
+            "https://in.indeed.com/viewjob?jk=586daac965df6ae5",
+            "https://in.indeed.com/viewjob?jk=590e83d61e4e4fe3",
+            "https://in.indeed.com/viewjob?jk=5a7b4128dcb48dc7",
+            "https://in.indeed.com/viewjob?jk=5ac29919ab7e5c24",
+            "https://in.indeed.com/viewjob?jk=5dd5d6837917032f",
+            "https://in.indeed.com/viewjob?jk=5f183253954d5d1f",
+            "https://in.indeed.com/viewjob?jk=5fec95420950d4fa",
+            "https://in.indeed.com/viewjob?jk=5ff6d74d5b0048e5",
+            "https://in.indeed.com/viewjob?jk=60406de538088426",
+            "https://in.indeed.com/viewjob?jk=604c9b0b8ad80a87",
+            "https://in.indeed.com/viewjob?jk=60f02006e759eaef",
+            "https://in.indeed.com/viewjob?jk=61ee0b7bc2c58b7d",
+            "https://in.indeed.com/viewjob?jk=6275f65c9c8cb542",
+            "https://in.indeed.com/viewjob?jk=63927764cdd2479f",
+            "https://in.indeed.com/viewjob?jk=64c8d8be78e50dae",
+            "https://in.indeed.com/viewjob?jk=65803d40276622af",
+            "https://in.indeed.com/viewjob?jk=65d7a5fdeb963223",
+            "https://in.indeed.com/viewjob?jk=67d0c07e2b1a0045",
+            "https://in.indeed.com/viewjob?jk=6997cc4aaaa1b5cd",
+            "https://in.indeed.com/viewjob?jk=69a1d32e6fc67148",
+            "https://in.indeed.com/viewjob?jk=6bad4f7ad20e5a4a",
+            "https://in.indeed.com/viewjob?jk=6cefbca85f2f0b88",
+            "https://in.indeed.com/viewjob?jk=6dd8f285b498ac13",
+            "https://in.indeed.com/viewjob?jk=6e465fb2c84b7f6f",
+            "https://in.indeed.com/viewjob?jk=6f307b2d9a617fbc",
+            "https://in.indeed.com/viewjob?jk=6f52f039dc7fd61a",
+            "https://in.indeed.com/viewjob?jk=70bbccf3885c4e4c",
+            "https://in.indeed.com/viewjob?jk=72f41f4d61a04a28",
+            "https://in.indeed.com/viewjob?jk=76c0467895ac3474",
+            "https://in.indeed.com/viewjob?jk=794a7eba8450e7d4",
+            "https://in.indeed.com/viewjob?jk=7b83e1f1aa448e46",
+            "https://in.indeed.com/viewjob?jk=7befb31c37783edd",
+            "https://in.indeed.com/viewjob?jk=7da5d5c1d0ec8cc3",
+            "https://in.indeed.com/viewjob?jk=7e4a27538b7e7cf7",
+            "https://in.indeed.com/viewjob?jk=82b42610b57da677",
+            "https://in.indeed.com/viewjob?jk=84187ef5436f589c",
+            "https://in.indeed.com/viewjob?jk=8676b54cb0417a21",
+            "https://in.indeed.com/viewjob?jk=875a30cb563ffdab",
+            "https://in.indeed.com/viewjob?jk=87901393be77b5c6",
+            "https://in.indeed.com/viewjob?jk=899f67c37e212908",
+            "https://in.indeed.com/viewjob?jk=8b3c20dbfc7261e9",
+            "https://in.indeed.com/viewjob?jk=8b6ad85b7b287644",
+            "https://in.indeed.com/viewjob?jk=908239b448604121",
+            "https://in.indeed.com/viewjob?jk=914c928b233d9b86",
+            "https://in.indeed.com/viewjob?jk=915e83e5b66a719a",
+            "https://in.indeed.com/viewjob?jk=91d721e30d536aa8",
+            "https://in.indeed.com/viewjob?jk=9279fe5713839fb3",
+            "https://in.indeed.com/viewjob?jk=9551efa499bf678c",
+            "https://in.indeed.com/viewjob?jk=999114c98faaf64c",
+            "https://in.indeed.com/viewjob?jk=99cf1f5ba57f917a",
+            "https://in.indeed.com/viewjob?jk=9dd6f418d2934410",
+            "https://in.indeed.com/viewjob?jk=9e9356ba9b81b50f",
+            "https://in.indeed.com/viewjob?jk=9f0bb2a0a50f27a5",
+            "https://in.indeed.com/viewjob?jk=9fe10817669f232f",
+            "https://in.indeed.com/viewjob?jk=a03d4be53424d5e7",
+            "https://in.indeed.com/viewjob?jk=a14d39858b4d9047",
+            "https://in.indeed.com/viewjob?jk=a1c3d85c80de0f96",
+            "https://in.indeed.com/viewjob?jk=a23e645c7291c2f7",
+            "https://in.indeed.com/viewjob?jk=a2bbd908b7745664",
+            "https://in.indeed.com/viewjob?jk=a2bd46efe347fe7c",
+            "https://in.indeed.com/viewjob?jk=a39ade1efa57df7c",
+            "https://in.indeed.com/viewjob?jk=a6e87d15c5baa1d9",
+            "https://in.indeed.com/viewjob?jk=a87a8681e4caeb95",
+            "https://in.indeed.com/viewjob?jk=a8a680688a8ce6fa",
+            "https://in.indeed.com/viewjob?jk=acf6963e020c4999",
+            "https://in.indeed.com/viewjob?jk=adbc0ea1d2115a26",
+            "https://in.indeed.com/viewjob?jk=ae37e823b79f34b0",
+            "https://in.indeed.com/viewjob?jk=af45c738345a49de",
+            "https://in.indeed.com/viewjob?jk=b0aa858b34695462",
+            "https://in.indeed.com/viewjob?jk=b10bbdd7604e85e7",
+            "https://in.indeed.com/viewjob?jk=b1ed1c0eeb8fcb69",
+            "https://in.indeed.com/viewjob?jk=b1ef207917204c1e",
+            "https://in.indeed.com/viewjob?jk=b31471eb540afd31",
+            "https://in.indeed.com/viewjob?jk=b48598d814e74d63",
+            "https://in.indeed.com/viewjob?jk=b5568b59dc947700",
+            "https://in.indeed.com/viewjob?jk=ba772de81d5d6caf",
+            "https://in.indeed.com/viewjob?jk=ba7922e7a31bf1bf",
+            "https://in.indeed.com/viewjob?jk=bb47186d3616cbf5",
+            "https://in.indeed.com/viewjob?jk=bdf1a4c544524dc5",
+            "https://in.indeed.com/viewjob?jk=be503bdeea43863e",
+            "https://in.indeed.com/viewjob?jk=bf387e0eb78d9f95",
+            "https://in.indeed.com/viewjob?jk=c0a3f1e7d11cd95b",
+            "https://in.indeed.com/viewjob?jk=c19a0e0e74de18aa",
+            "https://in.indeed.com/viewjob?jk=c1ea37433b8262dc",
+            "https://in.indeed.com/viewjob?jk=c251e18ba73e6bda",
+            "https://in.indeed.com/viewjob?jk=c290acd313ac9294",
+            "https://in.indeed.com/viewjob?jk=c33d8595658f278f",
+            "https://in.indeed.com/viewjob?jk=cc1f26e082cd12a6",
+            "https://in.indeed.com/viewjob?jk=cc6cfda0f1d9d65b",
+            "https://in.indeed.com/viewjob?jk=cf3141d139d2ae3c",
+            "https://in.indeed.com/viewjob?jk=cf81aca1697b0ba1",
+            "https://in.indeed.com/viewjob?jk=d12c720d4113a8a3",
+            "https://in.indeed.com/viewjob?jk=d1e1593dc9a9ca6d",
+            "https://in.indeed.com/viewjob?jk=d53244a376fc0c55",
+            "https://in.indeed.com/viewjob?jk=d5c1ab232f0c699a",
+            "https://in.indeed.com/viewjob?jk=d627a2cf00b51aad",
+            "https://in.indeed.com/viewjob?jk=d8d9a7a604248904",
+            "https://in.indeed.com/viewjob?jk=d9e63650321930e4",
+            "https://in.indeed.com/viewjob?jk=dabe6af32f67203e",
+            "https://in.indeed.com/viewjob?jk=dd54866dee9f8083",
+            "https://in.indeed.com/viewjob?jk=e193b69ec3df1bc8",
+            "https://in.indeed.com/viewjob?jk=e2a969d0d78d561a",
+            "https://in.indeed.com/viewjob?jk=e6ab39d006be8b35",
+            "https://in.indeed.com/viewjob?jk=ecac8f405b5f52ba",
+            "https://in.indeed.com/viewjob?jk=edb929f6fd78dda3",
+            "https://in.indeed.com/viewjob?jk=eefa76f47f88c3b0",
+            "https://in.indeed.com/viewjob?jk=f29885bbc681d099",
+            "https://in.indeed.com/viewjob?jk=f3b289f4eb163844",
+            "https://in.indeed.com/viewjob?jk=f3fac22d68067416",
+            "https://in.indeed.com/viewjob?jk=f45786fb045d21d7",
+            "https://in.indeed.com/viewjob?jk=f6b887b65e8e9938",
+            "https://in.indeed.com/viewjob?jk=fd8ce56ba40bb56f",
+            "https://in.indeed.com/viewjob?jk=fda3282dbd5ed67d",
+            "https://in.indeed.com/viewjob?jk=fec6313014afa01d"
+          ]
+        },
+        "indeed:5": {
+          "query": "credit scorecard",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 2,
+          "observations": 3,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=2622b28bb6f821b4",
+            "https://in.indeed.com/viewjob?jk=8676b54cb0417a21",
+            "https://in.indeed.com/viewjob?jk=91d721e30d536aa8"
+          ]
+        },
+        "indeed:6": {
+          "query": "internal rating",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 2,
+          "observations": 9,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=1aa1337847428591",
+            "https://in.indeed.com/viewjob?jk=2b678e54257be987",
+            "https://in.indeed.com/viewjob?jk=3588200ac3c94fe8",
+            "https://in.indeed.com/viewjob?jk=650002261c859913",
+            "https://in.indeed.com/viewjob?jk=7857b972f4eedc8c",
+            "https://in.indeed.com/viewjob?jk=78d82523f2812acc",
+            "https://in.indeed.com/viewjob?jk=908239b448604121",
+            "https://in.indeed.com/viewjob?jk=a2bbd908b7745664",
+            "https://in.indeed.com/viewjob?jk=c8d812fdc1b11931"
+          ]
+        },
+        "indeed:7": {
+          "query": "PD LGD EAD",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 2,
+          "observations": 2,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=8e64126c3ae6339a",
+            "https://in.indeed.com/viewjob?jk=91d721e30d536aa8"
+          ]
+        },
+        "indeed:8": {
+          "query": "IFRS 9",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 2,
+          "observations": 4,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=0b2c5bf98909ab15",
+            "https://in.indeed.com/viewjob?jk=1b59ff56c0e1d926",
+            "https://in.indeed.com/viewjob?jk=91d721e30d536aa8",
+            "https://in.indeed.com/viewjob?jk=d627a2cf00b51aad"
+          ]
+        },
+        "indeed:9": {
+          "query": "expected credit loss",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 2,
+          "observations": 5,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=00e5e25683b23330",
+            "https://in.indeed.com/viewjob?jk=0a7677fd87ec42ca",
+            "https://in.indeed.com/viewjob?jk=0cf26f823df40e46",
+            "https://in.indeed.com/viewjob?jk=91d721e30d536aa8",
+            "https://in.indeed.com/viewjob?jk=a6de68436dfecb12"
+          ]
+        },
+        "indeed:10": {
+          "query": "delinquency",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 2,
+          "observations": 14,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=0599b4def568bd0f",
+            "https://in.indeed.com/viewjob?jk=0e2a637eb175ecae",
+            "https://in.indeed.com/viewjob?jk=2b678e54257be987",
+            "https://in.indeed.com/viewjob?jk=32bde7ac40e5c2bf",
+            "https://in.indeed.com/viewjob?jk=4ae66c907abbf644",
+            "https://in.indeed.com/viewjob?jk=4e8c768700de01f7",
+            "https://in.indeed.com/viewjob?jk=5b908dbe4ed377d4",
+            "https://in.indeed.com/viewjob?jk=794a7eba8450e7d4",
+            "https://in.indeed.com/viewjob?jk=7fce0e316f3dab29",
+            "https://in.indeed.com/viewjob?jk=91d721e30d536aa8",
+            "https://in.indeed.com/viewjob?jk=a8a680688a8ce6fa",
+            "https://in.indeed.com/viewjob?jk=b6613088a5d239d7",
+            "https://in.indeed.com/viewjob?jk=c2d6cf05d6645365",
+            "https://in.indeed.com/viewjob?jk=cf4bb064f57d80ba"
+          ]
+        },
+        "indeed:11": {
+          "query": "vintage analysis",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 2,
+          "observations": 1,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=5881307ada57d07a"
+          ]
+        },
+        "indeed:12": {
+          "query": "roll rate",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 2,
+          "observations": 6,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=0599b4def568bd0f",
+            "https://in.indeed.com/viewjob?jk=2e9f19837f1097b0",
+            "https://in.indeed.com/viewjob?jk=4dba37d9c3fcbe74",
+            "https://in.indeed.com/viewjob?jk=8676b54cb0417a21",
+            "https://in.indeed.com/viewjob?jk=a80d498c380bd8a3",
+            "https://in.indeed.com/viewjob?jk=a8a680688a8ce6fa"
+          ]
+        },
+        "indeed:13": {
+          "query": "early warning credit",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 2,
+          "observations": 1,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=794a7eba8450e7d4"
+          ]
+        },
+        "indeed:14": {
+          "query": "collections strategy",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 3,
+          "observations": 50,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=00e5e25683b23330",
+            "https://in.indeed.com/viewjob?jk=023e0022f3292cb9",
+            "https://in.indeed.com/viewjob?jk=0599b4def568bd0f",
+            "https://in.indeed.com/viewjob?jk=155843fcd184392c",
+            "https://in.indeed.com/viewjob?jk=168ad49f7d5c4844",
+            "https://in.indeed.com/viewjob?jk=179a99b51acce2e0",
+            "https://in.indeed.com/viewjob?jk=18ab1e51f1892c67",
+            "https://in.indeed.com/viewjob?jk=231434fd48ce440c",
+            "https://in.indeed.com/viewjob?jk=2622b28bb6f821b4",
+            "https://in.indeed.com/viewjob?jk=27c027f24ade617f",
+            "https://in.indeed.com/viewjob?jk=2c07a7ccb1b19291",
+            "https://in.indeed.com/viewjob?jk=36c3f99037a17a91",
+            "https://in.indeed.com/viewjob?jk=37060cf19c342caa",
+            "https://in.indeed.com/viewjob?jk=3793afb4860b44e7",
+            "https://in.indeed.com/viewjob?jk=3b8c4dd60b55458e",
+            "https://in.indeed.com/viewjob?jk=3ba649996bae3c4e",
+            "https://in.indeed.com/viewjob?jk=46b518d683361519",
+            "https://in.indeed.com/viewjob?jk=48bff4aa5d010412",
+            "https://in.indeed.com/viewjob?jk=4ae66c907abbf644",
+            "https://in.indeed.com/viewjob?jk=4d11c9379f5c497d",
+            "https://in.indeed.com/viewjob?jk=5595bbe53844969d",
+            "https://in.indeed.com/viewjob?jk=599b4f35ba90b123",
+            "https://in.indeed.com/viewjob?jk=59cd8d68dd39eb43",
+            "https://in.indeed.com/viewjob?jk=5b908dbe4ed377d4",
+            "https://in.indeed.com/viewjob?jk=5d10c46758d5e175",
+            "https://in.indeed.com/viewjob?jk=63e92baf63202660",
+            "https://in.indeed.com/viewjob?jk=66d4ec3aabfcf2ad",
+            "https://in.indeed.com/viewjob?jk=67b2c0e3c30851f7",
+            "https://in.indeed.com/viewjob?jk=794a7eba8450e7d4",
+            "https://in.indeed.com/viewjob?jk=7fce0e316f3dab29",
+            "https://in.indeed.com/viewjob?jk=8109e3357b5b7a0c",
+            "https://in.indeed.com/viewjob?jk=87f2317b99910950",
+            "https://in.indeed.com/viewjob?jk=896300b1a2fcedb4",
+            "https://in.indeed.com/viewjob?jk=8a9d021fad7299c3",
+            "https://in.indeed.com/viewjob?jk=914fbed5fdecaf08",
+            "https://in.indeed.com/viewjob?jk=a016678fcc0cc599",
+            "https://in.indeed.com/viewjob?jk=a7498bd2a3f16921",
+            "https://in.indeed.com/viewjob?jk=a8a680688a8ce6fa",
+            "https://in.indeed.com/viewjob?jk=b3b92df818054324",
+            "https://in.indeed.com/viewjob?jk=b8addf8c1fd7606c",
+            "https://in.indeed.com/viewjob?jk=bea3d201a1ee31ab",
+            "https://in.indeed.com/viewjob?jk=c06d8b2ea15bb181",
+            "https://in.indeed.com/viewjob?jk=c4bdb6381eec6f5e",
+            "https://in.indeed.com/viewjob?jk=cd4437c856ae2112",
+            "https://in.indeed.com/viewjob?jk=cf4bb064f57d80ba",
+            "https://in.indeed.com/viewjob?jk=e0cd4b904a290810",
+            "https://in.indeed.com/viewjob?jk=e193b69ec3df1bc8",
+            "https://in.indeed.com/viewjob?jk=e4599796162fc9d5",
+            "https://in.indeed.com/viewjob?jk=e751a8ee50cc1d0b",
+            "https://in.indeed.com/viewjob?jk=e87ba3fa662f722b"
+          ]
+        },
+        "indeed:15": {
+          "query": "credit policy",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 4,
+          "observations": 65,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=00e5e25683b23330",
+            "https://in.indeed.com/viewjob?jk=0599b4def568bd0f",
+            "https://in.indeed.com/viewjob?jk=0c1cf41396d35a34",
+            "https://in.indeed.com/viewjob?jk=0cf26f823df40e46",
+            "https://in.indeed.com/viewjob?jk=0e2a637eb175ecae",
+            "https://in.indeed.com/viewjob?jk=13f62daea6cf72ac",
+            "https://in.indeed.com/viewjob?jk=155843fcd184392c",
+            "https://in.indeed.com/viewjob?jk=177d03afb5787064",
+            "https://in.indeed.com/viewjob?jk=21830e3995d05ba4",
+            "https://in.indeed.com/viewjob?jk=2305e7c2b99b1b06",
+            "https://in.indeed.com/viewjob?jk=237d745b8bd4473e",
+            "https://in.indeed.com/viewjob?jk=2622b28bb6f821b4",
+            "https://in.indeed.com/viewjob?jk=26e32a900e2d414d",
+            "https://in.indeed.com/viewjob?jk=28ee27afd37c8be0",
+            "https://in.indeed.com/viewjob?jk=2c2356d86cde94a1",
+            "https://in.indeed.com/viewjob?jk=3072a28813d936d7",
+            "https://in.indeed.com/viewjob?jk=32bde7ac40e5c2bf",
+            "https://in.indeed.com/viewjob?jk=33f51050934c47dc",
+            "https://in.indeed.com/viewjob?jk=3a09f4672d362813",
+            "https://in.indeed.com/viewjob?jk=3ba7eae2b52db6dc",
+            "https://in.indeed.com/viewjob?jk=3d4f6d10a77006a1",
+            "https://in.indeed.com/viewjob?jk=3dc42ac2e499506e",
+            "https://in.indeed.com/viewjob?jk=44c438d04f1f6ff5",
+            "https://in.indeed.com/viewjob?jk=4ae66c907abbf644",
+            "https://in.indeed.com/viewjob?jk=50f744dfb92c37e9",
+            "https://in.indeed.com/viewjob?jk=58b0b11691a8254a",
+            "https://in.indeed.com/viewjob?jk=60b7a4b06b357129",
+            "https://in.indeed.com/viewjob?jk=6266b56ea29e4eee",
+            "https://in.indeed.com/viewjob?jk=68956e399735f4f4",
+            "https://in.indeed.com/viewjob?jk=695403e01b2aa38e",
+            "https://in.indeed.com/viewjob?jk=6fbef01feb827ed6",
+            "https://in.indeed.com/viewjob?jk=739be7e333816b75",
+            "https://in.indeed.com/viewjob?jk=750ab7ba3623ac5f",
+            "https://in.indeed.com/viewjob?jk=7bb25000ca3a46ee",
+            "https://in.indeed.com/viewjob?jk=7c2d00df72d74421",
+            "https://in.indeed.com/viewjob?jk=7fce0e316f3dab29",
+            "https://in.indeed.com/viewjob?jk=80c46ea0f3ca96cc",
+            "https://in.indeed.com/viewjob?jk=8e64126c3ae6339a",
+            "https://in.indeed.com/viewjob?jk=918a638aab01bf32",
+            "https://in.indeed.com/viewjob?jk=973f9888e03d0fb3",
+            "https://in.indeed.com/viewjob?jk=9d75441ee02b5f2f",
+            "https://in.indeed.com/viewjob?jk=9e455fffdb2324a4",
+            "https://in.indeed.com/viewjob?jk=9e62900823763537",
+            "https://in.indeed.com/viewjob?jk=a1fa9f857e2ce485",
+            "https://in.indeed.com/viewjob?jk=a63263d2f40dea83",
+            "https://in.indeed.com/viewjob?jk=a6de68436dfecb12",
+            "https://in.indeed.com/viewjob?jk=a8a680688a8ce6fa",
+            "https://in.indeed.com/viewjob?jk=aa91c0ddb441c8bf",
+            "https://in.indeed.com/viewjob?jk=ad3fcc2ef7c9468a",
+            "https://in.indeed.com/viewjob?jk=b6613088a5d239d7",
+            "https://in.indeed.com/viewjob?jk=bce8f535c4d47794",
+            "https://in.indeed.com/viewjob?jk=bea3d201a1ee31ab",
+            "https://in.indeed.com/viewjob?jk=c13e3d4a843a9714",
+            "https://in.indeed.com/viewjob?jk=c1d48ef456774558",
+            "https://in.indeed.com/viewjob?jk=c2d6cf05d6645365",
+            "https://in.indeed.com/viewjob?jk=c7851225527d385a",
+            "https://in.indeed.com/viewjob?jk=cf4bb064f57d80ba",
+            "https://in.indeed.com/viewjob?jk=d5ae4c49896e55f0",
+            "https://in.indeed.com/viewjob?jk=d627a2cf00b51aad",
+            "https://in.indeed.com/viewjob?jk=e1195b3b0cd0d6e5",
+            "https://in.indeed.com/viewjob?jk=e193b69ec3df1bc8",
+            "https://in.indeed.com/viewjob?jk=ec1c62150f8698b4",
+            "https://in.indeed.com/viewjob?jk=f4afe31ad1c9e4a4",
+            "https://in.indeed.com/viewjob?jk=f6b887b65e8e9938",
+            "https://in.indeed.com/viewjob?jk=fcf867ad6dbc3d40"
+          ]
+        },
+        "indeed:16": {
+          "query": "underwriting credit",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 2,
+          "observations": 2,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=32bde7ac40e5c2bf",
+            "https://in.indeed.com/viewjob?jk=33f51050934c47dc"
+          ]
+        },
+        "indeed:17": {
+          "query": "credit strategy",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 3,
+          "observations": 36,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=00e5e25683b23330",
+            "https://in.indeed.com/viewjob?jk=0599b4def568bd0f",
+            "https://in.indeed.com/viewjob?jk=066ebbe66d422303",
+            "https://in.indeed.com/viewjob?jk=13f62daea6cf72ac",
+            "https://in.indeed.com/viewjob?jk=155843fcd184392c",
+            "https://in.indeed.com/viewjob?jk=21830e3995d05ba4",
+            "https://in.indeed.com/viewjob?jk=2622b28bb6f821b4",
+            "https://in.indeed.com/viewjob?jk=28ee27afd37c8be0",
+            "https://in.indeed.com/viewjob?jk=3ba7eae2b52db6dc",
+            "https://in.indeed.com/viewjob?jk=3dc42ac2e499506e",
+            "https://in.indeed.com/viewjob?jk=4ae66c907abbf644",
+            "https://in.indeed.com/viewjob?jk=52ee039ba636730b",
+            "https://in.indeed.com/viewjob?jk=58b0b11691a8254a",
+            "https://in.indeed.com/viewjob?jk=68956e399735f4f4",
+            "https://in.indeed.com/viewjob?jk=6d41e6df2e17c9dc",
+            "https://in.indeed.com/viewjob?jk=70442841b1ca70bd",
+            "https://in.indeed.com/viewjob?jk=739be7e333816b75",
+            "https://in.indeed.com/viewjob?jk=794a7eba8450e7d4",
+            "https://in.indeed.com/viewjob?jk=7fce0e316f3dab29",
+            "https://in.indeed.com/viewjob?jk=8676b54cb0417a21",
+            "https://in.indeed.com/viewjob?jk=8d30d192233fe19f",
+            "https://in.indeed.com/viewjob?jk=908239b448604121",
+            "https://in.indeed.com/viewjob?jk=918a638aab01bf32",
+            "https://in.indeed.com/viewjob?jk=9344083588a8ff82",
+            "https://in.indeed.com/viewjob?jk=9e455fffdb2324a4",
+            "https://in.indeed.com/viewjob?jk=a8a680688a8ce6fa",
+            "https://in.indeed.com/viewjob?jk=bea3d201a1ee31ab",
+            "https://in.indeed.com/viewjob?jk=cd4437c856ae2112",
+            "https://in.indeed.com/viewjob?jk=cf4bb064f57d80ba",
+            "https://in.indeed.com/viewjob?jk=d5ae4c49896e55f0",
+            "https://in.indeed.com/viewjob?jk=d5c1ab232f0c699a",
+            "https://in.indeed.com/viewjob?jk=e193b69ec3df1bc8",
+            "https://in.indeed.com/viewjob?jk=e2a969d0d78d561a",
+            "https://in.indeed.com/viewjob?jk=ec1c62150f8698b4",
+            "https://in.indeed.com/viewjob?jk=f4afe31ad1c9e4a4",
+            "https://in.indeed.com/viewjob?jk=f6b887b65e8e9938"
+          ]
+        },
+        "indeed:18": {
+          "query": "Basel credit",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 2,
+          "observations": 1,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=d627a2cf00b51aad"
+          ]
+        },
+        "indeed:19": {
+          "query": "regulatory capital",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 3,
+          "observations": 29,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=025bc967014bb16c",
+            "https://in.indeed.com/viewjob?jk=09ad5f753a3e59c4",
+            "https://in.indeed.com/viewjob?jk=133e9d7f781d0367",
+            "https://in.indeed.com/viewjob?jk=2083c82b4eb09b5b",
+            "https://in.indeed.com/viewjob?jk=237d745b8bd4473e",
+            "https://in.indeed.com/viewjob?jk=2887752b2fd439c1",
+            "https://in.indeed.com/viewjob?jk=2c9b1c8fc4e6d8fc",
+            "https://in.indeed.com/viewjob?jk=2f3612353689c268",
+            "https://in.indeed.com/viewjob?jk=3ba649996bae3c4e",
+            "https://in.indeed.com/viewjob?jk=405aef99d9429cc9",
+            "https://in.indeed.com/viewjob?jk=46b5088564d8c61d",
+            "https://in.indeed.com/viewjob?jk=54d5340ecb148663",
+            "https://in.indeed.com/viewjob?jk=5fec95420950d4fa",
+            "https://in.indeed.com/viewjob?jk=7da5d5c1d0ec8cc3",
+            "https://in.indeed.com/viewjob?jk=8676b54cb0417a21",
+            "https://in.indeed.com/viewjob?jk=8f9fff91d58fcc02",
+            "https://in.indeed.com/viewjob?jk=90f145ebb0c274f9",
+            "https://in.indeed.com/viewjob?jk=9abb01df365d6cbb",
+            "https://in.indeed.com/viewjob?jk=9c43e976c6b154db",
+            "https://in.indeed.com/viewjob?jk=a1c3d85c80de0f96",
+            "https://in.indeed.com/viewjob?jk=a39ade1efa57df7c",
+            "https://in.indeed.com/viewjob?jk=ac1cc77605b6c721",
+            "https://in.indeed.com/viewjob?jk=ae37e823b79f34b0",
+            "https://in.indeed.com/viewjob?jk=b193ae4ac0f2f114",
+            "https://in.indeed.com/viewjob?jk=b9f2c009ecb08461",
+            "https://in.indeed.com/viewjob?jk=d627a2cf00b51aad",
+            "https://in.indeed.com/viewjob?jk=e8abb4848bc8a53e",
+            "https://in.indeed.com/viewjob?jk=f85754707e365f88",
+            "https://in.indeed.com/viewjob?jk=fbdda714c7935265"
+          ]
+        },
+        "indeed:20": {
+          "query": "stress testing credit",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 2,
+          "observations": 1,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=8676b54cb0417a21"
+          ]
+        },
+        "indeed:21": {
+          "query": "SAS credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 2,
+          "observations": 2,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=8676b54cb0417a21",
+            "https://in.indeed.com/viewjob?jk=91d721e30d536aa8"
+          ]
+        },
+        "indeed:22": {
+          "query": "commercial lending risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 2,
+          "observations": 4,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=2622b28bb6f821b4",
+            "https://in.indeed.com/viewjob?jk=33f51050934c47dc",
+            "https://in.indeed.com/viewjob?jk=a8a680688a8ce6fa",
+            "https://in.indeed.com/viewjob?jk=bc81d7e1be9ed3b3"
+          ]
+        },
+        "indeed:23": {
+          "query": "wholesale credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 2,
+          "observations": 1,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=a6de68436dfecb12"
+          ]
+        },
+        "indeed:24": {
+          "query": "Citi credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 2,
+          "observations": 1,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=0cf26f823df40e46"
+          ]
+        },
+        "indeed:25": {
+          "query": "JPMorganChase credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:26": {
+          "query": "HSBC credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 2,
+          "observations": 2,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=13f62daea6cf72ac",
+            "https://in.indeed.com/viewjob?jk=973f9888e03d0fb3"
+          ]
+        },
+        "indeed:27": {
+          "query": "Barclays credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:28": {
+          "query": "Wells Fargo credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 2,
+          "observations": 6,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=58b0b11691a8254a",
+            "https://in.indeed.com/viewjob?jk=6266b56ea29e4eee",
+            "https://in.indeed.com/viewjob?jk=739be7e333816b75",
+            "https://in.indeed.com/viewjob?jk=918a638aab01bf32",
+            "https://in.indeed.com/viewjob?jk=9e455fffdb2324a4",
+            "https://in.indeed.com/viewjob?jk=e193b69ec3df1bc8"
+          ]
+        },
+        "indeed:29": {
+          "query": "Deutsche Bank credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 2,
+          "observations": 2,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=8e64126c3ae6339a",
+            "https://in.indeed.com/viewjob?jk=d627a2cf00b51aad"
+          ]
+        },
+        "indeed:30": {
+          "query": "Goldman Sachs credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:31": {
+          "query": "Morgan Stanley credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:32": {
+          "query": "Bank of America credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 2,
+          "observations": 2,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=237d745b8bd4473e",
+            "https://in.indeed.com/viewjob?jk=bf387e0eb78d9f95"
+          ]
+        },
+        "indeed:33": {
+          "query": "Standard Chartered credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 2,
+          "observations": 3,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=0a7677fd87ec42ca",
+            "https://in.indeed.com/viewjob?jk=155843fcd184392c",
+            "https://in.indeed.com/viewjob?jk=f4afe31ad1c9e4a4"
+          ]
+        },
+        "indeed:34": {
+          "query": "UBS credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:35": {
+          "query": "BNP Paribas credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:36": {
+          "query": "Societe Generale credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:37": {
+          "query": "NatWest Group credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:38": {
+          "query": "DBS Bank credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 2,
+          "observations": 5,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=33f51050934c47dc",
+            "https://in.indeed.com/viewjob?jk=405aef99d9429cc9",
+            "https://in.indeed.com/viewjob?jk=50f744dfb92c37e9",
+            "https://in.indeed.com/viewjob?jk=e1195b3b0cd0d6e5",
+            "https://in.indeed.com/viewjob?jk=ec1c62150f8698b4"
+          ]
+        },
+        "indeed:39": {
+          "query": "MUFG credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:40": {
+          "query": "Nomura credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:41": {
+          "query": "Macquarie Group credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:42": {
+          "query": "BNY credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:43": {
+          "query": "State Street credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:44": {
+          "query": "Northern Trust credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:45": {
+          "query": "American Express credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:46": {
+          "query": "Synchrony credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 2,
+          "observations": 1,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=52ee039ba636730b"
+          ]
+        },
+        "indeed:47": {
+          "query": "Capital One credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 2,
+          "observations": 1,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=8676b54cb0417a21"
+          ]
+        },
+        "indeed:48": {
+          "query": "ANZ credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 2,
+          "observations": 1,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=3ba7eae2b52db6dc"
+          ]
+        },
+        "indeed:49": {
+          "query": "BlackRock credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:50": {
+          "query": "HDFC Bank credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:51": {
+          "query": "ICICI Bank credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:52": {
+          "query": "Axis Bank credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:53": {
+          "query": "Kotak Mahindra Bank credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:54": {
+          "query": "State Bank of India credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 2,
+          "observations": 1,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=908239b448604121"
+          ]
+        },
+        "indeed:55": {
+          "query": "IDFC FIRST Bank credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:56": {
+          "query": "YES BANK credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 2,
+          "observations": 1,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=3ba7eae2b52db6dc"
+          ]
+        },
+        "indeed:57": {
+          "query": "Federal Bank credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 2,
+          "observations": 3,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=237d745b8bd4473e",
+            "https://in.indeed.com/viewjob?jk=908239b448604121",
+            "https://in.indeed.com/viewjob?jk=d5c1ab232f0c699a"
+          ]
+        },
+        "indeed:58": {
+          "query": "IDBI Bank credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:59": {
+          "query": "RBL Bank credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:60": {
+          "query": "AU Small Finance Bank credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:61": {
+          "query": "Equitas Small Finance Bank credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:62": {
+          "query": "Ujjivan Small Finance Bank credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:63": {
+          "query": "Bandhan Bank credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:64": {
+          "query": "SBI Card credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:65": {
+          "query": "Bajaj Finance credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:66": {
+          "query": "Tata Capital credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:67": {
+          "query": "Aditya Birla Capital credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:68": {
+          "query": "Piramal Finance credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:69": {
+          "query": "Shriram Finance credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:70": {
+          "query": "Cholamandalam Investment and Finance credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:71": {
+          "query": "L&T Finance credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:72": {
+          "query": "PNB Housing Finance credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:73": {
+          "query": "Home Credit India credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 2,
+          "observations": 3,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=155843fcd184392c",
+            "https://in.indeed.com/viewjob?jk=237d745b8bd4473e",
+            "https://in.indeed.com/viewjob?jk=52ee039ba636730b"
+          ]
+        },
+        "indeed:74": {
+          "query": "Credit Saison India credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:75": {
+          "query": "PayU credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:76": {
+          "query": "PayPal credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 2,
+          "observations": 1,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=d5c1ab232f0c699a"
+          ]
+        },
+        "indeed:77": {
+          "query": "OakNorth credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:78": {
+          "query": "Zeta credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:79": {
+          "query": "PhonePe credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:80": {
+          "query": "Paytm One97 credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:81": {
+          "query": "Moneyview credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:82": {
+          "query": "Navi credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:83": {
+          "query": "Fibe credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:84": {
+          "query": "SMFG India Credit credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:85": {
+          "query": "CRED credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:86": {
+          "query": "slice credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:87": {
+          "query": "Lendingkart credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:88": {
+          "query": "Perfios credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:89": {
+          "query": "Ford Motor Company credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 2,
+          "observations": 1,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=91d721e30d536aa8"
+          ]
+        },
+        "indeed:90": {
+          "query": "EXL credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:91": {
+          "query": "Evalueserve credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:92": {
+          "query": "Accenture credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:93": {
+          "query": "Deloitte credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:94": {
+          "query": "EY credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:95": {
+          "query": "KPMG credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:96": {
+          "query": "PwC credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:97": {
+          "query": "Capco credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:98": {
+          "query": "ZS credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:99": {
+          "query": "Fractal credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:100": {
+          "query": "Tiger Analytics credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:101": {
+          "query": "LatentView Analytics credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:102": {
+          "query": "Genpact credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:103": {
+          "query": "TCS credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:104": {
+          "query": "Cognizant credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:105": {
+          "query": "Infosys credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:106": {
+          "query": "Wipro credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:107": {
+          "query": "Capgemini credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:108": {
+          "query": "IBM credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:109": {
+          "query": "Crowe credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 2,
+          "observations": 1,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=8676b54cb0417a21"
+          ]
+        },
+        "indeed:110": {
+          "query": "Tredence credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:111": {
+          "query": "SG Analytics credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:112": {
+          "query": "Acuity Analytics credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:113": {
+          "query": "Acies credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:114": {
+          "query": "Moody's credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:115": {
+          "query": "Fitch Group credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:116": {
+          "query": "S&P Global credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:117": {
+          "query": "CRISIL credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:118": {
+          "query": "ICRA credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:119": {
+          "query": "CARE Ratings credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 2,
+          "observations": 1,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=8676b54cb0417a21"
+          ]
+        },
+        "indeed:120": {
+          "query": "Experian credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:121": {
+          "query": "Equifax credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 2,
+          "observations": 1,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=2622b28bb6f821b4"
+          ]
+        },
+        "indeed:122": {
+          "query": "TransUnion credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 1,
+          "observations": 0,
+          "seen": []
+        },
+        "indeed:123": {
+          "query": "FICO credit risk",
+          "source": "indeed",
+          "state": "empty_terminal_observed",
+          "windows": 2,
+          "observations": 1,
+          "seen": [
+            "https://in.indeed.com/viewjob?jk=2622b28bb6f821b4"
+          ]
+        }
+      },
+      "employers": {
+        "Citi": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 42,
+          "returned_observations": 20,
+          "issues": [
+            "PermissionError",
+            "pagination_not_verified"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "JPMorganChase": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 2,
+          "returned_observations": 0,
+          "issues": [
+            "PermissionError",
+            "pagination_not_verified"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "HSBC": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 10,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Barclays": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 58,
+          "returned_observations": 56,
+          "issues": [
+            "pagination_not_verified"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Wells Fargo": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Deutsche Bank": {
+          "state": "exhausted_accessible_listing",
+          "urls_inspected": 2,
+          "returned_observations": 40,
+          "issues": [],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Goldman Sachs": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Morgan Stanley": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Bank of America": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 2,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Standard Chartered": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 2,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "UBS": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "BNP Paribas": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "PermissionError",
+            "pagination_not_verified"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Societe Generale": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "NatWest Group": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "PermissionError",
+            "pagination_not_verified"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "DBS Bank": {
+          "state": "exhausted_accessible_listing",
+          "urls_inspected": 2,
+          "returned_observations": 40,
+          "issues": [],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "MUFG": {
+          "state": "exhausted_accessible_listing",
+          "urls_inspected": 2,
+          "returned_observations": 40,
+          "issues": [],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Nomura": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 18,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Macquarie Group": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "PermissionError",
+            "pagination_not_verified"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "BNY": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "State Street": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Northern Trust": {
+          "state": "exhausted_accessible_listing",
+          "urls_inspected": 9,
+          "returned_observations": 86,
+          "issues": [],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "American Express": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Synchrony": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 15,
+          "returned_observations": 7,
+          "issues": [
+            "PermissionError",
+            "pagination_not_verified"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Capital One": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 12,
+          "returned_observations": 10,
+          "issues": [
+            "pagination_not_verified"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "ANZ": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 26,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "BlackRock": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 11,
+          "returned_observations": 10,
+          "issues": [
+            "pagination_not_verified"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "HDFC Bank": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "ICICI Bank": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "PermissionError",
+            "pagination_not_verified"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Axis Bank": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Kotak Mahindra Bank": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "State Bank of India": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "IDFC FIRST Bank": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "YES BANK": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Federal Bank": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "IDBI Bank": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "SSLError",
+            "pagination_not_verified"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "RBL Bank": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 2,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "AU Small Finance Bank": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Equitas Small Finance Bank": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Ujjivan Small Finance Bank": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Bandhan Bank": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "SBI Card": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Bajaj Finance": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 2,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Tata Capital": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 2,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Aditya Birla Capital": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Piramal Finance": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Shriram Finance": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Cholamandalam Investment and Finance": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "L&T Finance": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "PNB Housing Finance": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 2,
+          "returned_observations": 0,
+          "issues": [
+            "PermissionError",
+            "pagination_not_verified"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Home Credit India": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Credit Saison India": {
+          "state": "exhausted_accessible_listing",
+          "urls_inspected": 2,
+          "returned_observations": 40,
+          "issues": [],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "PayU": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 2,
+          "returned_observations": 0,
+          "issues": [
+            "PermissionError",
+            "pagination_not_verified"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "PayPal": {
+          "state": "exhausted_accessible_listing",
+          "urls_inspected": 2,
+          "returned_observations": 40,
+          "issues": [],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "OakNorth": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 53,
+          "returned_observations": 0,
+          "issues": [
+            "PermissionError",
+            "pagination_not_verified"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Zeta": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "PhonePe": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Paytm One97": {
+          "state": "exhausted_accessible_listing",
+          "urls_inspected": 2,
+          "returned_observations": 201,
+          "issues": [],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Moneyview": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Navi": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "PermissionError",
+            "pagination_not_verified"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Fibe": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "SMFG India Credit": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "PermissionError",
+            "pagination_not_verified"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "CRED": {
+          "state": "exhausted_accessible_listing",
+          "urls_inspected": 2,
+          "returned_observations": 14,
+          "issues": [],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "slice": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Lendingkart": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 4,
+          "returned_observations": 0,
+          "issues": [
+            "PermissionError",
+            "pagination_not_verified"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Perfios": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Ford Motor Company": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 3,
+          "returned_observations": 2,
+          "issues": [
+            "pagination_not_verified"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "EXL": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Evalueserve": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 2,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Accenture": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 2,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Deloitte": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 10,
+          "returned_observations": 0,
+          "issues": [
+            "PermissionError",
+            "pagination_not_verified"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "EY": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "KPMG": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 2,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "PwC": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "PermissionError",
+            "pagination_not_verified"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Capco": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "ZS": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Fractal": {
+          "state": "exhausted_accessible_listing",
+          "urls_inspected": 1,
+          "returned_observations": 40,
+          "issues": [],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Tiger Analytics": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "LatentView Analytics": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Genpact": {
+          "state": "exhausted_accessible_listing",
+          "urls_inspected": 2,
+          "returned_observations": 40,
+          "issues": [],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "TCS": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "PermissionError",
+            "pagination_not_verified"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Cognizant": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Infosys": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "PermissionError",
+            "pagination_not_verified"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Wipro": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Capgemini": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "IBM": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Crowe": {
+          "state": "exhausted_accessible_listing",
+          "urls_inspected": 1,
+          "returned_observations": 178,
+          "issues": [],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Tredence": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "SG Analytics": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Acuity Analytics": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "PermissionError",
+            "pagination_not_verified"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Acies": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Moody's": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 6,
+          "returned_observations": 5,
+          "issues": [
+            "pagination_not_verified"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Fitch Group": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 15,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "S&P Global": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "CRISIL": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "ICRA": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "HTTPError:404",
+            "pagination_not_verified"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "CARE Ratings": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Experian": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "Equifax": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 1,
+          "returned_observations": 0,
+          "issues": [
+            "pagination_not_verified",
+            "requires_source_specific_adapter"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "TransUnion": {
+          "state": "completed_with_gaps",
+          "urls_inspected": 2,
+          "returned_observations": 40,
+          "issues": [
+            "PermissionError"
+          ],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        },
+        "FICO": {
+          "state": "exhausted_accessible_listing",
+          "urls_inspected": 2,
+          "returned_observations": 80,
+          "issues": [],
+          "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
+        }
+      },
+      "coverage_complete": false,
+      "note": "Overall coverage remains unverified even when every attempt finishes. A terminal empty response is an observation, not proof of full market coverage. Failed, unsupported and capped sources are not treated as zero vacancies."
     }
   },
-  "description_queue": {
-    "pending_unique_urls": 384,
-    "state": "saved_discovery_metadata_only; separate description retrieval is not enabled yet"
+  "funnel": {
+    "unique_discovered": 1677,
+    "unique_with_adequate_descriptions": 834,
+    "freshness_qualified": 632,
+    "fresh_rule_eligible": 1,
+    "fresh_needs_review": 631,
+    "availability_verified": 0
   },
-  "coverage_scope": "One discovery page per selected query; not full pagination or exhaustive coverage. Naukri CAPTCHA endpoint and Google News RSS are not requested by this entry point.",
   "freshness_policy": {
     "policy": "0_to_48_hours_only",
-    "evaluated_at": "2026-11-10T04:04:53.747948+00:00",
-    "cutoff": "2026-11-08T04:04:53.747948+00:00",
-    "counts": {
-      "within_48h": 4,
-      "older_than_48h": 42,
-      "boundary_unverified": 2,
-      "date_unverified": 6
-    },
-    "date_only_policy": "Unknown timezone is conservatively bounded from UTC+14 to UTC-12; boundary cases are held, never guessed fresh",
-    "reposting_policy": "Requires source_reposted_at and a repost_evidence_url; rediscovery alone is not a repost"
+    "evaluated_at": "2026-11-10T04:28:02.216997+00:00",
+    "cutoff": "2026-11-08T04:28:02.216997+00:00"
+  },
+  "coverage_scope": "All configured phases were attempted in order; see explicit source gaps. No new shortlist was published before the attempt pass finished.",
+  "note": "Keyword and title rules are not personalized resume matching. Availability remains unverified unless independently established.",
+  "campaign_started_at": "2026-11-10T02:56:45.419192+00:00",
+  "deferred_sources": {
+    "linkedin": {
+      "phase": 0,
+      "query_index": 0,
+      "offset": 350,
+      "retry_not_before": "2026-11-10T05:05:59.024394+00:00",
+      "reason": "HTTP 429; source deferred without blocking other sources"
+    }
   }
 }
