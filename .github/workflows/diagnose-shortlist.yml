@@ -1,0 +1,37 @@
+name: Diagnose shortlist exclusions
+on:
+  push:
+    branches: [main]
+    paths: ['diagnose_shortlist.py', '.github/workflows/diagnose-shortlist.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  diagnose:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate diagnostic classification
+        run: |
+          python - <<'PY'
+          from datetime import datetime, timezone
+          from diagnose_shortlist import diagnose
+          now = datetime(2026, 11, 10, 5, 0, tzinfo=timezone.utc)
+          good = {'posting_events': [{'value': '2026-11-10T04:00:00+00:00'}], 'gates': {'domain': True, 'seniority': True, 'india': True}, 'description_available': True, 'eligibility': 'eligible'}
+          rows, counts = diagnose({'items': {'good': good, 'missing': {}}}, now)
+          assert counts['publication_rule_passed'] == 1
+          assert 'date_unverified' in rows[1]['reasons']
+          assert 'description_unavailable' in rows[1]['reasons']
+          PY
+      - name: Analyze saved checkpoint without modifying it
+        run: python diagnose_shortlist.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shortlist-diagnostics
+          path: diagnostic-output/
+          if-no-files-found: error
+          retention-days: 7
