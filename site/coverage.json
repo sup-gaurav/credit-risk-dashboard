@@ -12634,86 +12634,991 @@
     "linkedin:14": {
       "query": "collections strategy",
       "source": "linkedin",
-      "windows": 4,
-      "observations": 95,
+      "windows": 41,
+      "observations": 1000,
       "seen": [
         "https://www.linkedin.com/jobs/view/4028262349",
+        "https://www.linkedin.com/jobs/view/4270468161",
+        "https://www.linkedin.com/jobs/view/4295671745",
+        "https://www.linkedin.com/jobs/view/4336931062",
+        "https://www.linkedin.com/jobs/view/4386797292",
+        "https://www.linkedin.com/jobs/view/4408644564",
+        "https://www.linkedin.com/jobs/view/4410066399",
+        "https://www.linkedin.com/jobs/view/4419431913",
+        "https://www.linkedin.com/jobs/view/4422716517",
+        "https://www.linkedin.com/jobs/view/4426071597",
+        "https://www.linkedin.com/jobs/view/4426488340",
+        "https://www.linkedin.com/jobs/view/4427334764",
+        "https://www.linkedin.com/jobs/view/4427353796",
+        "https://www.linkedin.com/jobs/view/4428469873",
+        "https://www.linkedin.com/jobs/view/4428672687",
+        "https://www.linkedin.com/jobs/view/4428827518",
+        "https://www.linkedin.com/jobs/view/4429241302",
+        "https://www.linkedin.com/jobs/view/4433783450",
+        "https://www.linkedin.com/jobs/view/4434809607",
         "https://www.linkedin.com/jobs/view/4435037421",
+        "https://www.linkedin.com/jobs/view/4435669927",
+        "https://www.linkedin.com/jobs/view/4435690036",
+        "https://www.linkedin.com/jobs/view/4436590828",
+        "https://www.linkedin.com/jobs/view/4438622085",
+        "https://www.linkedin.com/jobs/view/4442875565",
         "https://www.linkedin.com/jobs/view/4443228283",
+        "https://www.linkedin.com/jobs/view/4443236103",
+        "https://www.linkedin.com/jobs/view/4443602108",
+        "https://www.linkedin.com/jobs/view/4444108611",
+        "https://www.linkedin.com/jobs/view/4445196161",
+        "https://www.linkedin.com/jobs/view/4445210542",
         "https://www.linkedin.com/jobs/view/4445356091",
+        "https://www.linkedin.com/jobs/view/4445771170",
+        "https://www.linkedin.com/jobs/view/4445885124",
+        "https://www.linkedin.com/jobs/view/4445936496",
+        "https://www.linkedin.com/jobs/view/4446354368",
+        "https://www.linkedin.com/jobs/view/4446573630",
+        "https://www.linkedin.com/jobs/view/4446575604",
+        "https://www.linkedin.com/jobs/view/4446577552",
+        "https://www.linkedin.com/jobs/view/4446587217",
+        "https://www.linkedin.com/jobs/view/4446723422",
+        "https://www.linkedin.com/jobs/view/4446726243",
+        "https://www.linkedin.com/jobs/view/4446726251",
+        "https://www.linkedin.com/jobs/view/4446728197",
+        "https://www.linkedin.com/jobs/view/4446728200",
+        "https://www.linkedin.com/jobs/view/4446728374",
+        "https://www.linkedin.com/jobs/view/4446728395",
+        "https://www.linkedin.com/jobs/view/4446730468",
+        "https://www.linkedin.com/jobs/view/4446730470",
+        "https://www.linkedin.com/jobs/view/4446732397",
+        "https://www.linkedin.com/jobs/view/4446736314",
+        "https://www.linkedin.com/jobs/view/4446737312",
+        "https://www.linkedin.com/jobs/view/4446740298",
+        "https://www.linkedin.com/jobs/view/4446743047",
+        "https://www.linkedin.com/jobs/view/4446744060",
+        "https://www.linkedin.com/jobs/view/4446745200",
+        "https://www.linkedin.com/jobs/view/4446745229",
+        "https://www.linkedin.com/jobs/view/4446746034",
+        "https://www.linkedin.com/jobs/view/4446746246",
+        "https://www.linkedin.com/jobs/view/4446747273",
+        "https://www.linkedin.com/jobs/view/4446813471",
+        "https://www.linkedin.com/jobs/view/4446814418",
+        "https://www.linkedin.com/jobs/view/4446822137",
+        "https://www.linkedin.com/jobs/view/4446825132",
+        "https://www.linkedin.com/jobs/view/4451208987",
+        "https://www.linkedin.com/jobs/view/4452568391",
+        "https://www.linkedin.com/jobs/view/4452594873",
+        "https://www.linkedin.com/jobs/view/4452800782",
+        "https://www.linkedin.com/jobs/view/4452800785",
+        "https://www.linkedin.com/jobs/view/4452807730",
+        "https://www.linkedin.com/jobs/view/4452811717",
+        "https://www.linkedin.com/jobs/view/4452811720",
+        "https://www.linkedin.com/jobs/view/4453413389",
+        "https://www.linkedin.com/jobs/view/4453433301",
+        "https://www.linkedin.com/jobs/view/4454102972",
+        "https://www.linkedin.com/jobs/view/4454106382",
+        "https://www.linkedin.com/jobs/view/4455323169",
+        "https://www.linkedin.com/jobs/view/4455388247",
+        "https://www.linkedin.com/jobs/view/4455415551",
+        "https://www.linkedin.com/jobs/view/4455773917",
+        "https://www.linkedin.com/jobs/view/4455773930",
+        "https://www.linkedin.com/jobs/view/4455780846",
+        "https://www.linkedin.com/jobs/view/4455781796",
+        "https://www.linkedin.com/jobs/view/4455784887",
+        "https://www.linkedin.com/jobs/view/4455792652",
+        "https://www.linkedin.com/jobs/view/4455797387",
+        "https://www.linkedin.com/jobs/view/4455798060",
+        "https://www.linkedin.com/jobs/view/4455799512",
+        "https://www.linkedin.com/jobs/view/4455900152",
+        "https://www.linkedin.com/jobs/view/4455900193",
+        "https://www.linkedin.com/jobs/view/4455900565",
+        "https://www.linkedin.com/jobs/view/4455904110",
+        "https://www.linkedin.com/jobs/view/4455904220",
+        "https://www.linkedin.com/jobs/view/4455908094",
+        "https://www.linkedin.com/jobs/view/4455909115",
+        "https://www.linkedin.com/jobs/view/4455910530",
+        "https://www.linkedin.com/jobs/view/4455911278",
+        "https://www.linkedin.com/jobs/view/4455914387",
+        "https://www.linkedin.com/jobs/view/4455919138",
+        "https://www.linkedin.com/jobs/view/4455921074",
+        "https://www.linkedin.com/jobs/view/4455921091",
+        "https://www.linkedin.com/jobs/view/4455931061",
+        "https://www.linkedin.com/jobs/view/4455931062",
+        "https://www.linkedin.com/jobs/view/4455931474",
+        "https://www.linkedin.com/jobs/view/4455935218",
+        "https://www.linkedin.com/jobs/view/4456091619",
+        "https://www.linkedin.com/jobs/view/4456310805",
         "https://www.linkedin.com/jobs/view/4456404190",
+        "https://www.linkedin.com/jobs/view/4457247958",
+        "https://www.linkedin.com/jobs/view/4458948266",
         "https://www.linkedin.com/jobs/view/4462277406",
         "https://www.linkedin.com/jobs/view/4462280285",
         "https://www.linkedin.com/jobs/view/4462651065",
         "https://www.linkedin.com/jobs/view/4462948446",
+        "https://www.linkedin.com/jobs/view/4463019323",
+        "https://www.linkedin.com/jobs/view/4463024270",
+        "https://www.linkedin.com/jobs/view/4463025775",
+        "https://www.linkedin.com/jobs/view/4463041726",
+        "https://www.linkedin.com/jobs/view/4463241570",
+        "https://www.linkedin.com/jobs/view/4463413791",
         "https://www.linkedin.com/jobs/view/4463518196",
+        "https://www.linkedin.com/jobs/view/4463585552",
         "https://www.linkedin.com/jobs/view/4463591413",
+        "https://www.linkedin.com/jobs/view/4463594447",
+        "https://www.linkedin.com/jobs/view/4463594449",
+        "https://www.linkedin.com/jobs/view/4463800324",
+        "https://www.linkedin.com/jobs/view/4463825512",
+        "https://www.linkedin.com/jobs/view/4463853660",
+        "https://www.linkedin.com/jobs/view/4463859573",
+        "https://www.linkedin.com/jobs/view/4464473564",
+        "https://www.linkedin.com/jobs/view/4464478434",
+        "https://www.linkedin.com/jobs/view/4464593881",
+        "https://www.linkedin.com/jobs/view/4464692539",
+        "https://www.linkedin.com/jobs/view/4464921429",
+        "https://www.linkedin.com/jobs/view/4465016385",
+        "https://www.linkedin.com/jobs/view/4465035297",
+        "https://www.linkedin.com/jobs/view/4465039236",
+        "https://www.linkedin.com/jobs/view/4465042258",
+        "https://www.linkedin.com/jobs/view/4465046228",
+        "https://www.linkedin.com/jobs/view/4465049281",
+        "https://www.linkedin.com/jobs/view/4465069820",
+        "https://www.linkedin.com/jobs/view/4465382947",
+        "https://www.linkedin.com/jobs/view/4465385933",
+        "https://www.linkedin.com/jobs/view/4465645617",
+        "https://www.linkedin.com/jobs/view/4465670282",
+        "https://www.linkedin.com/jobs/view/4465809488",
+        "https://www.linkedin.com/jobs/view/4467637334",
+        "https://www.linkedin.com/jobs/view/4469673763",
+        "https://www.linkedin.com/jobs/view/4469679170",
+        "https://www.linkedin.com/jobs/view/4469689418",
         "https://www.linkedin.com/jobs/view/4470312554",
         "https://www.linkedin.com/jobs/view/4470853664",
+        "https://www.linkedin.com/jobs/view/4471498186",
+        "https://www.linkedin.com/jobs/view/4471594704",
+        "https://www.linkedin.com/jobs/view/4471913424",
+        "https://www.linkedin.com/jobs/view/4471992963",
+        "https://www.linkedin.com/jobs/view/4471993747",
+        "https://www.linkedin.com/jobs/view/4472115447",
+        "https://www.linkedin.com/jobs/view/4472136905",
+        "https://www.linkedin.com/jobs/view/4472136996",
+        "https://www.linkedin.com/jobs/view/4472153968",
+        "https://www.linkedin.com/jobs/view/4472174520",
+        "https://www.linkedin.com/jobs/view/4472184713",
+        "https://www.linkedin.com/jobs/view/4472186090",
+        "https://www.linkedin.com/jobs/view/4472188621",
         "https://www.linkedin.com/jobs/view/4472193363",
+        "https://www.linkedin.com/jobs/view/4472306306",
+        "https://www.linkedin.com/jobs/view/4472307233",
+        "https://www.linkedin.com/jobs/view/4472308102",
+        "https://www.linkedin.com/jobs/view/4472312110",
+        "https://www.linkedin.com/jobs/view/4472328627",
+        "https://www.linkedin.com/jobs/view/4472350684",
+        "https://www.linkedin.com/jobs/view/4472357129",
+        "https://www.linkedin.com/jobs/view/4472389272",
+        "https://www.linkedin.com/jobs/view/4472394140",
+        "https://www.linkedin.com/jobs/view/4472515564",
+        "https://www.linkedin.com/jobs/view/4472522974",
+        "https://www.linkedin.com/jobs/view/4472552757",
+        "https://www.linkedin.com/jobs/view/4472561143",
+        "https://www.linkedin.com/jobs/view/4472563275",
+        "https://www.linkedin.com/jobs/view/4472567579",
+        "https://www.linkedin.com/jobs/view/4472569113",
+        "https://www.linkedin.com/jobs/view/4472645009",
+        "https://www.linkedin.com/jobs/view/4472691750",
+        "https://www.linkedin.com/jobs/view/4472920851",
+        "https://www.linkedin.com/jobs/view/4472934503",
+        "https://www.linkedin.com/jobs/view/4472940354",
+        "https://www.linkedin.com/jobs/view/4472942062",
+        "https://www.linkedin.com/jobs/view/4472944063",
+        "https://www.linkedin.com/jobs/view/4472967293",
+        "https://www.linkedin.com/jobs/view/4472976066",
+        "https://www.linkedin.com/jobs/view/4473118749",
+        "https://www.linkedin.com/jobs/view/4473223663",
         "https://www.linkedin.com/jobs/view/4473246375",
+        "https://www.linkedin.com/jobs/view/4473342538",
+        "https://www.linkedin.com/jobs/view/4473354098",
+        "https://www.linkedin.com/jobs/view/4473506466",
+        "https://www.linkedin.com/jobs/view/4473512270",
+        "https://www.linkedin.com/jobs/view/4473513203",
+        "https://www.linkedin.com/jobs/view/4473534864",
+        "https://www.linkedin.com/jobs/view/4473539580",
+        "https://www.linkedin.com/jobs/view/4473553048",
+        "https://www.linkedin.com/jobs/view/4473700639",
+        "https://www.linkedin.com/jobs/view/4473737076",
+        "https://www.linkedin.com/jobs/view/4473793797",
+        "https://www.linkedin.com/jobs/view/4473798862",
+        "https://www.linkedin.com/jobs/view/4473921648",
+        "https://www.linkedin.com/jobs/view/4473950915",
+        "https://www.linkedin.com/jobs/view/4473962389",
+        "https://www.linkedin.com/jobs/view/4473968049",
+        "https://www.linkedin.com/jobs/view/4473993036",
         "https://www.linkedin.com/jobs/view/4474107749",
+        "https://www.linkedin.com/jobs/view/4474107750",
+        "https://www.linkedin.com/jobs/view/4474113514",
+        "https://www.linkedin.com/jobs/view/4474121210",
+        "https://www.linkedin.com/jobs/view/4474122226",
+        "https://www.linkedin.com/jobs/view/4474125729",
+        "https://www.linkedin.com/jobs/view/4474129089",
+        "https://www.linkedin.com/jobs/view/4474196042",
+        "https://www.linkedin.com/jobs/view/4474251824",
+        "https://www.linkedin.com/jobs/view/4474533142",
+        "https://www.linkedin.com/jobs/view/4474707573",
+        "https://www.linkedin.com/jobs/view/4474837647",
+        "https://www.linkedin.com/jobs/view/4476173845",
+        "https://www.linkedin.com/jobs/view/4476460553",
+        "https://www.linkedin.com/jobs/view/4478278968",
+        "https://www.linkedin.com/jobs/view/4478618638",
+        "https://www.linkedin.com/jobs/view/4478692536",
+        "https://www.linkedin.com/jobs/view/4478899686",
+        "https://www.linkedin.com/jobs/view/4479037422",
+        "https://www.linkedin.com/jobs/view/4479431139",
+        "https://www.linkedin.com/jobs/view/4479438892",
+        "https://www.linkedin.com/jobs/view/4479465082",
+        "https://www.linkedin.com/jobs/view/4479495485",
+        "https://www.linkedin.com/jobs/view/4479497893",
+        "https://www.linkedin.com/jobs/view/4479505682",
+        "https://www.linkedin.com/jobs/view/4480000381",
+        "https://www.linkedin.com/jobs/view/4480002744",
+        "https://www.linkedin.com/jobs/view/4480008052",
+        "https://www.linkedin.com/jobs/view/4480040008",
+        "https://www.linkedin.com/jobs/view/4480052899",
+        "https://www.linkedin.com/jobs/view/4480062033",
+        "https://www.linkedin.com/jobs/view/4480318472",
+        "https://www.linkedin.com/jobs/view/4480516768",
+        "https://www.linkedin.com/jobs/view/4480516769",
+        "https://www.linkedin.com/jobs/view/4480566865",
+        "https://www.linkedin.com/jobs/view/4480569800",
+        "https://www.linkedin.com/jobs/view/4480624888",
+        "https://www.linkedin.com/jobs/view/4480643622",
+        "https://www.linkedin.com/jobs/view/4480657909",
+        "https://www.linkedin.com/jobs/view/4480658868",
+        "https://www.linkedin.com/jobs/view/4480659079",
+        "https://www.linkedin.com/jobs/view/4480662693",
+        "https://www.linkedin.com/jobs/view/4480671633",
+        "https://www.linkedin.com/jobs/view/4480678065",
+        "https://www.linkedin.com/jobs/view/4480793268",
+        "https://www.linkedin.com/jobs/view/4481124284",
+        "https://www.linkedin.com/jobs/view/4481142244",
+        "https://www.linkedin.com/jobs/view/4481145491",
+        "https://www.linkedin.com/jobs/view/4481311725",
+        "https://www.linkedin.com/jobs/view/4481317303",
+        "https://www.linkedin.com/jobs/view/4481346822",
+        "https://www.linkedin.com/jobs/view/4481351750",
+        "https://www.linkedin.com/jobs/view/4481352371",
+        "https://www.linkedin.com/jobs/view/4481352491",
+        "https://www.linkedin.com/jobs/view/4481352493",
+        "https://www.linkedin.com/jobs/view/4481352700",
+        "https://www.linkedin.com/jobs/view/4481352701",
+        "https://www.linkedin.com/jobs/view/4481355496",
+        "https://www.linkedin.com/jobs/view/4481357483",
+        "https://www.linkedin.com/jobs/view/4481359246",
+        "https://www.linkedin.com/jobs/view/4481361242",
+        "https://www.linkedin.com/jobs/view/4481362329",
+        "https://www.linkedin.com/jobs/view/4481363115",
+        "https://www.linkedin.com/jobs/view/4481363325",
+        "https://www.linkedin.com/jobs/view/4481363345",
+        "https://www.linkedin.com/jobs/view/4481364065",
+        "https://www.linkedin.com/jobs/view/4481390261",
+        "https://www.linkedin.com/jobs/view/4481611451",
+        "https://www.linkedin.com/jobs/view/4481645884",
+        "https://www.linkedin.com/jobs/view/4481661380",
+        "https://www.linkedin.com/jobs/view/4481664207",
+        "https://www.linkedin.com/jobs/view/4481669373",
+        "https://www.linkedin.com/jobs/view/4481673608",
+        "https://www.linkedin.com/jobs/view/4481900016",
+        "https://www.linkedin.com/jobs/view/4482087503",
         "https://www.linkedin.com/jobs/view/4482121498",
+        "https://www.linkedin.com/jobs/view/4482122992",
+        "https://www.linkedin.com/jobs/view/4482123441",
+        "https://www.linkedin.com/jobs/view/4482140213",
+        "https://www.linkedin.com/jobs/view/4482143108",
+        "https://www.linkedin.com/jobs/view/4482145020",
+        "https://www.linkedin.com/jobs/view/4482160025",
         "https://www.linkedin.com/jobs/view/4482176295",
+        "https://www.linkedin.com/jobs/view/4482195235",
+        "https://www.linkedin.com/jobs/view/4482423798",
         "https://www.linkedin.com/jobs/view/4482424725",
+        "https://www.linkedin.com/jobs/view/4482430525",
+        "https://www.linkedin.com/jobs/view/4482433589",
+        "https://www.linkedin.com/jobs/view/4482461842",
+        "https://www.linkedin.com/jobs/view/4482465762",
+        "https://www.linkedin.com/jobs/view/4482467166",
+        "https://www.linkedin.com/jobs/view/4482470346",
+        "https://www.linkedin.com/jobs/view/4482472579",
+        "https://www.linkedin.com/jobs/view/4482479322",
+        "https://www.linkedin.com/jobs/view/4482491733",
+        "https://www.linkedin.com/jobs/view/4482700877",
+        "https://www.linkedin.com/jobs/view/4482713467",
+        "https://www.linkedin.com/jobs/view/4482721045",
+        "https://www.linkedin.com/jobs/view/4482725189",
+        "https://www.linkedin.com/jobs/view/4482733391",
+        "https://www.linkedin.com/jobs/view/4482767642",
+        "https://www.linkedin.com/jobs/view/4482790767",
+        "https://www.linkedin.com/jobs/view/4482829650",
+        "https://www.linkedin.com/jobs/view/4482831822",
+        "https://www.linkedin.com/jobs/view/4482833946",
+        "https://www.linkedin.com/jobs/view/4482836382",
+        "https://www.linkedin.com/jobs/view/4482864484",
+        "https://www.linkedin.com/jobs/view/4482873138",
         "https://www.linkedin.com/jobs/view/4483205728",
+        "https://www.linkedin.com/jobs/view/4484942836",
+        "https://www.linkedin.com/jobs/view/4485072956",
+        "https://www.linkedin.com/jobs/view/4485933369",
+        "https://www.linkedin.com/jobs/view/4486027293",
+        "https://www.linkedin.com/jobs/view/4486210327",
         "https://www.linkedin.com/jobs/view/4486583596",
+        "https://www.linkedin.com/jobs/view/4486964159",
+        "https://www.linkedin.com/jobs/view/4487265629",
+        "https://www.linkedin.com/jobs/view/4487434872",
+        "https://www.linkedin.com/jobs/view/4487894313",
         "https://www.linkedin.com/jobs/view/4488148494",
+        "https://www.linkedin.com/jobs/view/4488191000",
         "https://www.linkedin.com/jobs/view/4488202645",
         "https://www.linkedin.com/jobs/view/4488203755",
         "https://www.linkedin.com/jobs/view/4488208466",
         "https://www.linkedin.com/jobs/view/4488208469",
         "https://www.linkedin.com/jobs/view/4488229206",
+        "https://www.linkedin.com/jobs/view/4488229439",
         "https://www.linkedin.com/jobs/view/4488246465",
+        "https://www.linkedin.com/jobs/view/4488254883",
+        "https://www.linkedin.com/jobs/view/4488271909",
+        "https://www.linkedin.com/jobs/view/4488272143",
+        "https://www.linkedin.com/jobs/view/4488273969",
+        "https://www.linkedin.com/jobs/view/4488276978",
+        "https://www.linkedin.com/jobs/view/4488277882",
+        "https://www.linkedin.com/jobs/view/4488277883",
+        "https://www.linkedin.com/jobs/view/4488277885",
+        "https://www.linkedin.com/jobs/view/4488278413",
+        "https://www.linkedin.com/jobs/view/4488278877",
+        "https://www.linkedin.com/jobs/view/4488279674",
+        "https://www.linkedin.com/jobs/view/4488279675",
         "https://www.linkedin.com/jobs/view/4488280349",
+        "https://www.linkedin.com/jobs/view/4488280677",
+        "https://www.linkedin.com/jobs/view/4488280682",
+        "https://www.linkedin.com/jobs/view/4488281682",
+        "https://www.linkedin.com/jobs/view/4488281683",
+        "https://www.linkedin.com/jobs/view/4488281684",
+        "https://www.linkedin.com/jobs/view/4488282607",
+        "https://www.linkedin.com/jobs/view/4488282608",
+        "https://www.linkedin.com/jobs/view/4488283614",
+        "https://www.linkedin.com/jobs/view/4488283615",
+        "https://www.linkedin.com/jobs/view/4488283616",
+        "https://www.linkedin.com/jobs/view/4488283617",
+        "https://www.linkedin.com/jobs/view/4488283768",
+        "https://www.linkedin.com/jobs/view/4488284565",
+        "https://www.linkedin.com/jobs/view/4488284567",
+        "https://www.linkedin.com/jobs/view/4488284569",
+        "https://www.linkedin.com/jobs/view/4488285352",
+        "https://www.linkedin.com/jobs/view/4488285500",
+        "https://www.linkedin.com/jobs/view/4488286453",
+        "https://www.linkedin.com/jobs/view/4488286454",
+        "https://www.linkedin.com/jobs/view/4488287466",
+        "https://www.linkedin.com/jobs/view/4488287467",
+        "https://www.linkedin.com/jobs/view/4488287468",
+        "https://www.linkedin.com/jobs/view/4488287469",
+        "https://www.linkedin.com/jobs/view/4488289413",
+        "https://www.linkedin.com/jobs/view/4488290317",
+        "https://www.linkedin.com/jobs/view/4488290318",
+        "https://www.linkedin.com/jobs/view/4488290319",
+        "https://www.linkedin.com/jobs/view/4488291213",
+        "https://www.linkedin.com/jobs/view/4488291214",
+        "https://www.linkedin.com/jobs/view/4488291654",
+        "https://www.linkedin.com/jobs/view/4488292176",
+        "https://www.linkedin.com/jobs/view/4488292177",
+        "https://www.linkedin.com/jobs/view/4488292178",
+        "https://www.linkedin.com/jobs/view/4488292179",
+        "https://www.linkedin.com/jobs/view/4488292180",
+        "https://www.linkedin.com/jobs/view/4488293139",
+        "https://www.linkedin.com/jobs/view/4488293140",
+        "https://www.linkedin.com/jobs/view/4488293545",
+        "https://www.linkedin.com/jobs/view/4488294099",
+        "https://www.linkedin.com/jobs/view/4488294572",
+        "https://www.linkedin.com/jobs/view/4488295030",
+        "https://www.linkedin.com/jobs/view/4488295073",
+        "https://www.linkedin.com/jobs/view/4488295199",
+        "https://www.linkedin.com/jobs/view/4488296057",
+        "https://www.linkedin.com/jobs/view/4488296060",
+        "https://www.linkedin.com/jobs/view/4488296170",
         "https://www.linkedin.com/jobs/view/4488296208",
+        "https://www.linkedin.com/jobs/view/4488296523",
+        "https://www.linkedin.com/jobs/view/4488296533",
+        "https://www.linkedin.com/jobs/view/4488297024",
+        "https://www.linkedin.com/jobs/view/4488297025",
+        "https://www.linkedin.com/jobs/view/4488297026",
+        "https://www.linkedin.com/jobs/view/4488297027",
+        "https://www.linkedin.com/jobs/view/4488297925",
+        "https://www.linkedin.com/jobs/view/4488298017",
+        "https://www.linkedin.com/jobs/view/4488298020",
+        "https://www.linkedin.com/jobs/view/4488298915",
         "https://www.linkedin.com/jobs/view/4488298935",
+        "https://www.linkedin.com/jobs/view/4488299011",
+        "https://www.linkedin.com/jobs/view/4488299013",
+        "https://www.linkedin.com/jobs/view/4488299956",
+        "https://www.linkedin.com/jobs/view/4488500078",
+        "https://www.linkedin.com/jobs/view/4488501787",
+        "https://www.linkedin.com/jobs/view/4488501788",
+        "https://www.linkedin.com/jobs/view/4488501972",
+        "https://www.linkedin.com/jobs/view/4488502757",
+        "https://www.linkedin.com/jobs/view/4488502822",
+        "https://www.linkedin.com/jobs/view/4488503252",
+        "https://www.linkedin.com/jobs/view/4488503568",
+        "https://www.linkedin.com/jobs/view/4488504424",
+        "https://www.linkedin.com/jobs/view/4488504567",
+        "https://www.linkedin.com/jobs/view/4488504578",
+        "https://www.linkedin.com/jobs/view/4488505601",
+        "https://www.linkedin.com/jobs/view/4488506550",
+        "https://www.linkedin.com/jobs/view/4488508261",
+        "https://www.linkedin.com/jobs/view/4488508283",
+        "https://www.linkedin.com/jobs/view/4488508395",
+        "https://www.linkedin.com/jobs/view/4488509621",
+        "https://www.linkedin.com/jobs/view/4488509653",
+        "https://www.linkedin.com/jobs/view/4488509869",
+        "https://www.linkedin.com/jobs/view/4488510262",
         "https://www.linkedin.com/jobs/view/4488510644",
+        "https://www.linkedin.com/jobs/view/4488512815",
+        "https://www.linkedin.com/jobs/view/4488513298",
+        "https://www.linkedin.com/jobs/view/4488514271",
+        "https://www.linkedin.com/jobs/view/4488514287",
+        "https://www.linkedin.com/jobs/view/4488515658",
+        "https://www.linkedin.com/jobs/view/4488516057",
+        "https://www.linkedin.com/jobs/view/4488516108",
+        "https://www.linkedin.com/jobs/view/4488516778",
+        "https://www.linkedin.com/jobs/view/4488517095",
+        "https://www.linkedin.com/jobs/view/4488517785",
         "https://www.linkedin.com/jobs/view/4488520390",
+        "https://www.linkedin.com/jobs/view/4488522414",
         "https://www.linkedin.com/jobs/view/4488526398",
+        "https://www.linkedin.com/jobs/view/4488530854",
+        "https://www.linkedin.com/jobs/view/4488531561",
+        "https://www.linkedin.com/jobs/view/4488533441",
+        "https://www.linkedin.com/jobs/view/4488541304",
+        "https://www.linkedin.com/jobs/view/4488545372",
+        "https://www.linkedin.com/jobs/view/4488546273",
+        "https://www.linkedin.com/jobs/view/4488551131",
+        "https://www.linkedin.com/jobs/view/4488558762",
+        "https://www.linkedin.com/jobs/view/4488560741",
+        "https://www.linkedin.com/jobs/view/4488562681",
+        "https://www.linkedin.com/jobs/view/4488563492",
+        "https://www.linkedin.com/jobs/view/4488564189",
+        "https://www.linkedin.com/jobs/view/4488564242",
+        "https://www.linkedin.com/jobs/view/4488564739",
+        "https://www.linkedin.com/jobs/view/4488565326",
+        "https://www.linkedin.com/jobs/view/4488567212",
+        "https://www.linkedin.com/jobs/view/4488567346",
+        "https://www.linkedin.com/jobs/view/4488569599",
+        "https://www.linkedin.com/jobs/view/4488573160",
+        "https://www.linkedin.com/jobs/view/4488573163",
         "https://www.linkedin.com/jobs/view/4488578139",
+        "https://www.linkedin.com/jobs/view/4488587210",
+        "https://www.linkedin.com/jobs/view/4488590135",
+        "https://www.linkedin.com/jobs/view/4488590952",
+        "https://www.linkedin.com/jobs/view/4488592764",
+        "https://www.linkedin.com/jobs/view/4488594705",
+        "https://www.linkedin.com/jobs/view/4488595639",
+        "https://www.linkedin.com/jobs/view/4488595767",
+        "https://www.linkedin.com/jobs/view/4488596244",
+        "https://www.linkedin.com/jobs/view/4488596719",
+        "https://www.linkedin.com/jobs/view/4488596910",
         "https://www.linkedin.com/jobs/view/4488661427",
+        "https://www.linkedin.com/jobs/view/4488685095",
         "https://www.linkedin.com/jobs/view/4488690720",
+        "https://www.linkedin.com/jobs/view/4488779347",
+        "https://www.linkedin.com/jobs/view/4488902243",
+        "https://www.linkedin.com/jobs/view/4488903376",
+        "https://www.linkedin.com/jobs/view/4488903979",
+        "https://www.linkedin.com/jobs/view/4488904481",
+        "https://www.linkedin.com/jobs/view/4488906119",
+        "https://www.linkedin.com/jobs/view/4488907098",
+        "https://www.linkedin.com/jobs/view/4488907952",
+        "https://www.linkedin.com/jobs/view/4488908105",
+        "https://www.linkedin.com/jobs/view/4488908106",
+        "https://www.linkedin.com/jobs/view/4488910554",
+        "https://www.linkedin.com/jobs/view/4488910917",
+        "https://www.linkedin.com/jobs/view/4488911206",
+        "https://www.linkedin.com/jobs/view/4488911550",
+        "https://www.linkedin.com/jobs/view/4488911993",
+        "https://www.linkedin.com/jobs/view/4488912523",
+        "https://www.linkedin.com/jobs/view/4488912780",
+        "https://www.linkedin.com/jobs/view/4488913715",
+        "https://www.linkedin.com/jobs/view/4488914751",
+        "https://www.linkedin.com/jobs/view/4488914757",
+        "https://www.linkedin.com/jobs/view/4488916687",
+        "https://www.linkedin.com/jobs/view/4488916688",
+        "https://www.linkedin.com/jobs/view/4488917740",
+        "https://www.linkedin.com/jobs/view/4488918903",
+        "https://www.linkedin.com/jobs/view/4488919695",
+        "https://www.linkedin.com/jobs/view/4488919696",
+        "https://www.linkedin.com/jobs/view/4488921649",
+        "https://www.linkedin.com/jobs/view/4488922450",
+        "https://www.linkedin.com/jobs/view/4488922509",
+        "https://www.linkedin.com/jobs/view/4488922573",
+        "https://www.linkedin.com/jobs/view/4488923277",
+        "https://www.linkedin.com/jobs/view/4488923425",
+        "https://www.linkedin.com/jobs/view/4488923430",
+        "https://www.linkedin.com/jobs/view/4488925349",
+        "https://www.linkedin.com/jobs/view/4488925358",
+        "https://www.linkedin.com/jobs/view/4488925763",
+        "https://www.linkedin.com/jobs/view/4488926206",
+        "https://www.linkedin.com/jobs/view/4488926315",
+        "https://www.linkedin.com/jobs/view/4488926316",
+        "https://www.linkedin.com/jobs/view/4488927571",
+        "https://www.linkedin.com/jobs/view/4488929201",
+        "https://www.linkedin.com/jobs/view/4488929202",
+        "https://www.linkedin.com/jobs/view/4488929514",
+        "https://www.linkedin.com/jobs/view/4488930163",
+        "https://www.linkedin.com/jobs/view/4488931112",
+        "https://www.linkedin.com/jobs/view/4488932127",
+        "https://www.linkedin.com/jobs/view/4488932129",
+        "https://www.linkedin.com/jobs/view/4488932131",
+        "https://www.linkedin.com/jobs/view/4488932133",
+        "https://www.linkedin.com/jobs/view/4488932792",
+        "https://www.linkedin.com/jobs/view/4488932842",
+        "https://www.linkedin.com/jobs/view/4488932944",
+        "https://www.linkedin.com/jobs/view/4488933021",
+        "https://www.linkedin.com/jobs/view/4488933022",
+        "https://www.linkedin.com/jobs/view/4488936360",
+        "https://www.linkedin.com/jobs/view/4488938168",
+        "https://www.linkedin.com/jobs/view/4488938874",
+        "https://www.linkedin.com/jobs/view/4488939235",
+        "https://www.linkedin.com/jobs/view/4488939944",
+        "https://www.linkedin.com/jobs/view/4488939945",
+        "https://www.linkedin.com/jobs/view/4488940062",
+        "https://www.linkedin.com/jobs/view/4488941021",
+        "https://www.linkedin.com/jobs/view/4488941953",
+        "https://www.linkedin.com/jobs/view/4488942906",
+        "https://www.linkedin.com/jobs/view/4488943064",
+        "https://www.linkedin.com/jobs/view/4488943477",
+        "https://www.linkedin.com/jobs/view/4488943930",
+        "https://www.linkedin.com/jobs/view/4488944898",
+        "https://www.linkedin.com/jobs/view/4488945098",
+        "https://www.linkedin.com/jobs/view/4488945234",
+        "https://www.linkedin.com/jobs/view/4488945353",
+        "https://www.linkedin.com/jobs/view/4488946847",
+        "https://www.linkedin.com/jobs/view/4488947354",
+        "https://www.linkedin.com/jobs/view/4488947675",
+        "https://www.linkedin.com/jobs/view/4488950565",
+        "https://www.linkedin.com/jobs/view/4488951472",
+        "https://www.linkedin.com/jobs/view/4488951490",
+        "https://www.linkedin.com/jobs/view/4488954926",
+        "https://www.linkedin.com/jobs/view/4488954946",
+        "https://www.linkedin.com/jobs/view/4488955318",
+        "https://www.linkedin.com/jobs/view/4488957171",
+        "https://www.linkedin.com/jobs/view/4488957197",
+        "https://www.linkedin.com/jobs/view/4488959172",
+        "https://www.linkedin.com/jobs/view/4488963225",
+        "https://www.linkedin.com/jobs/view/4488967071",
+        "https://www.linkedin.com/jobs/view/4489030720",
         "https://www.linkedin.com/jobs/view/4489032098",
+        "https://www.linkedin.com/jobs/view/4489035524",
+        "https://www.linkedin.com/jobs/view/4489036541",
+        "https://www.linkedin.com/jobs/view/4489044308",
+        "https://www.linkedin.com/jobs/view/4489044783",
+        "https://www.linkedin.com/jobs/view/4489046290",
+        "https://www.linkedin.com/jobs/view/4489047806",
+        "https://www.linkedin.com/jobs/view/4489048211",
+        "https://www.linkedin.com/jobs/view/4489049201",
+        "https://www.linkedin.com/jobs/view/4489049207",
+        "https://www.linkedin.com/jobs/view/4489050582",
+        "https://www.linkedin.com/jobs/view/4489051043",
         "https://www.linkedin.com/jobs/view/4489051065",
+        "https://www.linkedin.com/jobs/view/4489054969",
+        "https://www.linkedin.com/jobs/view/4489055245",
         "https://www.linkedin.com/jobs/view/4489068954",
         "https://www.linkedin.com/jobs/view/4489072691",
+        "https://www.linkedin.com/jobs/view/4489074958",
+        "https://www.linkedin.com/jobs/view/4489077556",
+        "https://www.linkedin.com/jobs/view/4489077683",
+        "https://www.linkedin.com/jobs/view/4489079370",
+        "https://www.linkedin.com/jobs/view/4489080707",
         "https://www.linkedin.com/jobs/view/4489080930",
+        "https://www.linkedin.com/jobs/view/4489081305",
+        "https://www.linkedin.com/jobs/view/4489082706",
+        "https://www.linkedin.com/jobs/view/4489083577",
+        "https://www.linkedin.com/jobs/view/4489083591",
         "https://www.linkedin.com/jobs/view/4489083701",
+        "https://www.linkedin.com/jobs/view/4489084982",
+        "https://www.linkedin.com/jobs/view/4489085389",
+        "https://www.linkedin.com/jobs/view/4489085722",
+        "https://www.linkedin.com/jobs/view/4489086713",
+        "https://www.linkedin.com/jobs/view/4489087145",
+        "https://www.linkedin.com/jobs/view/4489087459",
+        "https://www.linkedin.com/jobs/view/4489087782",
+        "https://www.linkedin.com/jobs/view/4489088369",
+        "https://www.linkedin.com/jobs/view/4489088900",
+        "https://www.linkedin.com/jobs/view/4489089545",
         "https://www.linkedin.com/jobs/view/4489090724",
+        "https://www.linkedin.com/jobs/view/4489092563",
+        "https://www.linkedin.com/jobs/view/4489096207",
+        "https://www.linkedin.com/jobs/view/4489096257",
+        "https://www.linkedin.com/jobs/view/4489098288",
+        "https://www.linkedin.com/jobs/view/4489099878",
+        "https://www.linkedin.com/jobs/view/4489099960",
+        "https://www.linkedin.com/jobs/view/4489200860",
         "https://www.linkedin.com/jobs/view/4489201184",
+        "https://www.linkedin.com/jobs/view/4489201643",
+        "https://www.linkedin.com/jobs/view/4489202630",
+        "https://www.linkedin.com/jobs/view/4489203259",
         "https://www.linkedin.com/jobs/view/4489203269",
+        "https://www.linkedin.com/jobs/view/4489204223",
+        "https://www.linkedin.com/jobs/view/4489206006",
+        "https://www.linkedin.com/jobs/view/4489206053",
+        "https://www.linkedin.com/jobs/view/4489206395",
+        "https://www.linkedin.com/jobs/view/4489211223",
+        "https://www.linkedin.com/jobs/view/4489212886",
+        "https://www.linkedin.com/jobs/view/4489216040",
         "https://www.linkedin.com/jobs/view/4489217204",
+        "https://www.linkedin.com/jobs/view/4489217687",
+        "https://www.linkedin.com/jobs/view/4489218151",
+        "https://www.linkedin.com/jobs/view/4489218168",
+        "https://www.linkedin.com/jobs/view/4489219110",
+        "https://www.linkedin.com/jobs/view/4489223588",
+        "https://www.linkedin.com/jobs/view/4489229924",
+        "https://www.linkedin.com/jobs/view/4489231826",
+        "https://www.linkedin.com/jobs/view/4489233574",
+        "https://www.linkedin.com/jobs/view/4489234321",
+        "https://www.linkedin.com/jobs/view/4489234444",
+        "https://www.linkedin.com/jobs/view/4489237638",
+        "https://www.linkedin.com/jobs/view/4489238274",
+        "https://www.linkedin.com/jobs/view/4489239828",
         "https://www.linkedin.com/jobs/view/4489241277",
+        "https://www.linkedin.com/jobs/view/4489241474",
+        "https://www.linkedin.com/jobs/view/4489241876",
+        "https://www.linkedin.com/jobs/view/4489242747",
+        "https://www.linkedin.com/jobs/view/4489244854",
+        "https://www.linkedin.com/jobs/view/4489249663",
+        "https://www.linkedin.com/jobs/view/4489254161",
+        "https://www.linkedin.com/jobs/view/4489255680",
         "https://www.linkedin.com/jobs/view/4489256743",
+        "https://www.linkedin.com/jobs/view/4489257965",
+        "https://www.linkedin.com/jobs/view/4489259558",
+        "https://www.linkedin.com/jobs/view/4489260305",
+        "https://www.linkedin.com/jobs/view/4489262587",
+        "https://www.linkedin.com/jobs/view/4489263807",
+        "https://www.linkedin.com/jobs/view/4489265777",
+        "https://www.linkedin.com/jobs/view/4489266141",
+        "https://www.linkedin.com/jobs/view/4489266761",
+        "https://www.linkedin.com/jobs/view/4489270151",
+        "https://www.linkedin.com/jobs/view/4489270595",
+        "https://www.linkedin.com/jobs/view/4489273064",
+        "https://www.linkedin.com/jobs/view/4489275388",
+        "https://www.linkedin.com/jobs/view/4489275519",
+        "https://www.linkedin.com/jobs/view/4489276154",
+        "https://www.linkedin.com/jobs/view/4489277084",
+        "https://www.linkedin.com/jobs/view/4489278111",
+        "https://www.linkedin.com/jobs/view/4489278134",
+        "https://www.linkedin.com/jobs/view/4489282727",
+        "https://www.linkedin.com/jobs/view/4489283760",
+        "https://www.linkedin.com/jobs/view/4489288687",
+        "https://www.linkedin.com/jobs/view/4489290633",
+        "https://www.linkedin.com/jobs/view/4489291635",
+        "https://www.linkedin.com/jobs/view/4489293235",
+        "https://www.linkedin.com/jobs/view/4489294988",
+        "https://www.linkedin.com/jobs/view/4489297440",
+        "https://www.linkedin.com/jobs/view/4489297897",
+        "https://www.linkedin.com/jobs/view/4489298431",
         "https://www.linkedin.com/jobs/view/4489299028",
+        "https://www.linkedin.com/jobs/view/4489299180",
         "https://www.linkedin.com/jobs/view/4489420386",
+        "https://www.linkedin.com/jobs/view/4489483196",
+        "https://www.linkedin.com/jobs/view/4489501304",
+        "https://www.linkedin.com/jobs/view/4489504097",
+        "https://www.linkedin.com/jobs/view/4489508870",
+        "https://www.linkedin.com/jobs/view/4489511176",
+        "https://www.linkedin.com/jobs/view/4489521770",
         "https://www.linkedin.com/jobs/view/4489522905",
+        "https://www.linkedin.com/jobs/view/4489528753",
+        "https://www.linkedin.com/jobs/view/4489528973",
+        "https://www.linkedin.com/jobs/view/4489530994",
+        "https://www.linkedin.com/jobs/view/4489531206",
+        "https://www.linkedin.com/jobs/view/4489532016",
+        "https://www.linkedin.com/jobs/view/4489532737",
+        "https://www.linkedin.com/jobs/view/4489533691",
+        "https://www.linkedin.com/jobs/view/4489533709",
+        "https://www.linkedin.com/jobs/view/4489534990",
+        "https://www.linkedin.com/jobs/view/4489536972",
+        "https://www.linkedin.com/jobs/view/4489540844",
         "https://www.linkedin.com/jobs/view/4489540849",
+        "https://www.linkedin.com/jobs/view/4489540863",
+        "https://www.linkedin.com/jobs/view/4489543440",
+        "https://www.linkedin.com/jobs/view/4489543493",
         "https://www.linkedin.com/jobs/view/4489543701",
+        "https://www.linkedin.com/jobs/view/4489544549",
+        "https://www.linkedin.com/jobs/view/4489545650",
+        "https://www.linkedin.com/jobs/view/4489545952",
+        "https://www.linkedin.com/jobs/view/4489546948",
+        "https://www.linkedin.com/jobs/view/4489547346",
+        "https://www.linkedin.com/jobs/view/4489548357",
+        "https://www.linkedin.com/jobs/view/4489548503",
+        "https://www.linkedin.com/jobs/view/4489548813",
+        "https://www.linkedin.com/jobs/view/4489549290",
         "https://www.linkedin.com/jobs/view/4489549371",
+        "https://www.linkedin.com/jobs/view/4489550045",
+        "https://www.linkedin.com/jobs/view/4489550118",
+        "https://www.linkedin.com/jobs/view/4489550308",
+        "https://www.linkedin.com/jobs/view/4489550895",
+        "https://www.linkedin.com/jobs/view/4489552109",
         "https://www.linkedin.com/jobs/view/4489552268",
+        "https://www.linkedin.com/jobs/view/4489553137",
+        "https://www.linkedin.com/jobs/view/4489553160",
+        "https://www.linkedin.com/jobs/view/4489553565",
+        "https://www.linkedin.com/jobs/view/4489555077",
+        "https://www.linkedin.com/jobs/view/4489555707",
+        "https://www.linkedin.com/jobs/view/4489557148",
+        "https://www.linkedin.com/jobs/view/4489557250",
+        "https://www.linkedin.com/jobs/view/4489559837",
+        "https://www.linkedin.com/jobs/view/4489560551",
+        "https://www.linkedin.com/jobs/view/4489560709",
+        "https://www.linkedin.com/jobs/view/4489560968",
+        "https://www.linkedin.com/jobs/view/4489562198",
+        "https://www.linkedin.com/jobs/view/4489564044",
+        "https://www.linkedin.com/jobs/view/4489564190",
+        "https://www.linkedin.com/jobs/view/4489564540",
+        "https://www.linkedin.com/jobs/view/4489564726",
+        "https://www.linkedin.com/jobs/view/4489564773",
+        "https://www.linkedin.com/jobs/view/4489566521",
+        "https://www.linkedin.com/jobs/view/4489567632",
+        "https://www.linkedin.com/jobs/view/4489567725",
+        "https://www.linkedin.com/jobs/view/4489568423",
+        "https://www.linkedin.com/jobs/view/4489568695",
+        "https://www.linkedin.com/jobs/view/4489569058",
+        "https://www.linkedin.com/jobs/view/4489570054",
+        "https://www.linkedin.com/jobs/view/4489573260",
+        "https://www.linkedin.com/jobs/view/4489575481",
+        "https://www.linkedin.com/jobs/view/4489578139",
+        "https://www.linkedin.com/jobs/view/4489579479",
+        "https://www.linkedin.com/jobs/view/4489579873",
+        "https://www.linkedin.com/jobs/view/4489580873",
+        "https://www.linkedin.com/jobs/view/4489581056",
+        "https://www.linkedin.com/jobs/view/4489581780",
+        "https://www.linkedin.com/jobs/view/4489582029",
+        "https://www.linkedin.com/jobs/view/4489582761",
+        "https://www.linkedin.com/jobs/view/4489585126",
+        "https://www.linkedin.com/jobs/view/4489585519",
+        "https://www.linkedin.com/jobs/view/4489585694",
+        "https://www.linkedin.com/jobs/view/4489585723",
+        "https://www.linkedin.com/jobs/view/4489585726",
+        "https://www.linkedin.com/jobs/view/4489586674",
+        "https://www.linkedin.com/jobs/view/4489587725",
+        "https://www.linkedin.com/jobs/view/4489588670",
+        "https://www.linkedin.com/jobs/view/4489589030",
+        "https://www.linkedin.com/jobs/view/4489591656",
+        "https://www.linkedin.com/jobs/view/4489593804",
+        "https://www.linkedin.com/jobs/view/4489594901",
+        "https://www.linkedin.com/jobs/view/4489598683",
+        "https://www.linkedin.com/jobs/view/4489803404",
+        "https://www.linkedin.com/jobs/view/4489804349",
+        "https://www.linkedin.com/jobs/view/4489805779",
+        "https://www.linkedin.com/jobs/view/4489815510",
+        "https://www.linkedin.com/jobs/view/4489817497",
+        "https://www.linkedin.com/jobs/view/4489819392",
         "https://www.linkedin.com/jobs/view/4489917643",
+        "https://www.linkedin.com/jobs/view/4489925872",
         "https://www.linkedin.com/jobs/view/4489928233",
+        "https://www.linkedin.com/jobs/view/4489930360",
         "https://www.linkedin.com/jobs/view/4489931625",
         "https://www.linkedin.com/jobs/view/4489931926",
         "https://www.linkedin.com/jobs/view/4489932544",
         "https://www.linkedin.com/jobs/view/4489979760",
         "https://www.linkedin.com/jobs/view/4489988392",
         "https://www.linkedin.com/jobs/view/4490011127",
+        "https://www.linkedin.com/jobs/view/4490022341",
+        "https://www.linkedin.com/jobs/view/4490030809",
+        "https://www.linkedin.com/jobs/view/4490036604",
+        "https://www.linkedin.com/jobs/view/4490038581",
+        "https://www.linkedin.com/jobs/view/4490041757",
+        "https://www.linkedin.com/jobs/view/4490043713",
+        "https://www.linkedin.com/jobs/view/4490044623",
+        "https://www.linkedin.com/jobs/view/4490050238",
+        "https://www.linkedin.com/jobs/view/4490052814",
+        "https://www.linkedin.com/jobs/view/4490053886",
+        "https://www.linkedin.com/jobs/view/4490056046",
+        "https://www.linkedin.com/jobs/view/4490056058",
+        "https://www.linkedin.com/jobs/view/4490063819",
+        "https://www.linkedin.com/jobs/view/4490064550",
+        "https://www.linkedin.com/jobs/view/4490066506",
+        "https://www.linkedin.com/jobs/view/4490068744",
+        "https://www.linkedin.com/jobs/view/4490072102",
+        "https://www.linkedin.com/jobs/view/4490072804",
+        "https://www.linkedin.com/jobs/view/4490079812",
+        "https://www.linkedin.com/jobs/view/4490081617",
         "https://www.linkedin.com/jobs/view/4490082671",
+        "https://www.linkedin.com/jobs/view/4490087757",
+        "https://www.linkedin.com/jobs/view/4490089373",
+        "https://www.linkedin.com/jobs/view/4490089493",
         "https://www.linkedin.com/jobs/view/4490092005",
+        "https://www.linkedin.com/jobs/view/4490092455",
+        "https://www.linkedin.com/jobs/view/4490092952",
+        "https://www.linkedin.com/jobs/view/4490093331",
+        "https://www.linkedin.com/jobs/view/4490093854",
+        "https://www.linkedin.com/jobs/view/4490094331",
+        "https://www.linkedin.com/jobs/view/4490094498",
+        "https://www.linkedin.com/jobs/view/4490096729",
+        "https://www.linkedin.com/jobs/view/4490098483",
+        "https://www.linkedin.com/jobs/view/4490099555",
+        "https://www.linkedin.com/jobs/view/4490300386",
         "https://www.linkedin.com/jobs/view/4490302101",
+        "https://www.linkedin.com/jobs/view/4490304111",
+        "https://www.linkedin.com/jobs/view/4490305967",
+        "https://www.linkedin.com/jobs/view/4490307609",
         "https://www.linkedin.com/jobs/view/4490307843",
+        "https://www.linkedin.com/jobs/view/4490309626",
+        "https://www.linkedin.com/jobs/view/4490311555",
+        "https://www.linkedin.com/jobs/view/4490315445",
+        "https://www.linkedin.com/jobs/view/4490317276",
+        "https://www.linkedin.com/jobs/view/4490317567",
+        "https://www.linkedin.com/jobs/view/4490318049",
+        "https://www.linkedin.com/jobs/view/4490319417",
+        "https://www.linkedin.com/jobs/view/4490320241",
+        "https://www.linkedin.com/jobs/view/4490321522",
+        "https://www.linkedin.com/jobs/view/4490321867",
+        "https://www.linkedin.com/jobs/view/4490321868",
+        "https://www.linkedin.com/jobs/view/4490324433",
         "https://www.linkedin.com/jobs/view/4490324737",
+        "https://www.linkedin.com/jobs/view/4490325431",
+        "https://www.linkedin.com/jobs/view/4490325645",
+        "https://www.linkedin.com/jobs/view/4490326021",
+        "https://www.linkedin.com/jobs/view/4490326560",
+        "https://www.linkedin.com/jobs/view/4490327485",
+        "https://www.linkedin.com/jobs/view/4490327694",
+        "https://www.linkedin.com/jobs/view/4490328232",
         "https://www.linkedin.com/jobs/view/4490330443",
+        "https://www.linkedin.com/jobs/view/4490330627",
+        "https://www.linkedin.com/jobs/view/4490332113",
+        "https://www.linkedin.com/jobs/view/4490334115",
+        "https://www.linkedin.com/jobs/view/4490334118",
+        "https://www.linkedin.com/jobs/view/4490338481",
+        "https://www.linkedin.com/jobs/view/4490338938",
+        "https://www.linkedin.com/jobs/view/4490343119",
+        "https://www.linkedin.com/jobs/view/4490345948",
+        "https://www.linkedin.com/jobs/view/4490354012",
+        "https://www.linkedin.com/jobs/view/4490354352",
+        "https://www.linkedin.com/jobs/view/4490357325",
+        "https://www.linkedin.com/jobs/view/4490358747",
+        "https://www.linkedin.com/jobs/view/4490359723",
+        "https://www.linkedin.com/jobs/view/4490361386",
+        "https://www.linkedin.com/jobs/view/4490361519",
+        "https://www.linkedin.com/jobs/view/4490362518",
+        "https://www.linkedin.com/jobs/view/4490362895",
+        "https://www.linkedin.com/jobs/view/4490364590",
+        "https://www.linkedin.com/jobs/view/4490365147",
+        "https://www.linkedin.com/jobs/view/4490366521",
+        "https://www.linkedin.com/jobs/view/4490367494",
         "https://www.linkedin.com/jobs/view/4490368390",
+        "https://www.linkedin.com/jobs/view/4490368638",
+        "https://www.linkedin.com/jobs/view/4490370112",
+        "https://www.linkedin.com/jobs/view/4490371531",
+        "https://www.linkedin.com/jobs/view/4490375814",
+        "https://www.linkedin.com/jobs/view/4490377516",
+        "https://www.linkedin.com/jobs/view/4490377996",
         "https://www.linkedin.com/jobs/view/4490382197",
+        "https://www.linkedin.com/jobs/view/4490383584",
         "https://www.linkedin.com/jobs/view/4490384538",
+        "https://www.linkedin.com/jobs/view/4490387067",
+        "https://www.linkedin.com/jobs/view/4490388129",
+        "https://www.linkedin.com/jobs/view/4490388638",
+        "https://www.linkedin.com/jobs/view/4490390746",
+        "https://www.linkedin.com/jobs/view/4490391984",
+        "https://www.linkedin.com/jobs/view/4490393111",
+        "https://www.linkedin.com/jobs/view/4490396129",
+        "https://www.linkedin.com/jobs/view/4490503197",
+        "https://www.linkedin.com/jobs/view/4490503210",
+        "https://www.linkedin.com/jobs/view/4490505140",
+        "https://www.linkedin.com/jobs/view/4490507095",
+        "https://www.linkedin.com/jobs/view/4490508946",
+        "https://www.linkedin.com/jobs/view/4490511671",
         "https://www.linkedin.com/jobs/view/4490515616",
-        "https://www.linkedin.com/jobs/view/4490557895"
+        "https://www.linkedin.com/jobs/view/4490518434",
+        "https://www.linkedin.com/jobs/view/4490527088",
+        "https://www.linkedin.com/jobs/view/4490531003",
+        "https://www.linkedin.com/jobs/view/4490538925",
+        "https://www.linkedin.com/jobs/view/4490539983",
+        "https://www.linkedin.com/jobs/view/4490549014",
+        "https://www.linkedin.com/jobs/view/4490555386",
+        "https://www.linkedin.com/jobs/view/4490556881",
+        "https://www.linkedin.com/jobs/view/4490557895",
+        "https://www.linkedin.com/jobs/view/4490558958",
+        "https://www.linkedin.com/jobs/view/4490561858",
+        "https://www.linkedin.com/jobs/view/4490561975",
+        "https://www.linkedin.com/jobs/view/4490564407",
+        "https://www.linkedin.com/jobs/view/4490565368",
+        "https://www.linkedin.com/jobs/view/4490566963",
+        "https://www.linkedin.com/jobs/view/4490567462",
+        "https://www.linkedin.com/jobs/view/4490571165",
+        "https://www.linkedin.com/jobs/view/4490571167",
+        "https://www.linkedin.com/jobs/view/4490571856",
+        "https://www.linkedin.com/jobs/view/4490575947",
+        "https://www.linkedin.com/jobs/view/4490576346",
+        "https://www.linkedin.com/jobs/view/4490577778",
+        "https://www.linkedin.com/jobs/view/4490578076",
+        "https://www.linkedin.com/jobs/view/4490578859",
+        "https://www.linkedin.com/jobs/view/4490579032",
+        "https://www.linkedin.com/jobs/view/4490587349",
+        "https://www.linkedin.com/jobs/view/4490588204",
+        "https://www.linkedin.com/jobs/view/4490588726",
+        "https://www.linkedin.com/jobs/view/4490589756",
+        "https://www.linkedin.com/jobs/view/4490591246",
+        "https://www.linkedin.com/jobs/view/4490591528",
+        "https://www.linkedin.com/jobs/view/4490591890",
+        "https://www.linkedin.com/jobs/view/4490593627",
+        "https://www.linkedin.com/jobs/view/4490595288",
+        "https://www.linkedin.com/jobs/view/4490595803",
+        "https://www.linkedin.com/jobs/view/4490596430",
+        "https://www.linkedin.com/jobs/view/4490598655",
+        "https://www.linkedin.com/jobs/view/4490599438",
+        "https://www.linkedin.com/jobs/view/4490700541",
+        "https://www.linkedin.com/jobs/view/4490700877",
+        "https://www.linkedin.com/jobs/view/4490702402",
+        "https://www.linkedin.com/jobs/view/4490703641",
+        "https://www.linkedin.com/jobs/view/4490704584",
+        "https://www.linkedin.com/jobs/view/4490705373",
+        "https://www.linkedin.com/jobs/view/4490705928",
+        "https://www.linkedin.com/jobs/view/4490706268",
+        "https://www.linkedin.com/jobs/view/4490706401",
+        "https://www.linkedin.com/jobs/view/4490707050",
+        "https://www.linkedin.com/jobs/view/4490707484",
+        "https://www.linkedin.com/jobs/view/4490707576",
+        "https://www.linkedin.com/jobs/view/4490709175",
+        "https://www.linkedin.com/jobs/view/4490709193",
+        "https://www.linkedin.com/jobs/view/4490709206",
+        "https://www.linkedin.com/jobs/view/4490709631",
+        "https://www.linkedin.com/jobs/view/4490710191",
+        "https://www.linkedin.com/jobs/view/4490710315",
+        "https://www.linkedin.com/jobs/view/4490711289",
+        "https://www.linkedin.com/jobs/view/4490712101",
+        "https://www.linkedin.com/jobs/view/4490714754",
+        "https://www.linkedin.com/jobs/view/4490716045",
+        "https://www.linkedin.com/jobs/view/4490716126",
+        "https://www.linkedin.com/jobs/view/4490721243",
+        "https://www.linkedin.com/jobs/view/4490722166",
+        "https://www.linkedin.com/jobs/view/4490725515",
+        "https://www.linkedin.com/jobs/view/4490727384",
+        "https://www.linkedin.com/jobs/view/4490727900",
+        "https://www.linkedin.com/jobs/view/4490731129",
+        "https://www.linkedin.com/jobs/view/4490732085",
+        "https://www.linkedin.com/jobs/view/4490734783",
+        "https://www.linkedin.com/jobs/view/4490735654",
+        "https://www.linkedin.com/jobs/view/4490736358",
+        "https://www.linkedin.com/jobs/view/4490736588",
+        "https://www.linkedin.com/jobs/view/4490736911",
+        "https://www.linkedin.com/jobs/view/4490737890",
+        "https://www.linkedin.com/jobs/view/4490739796",
+        "https://www.linkedin.com/jobs/view/4490740807",
+        "https://www.linkedin.com/jobs/view/4490740870",
+        "https://www.linkedin.com/jobs/view/4490744442",
+        "https://www.linkedin.com/jobs/view/4490744641",
+        "https://www.linkedin.com/jobs/view/4490745657",
+        "https://www.linkedin.com/jobs/view/4490748375",
+        "https://www.linkedin.com/jobs/view/4490748430",
+        "https://www.linkedin.com/jobs/view/4490749972",
+        "https://www.linkedin.com/jobs/view/4490750049",
+        "https://www.linkedin.com/jobs/view/4490750050",
+        "https://www.linkedin.com/jobs/view/4490751436",
+        "https://www.linkedin.com/jobs/view/4490755991",
+        "https://www.linkedin.com/jobs/view/4490760742",
+        "https://www.linkedin.com/jobs/view/4490761405",
+        "https://www.linkedin.com/jobs/view/4490761568",
+        "https://www.linkedin.com/jobs/view/4490762783",
+        "https://www.linkedin.com/jobs/view/4490764805",
+        "https://www.linkedin.com/jobs/view/4490768217",
+        "https://www.linkedin.com/jobs/view/4490774291"
       ],
-      "state": "deferred_rate_limit",
+      "state": "platform_cap",
       "retry_not_before": "2026-11-13T10:14:25.057190+00:00",
       "errors": {
         "linkedin": "response status code 429 (blocked: use a proxy)"
@@ -12722,11 +13627,40 @@
     "linkedin:15": {
       "query": "credit policy",
       "source": "linkedin",
-      "windows": 0,
-      "observations": 0,
-      "seen": [],
+      "windows": 2,
+      "observations": 25,
+      "seen": [
+        "https://www.linkedin.com/jobs/view/4435037421",
+        "https://www.linkedin.com/jobs/view/4446732423",
+        "https://www.linkedin.com/jobs/view/4446745215",
+        "https://www.linkedin.com/jobs/view/4465385933",
+        "https://www.linkedin.com/jobs/view/4481645884",
+        "https://www.linkedin.com/jobs/view/4481664207",
+        "https://www.linkedin.com/jobs/view/4482131264",
+        "https://www.linkedin.com/jobs/view/4482467748",
+        "https://www.linkedin.com/jobs/view/4488290317",
+        "https://www.linkedin.com/jobs/view/4488292179",
+        "https://www.linkedin.com/jobs/view/4488558762",
+        "https://www.linkedin.com/jobs/view/4488560741",
+        "https://www.linkedin.com/jobs/view/4489241277",
+        "https://www.linkedin.com/jobs/view/4489566521",
+        "https://www.linkedin.com/jobs/view/4489591656",
+        "https://www.linkedin.com/jobs/view/4489598380",
+        "https://www.linkedin.com/jobs/view/4490044623",
+        "https://www.linkedin.com/jobs/view/4490317215",
+        "https://www.linkedin.com/jobs/view/4490319417",
+        "https://www.linkedin.com/jobs/view/4490366521",
+        "https://www.linkedin.com/jobs/view/4490375814",
+        "https://www.linkedin.com/jobs/view/4490569554",
+        "https://www.linkedin.com/jobs/view/4490704584",
+        "https://www.linkedin.com/jobs/view/4490731129",
+        "https://www.linkedin.com/jobs/view/4490783106"
+      ],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00",
+      "errors": {
+        "linkedin": "response status code 429 (blocked: use a proxy)"
+      }
     },
     "linkedin:16": {
       "query": "underwriting credit",
@@ -12735,7 +13669,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:17": {
       "query": "credit strategy",
@@ -12744,7 +13678,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:18": {
       "query": "Basel credit",
@@ -12753,7 +13687,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:19": {
       "query": "regulatory capital",
@@ -12762,7 +13696,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:20": {
       "query": "stress testing credit",
@@ -12771,7 +13705,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:21": {
       "query": "SAS credit risk",
@@ -12780,7 +13714,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:22": {
       "query": "commercial lending risk",
@@ -12789,7 +13723,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:23": {
       "query": "wholesale credit risk",
@@ -12798,7 +13732,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:24": {
       "query": "Citi credit risk",
@@ -12807,7 +13741,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:25": {
       "query": "JPMorganChase credit risk",
@@ -12816,7 +13750,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:26": {
       "query": "HSBC credit risk",
@@ -12825,7 +13759,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:27": {
       "query": "Barclays credit risk",
@@ -12834,7 +13768,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:28": {
       "query": "Wells Fargo credit risk",
@@ -12843,7 +13777,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:29": {
       "query": "Deutsche Bank credit risk",
@@ -12852,7 +13786,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:30": {
       "query": "Goldman Sachs credit risk",
@@ -12861,7 +13795,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:31": {
       "query": "Morgan Stanley credit risk",
@@ -12870,7 +13804,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:32": {
       "query": "Bank of America credit risk",
@@ -12879,7 +13813,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:33": {
       "query": "Standard Chartered credit risk",
@@ -12888,7 +13822,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:34": {
       "query": "UBS credit risk",
@@ -12897,7 +13831,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:35": {
       "query": "BNP Paribas credit risk",
@@ -12906,7 +13840,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:36": {
       "query": "Societe Generale credit risk",
@@ -12915,7 +13849,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:37": {
       "query": "NatWest Group credit risk",
@@ -12924,7 +13858,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:38": {
       "query": "DBS Bank credit risk",
@@ -12933,7 +13867,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:39": {
       "query": "MUFG credit risk",
@@ -12942,7 +13876,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:40": {
       "query": "Nomura credit risk",
@@ -12951,7 +13885,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:41": {
       "query": "Macquarie Group credit risk",
@@ -12960,7 +13894,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:42": {
       "query": "BNY credit risk",
@@ -12969,7 +13903,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:43": {
       "query": "State Street credit risk",
@@ -12978,7 +13912,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:44": {
       "query": "Northern Trust credit risk",
@@ -12987,7 +13921,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:45": {
       "query": "American Express credit risk",
@@ -12996,7 +13930,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:46": {
       "query": "Synchrony credit risk",
@@ -13005,7 +13939,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:47": {
       "query": "Capital One credit risk",
@@ -13014,7 +13948,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:48": {
       "query": "ANZ credit risk",
@@ -13023,7 +13957,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:49": {
       "query": "BlackRock credit risk",
@@ -13032,7 +13966,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:50": {
       "query": "HDFC Bank credit risk",
@@ -13041,7 +13975,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:51": {
       "query": "ICICI Bank credit risk",
@@ -13050,7 +13984,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:52": {
       "query": "Axis Bank credit risk",
@@ -13059,7 +13993,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:53": {
       "query": "Kotak Mahindra Bank credit risk",
@@ -13068,7 +14002,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:54": {
       "query": "State Bank of India credit risk",
@@ -13077,7 +14011,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:55": {
       "query": "IDFC FIRST Bank credit risk",
@@ -13086,7 +14020,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:56": {
       "query": "YES BANK credit risk",
@@ -13095,7 +14029,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:57": {
       "query": "Federal Bank credit risk",
@@ -13104,7 +14038,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:58": {
       "query": "IDBI Bank credit risk",
@@ -13113,7 +14047,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:59": {
       "query": "RBL Bank credit risk",
@@ -13122,7 +14056,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:60": {
       "query": "AU Small Finance Bank credit risk",
@@ -13131,7 +14065,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:61": {
       "query": "Equitas Small Finance Bank credit risk",
@@ -13140,7 +14074,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:62": {
       "query": "Ujjivan Small Finance Bank credit risk",
@@ -13149,7 +14083,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:63": {
       "query": "Bandhan Bank credit risk",
@@ -13158,7 +14092,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:64": {
       "query": "SBI Card credit risk",
@@ -13167,7 +14101,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:65": {
       "query": "Bajaj Finance credit risk",
@@ -13176,7 +14110,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:66": {
       "query": "Tata Capital credit risk",
@@ -13185,7 +14119,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:67": {
       "query": "Aditya Birla Capital credit risk",
@@ -13194,7 +14128,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:68": {
       "query": "Piramal Finance credit risk",
@@ -13203,7 +14137,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:69": {
       "query": "Shriram Finance credit risk",
@@ -13212,7 +14146,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:70": {
       "query": "Cholamandalam Investment and Finance credit risk",
@@ -13221,7 +14155,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:71": {
       "query": "L&T Finance credit risk",
@@ -13230,7 +14164,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:72": {
       "query": "PNB Housing Finance credit risk",
@@ -13239,7 +14173,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:73": {
       "query": "Home Credit India credit risk",
@@ -13248,7 +14182,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:74": {
       "query": "Credit Saison India credit risk",
@@ -13257,7 +14191,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:75": {
       "query": "PayU credit risk",
@@ -13266,7 +14200,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:76": {
       "query": "PayPal credit risk",
@@ -13275,7 +14209,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:77": {
       "query": "OakNorth credit risk",
@@ -13284,7 +14218,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:78": {
       "query": "Zeta credit risk",
@@ -13293,7 +14227,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:79": {
       "query": "PhonePe credit risk",
@@ -13302,7 +14236,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:80": {
       "query": "Paytm One97 credit risk",
@@ -13311,7 +14245,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:81": {
       "query": "Moneyview credit risk",
@@ -13320,7 +14254,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:82": {
       "query": "Navi credit risk",
@@ -13329,7 +14263,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:83": {
       "query": "Fibe credit risk",
@@ -13338,7 +14272,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:84": {
       "query": "SMFG India Credit credit risk",
@@ -13347,7 +14281,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:85": {
       "query": "CRED credit risk",
@@ -13356,7 +14290,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:86": {
       "query": "slice credit risk",
@@ -13365,7 +14299,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:87": {
       "query": "Lendingkart credit risk",
@@ -13374,7 +14308,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:88": {
       "query": "Perfios credit risk",
@@ -13383,7 +14317,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:89": {
       "query": "Ford Motor Company credit risk",
@@ -13392,7 +14326,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:90": {
       "query": "EXL credit risk",
@@ -13401,7 +14335,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:91": {
       "query": "Evalueserve credit risk",
@@ -13410,7 +14344,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:92": {
       "query": "Accenture credit risk",
@@ -13419,7 +14353,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:93": {
       "query": "Deloitte credit risk",
@@ -13428,7 +14362,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:94": {
       "query": "EY credit risk",
@@ -13437,7 +14371,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:95": {
       "query": "KPMG credit risk",
@@ -13446,7 +14380,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:96": {
       "query": "PwC credit risk",
@@ -13455,7 +14389,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:97": {
       "query": "Capco credit risk",
@@ -13464,7 +14398,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:98": {
       "query": "ZS credit risk",
@@ -13473,7 +14407,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:99": {
       "query": "Fractal credit risk",
@@ -13482,7 +14416,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:100": {
       "query": "Tiger Analytics credit risk",
@@ -13491,7 +14425,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:101": {
       "query": "LatentView Analytics credit risk",
@@ -13500,7 +14434,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:102": {
       "query": "Genpact credit risk",
@@ -13509,7 +14443,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:103": {
       "query": "TCS credit risk",
@@ -13518,7 +14452,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:104": {
       "query": "Cognizant credit risk",
@@ -13527,7 +14461,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:105": {
       "query": "Infosys credit risk",
@@ -13536,7 +14470,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:106": {
       "query": "Wipro credit risk",
@@ -13545,7 +14479,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:107": {
       "query": "Capgemini credit risk",
@@ -13554,7 +14488,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:108": {
       "query": "IBM credit risk",
@@ -13563,7 +14497,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:109": {
       "query": "Crowe credit risk",
@@ -13572,7 +14506,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:110": {
       "query": "Tredence credit risk",
@@ -13581,7 +14515,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:111": {
       "query": "SG Analytics credit risk",
@@ -13590,7 +14524,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:112": {
       "query": "Acuity Analytics credit risk",
@@ -13599,7 +14533,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:113": {
       "query": "Acies credit risk",
@@ -13608,7 +14542,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:114": {
       "query": "Moody's credit risk",
@@ -13617,7 +14551,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:115": {
       "query": "Fitch Group credit risk",
@@ -13626,7 +14560,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:116": {
       "query": "S&P Global credit risk",
@@ -13635,7 +14569,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:117": {
       "query": "CRISIL credit risk",
@@ -13644,7 +14578,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:118": {
       "query": "ICRA credit risk",
@@ -13653,7 +14587,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:119": {
       "query": "CARE Ratings credit risk",
@@ -13662,7 +14596,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:120": {
       "query": "Experian credit risk",
@@ -13671,7 +14605,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:121": {
       "query": "Equifax credit risk",
@@ -13680,7 +14614,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:122": {
       "query": "TransUnion credit risk",
@@ -13689,7 +14623,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "linkedin:123": {
       "query": "FICO credit risk",
@@ -13698,7 +14632,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-13T10:14:25.057190+00:00"
+      "retry_not_before": "2026-11-13T21:01:27.107046+00:00"
     },
     "indeed:0": {
       "query": "credit risk",
