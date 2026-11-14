@@ -1,8 +1,8 @@
 {
-  "build_id": "43625126024-1-app",
-  "phase": "app",
-  "scan_outcome": "pending",
-  "built_at": "2026-11-14T18:11:00.284754+00:00",
+  "build_id": "43625126024-1-outcome",
+  "phase": "outcome",
+  "scan_outcome": "failure",
+  "built_at": "2026-11-14T20:41:52.711012+00:00",
   "workflow_commit": "88f5611990dec268e00c538bc737acdfaafda320",
   "execution_run_id": "43625126024",
   "results_run_id": "43495355965",
