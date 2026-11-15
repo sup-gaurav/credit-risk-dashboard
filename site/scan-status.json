@@ -1,7 +1,7 @@
 {
-  "status": "completed_with_coverage_gaps",
-  "run_id": "43648370228",
-  "updated_at": "2026-11-14T23:55:19.072037+00:00",
+  "status": "completed_with_deferred_sources",
+  "run_id": "43749407407",
+  "updated_at": "2026-11-15T19:55:05.845205+00:00",
   "jobs_found": 0,
   "coverage_complete": false
 }
