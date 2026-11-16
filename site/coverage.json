@@ -9,7 +9,7 @@
   "employers_configured": 100,
   "employer_entries_attempted": 100,
   "employer_listing_scans_with_gaps": 89,
-  "board_queries_with_gaps": 87,
+  "board_queries_with_gaps": 85,
   "board_searches": {
     "linkedin:0": {
       "query": "credit risk",
@@ -16301,8 +16301,8 @@
     "linkedin:45": {
       "query": "American Express credit risk",
       "source": "linkedin",
-      "state": "deferred_rate_limit",
-      "windows": 4,
+      "state": "empty_terminal_observed",
+      "windows": 5,
       "observations": 64,
       "seen": [
         "https://www.linkedin.com/jobs/view/4375835589",
@@ -16378,20 +16378,139 @@
     "linkedin:46": {
       "query": "Synchrony credit risk",
       "source": "linkedin",
-      "windows": 0,
-      "observations": 0,
-      "seen": [],
-      "state": "deferred_rate_limit",
+      "windows": 5,
+      "observations": 89,
+      "seen": [
+        "https://www.linkedin.com/jobs/view/4375835589",
+        "https://www.linkedin.com/jobs/view/4375844160",
+        "https://www.linkedin.com/jobs/view/4379571405",
+        "https://www.linkedin.com/jobs/view/4385148929",
+        "https://www.linkedin.com/jobs/view/4387515696",
+        "https://www.linkedin.com/jobs/view/4388242370",
+        "https://www.linkedin.com/jobs/view/4389832994",
+        "https://www.linkedin.com/jobs/view/4404045328",
+        "https://www.linkedin.com/jobs/view/4410085831",
+        "https://www.linkedin.com/jobs/view/4411262229",
+        "https://www.linkedin.com/jobs/view/4411672378",
+        "https://www.linkedin.com/jobs/view/4419436747",
+        "https://www.linkedin.com/jobs/view/4428871975",
+        "https://www.linkedin.com/jobs/view/4436510523",
+        "https://www.linkedin.com/jobs/view/4437824084",
+        "https://www.linkedin.com/jobs/view/4438891795",
+        "https://www.linkedin.com/jobs/view/4446572607",
+        "https://www.linkedin.com/jobs/view/4446579522",
+        "https://www.linkedin.com/jobs/view/4446583337",
+        "https://www.linkedin.com/jobs/view/4446587235",
+        "https://www.linkedin.com/jobs/view/4446588028",
+        "https://www.linkedin.com/jobs/view/4446599121",
+        "https://www.linkedin.com/jobs/view/4446723425",
+        "https://www.linkedin.com/jobs/view/4446723628",
+        "https://www.linkedin.com/jobs/view/4446724464",
+        "https://www.linkedin.com/jobs/view/4446726244",
+        "https://www.linkedin.com/jobs/view/4446726480",
+        "https://www.linkedin.com/jobs/view/4446728393",
+        "https://www.linkedin.com/jobs/view/4446729226",
+        "https://www.linkedin.com/jobs/view/4446730443",
+        "https://www.linkedin.com/jobs/view/4446731397",
+        "https://www.linkedin.com/jobs/view/4446734366",
+        "https://www.linkedin.com/jobs/view/4446738303",
+        "https://www.linkedin.com/jobs/view/4446742093",
+        "https://www.linkedin.com/jobs/view/4446743263",
+        "https://www.linkedin.com/jobs/view/4456325902",
+        "https://www.linkedin.com/jobs/view/4456395301",
+        "https://www.linkedin.com/jobs/view/4456487225",
+        "https://www.linkedin.com/jobs/view/4457024136",
+        "https://www.linkedin.com/jobs/view/4463031263",
+        "https://www.linkedin.com/jobs/view/4463907685",
+        "https://www.linkedin.com/jobs/view/4464513904",
+        "https://www.linkedin.com/jobs/view/4464885029",
+        "https://www.linkedin.com/jobs/view/4465829940",
+        "https://www.linkedin.com/jobs/view/4466026447",
+        "https://www.linkedin.com/jobs/view/4466346501",
+        "https://www.linkedin.com/jobs/view/4466389147",
+        "https://www.linkedin.com/jobs/view/4466439332",
+        "https://www.linkedin.com/jobs/view/4466732529",
+        "https://www.linkedin.com/jobs/view/4472946386",
+        "https://www.linkedin.com/jobs/view/4474338495",
+        "https://www.linkedin.com/jobs/view/4474550513",
+        "https://www.linkedin.com/jobs/view/4474554326",
+        "https://www.linkedin.com/jobs/view/4474578118",
+        "https://www.linkedin.com/jobs/view/4480354596",
+        "https://www.linkedin.com/jobs/view/4480685168",
+        "https://www.linkedin.com/jobs/view/4481032866",
+        "https://www.linkedin.com/jobs/view/4481689540",
+        "https://www.linkedin.com/jobs/view/4481693815",
+        "https://www.linkedin.com/jobs/view/4482880603",
+        "https://www.linkedin.com/jobs/view/4483128577",
+        "https://www.linkedin.com/jobs/view/4483151508",
+        "https://www.linkedin.com/jobs/view/4486583596",
+        "https://www.linkedin.com/jobs/view/4489333633",
+        "https://www.linkedin.com/jobs/view/4489709670",
+        "https://www.linkedin.com/jobs/view/4489709865",
+        "https://www.linkedin.com/jobs/view/4489712451",
+        "https://www.linkedin.com/jobs/view/4489712599",
+        "https://www.linkedin.com/jobs/view/4489714584",
+        "https://www.linkedin.com/jobs/view/4489715408",
+        "https://www.linkedin.com/jobs/view/4489717502",
+        "https://www.linkedin.com/jobs/view/4489718397",
+        "https://www.linkedin.com/jobs/view/4489874722",
+        "https://www.linkedin.com/jobs/view/4489889230",
+        "https://www.linkedin.com/jobs/view/4490212607",
+        "https://www.linkedin.com/jobs/view/4490232491",
+        "https://www.linkedin.com/jobs/view/4490233120",
+        "https://www.linkedin.com/jobs/view/4490233457",
+        "https://www.linkedin.com/jobs/view/4490248033",
+        "https://www.linkedin.com/jobs/view/4490257786",
+        "https://www.linkedin.com/jobs/view/4490259518",
+        "https://www.linkedin.com/jobs/view/4490270435",
+        "https://www.linkedin.com/jobs/view/4490273246",
+        "https://www.linkedin.com/jobs/view/4491066363",
+        "https://www.linkedin.com/jobs/view/4491070313",
+        "https://www.linkedin.com/jobs/view/4491221905",
+        "https://www.linkedin.com/jobs/view/4491262487",
+        "https://www.linkedin.com/jobs/view/4491273816",
+        "https://www.linkedin.com/jobs/view/4491283504"
+      ],
+      "state": "empty_terminal_observed",
       "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
     },
     "linkedin:47": {
       "query": "Capital One credit risk",
       "source": "linkedin",
-      "windows": 0,
-      "observations": 0,
-      "seen": [],
+      "windows": 2,
+      "observations": 25,
+      "seen": [
+        "https://www.linkedin.com/jobs/view/4379571405",
+        "https://www.linkedin.com/jobs/view/4419436747",
+        "https://www.linkedin.com/jobs/view/4436510523",
+        "https://www.linkedin.com/jobs/view/4446572607",
+        "https://www.linkedin.com/jobs/view/4446579522",
+        "https://www.linkedin.com/jobs/view/4446583337",
+        "https://www.linkedin.com/jobs/view/4446723628",
+        "https://www.linkedin.com/jobs/view/4446728393",
+        "https://www.linkedin.com/jobs/view/4446730443",
+        "https://www.linkedin.com/jobs/view/4446734366",
+        "https://www.linkedin.com/jobs/view/4466389147",
+        "https://www.linkedin.com/jobs/view/4466732529",
+        "https://www.linkedin.com/jobs/view/4472946386",
+        "https://www.linkedin.com/jobs/view/4480685168",
+        "https://www.linkedin.com/jobs/view/4483151508",
+        "https://www.linkedin.com/jobs/view/4486583596",
+        "https://www.linkedin.com/jobs/view/4489709670",
+        "https://www.linkedin.com/jobs/view/4489714584",
+        "https://www.linkedin.com/jobs/view/4489715408",
+        "https://www.linkedin.com/jobs/view/4489718397",
+        "https://www.linkedin.com/jobs/view/4490257786",
+        "https://www.linkedin.com/jobs/view/4490259518",
+        "https://www.linkedin.com/jobs/view/4490273246",
+        "https://www.linkedin.com/jobs/view/4491066363",
+        "https://www.linkedin.com/jobs/view/4491221905"
+      ],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00",
+      "errors": {
+        "linkedin": "response status code 429 (blocked: use a proxy)"
+      }
     },
     "linkedin:48": {
       "query": "ANZ credit risk",
@@ -16400,7 +16519,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:49": {
       "query": "BlackRock credit risk",
@@ -16409,7 +16528,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:50": {
       "query": "HDFC Bank credit risk",
@@ -16418,7 +16537,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:51": {
       "query": "ICICI Bank credit risk",
@@ -16427,7 +16546,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:52": {
       "query": "Axis Bank credit risk",
@@ -16436,7 +16555,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:53": {
       "query": "Kotak Mahindra Bank credit risk",
@@ -16445,7 +16564,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:54": {
       "query": "State Bank of India credit risk",
@@ -16454,7 +16573,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:55": {
       "query": "IDFC FIRST Bank credit risk",
@@ -16463,7 +16582,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:56": {
       "query": "YES BANK credit risk",
@@ -16472,7 +16591,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:57": {
       "query": "Federal Bank credit risk",
@@ -16481,7 +16600,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:58": {
       "query": "IDBI Bank credit risk",
@@ -16490,7 +16609,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:59": {
       "query": "RBL Bank credit risk",
@@ -16499,7 +16618,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:60": {
       "query": "AU Small Finance Bank credit risk",
@@ -16508,7 +16627,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:61": {
       "query": "Equitas Small Finance Bank credit risk",
@@ -16517,7 +16636,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:62": {
       "query": "Ujjivan Small Finance Bank credit risk",
@@ -16526,7 +16645,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:63": {
       "query": "Bandhan Bank credit risk",
@@ -16535,7 +16654,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:64": {
       "query": "SBI Card credit risk",
@@ -16544,7 +16663,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:65": {
       "query": "Bajaj Finance credit risk",
@@ -16553,7 +16672,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:66": {
       "query": "Tata Capital credit risk",
@@ -16562,7 +16681,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:67": {
       "query": "Aditya Birla Capital credit risk",
@@ -16571,7 +16690,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:68": {
       "query": "Piramal Finance credit risk",
@@ -16580,7 +16699,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:69": {
       "query": "Shriram Finance credit risk",
@@ -16589,7 +16708,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:70": {
       "query": "Cholamandalam Investment and Finance credit risk",
@@ -16598,7 +16717,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:71": {
       "query": "L&T Finance credit risk",
@@ -16607,7 +16726,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:72": {
       "query": "PNB Housing Finance credit risk",
@@ -16616,7 +16735,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:73": {
       "query": "Home Credit India credit risk",
@@ -16625,7 +16744,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:74": {
       "query": "Credit Saison India credit risk",
@@ -16634,7 +16753,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:75": {
       "query": "PayU credit risk",
@@ -16643,7 +16762,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:76": {
       "query": "PayPal credit risk",
@@ -16652,7 +16771,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:77": {
       "query": "OakNorth credit risk",
@@ -16661,7 +16780,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:78": {
       "query": "Zeta credit risk",
@@ -16670,7 +16789,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:79": {
       "query": "PhonePe credit risk",
@@ -16679,7 +16798,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:80": {
       "query": "Paytm One97 credit risk",
@@ -16688,7 +16807,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:81": {
       "query": "Moneyview credit risk",
@@ -16697,7 +16816,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:82": {
       "query": "Navi credit risk",
@@ -16706,7 +16825,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:83": {
       "query": "Fibe credit risk",
@@ -16715,7 +16834,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:84": {
       "query": "SMFG India Credit credit risk",
@@ -16724,7 +16843,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:85": {
       "query": "CRED credit risk",
@@ -16733,7 +16852,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:86": {
       "query": "slice credit risk",
@@ -16742,7 +16861,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:87": {
       "query": "Lendingkart credit risk",
@@ -16751,7 +16870,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:88": {
       "query": "Perfios credit risk",
@@ -16760,7 +16879,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:89": {
       "query": "Ford Motor Company credit risk",
@@ -16769,7 +16888,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:90": {
       "query": "EXL credit risk",
@@ -16778,7 +16897,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:91": {
       "query": "Evalueserve credit risk",
@@ -16787,7 +16906,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:92": {
       "query": "Accenture credit risk",
@@ -16796,7 +16915,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:93": {
       "query": "Deloitte credit risk",
@@ -16805,7 +16924,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:94": {
       "query": "EY credit risk",
@@ -16814,7 +16933,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:95": {
       "query": "KPMG credit risk",
@@ -16823,7 +16942,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:96": {
       "query": "PwC credit risk",
@@ -16832,7 +16951,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:97": {
       "query": "Capco credit risk",
@@ -16841,7 +16960,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:98": {
       "query": "ZS credit risk",
@@ -16850,7 +16969,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:99": {
       "query": "Fractal credit risk",
@@ -16859,7 +16978,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:100": {
       "query": "Tiger Analytics credit risk",
@@ -16868,7 +16987,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:101": {
       "query": "LatentView Analytics credit risk",
@@ -16877,7 +16996,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:102": {
       "query": "Genpact credit risk",
@@ -16886,7 +17005,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:103": {
       "query": "TCS credit risk",
@@ -16895,7 +17014,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:104": {
       "query": "Cognizant credit risk",
@@ -16904,7 +17023,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:105": {
       "query": "Infosys credit risk",
@@ -16913,7 +17032,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:106": {
       "query": "Wipro credit risk",
@@ -16922,7 +17041,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:107": {
       "query": "Capgemini credit risk",
@@ -16931,7 +17050,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:108": {
       "query": "IBM credit risk",
@@ -16940,7 +17059,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:109": {
       "query": "Crowe credit risk",
@@ -16949,7 +17068,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:110": {
       "query": "Tredence credit risk",
@@ -16958,7 +17077,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:111": {
       "query": "SG Analytics credit risk",
@@ -16967,7 +17086,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:112": {
       "query": "Acuity Analytics credit risk",
@@ -16976,7 +17095,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:113": {
       "query": "Acies credit risk",
@@ -16985,7 +17104,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:114": {
       "query": "Moody's credit risk",
@@ -16994,7 +17113,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:115": {
       "query": "Fitch Group credit risk",
@@ -17003,7 +17122,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:116": {
       "query": "S&P Global credit risk",
@@ -17012,7 +17131,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:117": {
       "query": "CRISIL credit risk",
@@ -17021,7 +17140,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:118": {
       "query": "ICRA credit risk",
@@ -17030,7 +17149,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:119": {
       "query": "CARE Ratings credit risk",
@@ -17039,7 +17158,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:120": {
       "query": "Experian credit risk",
@@ -17048,7 +17167,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:121": {
       "query": "Equifax credit risk",
@@ -17057,7 +17176,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:122": {
       "query": "TransUnion credit risk",
@@ -17066,7 +17185,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "linkedin:123": {
       "query": "FICO credit risk",
@@ -17075,7 +17194,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-15T20:31:04.300394+00:00"
+      "retry_not_before": "2026-11-16T07:40:23.097279+00:00"
     },
     "indeed:0": {
       "query": "credit risk",
