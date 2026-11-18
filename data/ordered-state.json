@@ -3,7 +3,7 @@
   "started_at": "2026-11-15T06:42:09.145565+00:00",
   "phase": 0,
   "query_index": 94,
-  "offset": 100,
+  "offset": 150,
   "employer_index": 100,
   "items": {
     "https://www.linkedin.com/jobs/view/4472946386": {
@@ -7038,7 +7038,7 @@
       "fit_assessment": "candidate_profile_missing",
       "id": "7bf1bc2f4373c726e79be7e1",
       "first_seen": "2026-11-15T06:43:45.347694+00:00",
-      "last_seen": "2026-11-17T22:53:27.542431+00:00",
+      "last_seen": "2026-11-18T20:38:33.575039+00:00",
       "posting_events": [
         {
           "value": "2026-11-14",
@@ -371044,7 +371044,7 @@
       "fit_assessment": "candidate_profile_missing",
       "id": "0555d24842c057bdc2182a1d",
       "first_seen": "2026-11-17T21:01:16.390526+00:00",
-      "last_seen": "2026-11-17T22:53:28.473811+00:00",
+      "last_seen": "2026-11-18T20:38:36.335424+00:00",
       "posting_events": [
         {
           "value": "2026-11-17",
@@ -371458,7 +371458,7 @@
       "fit_assessment": "candidate_profile_missing",
       "id": "af8f6779294f4886c1785217",
       "first_seen": "2026-11-17T21:01:19.415341+00:00",
-      "last_seen": "2026-11-17T22:53:29.710805+00:00",
+      "last_seen": "2026-11-18T20:38:10.464843+00:00",
       "posting_events": [
         {
           "value": "2026-11-17",
@@ -371503,7 +371503,7 @@
       "fit_assessment": "candidate_profile_missing",
       "id": "ec65d3ac1f3c2d2b411a6413",
       "first_seen": "2026-11-17T21:01:37.810358+00:00",
-      "last_seen": "2026-11-17T22:53:50.345525+00:00",
+      "last_seen": "2026-11-18T20:38:11.076352+00:00",
       "posting_events": [
         {
           "value": "2026-11-17",
@@ -371548,7 +371548,7 @@
       "fit_assessment": "candidate_profile_missing",
       "id": "0172094c6ef9688f0bbbea94",
       "first_seen": "2026-11-17T21:01:38.086644+00:00",
-      "last_seen": "2026-11-17T22:53:50.032999+00:00",
+      "last_seen": "2026-11-18T20:38:11.383589+00:00",
       "posting_events": [
         {
           "value": "2026-11-17",
@@ -371593,7 +371593,7 @@
       "fit_assessment": "candidate_profile_missing",
       "id": "c28eee79bec9cd1e2c9ab62e",
       "first_seen": "2026-11-17T21:01:38.363116+00:00",
-      "last_seen": "2026-11-17T22:53:50.656485+00:00",
+      "last_seen": "2026-11-18T20:38:10.771040+00:00",
       "posting_events": [
         {
           "value": "2026-11-17",
@@ -371638,7 +371638,7 @@
       "fit_assessment": "candidate_profile_missing",
       "id": "e90e0a802fddd151c4baeeaf",
       "first_seen": "2026-11-17T21:01:38.636996+00:00",
-      "last_seen": "2026-11-17T22:53:30.020110+00:00",
+      "last_seen": "2026-11-18T20:38:10.160619+00:00",
       "posting_events": [
         {
           "value": "2026-11-17",
@@ -371683,7 +371683,7 @@
       "fit_assessment": "candidate_profile_missing",
       "id": "3b859c3888de8caa8d32bed3",
       "first_seen": "2026-11-17T21:01:38.915484+00:00",
-      "last_seen": "2026-11-17T22:53:29.400089+00:00",
+      "last_seen": "2026-11-18T20:38:11.688628+00:00",
       "posting_events": [
         {
           "value": "2026-11-17",
@@ -371728,7 +371728,7 @@
       "fit_assessment": "candidate_profile_missing",
       "id": "b79794d1a4ccbf7378969d87",
       "first_seen": "2026-11-17T21:01:39.189913+00:00",
-      "last_seen": "2026-11-17T22:53:08.727359+00:00",
+      "last_seen": "2026-11-18T20:38:12.296271+00:00",
       "posting_events": [
         {
           "value": "2026-11-17",
@@ -372003,7 +372003,7 @@
       "fit_assessment": "candidate_profile_missing",
       "id": "92b1a865349de4e0c21ff5a2",
       "first_seen": "2026-11-17T21:01:40.854875+00:00",
-      "last_seen": "2026-11-17T22:53:27.234145+00:00",
+      "last_seen": "2026-11-18T20:38:11.993427+00:00",
       "posting_events": [
         {
           "value": "2026-11-17",
@@ -372772,7 +372772,7 @@
       "fit_assessment": "candidate_profile_missing",
       "id": "3991e29a992fafed0a3076a0",
       "first_seen": "2026-11-17T21:02:17.946569+00:00",
-      "last_seen": "2026-11-17T22:53:28.162926+00:00",
+      "last_seen": "2026-11-18T20:38:36.027609+00:00",
       "posting_events": [
         {
           "value": "2026-11-17",
@@ -374721,7 +374721,7 @@
       "fit_assessment": "candidate_profile_missing",
       "id": "90a2e42918c20504ce51717e",
       "first_seen": "2026-11-17T21:03:45.956846+00:00",
-      "last_seen": "2026-11-17T22:54:15.482752+00:00",
+      "last_seen": "2026-11-18T20:38:09.543992+00:00",
       "posting_events": [
         {
           "value": "2026-11-17",
@@ -376211,7 +376211,7 @@
       "fit_assessment": "candidate_profile_missing",
       "id": "1bfad2b4188d0504768aeba4",
       "first_seen": "2026-11-17T21:04:30.390457+00:00",
-      "last_seen": "2026-11-17T22:55:15.630013+00:00",
+      "last_seen": "2026-11-18T20:38:09.848410+00:00",
       "posting_events": [
         {
           "value": "2026-11-17",
@@ -376931,7 +376931,7 @@
       "fit_assessment": "candidate_profile_missing",
       "id": "62f137ccaa694a81dd9bb942",
       "first_seen": "2026-11-17T21:04:50.998261+00:00",
-      "last_seen": "2026-11-17T22:55:37.987622+00:00",
+      "last_seen": "2026-11-18T20:38:12.906885+00:00",
       "posting_events": [
         {
           "value": "2026-11-17",
@@ -412819,7 +412819,7 @@
       "fit_assessment": "candidate_profile_missing",
       "id": "9b81f97f302720e66757a983",
       "first_seen": "2026-11-17T22:55:14.087330+00:00",
-      "last_seen": "2026-11-17T22:55:14.087330+00:00",
+      "last_seen": "2026-11-18T20:38:14.735681+00:00",
       "posting_events": [
         {
           "value": "2026-11-17",
@@ -412909,7 +412909,7 @@
       "fit_assessment": "candidate_profile_missing",
       "id": "c59877a562e00516be03670e",
       "first_seen": "2026-11-17T22:55:15.015827+00:00",
-      "last_seen": "2026-11-17T22:55:15.015827+00:00",
+      "last_seen": "2026-11-18T20:38:14.126252+00:00",
       "posting_events": [
         {
           "value": "2026-11-17",
@@ -413314,7 +413314,7 @@
       "fit_assessment": "candidate_profile_missing",
       "id": "40ff9af14d2eb73f645e40fe",
       "first_seen": "2026-11-17T22:55:38.596614+00:00",
-      "last_seen": "2026-11-17T22:55:38.596614+00:00",
+      "last_seen": "2026-11-18T20:38:12.602085+00:00",
       "posting_events": [
         {
           "value": "2026-11-17",
@@ -413550,6 +413550,1500 @@
       "description_available": false,
       "description_excerpt": "",
       "canonical_url": "https://www.linkedin.com/jobs/view/4491145509"
+    },
+    "https://www.linkedin.com/jobs/view/4490872701": {
+      "title": "Senior Consultant - Business Consulting Risk - Gen AI Engineer- FSRM - Pan India",
+      "company": "EY",
+      "job_url": "https://www.linkedin.com/jobs/view/4490872701",
+      "date_posted": "2026-11-18",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Mumbai, Maharashtra, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-18T00:00:00+00:00",
+      "posted_evidence": "2026-11-18",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "c5fd083baed1d71c948322fd",
+      "first_seen": "2026-11-18T20:38:07.373811+00:00",
+      "last_seen": "2026-11-18T20:38:07.373811+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-18",
+          "url": "https://www.linkedin.com/jobs/view/4490872701",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4490872701"
+    },
+    "https://www.linkedin.com/jobs/view/4411307645": {
+      "title": "Process Executive - Credit Risk",
+      "company": "Bunge",
+      "job_url": "https://www.linkedin.com/jobs/view/4411307645",
+      "date_posted": "2026-11-18",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Sahibzada Ajit Singh Nagar, Punjab, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": true,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-18T00:00:00+00:00",
+      "posted_evidence": "2026-11-18",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "a663dc6477486b53a9ecc1e6",
+      "first_seen": "2026-11-18T20:38:07.686769+00:00",
+      "last_seen": "2026-11-18T20:38:07.686769+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-18",
+          "url": "https://www.linkedin.com/jobs/view/4411307645",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4411307645"
+    },
+    "https://www.linkedin.com/jobs/view/4492036831": {
+      "title": "Deputy Manager - BFSD Loans B2C PLCS",
+      "company": "Bajaj Finserv",
+      "job_url": "https://www.linkedin.com/jobs/view/4492036831",
+      "date_posted": "2026-11-18",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Indore, Madhya Pradesh, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-18T00:00:00+00:00",
+      "posted_evidence": "2026-11-18",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "88b2eb2a2d43c57130c794a0",
+      "first_seen": "2026-11-18T20:38:08.003368+00:00",
+      "last_seen": "2026-11-18T20:38:08.003368+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-18",
+          "url": "https://www.linkedin.com/jobs/view/4492036831",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4492036831"
+    },
+    "https://www.linkedin.com/jobs/view/4492005535": {
+      "title": "AVP, AML Model Governance and Supplier (L10)",
+      "company": "Synchrony",
+      "job_url": "https://www.linkedin.com/jobs/view/4492005535",
+      "date_posted": "2026-11-18",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Kolkata, West Bengal, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": true,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-18T00:00:00+00:00",
+      "posted_evidence": "2026-11-18",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "d9bae94c3b6728310f0f63f9",
+      "first_seen": "2026-11-18T20:38:08.311373+00:00",
+      "last_seen": "2026-11-18T20:38:08.311373+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-18",
+          "url": "https://www.linkedin.com/jobs/view/4492005535",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4492005535",
+      "detail_error": "PermissionError",
+      "detail_attempted": true
+    },
+    "https://www.linkedin.com/jobs/view/4491831255": {
+      "title": "Financial Spreading (Associate/Sr. Associate)",
+      "company": "Acuity Analytics",
+      "job_url": "https://www.linkedin.com/jobs/view/4491831255",
+      "date_posted": "2026-11-18",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Gurugram, Haryana, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-18T00:00:00+00:00",
+      "posted_evidence": "2026-11-18",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "2b97b3d53b065b54f571f68a",
+      "first_seen": "2026-11-18T20:38:08.621000+00:00",
+      "last_seen": "2026-11-18T20:38:08.621000+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-18",
+          "url": "https://www.linkedin.com/jobs/view/4491831255",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4491831255"
+    },
+    "https://www.linkedin.com/jobs/view/4491790903": {
+      "title": "Lead Data Analyst",
+      "company": "Quess Global Recruitment Services",
+      "job_url": "https://www.linkedin.com/jobs/view/4491790903",
+      "date_posted": "2026-11-18",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Chennai, Tamil Nadu, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-18T00:00:00+00:00",
+      "posted_evidence": "2026-11-18",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "5972e66a9efd2d8f02eabb7b",
+      "first_seen": "2026-11-18T20:38:08.933073+00:00",
+      "last_seen": "2026-11-18T20:38:08.933073+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-18",
+          "url": "https://www.linkedin.com/jobs/view/4491790903",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4491790903"
+    },
+    "https://www.linkedin.com/jobs/view/4474960327": {
+      "title": "Risk Manager - Education Loans",
+      "company": "IDFC FIRST Bank",
+      "job_url": "https://www.linkedin.com/jobs/view/4474960327",
+      "date_posted": "2026-11-18",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Mumbai, Maharashtra, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-18T00:00:00+00:00",
+      "posted_evidence": "2026-11-18",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "af9c7bb98338f235284e9a37",
+      "first_seen": "2026-11-18T20:38:09.239083+00:00",
+      "last_seen": "2026-11-18T20:38:09.239083+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-18",
+          "url": "https://www.linkedin.com/jobs/view/4474960327",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4474960327"
+    },
+    "https://www.linkedin.com/jobs/view/4482989584": {
+      "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+      "company": "EY",
+      "job_url": "https://www.linkedin.com/jobs/view/4482989584",
+      "date_posted": "2026-11-17",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Mumbai, Maharashtra, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-17T00:00:00+00:00",
+      "posted_evidence": "2026-11-17",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "e8fa72b5d071476b75498b46",
+      "first_seen": "2026-11-18T20:38:13.213418+00:00",
+      "last_seen": "2026-11-18T20:38:13.213418+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-17",
+          "url": "https://www.linkedin.com/jobs/view/4482989584",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4482989584"
+    },
+    "https://www.linkedin.com/jobs/view/4483201166": {
+      "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+      "company": "EY",
+      "job_url": "https://www.linkedin.com/jobs/view/4483201166",
+      "date_posted": "2026-11-17",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Mumbai, Maharashtra, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-17T00:00:00+00:00",
+      "posted_evidence": "2026-11-17",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "f97ce6028c2e3f4a105fc54b",
+      "first_seen": "2026-11-18T20:38:13.516210+00:00",
+      "last_seen": "2026-11-18T20:38:13.516210+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-17",
+          "url": "https://www.linkedin.com/jobs/view/4483201166",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4483201166"
+    },
+    "https://www.linkedin.com/jobs/view/4483201156": {
+      "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+      "company": "EY",
+      "job_url": "https://www.linkedin.com/jobs/view/4483201156",
+      "date_posted": "2026-11-17",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Mumbai, Maharashtra, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-17T00:00:00+00:00",
+      "posted_evidence": "2026-11-17",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "ab5a328783a87bbe57bb6cb1",
+      "first_seen": "2026-11-18T20:38:13.822155+00:00",
+      "last_seen": "2026-11-18T20:38:13.822155+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-17",
+          "url": "https://www.linkedin.com/jobs/view/4483201156",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4483201156"
+    },
+    "https://www.linkedin.com/jobs/view/4483208052": {
+      "title": "Industrial Trainee - Business Consulting Risk - National - CNS - Risk - Process & Controls - Mumbai",
+      "company": "EY",
+      "job_url": "https://www.linkedin.com/jobs/view/4483208052",
+      "date_posted": "2026-11-17",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Mumbai, Maharashtra, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-17T00:00:00+00:00",
+      "posted_evidence": "2026-11-17",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "58e7dc4a2dbb4122bc58ad8f",
+      "first_seen": "2026-11-18T20:38:14.432719+00:00",
+      "last_seen": "2026-11-18T20:38:14.432719+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-17",
+          "url": "https://www.linkedin.com/jobs/view/4483208052",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4483208052"
+    },
+    "https://www.linkedin.com/jobs/view/4490850910": {
+      "title": "Affordable Housing-Lead",
+      "company": "The Premier Consultants ( Recruitment Company )",
+      "job_url": "https://www.linkedin.com/jobs/view/4490850910",
+      "date_posted": "2026-11-18",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Mumbai, Maharashtra, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-18T00:00:00+00:00",
+      "posted_evidence": "2026-11-18",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "1ce12f68e30eb29a34ec3096",
+      "first_seen": "2026-11-18T20:38:29.579326+00:00",
+      "last_seen": "2026-11-18T20:38:29.579326+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-18",
+          "url": "https://www.linkedin.com/jobs/view/4490850910",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4490850910"
+    },
+    "https://www.linkedin.com/jobs/view/4492007526": {
+      "title": "AVP, AML Model Governance and Supplier (L10)",
+      "company": "Synchrony",
+      "job_url": "https://www.linkedin.com/jobs/view/4492007526",
+      "date_posted": "2026-11-18",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Delhi, Delhi, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": true,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-18T00:00:00+00:00",
+      "posted_evidence": "2026-11-18",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "148c4997f1bc0a313598a245",
+      "first_seen": "2026-11-18T20:38:29.886792+00:00",
+      "last_seen": "2026-11-18T20:38:29.886792+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-18",
+          "url": "https://www.linkedin.com/jobs/view/4492007526",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4492007526",
+      "detail_error": "PermissionError",
+      "detail_attempted": true
+    },
+    "https://www.linkedin.com/jobs/view/4484098878": {
+      "title": "Lead Quantitative Analytics Specialist - AI, Gen AI, Agentic AI, ML",
+      "company": "Wells Fargo",
+      "job_url": "https://www.linkedin.com/jobs/view/4484098878",
+      "date_posted": "2026-11-18",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Bengaluru, Karnataka, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-18T00:00:00+00:00",
+      "posted_evidence": "2026-11-18",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "4d05d75710da63407e962f76",
+      "first_seen": "2026-11-18T20:38:30.198137+00:00",
+      "last_seen": "2026-11-18T20:38:30.198137+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-18",
+          "url": "https://www.linkedin.com/jobs/view/4484098878",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4484098878"
+    },
+    "https://www.linkedin.com/jobs/view/4491311365": {
+      "title": "Consultant - Business Consulting Risk - FS - CNS - Risk - Process & Controls - Mumbai",
+      "company": "EY",
+      "job_url": "https://www.linkedin.com/jobs/view/4491311365",
+      "date_posted": "2026-11-18",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Mumbai, Maharashtra, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-18T00:00:00+00:00",
+      "posted_evidence": "2026-11-18",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "00351cfb8e39655bb3b6907d",
+      "first_seen": "2026-11-18T20:38:30.507397+00:00",
+      "last_seen": "2026-11-18T20:38:30.507397+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-18",
+          "url": "https://www.linkedin.com/jobs/view/4491311365",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4491311365"
+    },
+    "https://www.linkedin.com/jobs/view/4492036842": {
+      "title": "Deputy Area Manager - Credit",
+      "company": "Bajaj Finserv",
+      "job_url": "https://www.linkedin.com/jobs/view/4492036842",
+      "date_posted": "2026-11-18",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Hyderabad, Telangana, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-18T00:00:00+00:00",
+      "posted_evidence": "2026-11-18",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "b20db2f64d8ae03c5e2250f5",
+      "first_seen": "2026-11-18T20:38:30.815172+00:00",
+      "last_seen": "2026-11-18T20:38:30.815172+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-18",
+          "url": "https://www.linkedin.com/jobs/view/4492036842",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4492036842"
+    },
+    "https://www.linkedin.com/jobs/view/4491846177": {
+      "title": "Credit Underwriter",
+      "company": "propelld",
+      "job_url": "https://www.linkedin.com/jobs/view/4491846177",
+      "date_posted": "2026-11-18",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Bengaluru, Karnataka, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-18T00:00:00+00:00",
+      "posted_evidence": "2026-11-18",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "7ac6444437284f1ceb1b2aca",
+      "first_seen": "2026-11-18T20:38:31.117791+00:00",
+      "last_seen": "2026-11-18T20:38:31.117791+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-18",
+          "url": "https://www.linkedin.com/jobs/view/4491846177",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4491846177"
+    },
+    "https://www.linkedin.com/jobs/view/4492085108": {
+      "title": "Associate Director | Analytics - Solutions | Banking and Financial Services",
+      "company": "WNS",
+      "job_url": "https://www.linkedin.com/jobs/view/4492085108",
+      "date_posted": "2026-11-18",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Bengaluru, Karnataka, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": true,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-18T00:00:00+00:00",
+      "posted_evidence": "2026-11-18",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "eed0015b4eb9175ba917fc9c",
+      "first_seen": "2026-11-18T20:38:31.428004+00:00",
+      "last_seen": "2026-11-18T20:38:31.428004+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-18",
+          "url": "https://www.linkedin.com/jobs/view/4492085108",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4492085108",
+      "detail_error": "PermissionError",
+      "detail_attempted": true
+    },
+    "https://www.linkedin.com/jobs/view/4492011340": {
+      "title": "AVP, AML Model Governance and Supplier (L10)",
+      "company": "Synchrony",
+      "job_url": "https://www.linkedin.com/jobs/view/4492011340",
+      "date_posted": "2026-11-18",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Telangana, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": true,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-18T00:00:00+00:00",
+      "posted_evidence": "2026-11-18",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "112ffb7d46214c118ba74af3",
+      "first_seen": "2026-11-18T20:38:31.733738+00:00",
+      "last_seen": "2026-11-18T20:38:31.733738+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-18",
+          "url": "https://www.linkedin.com/jobs/view/4492011340",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4492011340",
+      "detail_error": "PermissionError",
+      "detail_attempted": true
+    },
+    "https://www.linkedin.com/jobs/view/4492036819": {
+      "title": "Assistant Manager - BFSD DMS High IRR",
+      "company": "Bajaj Finserv",
+      "job_url": "https://www.linkedin.com/jobs/view/4492036819",
+      "date_posted": "2026-11-18",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Bengaluru, Karnataka, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-18T00:00:00+00:00",
+      "posted_evidence": "2026-11-18",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "b341d4cd8cce40db93952f46",
+      "first_seen": "2026-11-18T20:38:32.038967+00:00",
+      "last_seen": "2026-11-18T20:38:32.038967+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-18",
+          "url": "https://www.linkedin.com/jobs/view/4492036819",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4492036819"
+    },
+    "https://www.linkedin.com/jobs/view/4476309410": {
+      "title": "AO/European Loan Portfolio Analyst",
+      "company": "AllianceBernstein",
+      "job_url": "https://www.linkedin.com/jobs/view/4476309410",
+      "date_posted": "2026-11-18",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Pune Division, Maharashtra, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-18T00:00:00+00:00",
+      "posted_evidence": "2026-11-18",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "13e870ae0e16257b7f752fea",
+      "first_seen": "2026-11-18T20:38:32.347288+00:00",
+      "last_seen": "2026-11-18T20:38:32.347288+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-18",
+          "url": "https://www.linkedin.com/jobs/view/4476309410",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4476309410"
+    },
+    "https://www.linkedin.com/jobs/view/4490876642": {
+      "title": "FAAS FO Senior",
+      "company": "EY",
+      "job_url": "https://www.linkedin.com/jobs/view/4490876642",
+      "date_posted": "2026-11-18",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Kolkata, West Bengal, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-18T00:00:00+00:00",
+      "posted_evidence": "2026-11-18",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "0cda6e0c1c37d6aa8a666c04",
+      "first_seen": "2026-11-18T20:38:32.651880+00:00",
+      "last_seen": "2026-11-18T20:38:32.651880+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-18",
+          "url": "https://www.linkedin.com/jobs/view/4490876642",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4490876642"
+    },
+    "https://www.linkedin.com/jobs/view/4491796891": {
+      "title": "AVP, AML Model Governance and Supplier (L10)",
+      "company": "Synchrony",
+      "job_url": "https://www.linkedin.com/jobs/view/4491796891",
+      "date_posted": "2026-11-18",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Pune Division, Maharashtra, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": true,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-18T00:00:00+00:00",
+      "posted_evidence": "2026-11-18",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "2b4b52ad89cabbd6361c7bfe",
+      "first_seen": "2026-11-18T20:38:32.960803+00:00",
+      "last_seen": "2026-11-18T20:38:32.960803+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-18",
+          "url": "https://www.linkedin.com/jobs/view/4491796891",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4491796891",
+      "detail_error": "PermissionError",
+      "detail_attempted": true
+    },
+    "https://www.linkedin.com/jobs/view/4465518472": {
+      "title": "DE-RCE-Agentic AI Python Developer",
+      "company": "EY",
+      "job_url": "https://www.linkedin.com/jobs/view/4465518472",
+      "date_posted": "2026-11-18",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Bengaluru, Karnataka, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [
+        "python"
+      ],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-18T00:00:00+00:00",
+      "posted_evidence": "2026-11-18",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "b4f46d2fdeabd9e1588b1cbe",
+      "first_seen": "2026-11-18T20:38:33.267318+00:00",
+      "last_seen": "2026-11-18T20:38:33.267318+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-18",
+          "url": "https://www.linkedin.com/jobs/view/4465518472",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4465518472"
+    },
+    "https://www.linkedin.com/jobs/view/4481871619": {
+      "title": "Senior Consultant - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Bangalore",
+      "company": "EY",
+      "job_url": "https://www.linkedin.com/jobs/view/4481871619",
+      "date_posted": "2026-11-17",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Bengaluru, Karnataka, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-17T00:00:00+00:00",
+      "posted_evidence": "2026-11-17",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "c15cd9d35e383a07ae1667fe",
+      "first_seen": "2026-11-18T20:38:33.881138+00:00",
+      "last_seen": "2026-11-18T20:38:33.881138+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-17",
+          "url": "https://www.linkedin.com/jobs/view/4481871619",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4481871619"
+    },
+    "https://www.linkedin.com/jobs/view/4481864875": {
+      "title": "Senior Consultant - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Bangalore",
+      "company": "EY",
+      "job_url": "https://www.linkedin.com/jobs/view/4481864875",
+      "date_posted": "2026-11-17",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Bengaluru, Karnataka, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-17T00:00:00+00:00",
+      "posted_evidence": "2026-11-17",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "9b1ddb4775ce7d032472c3de",
+      "first_seen": "2026-11-18T20:38:34.188367+00:00",
+      "last_seen": "2026-11-18T20:38:34.188367+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-17",
+          "url": "https://www.linkedin.com/jobs/view/4481864875",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4481864875"
+    },
+    "https://www.linkedin.com/jobs/view/4481879175": {
+      "title": "Senior Consultant - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Bangalore",
+      "company": "EY",
+      "job_url": "https://www.linkedin.com/jobs/view/4481879175",
+      "date_posted": "2026-11-17",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Bengaluru, Karnataka, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-17T00:00:00+00:00",
+      "posted_evidence": "2026-11-17",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "5506d7050347305529f276b2",
+      "first_seen": "2026-11-18T20:38:34.494103+00:00",
+      "last_seen": "2026-11-18T20:38:34.494103+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-17",
+          "url": "https://www.linkedin.com/jobs/view/4481879175",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4481879175"
+    },
+    "https://www.linkedin.com/jobs/view/4481873634": {
+      "title": "Senior Consultant - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Bangalore",
+      "company": "EY",
+      "job_url": "https://www.linkedin.com/jobs/view/4481873634",
+      "date_posted": "2026-11-17",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Bengaluru, Karnataka, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-17T00:00:00+00:00",
+      "posted_evidence": "2026-11-17",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "3849218e4712a3938a61a833",
+      "first_seen": "2026-11-18T20:38:34.801150+00:00",
+      "last_seen": "2026-11-18T20:38:34.801150+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-17",
+          "url": "https://www.linkedin.com/jobs/view/4481873634",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4481873634"
+    },
+    "https://www.linkedin.com/jobs/view/4481873624": {
+      "title": "Senior Consultant - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Bangalore",
+      "company": "EY",
+      "job_url": "https://www.linkedin.com/jobs/view/4481873624",
+      "date_posted": "2026-11-17",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Bengaluru, Karnataka, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-17T00:00:00+00:00",
+      "posted_evidence": "2026-11-17",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "4b3180d3ee07b63e7a44a1a3",
+      "first_seen": "2026-11-18T20:38:35.107431+00:00",
+      "last_seen": "2026-11-18T20:38:35.107431+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-17",
+          "url": "https://www.linkedin.com/jobs/view/4481873624",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4481873624"
+    },
+    "https://www.linkedin.com/jobs/view/4481869653": {
+      "title": "Senior Consultant - Business Consulting Risk - TMT - CNS - Risk - Process & Controls - Bangalore",
+      "company": "EY",
+      "job_url": "https://www.linkedin.com/jobs/view/4481869653",
+      "date_posted": "2026-11-17",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Bengaluru, Karnataka, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-17T00:00:00+00:00",
+      "posted_evidence": "2026-11-17",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "b14ce5a97df14ed0658815f2",
+      "first_seen": "2026-11-18T20:38:35.414914+00:00",
+      "last_seen": "2026-11-18T20:38:35.414914+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-17",
+          "url": "https://www.linkedin.com/jobs/view/4481869653",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4481869653"
+    },
+    "https://www.linkedin.com/jobs/view/4491755865": {
+      "title": "Manager-Advisory Services",
+      "company": "Moody's Corporation",
+      "job_url": "https://www.linkedin.com/jobs/view/4491755865",
+      "date_posted": "2026-11-17",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Gurugram, Haryana, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-17T00:00:00+00:00",
+      "posted_evidence": "2026-11-17",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "70292d2c685fd33108dbf725",
+      "first_seen": "2026-11-18T20:38:35.721222+00:00",
+      "last_seen": "2026-11-18T20:38:35.721222+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-17",
+          "url": "https://www.linkedin.com/jobs/view/4491755865",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4491755865"
+    },
+    "https://www.linkedin.com/jobs/view/4465538961": {
+      "title": "DE-RCE-Agentic AI Python Developer- Manager",
+      "company": "EY",
+      "job_url": "https://www.linkedin.com/jobs/view/4465538961",
+      "date_posted": "2026-11-17",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Bengaluru, Karnataka, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [
+        "python"
+      ],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-17T00:00:00+00:00",
+      "posted_evidence": "2026-11-17",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "b5f339d9826db219b95de97a",
+      "first_seen": "2026-11-18T20:38:36.642019+00:00",
+      "last_seen": "2026-11-18T20:38:36.642019+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-17",
+          "url": "https://www.linkedin.com/jobs/view/4465538961",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4465538961"
+    },
+    "https://www.linkedin.com/jobs/view/4490467355": {
+      "title": "TC-CS-SRCR-Manager-Supply Chain and Third-Party Risk Management",
+      "company": "EY",
+      "job_url": "https://www.linkedin.com/jobs/view/4490467355",
+      "date_posted": "2026-11-17",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Bengaluru, Karnataka, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-17T00:00:00+00:00",
+      "posted_evidence": "2026-11-17",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "7d388951f22dc0d7095e4b2f",
+      "first_seen": "2026-11-18T20:38:36.948338+00:00",
+      "last_seen": "2026-11-18T20:38:36.948338+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-17",
+          "url": "https://www.linkedin.com/jobs/view/4490467355",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4490467355"
     }
   },
   "board_coverage": {
@@ -442547,16 +444041,22 @@
     "linkedin:94": {
       "query": "EY credit risk",
       "source": "linkedin",
-      "windows": 6,
-      "observations": 110,
+      "windows": 9,
+      "observations": 160,
       "seen": [
         "https://www.linkedin.com/jobs/view/4409933302",
+        "https://www.linkedin.com/jobs/view/4411307645",
         "https://www.linkedin.com/jobs/view/4446579536",
         "https://www.linkedin.com/jobs/view/4457512347",
         "https://www.linkedin.com/jobs/view/4464750255",
         "https://www.linkedin.com/jobs/view/4464754225",
+        "https://www.linkedin.com/jobs/view/4465518472",
+        "https://www.linkedin.com/jobs/view/4465538961",
+        "https://www.linkedin.com/jobs/view/4473657233",
         "https://www.linkedin.com/jobs/view/4473658263",
+        "https://www.linkedin.com/jobs/view/4474960327",
         "https://www.linkedin.com/jobs/view/4476127585",
+        "https://www.linkedin.com/jobs/view/4476309410",
         "https://www.linkedin.com/jobs/view/4481398188",
         "https://www.linkedin.com/jobs/view/4481428924",
         "https://www.linkedin.com/jobs/view/4481429866",
@@ -442565,17 +444065,33 @@
         "https://www.linkedin.com/jobs/view/4481448001",
         "https://www.linkedin.com/jobs/view/4481452432",
         "https://www.linkedin.com/jobs/view/4481469714",
+        "https://www.linkedin.com/jobs/view/4481804913",
+        "https://www.linkedin.com/jobs/view/4481810609",
+        "https://www.linkedin.com/jobs/view/4481826012",
         "https://www.linkedin.com/jobs/view/4481831950",
+        "https://www.linkedin.com/jobs/view/4481864875",
+        "https://www.linkedin.com/jobs/view/4481869653",
+        "https://www.linkedin.com/jobs/view/4481871619",
+        "https://www.linkedin.com/jobs/view/4481873624",
+        "https://www.linkedin.com/jobs/view/4481873634",
+        "https://www.linkedin.com/jobs/view/4481879175",
         "https://www.linkedin.com/jobs/view/4481886104",
+        "https://www.linkedin.com/jobs/view/4482989584",
+        "https://www.linkedin.com/jobs/view/4483201156",
+        "https://www.linkedin.com/jobs/view/4483201166",
+        "https://www.linkedin.com/jobs/view/4483208052",
         "https://www.linkedin.com/jobs/view/4483508957",
         "https://www.linkedin.com/jobs/view/4483613994",
         "https://www.linkedin.com/jobs/view/4483617477",
         "https://www.linkedin.com/jobs/view/4483755966",
+        "https://www.linkedin.com/jobs/view/4484098878",
+        "https://www.linkedin.com/jobs/view/4489310479",
         "https://www.linkedin.com/jobs/view/4489709670",
         "https://www.linkedin.com/jobs/view/4489715408",
         "https://www.linkedin.com/jobs/view/4489729540",
         "https://www.linkedin.com/jobs/view/4489738729",
         "https://www.linkedin.com/jobs/view/4489750199",
+        "https://www.linkedin.com/jobs/view/4489758386",
         "https://www.linkedin.com/jobs/view/4489771000",
         "https://www.linkedin.com/jobs/view/4490163944",
         "https://www.linkedin.com/jobs/view/4490183825",
@@ -442599,10 +444115,13 @@
         "https://www.linkedin.com/jobs/view/4490295598",
         "https://www.linkedin.com/jobs/view/4490298353",
         "https://www.linkedin.com/jobs/view/4490298377",
+        "https://www.linkedin.com/jobs/view/4490424875",
         "https://www.linkedin.com/jobs/view/4490427552",
         "https://www.linkedin.com/jobs/view/4490438592",
+        "https://www.linkedin.com/jobs/view/4490452997",
         "https://www.linkedin.com/jobs/view/4490457962",
         "https://www.linkedin.com/jobs/view/4490465162",
+        "https://www.linkedin.com/jobs/view/4490467355",
         "https://www.linkedin.com/jobs/view/4490467362",
         "https://www.linkedin.com/jobs/view/4490600121",
         "https://www.linkedin.com/jobs/view/4490600136",
@@ -442611,9 +444130,14 @@
         "https://www.linkedin.com/jobs/view/4490649182",
         "https://www.linkedin.com/jobs/view/4490684604",
         "https://www.linkedin.com/jobs/view/4490684611",
+        "https://www.linkedin.com/jobs/view/4490850910",
+        "https://www.linkedin.com/jobs/view/4490872701",
+        "https://www.linkedin.com/jobs/view/4490876642",
+        "https://www.linkedin.com/jobs/view/4490972860",
         "https://www.linkedin.com/jobs/view/4491111276",
         "https://www.linkedin.com/jobs/view/4491130963",
         "https://www.linkedin.com/jobs/view/4491130976",
+        "https://www.linkedin.com/jobs/view/4491131925",
         "https://www.linkedin.com/jobs/view/4491131938",
         "https://www.linkedin.com/jobs/view/4491132925",
         "https://www.linkedin.com/jobs/view/4491133923",
@@ -442636,21 +444160,41 @@
         "https://www.linkedin.com/jobs/view/4491149356",
         "https://www.linkedin.com/jobs/view/4491151214",
         "https://www.linkedin.com/jobs/view/4491151234",
+        "https://www.linkedin.com/jobs/view/4491151865",
         "https://www.linkedin.com/jobs/view/4491152143",
         "https://www.linkedin.com/jobs/view/4491153109",
         "https://www.linkedin.com/jobs/view/4491153189",
         "https://www.linkedin.com/jobs/view/4491154039",
+        "https://www.linkedin.com/jobs/view/4491162567",
+        "https://www.linkedin.com/jobs/view/4491165359",
+        "https://www.linkedin.com/jobs/view/4491165390",
         "https://www.linkedin.com/jobs/view/4491165503",
+        "https://www.linkedin.com/jobs/view/4491169192",
         "https://www.linkedin.com/jobs/view/4491172327",
+        "https://www.linkedin.com/jobs/view/4491173141",
+        "https://www.linkedin.com/jobs/view/4491175002",
         "https://www.linkedin.com/jobs/view/4491291992",
+        "https://www.linkedin.com/jobs/view/4491311365",
         "https://www.linkedin.com/jobs/view/4491563657",
         "https://www.linkedin.com/jobs/view/4491564604",
         "https://www.linkedin.com/jobs/view/4491571238",
         "https://www.linkedin.com/jobs/view/4491595889",
-        "https://www.linkedin.com/jobs/view/4491712278"
+        "https://www.linkedin.com/jobs/view/4491712278",
+        "https://www.linkedin.com/jobs/view/4491755865",
+        "https://www.linkedin.com/jobs/view/4491790903",
+        "https://www.linkedin.com/jobs/view/4491796891",
+        "https://www.linkedin.com/jobs/view/4491831255",
+        "https://www.linkedin.com/jobs/view/4491846177",
+        "https://www.linkedin.com/jobs/view/4492005535",
+        "https://www.linkedin.com/jobs/view/4492007526",
+        "https://www.linkedin.com/jobs/view/4492011340",
+        "https://www.linkedin.com/jobs/view/4492036819",
+        "https://www.linkedin.com/jobs/view/4492036831",
+        "https://www.linkedin.com/jobs/view/4492036842",
+        "https://www.linkedin.com/jobs/view/4492085108"
       ],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-18T08:37:01.108662+00:00",
+      "retry_not_before": "2026-11-18T21:38:40.066348+00:00",
       "errors": {
         "linkedin": "response status code 429 (blocked: use a proxy)"
       }
@@ -442662,7 +444206,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-18T08:37:01.108662+00:00"
+      "retry_not_before": "2026-11-18T21:38:40.066348+00:00"
     },
     "linkedin:96": {
       "query": "PwC credit risk",
@@ -442671,7 +444215,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-18T08:37:01.108662+00:00"
+      "retry_not_before": "2026-11-18T21:38:40.066348+00:00"
     },
     "linkedin:97": {
       "query": "Capco credit risk",
@@ -442680,7 +444224,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-18T08:37:01.108662+00:00"
+      "retry_not_before": "2026-11-18T21:38:40.066348+00:00"
     },
     "linkedin:98": {
       "query": "ZS credit risk",
@@ -442689,7 +444233,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-18T08:37:01.108662+00:00"
+      "retry_not_before": "2026-11-18T21:38:40.066348+00:00"
     },
     "linkedin:99": {
       "query": "Fractal credit risk",
@@ -442698,7 +444242,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-18T08:37:01.108662+00:00"
+      "retry_not_before": "2026-11-18T21:38:40.066348+00:00"
     },
     "linkedin:100": {
       "query": "Tiger Analytics credit risk",
@@ -442707,7 +444251,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-18T08:37:01.108662+00:00"
+      "retry_not_before": "2026-11-18T21:38:40.066348+00:00"
     },
     "linkedin:101": {
       "query": "LatentView Analytics credit risk",
@@ -442716,7 +444260,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-18T08:37:01.108662+00:00"
+      "retry_not_before": "2026-11-18T21:38:40.066348+00:00"
     },
     "linkedin:102": {
       "query": "Genpact credit risk",
@@ -442725,7 +444269,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-18T08:37:01.108662+00:00"
+      "retry_not_before": "2026-11-18T21:38:40.066348+00:00"
     },
     "linkedin:103": {
       "query": "TCS credit risk",
@@ -442734,7 +444278,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-18T08:37:01.108662+00:00"
+      "retry_not_before": "2026-11-18T21:38:40.066348+00:00"
     },
     "linkedin:104": {
       "query": "Cognizant credit risk",
@@ -442743,7 +444287,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-18T08:37:01.108662+00:00"
+      "retry_not_before": "2026-11-18T21:38:40.066348+00:00"
     },
     "linkedin:105": {
       "query": "Infosys credit risk",
@@ -442752,7 +444296,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-18T08:37:01.108662+00:00"
+      "retry_not_before": "2026-11-18T21:38:40.066348+00:00"
     },
     "linkedin:106": {
       "query": "Wipro credit risk",
@@ -442761,7 +444305,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-18T08:37:01.108662+00:00"
+      "retry_not_before": "2026-11-18T21:38:40.066348+00:00"
     },
     "linkedin:107": {
       "query": "Capgemini credit risk",
@@ -442770,7 +444314,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-18T08:37:01.108662+00:00"
+      "retry_not_before": "2026-11-18T21:38:40.066348+00:00"
     },
     "linkedin:108": {
       "query": "IBM credit risk",
@@ -442779,7 +444323,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-18T08:37:01.108662+00:00"
+      "retry_not_before": "2026-11-18T21:38:40.066348+00:00"
     },
     "linkedin:109": {
       "query": "Crowe credit risk",
@@ -442788,7 +444332,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-18T08:37:01.108662+00:00"
+      "retry_not_before": "2026-11-18T21:38:40.066348+00:00"
     },
     "linkedin:110": {
       "query": "Tredence credit risk",
@@ -442797,7 +444341,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-18T08:37:01.108662+00:00"
+      "retry_not_before": "2026-11-18T21:38:40.066348+00:00"
     },
     "linkedin:111": {
       "query": "SG Analytics credit risk",
@@ -442806,7 +444350,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-18T08:37:01.108662+00:00"
+      "retry_not_before": "2026-11-18T21:38:40.066348+00:00"
     },
     "linkedin:112": {
       "query": "Acuity Analytics credit risk",
@@ -442815,7 +444359,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-18T08:37:01.108662+00:00"
+      "retry_not_before": "2026-11-18T21:38:40.066348+00:00"
     },
     "linkedin:113": {
       "query": "Acies credit risk",
@@ -442824,7 +444368,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-18T08:37:01.108662+00:00"
+      "retry_not_before": "2026-11-18T21:38:40.066348+00:00"
     },
     "linkedin:114": {
       "query": "Moody's credit risk",
@@ -442833,7 +444377,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-18T08:37:01.108662+00:00"
+      "retry_not_before": "2026-11-18T21:38:40.066348+00:00"
     },
     "linkedin:115": {
       "query": "Fitch Group credit risk",
@@ -442842,7 +444386,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-18T08:37:01.108662+00:00"
+      "retry_not_before": "2026-11-18T21:38:40.066348+00:00"
     },
     "linkedin:116": {
       "query": "S&P Global credit risk",
@@ -442851,7 +444395,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-18T08:37:01.108662+00:00"
+      "retry_not_before": "2026-11-18T21:38:40.066348+00:00"
     },
     "linkedin:117": {
       "query": "CRISIL credit risk",
@@ -442860,7 +444404,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-18T08:37:01.108662+00:00"
+      "retry_not_before": "2026-11-18T21:38:40.066348+00:00"
     },
     "linkedin:118": {
       "query": "ICRA credit risk",
@@ -442869,7 +444413,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-18T08:37:01.108662+00:00"
+      "retry_not_before": "2026-11-18T21:38:40.066348+00:00"
     },
     "linkedin:119": {
       "query": "CARE Ratings credit risk",
@@ -442878,7 +444422,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-18T08:37:01.108662+00:00"
+      "retry_not_before": "2026-11-18T21:38:40.066348+00:00"
     },
     "linkedin:120": {
       "query": "Experian credit risk",
@@ -442887,7 +444431,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-18T08:37:01.108662+00:00"
+      "retry_not_before": "2026-11-18T21:38:40.066348+00:00"
     },
     "linkedin:121": {
       "query": "Equifax credit risk",
@@ -442896,7 +444440,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-18T08:37:01.108662+00:00"
+      "retry_not_before": "2026-11-18T21:38:40.066348+00:00"
     },
     "linkedin:122": {
       "query": "TransUnion credit risk",
@@ -442905,7 +444449,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-18T08:37:01.108662+00:00"
+      "retry_not_before": "2026-11-18T21:38:40.066348+00:00"
     },
     "linkedin:123": {
       "query": "FICO credit risk",
@@ -442914,7 +444458,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-18T08:37:01.108662+00:00"
+      "retry_not_before": "2026-11-18T21:38:40.066348+00:00"
     },
     "indeed:0": {
       "query": "credit risk",
@@ -445211,15 +446755,15 @@
       "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
     }
   },
-  "observations": 29693,
+  "observations": 29743,
   "pass_finished": false,
   "paused_at": "2026-11-15T09:12:09.394080+00:00",
   "deferred_boards": {
     "linkedin": {
       "phase": 0,
       "query_index": 94,
-      "offset": 100,
-      "retry_not_before": "2026-11-18T08:37:01.108662+00:00",
+      "offset": 150,
+      "retry_not_before": "2026-11-18T21:38:40.066348+00:00",
       "reason": "HTTP 429; source deferred without blocking other sources"
     }
   },
