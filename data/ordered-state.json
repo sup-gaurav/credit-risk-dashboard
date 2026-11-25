@@ -3,7 +3,7 @@
   "started_at": "2026-11-15T06:42:09.145565+00:00",
   "phase": 0,
   "query_index": 97,
-  "offset": 75,
+  "offset": 100,
   "employer_index": 100,
   "items": {
     "https://www.linkedin.com/jobs/view/4472946386": {
@@ -424298,6 +424298,1136 @@
       "description_available": false,
       "description_excerpt": "",
       "canonical_url": "https://www.linkedin.com/jobs/view/4492383888"
+    },
+    "https://www.linkedin.com/jobs/view/4476046524": {
+      "title": "Manager- R&C",
+      "company": "IBM",
+      "job_url": "https://www.linkedin.com/jobs/view/4476046524",
+      "date_posted": "2026-11-25",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Bengaluru, Karnataka, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-25T00:00:00+00:00",
+      "posted_evidence": "2026-11-25",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "26b84c240df845245c20eb3d",
+      "first_seen": "2026-11-25T21:46:23.860731+00:00",
+      "last_seen": "2026-11-25T21:46:23.860731+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-25",
+          "url": "https://www.linkedin.com/jobs/view/4476046524",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4476046524"
+    },
+    "https://www.linkedin.com/jobs/view/4494654423": {
+      "title": "Technical Manager",
+      "company": "Ujjivan Small Finance Bank",
+      "job_url": "https://www.linkedin.com/jobs/view/4494654423",
+      "date_posted": "2026-11-25",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Greater Vadodara Area",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": false
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "India work location/eligibility needs verification",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-25T00:00:00+00:00",
+      "posted_evidence": "2026-11-25",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "bec677699c6ffc44ceed8c50",
+      "first_seen": "2026-11-25T21:46:24.191779+00:00",
+      "last_seen": "2026-11-25T21:46:24.191779+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-25",
+          "url": "https://www.linkedin.com/jobs/view/4494654423",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4494654423"
+    },
+    "https://www.linkedin.com/jobs/view/4494604780": {
+      "title": "Customer Support Associate",
+      "company": "RENOVISION AUTOMATION SERVICES PVT.LTD",
+      "job_url": "https://www.linkedin.com/jobs/view/4494604780",
+      "date_posted": "2026-11-25",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Lucknow, Uttar Pradesh, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-25T00:00:00+00:00",
+      "posted_evidence": "2026-11-25",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "d51b3d2ee3a0e7cd2e050172",
+      "first_seen": "2026-11-25T21:46:24.514766+00:00",
+      "last_seen": "2026-11-25T21:46:24.514766+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-25",
+          "url": "https://www.linkedin.com/jobs/view/4494604780",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4494604780"
+    },
+    "https://www.linkedin.com/jobs/view/4494654590": {
+      "title": "Business Analyst",
+      "company": "BNP Paribas",
+      "job_url": "https://www.linkedin.com/jobs/view/4494654590",
+      "date_posted": "2026-11-25",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Tamil Nadu, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-25T00:00:00+00:00",
+      "posted_evidence": "2026-11-25",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "e0eb28dd437a279099e2d1f8",
+      "first_seen": "2026-11-25T21:46:24.838198+00:00",
+      "last_seen": "2026-11-25T21:46:24.838198+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-25",
+          "url": "https://www.linkedin.com/jobs/view/4494654590",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4494654590"
+    },
+    "https://www.linkedin.com/jobs/view/4492379993": {
+      "title": "Credit Analyst",
+      "company": "Ayvens",
+      "job_url": "https://www.linkedin.com/jobs/view/4492379993",
+      "date_posted": "2026-11-25",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Mumbai, Maharashtra, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-25T00:00:00+00:00",
+      "posted_evidence": "2026-11-25",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "d0fcc7ee1ff19e04eb0e4a59",
+      "first_seen": "2026-11-25T21:46:25.157739+00:00",
+      "last_seen": "2026-11-25T21:46:25.157739+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-25",
+          "url": "https://www.linkedin.com/jobs/view/4492379993",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4492379993"
+    },
+    "https://www.linkedin.com/jobs/view/4474345224": {
+      "title": "Sr. Analyst Credit Admin",
+      "company": "Societe Generale Global Solution Centre",
+      "job_url": "https://www.linkedin.com/jobs/view/4474345224",
+      "date_posted": "2026-11-25",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Bengaluru, Karnataka, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-25T00:00:00+00:00",
+      "posted_evidence": "2026-11-25",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "ecbf94b385d00d2cf7b2c59e",
+      "first_seen": "2026-11-25T21:46:25.479714+00:00",
+      "last_seen": "2026-11-25T21:46:25.479714+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-25",
+          "url": "https://www.linkedin.com/jobs/view/4474345224",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4474345224"
+    },
+    "https://www.linkedin.com/jobs/view/4494610735": {
+      "title": "Senior Manager - Fraud Analytics & Monitoring (Prevention)",
+      "company": "SBI Card",
+      "job_url": "https://www.linkedin.com/jobs/view/4494610735",
+      "date_posted": "2026-11-25",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Mumbai Metropolitan Region",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": true,
+        "india": false
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-25T00:00:00+00:00",
+      "posted_evidence": "2026-11-25",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "ac5658f22c63c5023c5dea1e",
+      "first_seen": "2026-11-25T21:46:25.802107+00:00",
+      "last_seen": "2026-11-25T21:46:25.802107+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-25",
+          "url": "https://www.linkedin.com/jobs/view/4494610735",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4494610735",
+      "detail_error": "PermissionError",
+      "detail_attempted": true
+    },
+    "https://www.linkedin.com/jobs/view/4479014331": {
+      "title": "Senior Specialist, POM Product Owner",
+      "company": "BNY",
+      "job_url": "https://www.linkedin.com/jobs/view/4479014331",
+      "date_posted": "2026-11-25",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Pune/Pimpri-Chinchwad Area",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": false
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-25T00:00:00+00:00",
+      "posted_evidence": "2026-11-25",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "89f1bb02b8b5a7ba17cd9f3c",
+      "first_seen": "2026-11-25T21:46:26.121756+00:00",
+      "last_seen": "2026-11-25T21:46:26.121756+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-25",
+          "url": "https://www.linkedin.com/jobs/view/4479014331",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4479014331"
+    },
+    "https://www.linkedin.com/jobs/view/4479092909": {
+      "title": "Auditor",
+      "company": "YES BANK",
+      "job_url": "https://www.linkedin.com/jobs/view/4479092909",
+      "date_posted": "2026-11-25",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Gurugram, Haryana, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-25T00:00:00+00:00",
+      "posted_evidence": "2026-11-25",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "275bcaf4c6c6c477d1255aa8",
+      "first_seen": "2026-11-25T21:46:26.441510+00:00",
+      "last_seen": "2026-11-25T21:46:26.441510+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-25",
+          "url": "https://www.linkedin.com/jobs/view/4479092909",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4479092909"
+    },
+    "https://www.linkedin.com/jobs/view/4494783079": {
+      "title": "Analyst – Debt Syndication",
+      "company": "GrowthAlly Advisors Private Limited",
+      "job_url": "https://www.linkedin.com/jobs/view/4494783079",
+      "date_posted": "2026-11-25",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Mumbai Metropolitan Region",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": false
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-25T00:00:00+00:00",
+      "posted_evidence": "2026-11-25",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "cab03f032333c1141918d55a",
+      "first_seen": "2026-11-25T21:46:26.763382+00:00",
+      "last_seen": "2026-11-25T21:46:26.763382+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-25",
+          "url": "https://www.linkedin.com/jobs/view/4494783079",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4494783079"
+    },
+    "https://www.linkedin.com/jobs/view/4471728707": {
+      "title": "Senior Manager Project Finance",
+      "company": "Adani Global Capability Centre",
+      "job_url": "https://www.linkedin.com/jobs/view/4471728707",
+      "date_posted": "2026-11-25",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Ahmedabad, Gujarat, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": true,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-25T00:00:00+00:00",
+      "posted_evidence": "2026-11-25",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "e178599f540de4a42e3eccad",
+      "first_seen": "2026-11-25T21:46:27.089561+00:00",
+      "last_seen": "2026-11-25T21:46:27.089561+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-25",
+          "url": "https://www.linkedin.com/jobs/view/4471728707",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4471728707",
+      "detail_error": "PermissionError",
+      "detail_attempted": true
+    },
+    "https://www.linkedin.com/jobs/view/4492634476": {
+      "title": "AVP",
+      "company": "Barclays",
+      "job_url": "https://www.linkedin.com/jobs/view/4492634476",
+      "date_posted": "2026-11-24",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Chennai, Tamil Nadu, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": true,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-24T00:00:00+00:00",
+      "posted_evidence": "2026-11-24",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "36729b7e351378ebac187707",
+      "first_seen": "2026-11-25T21:46:27.411342+00:00",
+      "last_seen": "2026-11-25T21:46:27.411342+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-24",
+          "url": "https://www.linkedin.com/jobs/view/4492634476",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4492634476",
+      "detail_error": "PermissionError",
+      "detail_attempted": true
+    },
+    "https://www.linkedin.com/jobs/view/4494306721": {
+      "title": "Assistant Manager - Stress Testing",
+      "company": "Standard Chartered India",
+      "job_url": "https://www.linkedin.com/jobs/view/4494306721",
+      "date_posted": "2026-11-24",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Bengaluru East, Karnataka, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-24T00:00:00+00:00",
+      "posted_evidence": "2026-11-24",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "3edfa5d7420c9824c225cdea",
+      "first_seen": "2026-11-25T21:46:27.731871+00:00",
+      "last_seen": "2026-11-25T21:46:27.731871+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-24",
+          "url": "https://www.linkedin.com/jobs/view/4494306721",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4494306721"
+    },
+    "https://www.linkedin.com/jobs/view/4494123165": {
+      "title": "Senior Analyst, Enterprise Risk Analytics",
+      "company": "Synchrony",
+      "job_url": "https://www.linkedin.com/jobs/view/4494123165",
+      "date_posted": "2026-11-24",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Delhi, Delhi, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-24T00:00:00+00:00",
+      "posted_evidence": "2026-11-24",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "e17169c799dad92b7dc5f28f",
+      "first_seen": "2026-11-25T21:46:28.053665+00:00",
+      "last_seen": "2026-11-25T21:46:28.053665+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-24",
+          "url": "https://www.linkedin.com/jobs/view/4494123165",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4494123165"
+    },
+    "https://www.linkedin.com/jobs/view/4486417117": {
+      "title": "Analyst, Relationship Manager, Credit Program Small, Small Medium Enterprises",
+      "company": "DBS Bank",
+      "job_url": "https://www.linkedin.com/jobs/view/4486417117",
+      "date_posted": "2026-11-24",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Surat, Gujarat, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-24T00:00:00+00:00",
+      "posted_evidence": "2026-11-24",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "c479fce0e4f76465bfd22801",
+      "first_seen": "2026-11-25T21:46:28.377190+00:00",
+      "last_seen": "2026-11-25T21:46:28.377190+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-24",
+          "url": "https://www.linkedin.com/jobs/view/4486417117",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4486417117"
+    },
+    "https://www.linkedin.com/jobs/view/4486164548": {
+      "title": "Program Manager",
+      "company": "Capco",
+      "job_url": "https://www.linkedin.com/jobs/view/4486164548",
+      "date_posted": "2026-11-24",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Pune City, Maharashtra, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-24T00:00:00+00:00",
+      "posted_evidence": "2026-11-24",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "0f653fad2fce182a211a2043",
+      "first_seen": "2026-11-25T21:46:28.697145+00:00",
+      "last_seen": "2026-11-25T21:46:28.697145+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-24",
+          "url": "https://www.linkedin.com/jobs/view/4486164548",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4486164548"
+    },
+    "https://www.linkedin.com/jobs/view/4493003884": {
+      "title": "Senior Analyst || Credit Memo/Lender's presentations",
+      "company": "Evalueserve",
+      "job_url": "https://www.linkedin.com/jobs/view/4493003884",
+      "date_posted": "2026-11-24",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Gurugram, Haryana, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-24T00:00:00+00:00",
+      "posted_evidence": "2026-11-24",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "5f09298ce2290f26ed7fc4e2",
+      "first_seen": "2026-11-25T21:46:29.014296+00:00",
+      "last_seen": "2026-11-25T21:46:29.014296+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-24",
+          "url": "https://www.linkedin.com/jobs/view/4493003884",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4493003884"
+    },
+    "https://www.linkedin.com/jobs/view/4493997556": {
+      "title": "Associate Director - SSv NFR Governance and Client Risks",
+      "company": "HSBC",
+      "job_url": "https://www.linkedin.com/jobs/view/4493997556",
+      "date_posted": "2026-11-24",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Bengaluru, Karnataka, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": true,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-24T00:00:00+00:00",
+      "posted_evidence": "2026-11-24",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "52f38b029c73c749758fb74b",
+      "first_seen": "2026-11-25T21:46:29.333649+00:00",
+      "last_seen": "2026-11-25T21:46:29.333649+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-24",
+          "url": "https://www.linkedin.com/jobs/view/4493997556",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4493997556",
+      "detail_error": "PermissionError",
+      "detail_attempted": true
+    },
+    "https://www.linkedin.com/jobs/view/4493001311": {
+      "title": "Analyst – Investments Team",
+      "company": "Sira Alternatives",
+      "job_url": "https://www.linkedin.com/jobs/view/4493001311",
+      "date_posted": "2026-11-24",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Mumbai, Maharashtra, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-24T00:00:00+00:00",
+      "posted_evidence": "2026-11-24",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "5623db424b4ed33bbf74b079",
+      "first_seen": "2026-11-25T21:46:29.656168+00:00",
+      "last_seen": "2026-11-25T21:46:29.656168+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-24",
+          "url": "https://www.linkedin.com/jobs/view/4493001311",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4493001311"
+    },
+    "https://www.linkedin.com/jobs/view/4493976426": {
+      "title": "Lead - MFI Risk",
+      "company": "Bajaj Finserv",
+      "job_url": "https://www.linkedin.com/jobs/view/4493976426",
+      "date_posted": "2026-11-24",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Pune Division, Maharashtra, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-24T00:00:00+00:00",
+      "posted_evidence": "2026-11-24",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "16f0828e8e838948155e8f2d",
+      "first_seen": "2026-11-25T21:46:29.974219+00:00",
+      "last_seen": "2026-11-25T21:46:29.974219+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-24",
+          "url": "https://www.linkedin.com/jobs/view/4493976426",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4493976426"
+    },
+    "https://www.linkedin.com/jobs/view/4494116364": {
+      "title": "Senior Analyst, Enterprise Risk Analytics",
+      "company": "Synchrony",
+      "job_url": "https://www.linkedin.com/jobs/view/4494116364",
+      "date_posted": "2026-11-24",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Pune Division, Maharashtra, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-24T00:00:00+00:00",
+      "posted_evidence": "2026-11-24",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "e9d5f4ff6e81ca44f627496a",
+      "first_seen": "2026-11-25T21:46:30.293917+00:00",
+      "last_seen": "2026-11-25T21:46:30.293917+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-24",
+          "url": "https://www.linkedin.com/jobs/view/4494116364",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4494116364"
+    },
+    "https://www.linkedin.com/jobs/view/4481445110": {
+      "title": "Operations Lead (Commercial Lending – US Banking)",
+      "company": "Stratacent",
+      "job_url": "https://www.linkedin.com/jobs/view/4481445110",
+      "date_posted": "2026-11-24",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Gurugram, Haryana, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-24T00:00:00+00:00",
+      "posted_evidence": "2026-11-24",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "0ee37d217f71eda9694e1fd8",
+      "first_seen": "2026-11-25T21:46:30.613414+00:00",
+      "last_seen": "2026-11-25T21:46:30.613414+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-24",
+          "url": "https://www.linkedin.com/jobs/view/4481445110",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4481445110"
+    },
+    "https://www.linkedin.com/jobs/view/4494100482": {
+      "title": "Data Analyst",
+      "company": "Credgenics",
+      "job_url": "https://www.linkedin.com/jobs/view/4494100482",
+      "date_posted": "2026-11-24",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Noida, Uttar Pradesh, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-24T00:00:00+00:00",
+      "posted_evidence": "2026-11-24",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "e1489ec9ca9da68130b65284",
+      "first_seen": "2026-11-25T21:46:30.931849+00:00",
+      "last_seen": "2026-11-25T21:46:30.931849+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-24",
+          "url": "https://www.linkedin.com/jobs/view/4494100482",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4494100482"
+    },
+    "https://www.linkedin.com/jobs/view/4494117985": {
+      "title": "Walkin Drive For Mortgage Underwriter - 27 & 28 Nov",
+      "company": "HCLTech",
+      "job_url": "https://www.linkedin.com/jobs/view/4494117985",
+      "date_posted": "2026-11-24",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Chennai, Tamil Nadu, India",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": true
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-24T00:00:00+00:00",
+      "posted_evidence": "2026-11-24",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "52c9733cb3efceabe9145ca0",
+      "first_seen": "2026-11-25T21:46:31.250855+00:00",
+      "last_seen": "2026-11-25T21:46:31.250855+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-24",
+          "url": "https://www.linkedin.com/jobs/view/4494117985",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4494117985"
+    },
+    "https://www.linkedin.com/jobs/view/4493923731": {
+      "title": "IMU FS Banking Consultant",
+      "company": "Accenture in India",
+      "job_url": "https://www.linkedin.com/jobs/view/4493923731",
+      "date_posted": "2026-11-23",
+      "requisition_id": "",
+      "valid_through": "",
+      "location": "Mumbai Metropolitan Region",
+      "site": "linkedin",
+      "match_score": 0,
+      "tier": "stretch",
+      "matched_tags": [],
+      "eligibility": "needs_review",
+      "gates": {
+        "domain": false,
+        "seniority": false,
+        "india": false
+      },
+      "reasons": [],
+      "supported_skill_matches": [],
+      "gaps": [
+        "Seniority or equivalent scope needs review",
+        "Candidate resume not supplied; personal fit and mandatory qualifications not assessed"
+      ],
+      "evidence_confidence": "limited",
+      "posted_at": "2026-11-23T00:00:00+00:00",
+      "posted_evidence": "2026-11-23",
+      "availability": "unverified",
+      "last_checked": null,
+      "check_note": "No live availability verification performed",
+      "fit_assessment": "candidate_profile_missing",
+      "id": "01f446be18a66d73c50a7c3b",
+      "first_seen": "2026-11-25T21:46:31.571351+00:00",
+      "last_seen": "2026-11-25T21:46:31.571351+00:00",
+      "posting_events": [
+        {
+          "value": "2026-11-23",
+          "url": "https://www.linkedin.com/jobs/view/4493923731",
+          "source": "linkedin"
+        }
+      ],
+      "description_available": false,
+      "description_excerpt": "",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4493923731"
     }
   },
   "board_coverage": {
@@ -453663,8 +454793,8 @@
     "linkedin:97": {
       "query": "Capco credit risk",
       "source": "linkedin",
-      "windows": 6,
-      "observations": 115,
+      "windows": 8,
+      "observations": 150,
       "seen": [
         "https://www.linkedin.com/jobs/view/4403370169",
         "https://www.linkedin.com/jobs/view/4403373101",
@@ -453680,15 +454810,24 @@
         "https://www.linkedin.com/jobs/view/4459834421",
         "https://www.linkedin.com/jobs/view/4468804954",
         "https://www.linkedin.com/jobs/view/4468823135",
+        "https://www.linkedin.com/jobs/view/4471728707",
+        "https://www.linkedin.com/jobs/view/4474345224",
+        "https://www.linkedin.com/jobs/view/4476046524",
         "https://www.linkedin.com/jobs/view/4476805199",
+        "https://www.linkedin.com/jobs/view/4479014331",
+        "https://www.linkedin.com/jobs/view/4479092909",
+        "https://www.linkedin.com/jobs/view/4481445110",
         "https://www.linkedin.com/jobs/view/4484350551",
         "https://www.linkedin.com/jobs/view/4485312627",
         "https://www.linkedin.com/jobs/view/4486039594",
         "https://www.linkedin.com/jobs/view/4486045522",
+        "https://www.linkedin.com/jobs/view/4486164548",
+        "https://www.linkedin.com/jobs/view/4486417117",
         "https://www.linkedin.com/jobs/view/4491944574",
         "https://www.linkedin.com/jobs/view/4492331937",
         "https://www.linkedin.com/jobs/view/4492368900",
         "https://www.linkedin.com/jobs/view/4492379546",
+        "https://www.linkedin.com/jobs/view/4492379993",
         "https://www.linkedin.com/jobs/view/4492383888",
         "https://www.linkedin.com/jobs/view/4492386879",
         "https://www.linkedin.com/jobs/view/4492386880",
@@ -453703,6 +454842,7 @@
         "https://www.linkedin.com/jobs/view/4492601228",
         "https://www.linkedin.com/jobs/view/4492601231",
         "https://www.linkedin.com/jobs/view/4492604125",
+        "https://www.linkedin.com/jobs/view/4492634476",
         "https://www.linkedin.com/jobs/view/4492641194",
         "https://www.linkedin.com/jobs/view/4492692346",
         "https://www.linkedin.com/jobs/view/4492712645",
@@ -453710,6 +454850,8 @@
         "https://www.linkedin.com/jobs/view/4492896232",
         "https://www.linkedin.com/jobs/view/4493000400",
         "https://www.linkedin.com/jobs/view/4493000408",
+        "https://www.linkedin.com/jobs/view/4493001311",
+        "https://www.linkedin.com/jobs/view/4493003884",
         "https://www.linkedin.com/jobs/view/4493013334",
         "https://www.linkedin.com/jobs/view/4493302965",
         "https://www.linkedin.com/jobs/view/4493305867",
@@ -453729,19 +454871,32 @@
         "https://www.linkedin.com/jobs/view/4493670575",
         "https://www.linkedin.com/jobs/view/4493679114",
         "https://www.linkedin.com/jobs/view/4493768594",
+        "https://www.linkedin.com/jobs/view/4493923731",
         "https://www.linkedin.com/jobs/view/4493940291",
         "https://www.linkedin.com/jobs/view/4493941337",
         "https://www.linkedin.com/jobs/view/4493962767",
+        "https://www.linkedin.com/jobs/view/4493976426",
+        "https://www.linkedin.com/jobs/view/4493997556",
         "https://www.linkedin.com/jobs/view/4494029374",
         "https://www.linkedin.com/jobs/view/4494037084",
+        "https://www.linkedin.com/jobs/view/4494100482",
         "https://www.linkedin.com/jobs/view/4494112962",
+        "https://www.linkedin.com/jobs/view/4494116364",
+        "https://www.linkedin.com/jobs/view/4494117985",
+        "https://www.linkedin.com/jobs/view/4494123165",
         "https://www.linkedin.com/jobs/view/4494165357",
         "https://www.linkedin.com/jobs/view/4494171310",
+        "https://www.linkedin.com/jobs/view/4494306721",
         "https://www.linkedin.com/jobs/view/4494325639",
-        "https://www.linkedin.com/jobs/view/4494325640"
+        "https://www.linkedin.com/jobs/view/4494325640",
+        "https://www.linkedin.com/jobs/view/4494604780",
+        "https://www.linkedin.com/jobs/view/4494610735",
+        "https://www.linkedin.com/jobs/view/4494654423",
+        "https://www.linkedin.com/jobs/view/4494654590",
+        "https://www.linkedin.com/jobs/view/4494783079"
       ],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-24T23:32:17.977094+00:00",
+      "retry_not_before": "2026-11-25T22:46:40.914996+00:00",
       "errors": {
         "linkedin": "response status code 429 (blocked: use a proxy)"
       }
@@ -453753,7 +454908,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-24T23:32:17.977094+00:00"
+      "retry_not_before": "2026-11-25T22:46:40.914996+00:00"
     },
     "linkedin:99": {
       "query": "Fractal credit risk",
@@ -453762,7 +454917,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-24T23:32:17.977094+00:00"
+      "retry_not_before": "2026-11-25T22:46:40.914996+00:00"
     },
     "linkedin:100": {
       "query": "Tiger Analytics credit risk",
@@ -453771,7 +454926,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-24T23:32:17.977094+00:00"
+      "retry_not_before": "2026-11-25T22:46:40.914996+00:00"
     },
     "linkedin:101": {
       "query": "LatentView Analytics credit risk",
@@ -453780,7 +454935,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-24T23:32:17.977094+00:00"
+      "retry_not_before": "2026-11-25T22:46:40.914996+00:00"
     },
     "linkedin:102": {
       "query": "Genpact credit risk",
@@ -453789,7 +454944,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-24T23:32:17.977094+00:00"
+      "retry_not_before": "2026-11-25T22:46:40.914996+00:00"
     },
     "linkedin:103": {
       "query": "TCS credit risk",
@@ -453798,7 +454953,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-24T23:32:17.977094+00:00"
+      "retry_not_before": "2026-11-25T22:46:40.914996+00:00"
     },
     "linkedin:104": {
       "query": "Cognizant credit risk",
@@ -453807,7 +454962,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-24T23:32:17.977094+00:00"
+      "retry_not_before": "2026-11-25T22:46:40.914996+00:00"
     },
     "linkedin:105": {
       "query": "Infosys credit risk",
@@ -453816,7 +454971,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-24T23:32:17.977094+00:00"
+      "retry_not_before": "2026-11-25T22:46:40.914996+00:00"
     },
     "linkedin:106": {
       "query": "Wipro credit risk",
@@ -453825,7 +454980,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-24T23:32:17.977094+00:00"
+      "retry_not_before": "2026-11-25T22:46:40.914996+00:00"
     },
     "linkedin:107": {
       "query": "Capgemini credit risk",
@@ -453834,7 +454989,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-24T23:32:17.977094+00:00"
+      "retry_not_before": "2026-11-25T22:46:40.914996+00:00"
     },
     "linkedin:108": {
       "query": "IBM credit risk",
@@ -453843,7 +454998,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-24T23:32:17.977094+00:00"
+      "retry_not_before": "2026-11-25T22:46:40.914996+00:00"
     },
     "linkedin:109": {
       "query": "Crowe credit risk",
@@ -453852,7 +455007,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-24T23:32:17.977094+00:00"
+      "retry_not_before": "2026-11-25T22:46:40.914996+00:00"
     },
     "linkedin:110": {
       "query": "Tredence credit risk",
@@ -453861,7 +455016,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-24T23:32:17.977094+00:00"
+      "retry_not_before": "2026-11-25T22:46:40.914996+00:00"
     },
     "linkedin:111": {
       "query": "SG Analytics credit risk",
@@ -453870,7 +455025,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-24T23:32:17.977094+00:00"
+      "retry_not_before": "2026-11-25T22:46:40.914996+00:00"
     },
     "linkedin:112": {
       "query": "Acuity Analytics credit risk",
@@ -453879,7 +455034,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-24T23:32:17.977094+00:00"
+      "retry_not_before": "2026-11-25T22:46:40.914996+00:00"
     },
     "linkedin:113": {
       "query": "Acies credit risk",
@@ -453888,7 +455043,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-24T23:32:17.977094+00:00"
+      "retry_not_before": "2026-11-25T22:46:40.914996+00:00"
     },
     "linkedin:114": {
       "query": "Moody's credit risk",
@@ -453897,7 +455052,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-24T23:32:17.977094+00:00"
+      "retry_not_before": "2026-11-25T22:46:40.914996+00:00"
     },
     "linkedin:115": {
       "query": "Fitch Group credit risk",
@@ -453906,7 +455061,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-24T23:32:17.977094+00:00"
+      "retry_not_before": "2026-11-25T22:46:40.914996+00:00"
     },
     "linkedin:116": {
       "query": "S&P Global credit risk",
@@ -453915,7 +455070,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-24T23:32:17.977094+00:00"
+      "retry_not_before": "2026-11-25T22:46:40.914996+00:00"
     },
     "linkedin:117": {
       "query": "CRISIL credit risk",
@@ -453924,7 +455079,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-24T23:32:17.977094+00:00"
+      "retry_not_before": "2026-11-25T22:46:40.914996+00:00"
     },
     "linkedin:118": {
       "query": "ICRA credit risk",
@@ -453933,7 +455088,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-24T23:32:17.977094+00:00"
+      "retry_not_before": "2026-11-25T22:46:40.914996+00:00"
     },
     "linkedin:119": {
       "query": "CARE Ratings credit risk",
@@ -453942,7 +455097,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-24T23:32:17.977094+00:00"
+      "retry_not_before": "2026-11-25T22:46:40.914996+00:00"
     },
     "linkedin:120": {
       "query": "Experian credit risk",
@@ -453951,7 +455106,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-24T23:32:17.977094+00:00"
+      "retry_not_before": "2026-11-25T22:46:40.914996+00:00"
     },
     "linkedin:121": {
       "query": "Equifax credit risk",
@@ -453960,7 +455115,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-24T23:32:17.977094+00:00"
+      "retry_not_before": "2026-11-25T22:46:40.914996+00:00"
     },
     "linkedin:122": {
       "query": "TransUnion credit risk",
@@ -453969,7 +455124,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-24T23:32:17.977094+00:00"
+      "retry_not_before": "2026-11-25T22:46:40.914996+00:00"
     },
     "linkedin:123": {
       "query": "FICO credit risk",
@@ -453978,7 +455133,7 @@
       "observations": 0,
       "seen": [],
       "state": "deferred_rate_limit",
-      "retry_not_before": "2026-11-24T23:32:17.977094+00:00"
+      "retry_not_before": "2026-11-25T22:46:40.914996+00:00"
     },
     "indeed:0": {
       "query": "credit risk",
@@ -456275,15 +457430,15 @@
       "note": "HTML discovery uses structured JobPosting data and observed links; unhandled dynamic portals are coverage gaps, not zero vacancies"
     }
   },
-  "observations": 30012,
+  "observations": 30037,
   "pass_finished": false,
   "paused_at": "2026-11-15T09:12:09.394080+00:00",
   "deferred_boards": {
     "linkedin": {
       "phase": 0,
       "query_index": 97,
-      "offset": 75,
-      "retry_not_before": "2026-11-24T23:32:17.977094+00:00",
+      "offset": 100,
+      "retry_not_before": "2026-11-25T22:46:40.914996+00:00",
       "reason": "HTTP 429; source deferred without blocking other sources"
     }
   },
